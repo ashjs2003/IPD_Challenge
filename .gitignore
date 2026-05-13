@@ -1,0 +1,19 @@
+# Heavy simulation / coordination exports
+*.che
+
+# .NET build outputs
+bin/
+obj/
+bin_codex/
+obj_codex/
+tmp_build/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Office temp files
+~$*
+
+# Local generated server logs
+src/Takt_engine/outputs/http_server*.log

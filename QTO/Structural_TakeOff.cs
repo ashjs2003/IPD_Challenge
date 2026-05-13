@@ -75,6 +75,7 @@ namespace QTO
             List<BuiltInCategory> categories = new List<BuiltInCategory>
             {
                 BuiltInCategory.OST_Floors,
+                BuiltInCategory.OST_Parts,
                 BuiltInCategory.OST_StructuralColumns,
                 BuiltInCategory.OST_StructuralFraming,
                 BuiltInCategory.OST_StructuralFoundation,
@@ -94,13 +95,78 @@ namespace QTO
                 categories.Cast<BuiltInCategory>().ToList()
             );
 
-            return new FilteredElementCollector(doc)
+            IList<Element> collectedElements = new FilteredElementCollector(doc)
                 .WherePasses(filter)
                 .WhereElementIsNotElementType()
                 .ToElements()
                 .GroupBy(e => e.Id.Value)
                 .Select(g => g.First())
                 .ToList();
+
+            return collectedElements
+                .Where(e => ShouldExportStructuralElement(doc, e))
+                .ToList();
+        }
+
+        private bool ShouldExportStructuralElement(Document doc, Element elem)
+        {
+            if (IsPartElement(elem))
+                return IsRelevantStructuralPart(elem, doc);
+
+            if (IsFloorElement(elem) && HasAssociatedParts(doc, elem))
+                return false;
+
+            return true;
+        }
+
+        private bool IsPartElement(Element elem)
+        {
+            return elem.Category != null
+                && elem.Category.Id.Value == (long)BuiltInCategory.OST_Parts;
+        }
+
+        private bool IsFloorElement(Element elem)
+        {
+            return elem.Category != null
+                && elem.Category.Id.Value == (long)BuiltInCategory.OST_Floors;
+        }
+
+        private bool HasAssociatedParts(Document doc, Element elem)
+        {
+            try
+            {
+                ICollection<ElementId> associatedPartIds = PartUtils.GetAssociatedParts(
+                    doc,
+                    elem.Id,
+                    true,
+                    true
+                );
+                return associatedPartIds != null && associatedPartIds.Count > 0;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        private bool IsRelevantStructuralPart(Element elem, Document doc)
+        {
+            string originalCategory = GetOriginalPartValue(
+                elem,
+                doc,
+                "Original Category",
+                "Original Category Id",
+                "Part Original Category"
+            );
+
+            if (string.IsNullOrWhiteSpace(originalCategory))
+                return true;
+
+            string normalized = originalCategory.ToLowerInvariant();
+            return normalized.Contains("floor")
+                || normalized.Contains("structural")
+                || normalized.Contains("foundation")
+                || normalized.Contains("rebar");
         }
 
         private void ExportElementsToCsv(Document doc, IList<Element> elementsToExport, string filePath)
@@ -109,16 +175,20 @@ namespace QTO
 
             // Header row
             csv.AppendLine(
-                "ElementId,Category,Family,Type,Level,Mark,Assembly Code,Assembly Description,Length,Width,Depth,Height,Area,Volume,Weight,Unit Weight,Material,Type Comments,Base Level,Top Level,Base Offset,Top Offset,Location Type,Position X (ft),Position Y (ft),Position Z (ft),Start X (ft),Start Y (ft),Start Z (ft),End X (ft),End Y (ft),End Z (ft),Rotation (deg),Bounding Box Min X (ft),Bounding Box Min Y (ft),Bounding Box Min Z (ft),Bounding Box Max X (ft),Bounding Box Max Y (ft),Bounding Box Max Z (ft),Bounding Box Center X (ft),Bounding Box Center Y (ft),Bounding Box Center Z (ft),Comments,Parameter Snapshot"
+                "ElementId,Category,Family,Type,Original Category,Original Family,Original Type,Level,Mark,Assembly Code,Assembly Description,Length,Width,Depth,Height,Area,Volume,Weight,Unit Weight,Material,Type Comments,Base Level,Top Level,Base Offset,Top Offset,Location Type,Position X (ft),Position Y (ft),Position Z (ft),Start X (ft),Start Y (ft),Start Z (ft),End X (ft),End Y (ft),End Z (ft),Rotation (deg),Bounding Box Min X (ft),Bounding Box Min Y (ft),Bounding Box Min Z (ft),Bounding Box Max X (ft),Bounding Box Max Y (ft),Bounding Box Max Z (ft),Bounding Box Center X (ft),Bounding Box Center Y (ft),Bounding Box Center Z (ft),Room Id,Room Number,Room Name,Room Level,Room Area (SF),Room Volume (CF),Room Location X (ft),Room Location Y (ft),Room Location Z (ft),Comments,Parameter Snapshot"
             );
 
             foreach (Element elem in elementsToExport)
             {
                 SpatialElementData spatialData = SpatialElementData.FromElement(elem);
+                RoomAssignmentData roomData = RoomAssignmentData.FromElement(doc, elem);
                 string elementId = elem.Id.Value.ToString();
                 string category = elem.Category?.Name ?? "";
                 string family = GetFamilyName(elem);
                 string typeName = GetTypeName(doc, elem);
+                string originalCategory = GetOriginalPartValue(elem, doc, "Original Category", "Original Category Id");
+                string originalFamily = GetOriginalPartValue(elem, doc, "Original Family", "Original Family Name");
+                string originalType = GetOriginalPartValue(elem, doc, "Original Type", "Original Type Name");
                 string level = GetLevelName(doc, elem);
                 string mark = GetParameterValue(elem.LookupParameter("Mark"), doc);
                 string assemblyCode = GetAssemblyCode(elem, doc);
@@ -191,6 +261,9 @@ namespace QTO
                     EscapeCsv(category),
                     EscapeCsv(family),
                     EscapeCsv(typeName),
+                    EscapeCsv(originalCategory),
+                    EscapeCsv(originalFamily),
+                    EscapeCsv(originalType),
                     EscapeCsv(level),
                     EscapeCsv(mark),
                     EscapeCsv(assemblyCode),
@@ -229,6 +302,15 @@ namespace QTO
                     EscapeCsv(spatialData.BoundingBoxCenterXFeet),
                     EscapeCsv(spatialData.BoundingBoxCenterYFeet),
                     EscapeCsv(spatialData.BoundingBoxCenterZFeet),
+                    EscapeCsv(roomData.RoomId),
+                    EscapeCsv(roomData.RoomNumber),
+                    EscapeCsv(roomData.RoomName),
+                    EscapeCsv(roomData.RoomLevel),
+                    EscapeCsv(roomData.RoomAreaSquareFeet),
+                    EscapeCsv(roomData.RoomVolumeCubicFeet),
+                    EscapeCsv(roomData.RoomLocationXFeet),
+                    EscapeCsv(roomData.RoomLocationYFeet),
+                    EscapeCsv(roomData.RoomLocationZFeet),
                     EscapeCsv(comments),
                     EscapeCsv(parameterSnapshot)
                 ));
@@ -301,6 +383,21 @@ namespace QTO
             {
                 Element typeElem = doc.GetElement(typeId);
                 return typeElem?.Name ?? "";
+            }
+
+            return "";
+        }
+
+        private string GetOriginalPartValue(Element elem, Document doc, params string[] parameterNames)
+        {
+            if (!IsPartElement(elem))
+                return "";
+
+            foreach (string parameterName in parameterNames)
+            {
+                string value = GetParameterValue(elem.LookupParameter(parameterName), doc);
+                if (!string.IsNullOrWhiteSpace(value))
+                    return value;
             }
 
             return "";

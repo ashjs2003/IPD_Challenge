@@ -18,6 +18,7 @@ Basement Slab on Grade,concrete_crew,1,
 Underground Utilities,underground_utilities_crew,1,
 Backfill & Compaction,earthwork_crew_excavation_crew|exc_crew,1,compactor_roller
 Foundational Columns,concrete_crew,1,
+Rocking Walls,structural_crew,1,
 Frame: Columns,structural_crew,1,mobile_crane
 Floor,structural_crew,1,mobile_crane
 Frame: Beams,,,
@@ -25,5 +26,13 @@ Roof,structural_crew,1,mobile_crane
 Glass Install + Glazing,facade_install_crew,1,mobile_crane
 Exterior Wall Install,,,
 Mesh Install,facade_install_crew,1,
+Mechanical Room Buildout,hvac_rough_in_crew,1,
+Main Electrical & Riser Install,electrical_rough_in_crew,1,
+MEP Rough-In,electrical_rough_in_crew|hvac_rough_in_crew|plumbing_fire_protection_rough_in_crew,1,
 Interior Walls,interiors_crew,1,
 Ceiling Installation,interiors_crew,1,
+MEP Start-Up,commissioning_controls_support_crew|electrical_rough_in_crew|hvac_rough_in_crew|plumbing_fire_protection_rough_in_crew,1,
+TAB,tab_team_crew,1,
+Integrated Systems Testing,commissioning_controls_support_crew|electrical_rough_in_crew|hvac_rough_in_crew|plumbing_fire_protection_rough_in_crew,1,
+Final Inspections,commissioning_controls_support_crew,1,
+Hurricane Contingency Buffer,,,

@@ -1,0 +1,22 @@
+{
+  "pdf": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\floor_plans\\04_Island_ARCH_ConceptB_Level -1_Mar6.pdf",
+  "page_index": 0,
+  "zoom": 2.0,
+  "clicked_points": [
+    {
+      "x": 1753.65,
+      "y": 3073.05
+    },
+    {
+      "x": 3854.17,
+      "y": 985.56
+    }
+  ],
+  "crop_box": {
+    "left": 1754,
+    "top": 986,
+    "right": 3854,
+    "bottom": 3073
+  },
+  "png": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\floor_plans\\cropped_png\\04_Island_ARCH_ConceptB_Level -1_Mar6_page_0_cropped.png"
+}

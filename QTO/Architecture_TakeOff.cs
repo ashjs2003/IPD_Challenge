@@ -55,10 +55,13 @@ namespace QTO
 
                 string csvPath = ExportPathHelper.GetScheduleFilePath(doc, "Architecture_TakeOff");
                 ExportElementsToCsv(doc, architecturalElements, csvPath);
+                string roomBoundaryPath = ExportPathHelper.GetScheduleFilePath(doc, "Room_Boundaries");
+                int roomCount = RoomBoundaryExporter.ExportRoomsToCsv(doc, roomBoundaryPath);
 
                 TaskDialog.Show(
                     "Revit Export",
-                    $"Exported {architecturalElements.Count} architectural elements to:\n{csvPath}"
+                    $"Exported {architecturalElements.Count} architectural elements to:\n{csvPath}\n\n" +
+                    $"Exported {roomCount} room boundaries to:\n{roomBoundaryPath}"
                 );
 
                 return Result.Succeeded;
@@ -81,6 +84,7 @@ namespace QTO
                 BuiltInCategory.OST_Floors,
                 BuiltInCategory.OST_Roofs,
                 BuiltInCategory.OST_Ceilings,
+                BuiltInCategory.OST_Parts,
                 BuiltInCategory.OST_CurtainWallPanels,
                 BuiltInCategory.OST_CurtainWallMullions,
                 BuiltInCategory.OST_Stairs,
@@ -96,29 +100,95 @@ namespace QTO
 
             ElementMulticategoryFilter filter = new ElementMulticategoryFilter(categories);
 
-            return new FilteredElementCollector(doc)
+            IList<Element> collectedElements = new FilteredElementCollector(doc)
                 .WherePasses(filter)
                 .WhereElementIsNotElementType()
                 .ToElements()
                 .GroupBy(e => e.Id.Value)
                 .Select(g => g.First())
                 .ToList();
+
+            return collectedElements
+                .Where(e => ShouldExportArchitecturalElement(doc, e))
+                .ToList();
+        }
+
+        private bool ShouldExportArchitecturalElement(Document doc, Element elem)
+        {
+            if (IsPartElement(elem))
+                return IsRelevantArchitecturalPart(elem, doc);
+
+            if (IsCeilingElement(elem) && HasAssociatedParts(doc, elem))
+                return false;
+
+            return true;
+        }
+
+        private bool IsPartElement(Element elem)
+        {
+            return elem.Category != null
+                && elem.Category.Id.Value == (long)BuiltInCategory.OST_Parts;
+        }
+
+        private bool IsCeilingElement(Element elem)
+        {
+            return elem.Category != null
+                && elem.Category.Id.Value == (long)BuiltInCategory.OST_Ceilings;
+        }
+
+        private bool HasAssociatedParts(Document doc, Element elem)
+        {
+            try
+            {
+                ICollection<ElementId> associatedPartIds = PartUtils.GetAssociatedParts(
+                    doc,
+                    elem.Id,
+                    true,
+                    true
+                );
+                return associatedPartIds != null && associatedPartIds.Count > 0;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        private bool IsRelevantArchitecturalPart(Element elem, Document doc)
+        {
+            string originalCategory = GetOriginalPartValue(
+                elem,
+                doc,
+                "Original Category",
+                "Original Category Id",
+                "Part Original Category"
+            );
+
+            if (string.IsNullOrWhiteSpace(originalCategory))
+                return false;
+
+            string normalized = originalCategory.ToLowerInvariant();
+            return normalized.Contains("ceiling");
         }
 
         private void ExportElementsToCsv(Document doc, IList<Element> elementsToExport, string filePath)
         {
             StringBuilder csv = new StringBuilder();
             csv.AppendLine(
-                "ElementId,Category,Family,Type,Level,Mark,Assembly Code,Assembly Description,Length,Width,Depth,Height,Area,Volume,Weight,Unit Weight,Material,Type Comments,Base Level,Top Level,Base Offset,Top Offset,Location Type,Position X (ft),Position Y (ft),Position Z (ft),Start X (ft),Start Y (ft),Start Z (ft),End X (ft),End Y (ft),End Z (ft),Rotation (deg),Bounding Box Min X (ft),Bounding Box Min Y (ft),Bounding Box Min Z (ft),Bounding Box Max X (ft),Bounding Box Max Y (ft),Bounding Box Max Z (ft),Bounding Box Center X (ft),Bounding Box Center Y (ft),Bounding Box Center Z (ft),Comments,Parameter Snapshot"
+                "ElementId,Category,Family,Type,Original Category,Original Family,Original Type,Level,Mark,Assembly Code,Assembly Description,Length,Width,Depth,Height,Area,Volume,Weight,Unit Weight,Material,Type Comments,Base Level,Top Level,Base Offset,Top Offset,Location Type,Position X (ft),Position Y (ft),Position Z (ft),Start X (ft),Start Y (ft),Start Z (ft),End X (ft),End Y (ft),End Z (ft),Rotation (deg),Bounding Box Min X (ft),Bounding Box Min Y (ft),Bounding Box Min Z (ft),Bounding Box Max X (ft),Bounding Box Max Y (ft),Bounding Box Max Z (ft),Bounding Box Center X (ft),Bounding Box Center Y (ft),Bounding Box Center Z (ft),Room Id,Room Number,Room Name,Room Level,Room Area (SF),Room Volume (CF),Room Location X (ft),Room Location Y (ft),Room Location Z (ft),Comments,Parameter Snapshot"
             );
 
             foreach (Element elem in elementsToExport)
             {
                 SpatialElementData spatialData = SpatialElementData.FromElement(elem);
+                RoomAssignmentData roomData = RoomAssignmentData.FromElement(doc, elem);
                 string elementId = elem.Id.Value.ToString();
                 string category = elem.Category?.Name ?? "";
                 string family = GetFamilyName(elem);
                 string typeName = GetTypeName(doc, elem);
+                string originalCategory = GetOriginalPartValue(elem, doc, "Original Category", "Original Category Id");
+                string originalFamily = GetOriginalPartValue(elem, doc, "Original Family", "Original Family Name");
+                string originalType = GetOriginalPartValue(elem, doc, "Original Type", "Original Type Name");
                 string level = GetLevelName(doc, elem);
                 string mark = GetFirstAvailableParameterValue(doc, elem, "Mark");
                 string assemblyCode = GetFirstAvailableParameterValue(doc, elem, "Assembly Code");
@@ -175,6 +245,9 @@ namespace QTO
                     EscapeCsv(category),
                     EscapeCsv(family),
                     EscapeCsv(typeName),
+                    EscapeCsv(originalCategory),
+                    EscapeCsv(originalFamily),
+                    EscapeCsv(originalType),
                     EscapeCsv(level),
                     EscapeCsv(mark),
                     EscapeCsv(assemblyCode),
@@ -213,6 +286,15 @@ namespace QTO
                     EscapeCsv(spatialData.BoundingBoxCenterXFeet),
                     EscapeCsv(spatialData.BoundingBoxCenterYFeet),
                     EscapeCsv(spatialData.BoundingBoxCenterZFeet),
+                    EscapeCsv(roomData.RoomId),
+                    EscapeCsv(roomData.RoomNumber),
+                    EscapeCsv(roomData.RoomName),
+                    EscapeCsv(roomData.RoomLevel),
+                    EscapeCsv(roomData.RoomAreaSquareFeet),
+                    EscapeCsv(roomData.RoomVolumeCubicFeet),
+                    EscapeCsv(roomData.RoomLocationXFeet),
+                    EscapeCsv(roomData.RoomLocationYFeet),
+                    EscapeCsv(roomData.RoomLocationZFeet),
                     EscapeCsv(comments),
                     EscapeCsv(parameterSnapshot)
                 ));
@@ -285,6 +367,21 @@ namespace QTO
             {
                 Element typeElem = doc.GetElement(typeId);
                 return typeElem?.Name ?? "";
+            }
+
+            return "";
+        }
+
+        private string GetOriginalPartValue(Element elem, Document doc, params string[] parameterNames)
+        {
+            if (!IsPartElement(elem))
+                return "";
+
+            foreach (string parameterName in parameterNames)
+            {
+                string value = GetParameterValue(elem.LookupParameter(parameterName), doc);
+                if (!string.IsNullOrWhiteSpace(value))
+                    return value;
             }
 
             return "";

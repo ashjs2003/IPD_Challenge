@@ -1,0 +1,85 @@
+[
+  {
+    "timestamp": "2026-05-07T03:45:41.199756+00:00",
+    "team": "Island",
+    "lifetime_years": 50,
+    "metric_summary": {
+      "carbon": {
+        "target": 7396873.8437,
+        "project": 361873.3693097173,
+        "percent_of_target": 0.04892247413654741
+      },
+      "energy": {
+        "target": 155969076.592,
+        "project": 4750905.441250673,
+        "percent_of_target": 0.030460560163977767
+      },
+      "water": {
+        "target": 271387397.260274,
+        "project": 150390633.0407474,
+        "percent_of_target": 0.5541548154371934
+      },
+      "ozone": {
+        "target": 0.0,
+        "project": 0.013896188798246108,
+        "percent_of_target": null
+      }
+    },
+    "breakdown": {
+      "embodied_materials": {
+        "carbon": 314723.216877356,
+        "energy": 4224421.311194583,
+        "water": 5151379.382612288,
+        "ozone": 0.011380943212761518
+      },
+      "embodied_transport": {
+        "carbon": 1222.6141938428257,
+        "energy": 18817.590426097668,
+        "water": 4368.343135110045,
+        "ozone": 0.00019439745236549667
+      },
+      "embodied_construction": {
+        "carbon": 513.4842385185061,
+        "energy": 1427.4553195917206,
+        "water": 150.51999999999998,
+        "ozone": 3.733119093303198e-09
+      },
+      "use_electricity": {
+        "carbon": 0.0,
+        "energy": 0.0,
+        "water": 0.0,
+        "ozone": 0.0
+      },
+      "use_heating": {
+        "carbon": 0.0,
+        "energy": 0.0,
+        "water": 0.0,
+        "ozone": 0.0
+      },
+      "use_water": {
+        "carbon": 45414.054,
+        "energy": 506239.0843104,
+        "water": 145234734.79500002,
+        "ozone": 0.0023208444
+      },
+      "embodied": {
+        "carbon": 316459.3153097173,
+        "energy": 4244666.356940272,
+        "water": 5155898.245747398,
+        "ozone": 0.011575344398246108
+      },
+      "use_phase": {
+        "carbon": 45414.054,
+        "energy": 506239.0843104,
+        "water": 145234734.79500002,
+        "ozone": 0.0023208444
+      },
+      "life_cycle": {
+        "carbon": 361873.3693097173,
+        "energy": 4750905.441250673,
+        "water": 150390633.0407474,
+        "ozone": 0.013896188798246108
+      }
+    }
+  }
+]

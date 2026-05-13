@@ -1,0 +1,3 @@
+window,total_delivered_cf,total_delivered_storage_area_sf,total_delivered_elements,max_single_delivery_cf,p95_delivery_day_cf,max_peak_on_site_cf,average_peak_on_site_cf,average_end_of_day_inventory_cf,max_single_delivery_storage_area_sf,max_peak_on_site_storage_area_sf,average_peak_on_site_storage_area_sf,max_single_delivery_elements,max_peak_on_site_elements,average_peak_on_site_elements
+1 day,37535.92,49966.0,3080.0,3600.0,2649.093999999999,3600.0,543.9988405797101,0.0,7654.0,7654.0,724.1449275362319,370.0,370.0,44.63768115942029
+1 week,37535.92,49966.0,3080.0,10562.29,4290.905999999995,10562.29,1347.2840579710153,803.2852173913051,13017.0,13017.0,2023.855072463768,823.0,823.0,127.5072463768116

@@ -1,0 +1,814 @@
+delivery_unit_id,need_ts,volume_cf,storage_area_sf,element_count,takt_zones,levels,disciplines,categories,first_task,source,need_date
+PO-000001:CONC_400CF_TRUCK_ASSEMBLY,2029-11-09 00:00:00,800.0,0.0,2.0,,L -1,Concrete,Concrete Truck,Concrete Truck Delivery,Production Order,2029-11-09
+PO-000002:CONC_400CF_TRUCK_ASSEMBLY,2029-11-12 00:00:00,1600.0,0.0,4.0,,L 0,Concrete,Concrete Truck,Concrete Truck Delivery,Production Order,2029-11-12
+PO-000003:CONC_400CF_TRUCK_ASSEMBLY,2029-11-19 00:00:00,2400.0,0.0,6.0,,L -1,Concrete,Concrete Truck,Concrete Truck Delivery,Production Order,2029-11-19
+PO-000004:STRUCT_COL_10_0_CONCRETE_CAST_IN_PLACE_GRAY,2029-11-19 00:00:00,27.22,0.0,2.0,,L -1,Structural,Structural Columns,"Structural Column 10' - 0"" | Concrete, Cast-in-Place gray assembly",Production Order,2029-11-19
+PO-000005:STRUCT_COL_4_0_CONCRETE_NORMAL_WEIGHT_4_KSI,2029-11-19 00:00:00,116.0,0.0,29.0,L -1 Zone 1|L -1 Zone 2|L -1 Zone 4|L -1 Zone 5,L -1,Structural,Structural Columns,"Structural Column 4' - 0"" | Concrete, Normal Weight - 4 ksi assembly",Production Order,2029-11-19
+PO-000006:STRUCT_COL_5_0_CONCRETE_CAST_IN_PLACE_GRAY,2029-11-19 00:00:00,20.43,0.0,3.0,,L -1,Structural,Structural Columns,"Structural Column 5' - 0"" | Concrete, Cast-in-Place gray assembly",Production Order,2029-11-19
+PO-000007:STRUCT_FRAME_22_0_CONCRETE_NORMAL_WEIGHT_4_KSI,2029-11-19 00:00:00,47.85,0.0,1.0,,,Structural,Structural Framing,"Structural Framing 22' - 0"" | Concrete, Normal Weight - 4 ksi assembly",Production Order,2029-11-19
+PO-000008:STRUCT_FRAME_29_0_CONCRETE_NORMAL_WEIGHT_4_KSI,2029-11-19 00:00:00,442.55,0.0,9.0,,,Structural,Structural Framing,"Structural Framing 29' - 0"" | Concrete, Normal Weight - 4 ksi assembly",Production Order,2029-11-19
+PO-000009:STRUCT_FRAME_0_0_CONCRETE_CAST_IN_PLACE_GRAY,2029-11-20 00:00:00,0.04,0.0,1.0,,,Structural,Structural Framing,"Structural Framing 0' - 0"" | Concrete, Cast-in-Place gray assembly",Production Order,2029-11-20
+PO-000010:STRUCT_FRAME_14_6_CONCRETE_NORMAL_WEIGHT_4_KSI,2029-11-20 00:00:00,362.9,0.0,15.0,,,Structural,Structural Framing,"Structural Framing 14' - 6"" | Concrete, Normal Weight - 4 ksi assembly",Production Order,2029-11-20
+PO-000011:STRUCT_FRAME_29_0_CONCRETE_NORMAL_WEIGHT_4_KSI,2029-11-20 00:00:00,642.78,0.0,13.0,,,Structural,Structural Framing,"Structural Framing 29' - 0"" | Concrete, Normal Weight - 4 ksi assembly",Production Order,2029-11-20
+PO-000012:STRUCT_FRAME_29_10_CONCRETE_NORMAL_WEIGHT_4_KSI,2029-11-20 00:00:00,150.35999999999999,0.0,3.0,,,Structural,Structural Framing,"Structural Framing 29' - 10"" | Concrete, Normal Weight - 4 ksi assembly",Production Order,2029-11-20
+PO-000013:STRUCT_FRAME_7_0_CONCRETE_NORMAL_WEIGHT_4_KSI,2029-11-20 00:00:00,0.0,0.0,1.0,,,,,"Structural Framing 7' - 0"" | Concrete, Normal Weight - 4 ksi assembly",Production Order,2029-11-20
+PO-000014:CONC_400CF_TRUCK_ASSEMBLY,2029-11-21 00:00:00,2400.0,0.0,6.0,,L 0,Concrete,Concrete Truck,Concrete Truck Delivery,Production Order,2029-11-21
+PO-000015:STRUCT_FRAME_29_0_CONCRETE_NORMAL_WEIGHT_4_KSI,2029-11-21 00:00:00,99.48,0.0,2.0,,,Structural,Structural Framing,"Structural Framing 29' - 0"" | Concrete, Normal Weight - 4 ksi assembly",Production Order,2029-11-21
+PO-000016:STRUCT_FRAME_29_7_3_8_CONCRETE_NORMAL_WEIGHT_4_KSI,2029-11-21 00:00:00,151.38,0.0,3.0,,,Structural,Structural Framing,"Structural Framing 29' - 7 3/8"" | Concrete, Normal Weight - 4 ksi assembly",Production Order,2029-11-21
+PO-000017:STRUCT_FRAME_58_0_CONCRETE_NORMAL_WEIGHT_4_KSI,2029-11-21 00:00:00,101.3,0.0,1.0,,,Structural,Structural Framing,"Structural Framing 58' - 0"" | Concrete, Normal Weight - 4 ksi assembly",Production Order,2029-11-21
+PO-000018:CONC_400CF_TRUCK_ASSEMBLY,2029-11-22 00:00:00,3600.0,0.0,9.0,,L -1,Concrete,Concrete Truck,Concrete Truck Delivery,Production Order,2029-11-22
+PO-000019:CONC_400CF_TRUCK_ASSEMBLY,2029-11-26 00:00:00,800.0,0.0,2.0,,L 0,Concrete,Concrete Truck,Concrete Truck Delivery,Production Order,2029-11-26
+PO-000020:STRUCT_COL_15_0_STRUCTURAL_BAMBOO_CLB,2029-11-26 00:00:00,56.94,0.0,3.0,,L -1,Structural,Structural Columns,"Structural Column 15' - 0"" | Structural Bamboo (CLB) assembly",Production Order,2029-11-26
+PO-000021:STRUCT_COL_15_0_STRUCTURAL_BAMBOO_CLB,2029-11-27 00:00:00,455.52,0.0,24.0,L -1 Zone 1|L -1 Zone 2|L -1 Zone 3|L -1 Zone 4|L -1 Zone 5,L -1,Structural,Structural Columns,"Structural Column 15' - 0"" | Structural Bamboo (CLB) assembly",Production Order,2029-11-27
+PO-000022:STRUCT_COL_15_0_STRUCTURAL_BAMBOO_CLB,2029-11-28 00:00:00,18.98,0.0,1.0,,L -1,Structural,Structural Columns,"Structural Column 15' - 0"" | Structural Bamboo (CLB) assembly",Production Order,2029-11-28
+PO-000023:STRUCT_FLOOR_L_0_BAMBOO_6_0_6_STRUCTURAL_BAMBOO_CLB,2029-11-28 00:00:00,0.0,0.0,3.0,,,,,"Structural Floor L 0 | Bamboo - 6"" | 0' - 6"" | Structural Bamboo (CLB) assembly",Production Order,2029-11-28
+PO-000024:STRUCT_FRAME_14_0_STRUCTURAL_BAMBOO_CLB,2029-11-28 00:00:00,24.1,0.0,1.0,,,Structural,Structural Framing,"Structural Framing 14' - 0"" | Structural Bamboo (CLB) assembly",Production Order,2029-11-28
+PO-000025:STRUCT_FRAME_14_6_STRUCTURAL_BAMBOO_CLB,2029-11-28 00:00:00,46.82,0.0,2.0,,,Structural,Structural Framing,"Structural Framing 14' - 6"" | Structural Bamboo (CLB) assembly",Production Order,2029-11-28
+PO-000026:STRUCT_FRAME_17_7_STRUCTURAL_BAMBOO_CLB,2029-11-28 00:00:00,48.78,0.0,1.0,,,Structural,Structural Framing,"Structural Framing 17' - 7"" | Structural Bamboo (CLB) assembly",Production Order,2029-11-28
+PO-000027:STRUCT_FRAME_18_3_7_8_STRUCTURAL_BAMBOO_CLB,2029-11-28 00:00:00,30.1,0.0,1.0,,,Structural,Structural Framing,"Structural Framing 18' - 3 7/8"" | Structural Bamboo (CLB) assembly",Production Order,2029-11-28
+PO-000028:STRUCT_FRAME_20_1_STRUCTURAL_BAMBOO_CLB,2029-11-28 00:00:00,32.27,0.0,1.0,,,Structural,Structural Framing,"Structural Framing 20' - 1"" | Structural Bamboo (CLB) assembly",Production Order,2029-11-28
+PO-000029:STRUCT_FRAME_21_10_3_4_STRUCTURAL_BAMBOO_CLB,2029-11-28 00:00:00,36.35,0.0,1.0,,,Structural,Structural Framing,"Structural Framing 21' - 10 3/4"" | Structural Bamboo (CLB) assembly",Production Order,2029-11-28
+PO-000030:STRUCT_FRAME_29_0_STRUCTURAL_BAMBOO_CLB,2029-11-28 00:00:00,535.4599999999999,0.0,11.0,,,Structural,Structural Framing,"Structural Framing 29' - 0"" | Structural Bamboo (CLB) assembly",Production Order,2029-11-28
+PO-000031:STRUCT_FRAME_9_6_STRUCTURAL_BAMBOO_CLB,2029-11-28 00:00:00,30.66,0.0,2.0,,,Structural,Structural Framing,"Structural Framing 9' - 6"" | Structural Bamboo (CLB) assembly",Production Order,2029-11-28
+PO-000032:STRUCT_FLOOR_L_0_BAMBOO_6_0_6_STRUCTURAL_BAMBOO_CLB,2029-11-29 00:00:00,0.0,0.0,24.0,,,,,"Structural Floor L 0 | Bamboo - 6"" | 0' - 6"" | Structural Bamboo (CLB) assembly",Production Order,2029-11-29
+PO-000033:EXTW_1404538,2029-11-30 00:00:00,129.9,195.0,1.0,,L -1,Architecture,Walls,Exterior Wall L -1 1404538,Production Order,2029-11-30
+PO-000034:EXTW_2184865,2029-11-30 00:00:00,129.29,194.0,1.0,,L -1,Architecture,Walls,Exterior Wall L -1 2184865,Production Order,2029-11-30
+PO-000035:EXTW_2184993,2029-11-30 00:00:00,129.29,194.0,1.0,,L -1,Architecture,Walls,Exterior Wall L -1 2184993,Production Order,2029-11-30
+PO-000036:EXTW_2185404,2029-11-30 00:00:00,129.29,194.0,1.0,,L -1,Architecture,Walls,Exterior Wall L -1 2185404,Production Order,2029-11-30
+PO-000037:EXTW_2185605,2029-11-30 00:00:00,129.29,194.0,1.0,,L -1,Architecture,Walls,Exterior Wall L -1 2185605,Production Order,2029-11-30
+PO-000038:EXTW_PREFAB_WALL_LNEG1_007,2029-11-30 00:00:00,29.39,44.0,1.0,L -1 Zone 1,L -1,Architecture,Walls,Exterior Wall L -1 PREFAB_WALL_LNEG1_007,Production Order,2029-11-30
+PO-000039:EXTW_PREFAB_WALL_LNEG1_008,2029-11-30 00:00:00,275.06,413.0,1.0,,L -1,Architecture,Walls,Exterior Wall L -1 PREFAB_WALL_LNEG1_008,Production Order,2029-11-30
+PO-000040:EXTW_PREFAB_WALL_LNEG1_009,2029-11-30 00:00:00,93.83,141.0,1.0,L -1 Zone 2,L -1,Architecture,Walls,Exterior Wall L -1 PREFAB_WALL_LNEG1_009,Production Order,2029-11-30
+PO-000041:EXTW_PREFAB_WALL_LNEG1_010,2029-11-30 00:00:00,113.72,171.0,1.0,L -1 Zone 2,L -1,Architecture,Walls,Exterior Wall L -1 PREFAB_WALL_LNEG1_010,Production Order,2029-11-30
+PO-000042:EXTW_PREFAB_WALL_LNEG1_011,2029-11-30 00:00:00,23.92,36.0,1.0,,L -1,Architecture,Walls,Exterior Wall L -1 PREFAB_WALL_LNEG1_011,Production Order,2029-11-30
+PO-000043:SL0W-LNEG1C-WALL,2029-11-30 00:00:00,502.58,1925.0,88.0,L -1 Zone 4|L -1 Zone 5,L -1,Architecture,Curtain Panels|Curtain Wall Mullions|Walls,South-L0-Workshop wall part & South-L-1-Classrooms wall,Production Order,2029-11-30
+PO-000044:STRUCT_FLOOR_L_0_BAMBOO_6_0_6_STRUCTURAL_BAMBOO_CLB,2029-11-30 00:00:00,0.0,0.0,13.0,,,,,"Structural Floor L 0 | Bamboo - 6"" | 0' - 6"" | Structural Bamboo (CLB) assembly",Production Order,2029-11-30
+PO-000045:INTW_L_NEG_1_ASSEMBLY,2029-12-03 00:00:00,722.97,1353.0,16.0,L -1 Zone 1|L -1 Zone 4,L -1,Architecture,Generic Models|Walls,Interior Walls L -1,Production Order,2029-12-03
+PO-000046:MEP_L_NEG_1_G001,2029-12-03 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 001,Production Order,2029-12-03
+PO-000047:MEP_L_NEG_1_G002,2029-12-03 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 002,Production Order,2029-12-03
+PO-000048:MEP_L_NEG_1_G003,2029-12-03 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 003,Production Order,2029-12-03
+PO-000049:MEP_L_NEG_1_G004,2029-12-03 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 004,Production Order,2029-12-03
+PO-000050:MEP_L_NEG_1_G005,2029-12-03 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 005,Production Order,2029-12-03
+PO-000051:MEP_L_NEG_1_G006,2029-12-03 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 006,Production Order,2029-12-03
+PO-000052:MEP_L_NEG_1_G007,2029-12-03 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 007,Production Order,2029-12-03
+PO-000053:MEP_L_NEG_1_G008,2029-12-03 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 008,Production Order,2029-12-03
+PO-000054:MEP_L_NEG_1_G009,2029-12-03 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 009,Production Order,2029-12-03
+PO-000055:MEP_L_NEG_1_G010,2029-12-03 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 010,Production Order,2029-12-03
+PO-000056:MEP_L_NEG_1_G011,2029-12-03 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 011,Production Order,2029-12-03
+PO-000057:MEP_L_NEG_1_G012,2029-12-03 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 012,Production Order,2029-12-03
+PO-000058:MEP_L_NEG_1_G013,2029-12-03 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 013,Production Order,2029-12-03
+PO-000059:MEP_L_NEG_1_G014,2029-12-03 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 014,Production Order,2029-12-03
+PO-000060:MEP_L_NEG_1_G015,2029-12-03 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 015,Production Order,2029-12-03
+PO-000061:MEP_L_NEG_1_G016,2029-12-03 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 016,Production Order,2029-12-03
+PO-000062:MEP_L_NEG_1_G017,2029-12-03 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 017,Production Order,2029-12-03
+PO-000063:MEP_L_NEG_1_G018,2029-12-03 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 018,Production Order,2029-12-03
+PO-000064:MEP_L_NEG_1_G019,2029-12-03 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 019,Production Order,2029-12-03
+PO-000065:MEP_L_NEG_1_G020,2029-12-03 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 020,Production Order,2029-12-03
+PO-000066:MEP_L_NEG_1_G021,2029-12-03 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 021,Production Order,2029-12-03
+PO-000067:MEP_L_NEG_1_G022,2029-12-03 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 022,Production Order,2029-12-03
+PO-000068:MEP_L_NEG_1_G023,2029-12-03 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 023,Production Order,2029-12-03
+PO-000069:MEP_L_NEG_1_G024,2029-12-03 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 024,Production Order,2029-12-03
+PO-000070:STRUCT_COL_15_0_STRUCTURAL_BAMBOO_CLB,2029-12-03 00:00:00,455.52,0.0,24.0,L 0 Zone 1|L 0 Zone 2|L 0 Zone 3|L 0 Zone 4,L 0,Structural,Structural Columns,"Structural Column 15' - 0"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-03
+PO-000071:INTW_L_NEG_1_ASSEMBLY,2029-12-04 00:00:00,1296.0700000000002,1943.0,16.0,L -1 Zone 1|L -1 Zone 3,L -1,Architecture,Walls,Interior Walls L -1,Production Order,2029-12-04
+PO-000072:MEP_L_NEG_1_G025,2029-12-04 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 025,Production Order,2029-12-04
+PO-000073:MEP_L_NEG_1_G026,2029-12-04 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 026,Production Order,2029-12-04
+PO-000074:MEP_L_NEG_1_G027,2029-12-04 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 027,Production Order,2029-12-04
+PO-000075:MEP_L_NEG_1_G028,2029-12-04 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 028,Production Order,2029-12-04
+PO-000076:MEP_L_NEG_1_G029,2029-12-04 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 029,Production Order,2029-12-04
+PO-000077:MEP_L_NEG_1_G030,2029-12-04 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 030,Production Order,2029-12-04
+PO-000078:MEP_L_NEG_1_G031,2029-12-04 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 031,Production Order,2029-12-04
+PO-000079:MEP_L_NEG_1_G032,2029-12-04 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 032,Production Order,2029-12-04
+PO-000080:MEP_L_NEG_1_G033,2029-12-04 00:00:00,0.24,5.0,3.0,L -1 Zone 1,L -1,MEP,Plumbing Fixtures,MEP Rough-In L -1 Group 033,Production Order,2029-12-04
+PO-000081:MEP_L_NEG_1_G034,2029-12-04 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 034,Production Order,2029-12-04
+PO-000082:MEP_L_NEG_1_G035,2029-12-04 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 035,Production Order,2029-12-04
+PO-000083:MEP_L_NEG_1_G036,2029-12-04 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 036,Production Order,2029-12-04
+PO-000084:MEP_L_NEG_1_G037,2029-12-04 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 037,Production Order,2029-12-04
+PO-000085:MEP_L_NEG_1_G038,2029-12-04 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 038,Production Order,2029-12-04
+PO-000086:MEP_L_NEG_1_G039,2029-12-04 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 039,Production Order,2029-12-04
+PO-000087:MEP_L_NEG_1_G040,2029-12-04 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 040,Production Order,2029-12-04
+PO-000088:MEP_L_NEG_1_G041,2029-12-04 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 041,Production Order,2029-12-04
+PO-000089:MEP_L_NEG_1_G042,2029-12-04 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 042,Production Order,2029-12-04
+PO-000090:MEP_L_NEG_1_G043,2029-12-04 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 043,Production Order,2029-12-04
+PO-000091:MEP_L_NEG_1_G044,2029-12-04 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 044,Production Order,2029-12-04
+PO-000092:MEP_L_NEG_1_G045,2029-12-04 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 045,Production Order,2029-12-04
+PO-000093:MEP_L_NEG_1_G046,2029-12-04 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 046,Production Order,2029-12-04
+PO-000094:MEP_L_NEG_1_G047,2029-12-04 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 047,Production Order,2029-12-04
+PO-000095:MEP_L_NEG_1_G048,2029-12-04 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 048,Production Order,2029-12-04
+PO-000096:STRUCT_COL_15_0_STRUCTURAL_BAMBOO_CLB,2029-12-04 00:00:00,208.77999999999997,0.0,11.0,L 0 Zone 1|L 0 Zone 2|L 0 Zone 3,L 0,Structural,Structural Columns,"Structural Column 15' - 0"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-04
+PO-000097:STRUCT_FRAME_10_0_STRUCTURAL_BAMBOO_CLB,2029-12-04 00:00:00,230.92000000000002,0.0,14.0,,,Structural,Structural Framing,"Structural Framing 10' - 0"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-04
+PO-000098:STRUCT_FRAME_14_6_STRUCTURAL_BAMBOO_CLB,2029-12-04 00:00:00,98.65,0.0,4.0,,,Structural,Structural Framing,"Structural Framing 14' - 6"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-04
+PO-000099:STRUCT_FRAME_17_7_STRUCTURAL_BAMBOO_CLB,2029-12-04 00:00:00,48.78,0.0,1.0,,,Structural,Structural Framing,"Structural Framing 17' - 7"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-04
+PO-000100:STRUCT_FRAME_18_3_7_8_STRUCTURAL_BAMBOO_CLB,2029-12-04 00:00:00,30.1,0.0,1.0,,,Structural,Structural Framing,"Structural Framing 18' - 3 7/8"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-04
+PO-000101:STRUCT_FRAME_20_1_STRUCTURAL_BAMBOO_CLB,2029-12-04 00:00:00,48.78,0.0,1.0,,,Structural,Structural Framing,"Structural Framing 20' - 1"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-04
+PO-000102:STRUCT_FRAME_21_10_3_4_STRUCTURAL_BAMBOO_CLB,2029-12-04 00:00:00,36.35,0.0,1.0,,,Structural,Structural Framing,"Structural Framing 21' - 10 3/4"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-04
+PO-000103:STRUCT_FRAME_29_0_STRUCTURAL_BAMBOO_CLB,2029-12-04 00:00:00,536.5799999999999,0.0,11.0,,,Structural,Structural Framing,"Structural Framing 29' - 0"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-04
+PO-000104:STRUCT_FRAME_9_6_STRUCTURAL_BAMBOO_CLB,2029-12-04 00:00:00,15.48,0.0,1.0,,,Structural,Structural Framing,"Structural Framing 9' - 6"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-04
+PO-000105:INTW_L_NEG_1_ASSEMBLY,2029-12-05 00:00:00,687.1400000000001,1030.0,10.0,L -1 Zone 3,L -1,Architecture,Walls,Interior Walls L -1,Production Order,2029-12-05
+PO-000106:MEP_L_NEG_1_G049,2029-12-05 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 049,Production Order,2029-12-05
+PO-000107:MEP_L_NEG_1_G050,2029-12-05 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 050,Production Order,2029-12-05
+PO-000108:MEP_L_NEG_1_G051,2029-12-05 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 051,Production Order,2029-12-05
+PO-000109:MEP_L_NEG_1_G052,2029-12-05 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 052,Production Order,2029-12-05
+PO-000110:MEP_L_NEG_1_G053,2029-12-05 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 053,Production Order,2029-12-05
+PO-000111:MEP_L_NEG_1_G054,2029-12-05 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 054,Production Order,2029-12-05
+PO-000112:MEP_L_NEG_1_G055,2029-12-05 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 055,Production Order,2029-12-05
+PO-000113:MEP_L_NEG_1_G056,2029-12-05 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 056,Production Order,2029-12-05
+PO-000114:MEP_L_NEG_1_G057,2029-12-05 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 057,Production Order,2029-12-05
+PO-000115:MEP_L_NEG_1_G058,2029-12-05 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 058,Production Order,2029-12-05
+PO-000116:MEP_L_NEG_1_G059,2029-12-05 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 059,Production Order,2029-12-05
+PO-000117:MEP_L_NEG_1_G060,2029-12-05 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 060,Production Order,2029-12-05
+PO-000118:MEP_L_NEG_1_G061,2029-12-05 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 061,Production Order,2029-12-05
+PO-000119:MEP_L_NEG_1_G062,2029-12-05 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 062,Production Order,2029-12-05
+PO-000120:MEP_L_NEG_1_G063,2029-12-05 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 063,Production Order,2029-12-05
+PO-000121:MEP_L_NEG_1_G064,2029-12-05 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 064,Production Order,2029-12-05
+PO-000122:MEP_L_NEG_1_G065,2029-12-05 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 065,Production Order,2029-12-05
+PO-000123:MEP_L_NEG_1_G066,2029-12-05 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 066,Production Order,2029-12-05
+PO-000124:MEP_L_NEG_1_G067,2029-12-05 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 067,Production Order,2029-12-05
+PO-000125:MEP_L_NEG_1_G068,2029-12-05 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 068,Production Order,2029-12-05
+PO-000126:MEP_L_NEG_1_G069,2029-12-05 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 069,Production Order,2029-12-05
+PO-000127:MEP_L_NEG_1_G070,2029-12-05 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 070,Production Order,2029-12-05
+PO-000128:MEP_L_NEG_1_G071,2029-12-05 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 071,Production Order,2029-12-05
+PO-000129:MEP_L_NEG_1_G072,2029-12-05 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 072,Production Order,2029-12-05
+PO-000130:STRUCT_FLOOR_L_1_BAMBOO_6_0_6_STRUCTURAL_BAMBOO_CLB,2029-12-05 00:00:00,0.0,0.0,24.0,,,,,"Structural Floor L 1 | Bamboo - 6"" | 0' - 6"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-05
+PO-000131:STRUCT_FRAME_10_0_STRUCTURAL_BAMBOO_CLB,2029-12-05 00:00:00,86.24000000000001,0.0,5.0,,,Structural,Structural Framing,"Structural Framing 10' - 0"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-05
+1951580,2029-12-05 14:00:00,445.73,2038.0,1.0,L -1 Zone 5,L -1,Architecture,Ceilings,Ceiling Installation,Micro Schedule Fallback,2029-12-05
+PO-000132:MEP_L_NEG_1_G073,2029-12-06 00:00:00,0.86,10.0,3.0,L -1 Zone 3,L -1,MEP,Plumbing Fixtures,MEP Rough-In L -1 Group 073,Production Order,2029-12-06
+PO-000133:MEP_L_NEG_1_G074,2029-12-06 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 074,Production Order,2029-12-06
+PO-000134:MEP_L_NEG_1_G075,2029-12-06 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 075,Production Order,2029-12-06
+PO-000135:MEP_L_NEG_1_G076,2029-12-06 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 076,Production Order,2029-12-06
+PO-000136:MEP_L_NEG_1_G077,2029-12-06 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 077,Production Order,2029-12-06
+PO-000137:MEP_L_NEG_1_G078,2029-12-06 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 078,Production Order,2029-12-06
+PO-000138:MEP_L_NEG_1_G079,2029-12-06 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 079,Production Order,2029-12-06
+PO-000139:MEP_L_NEG_1_G080,2029-12-06 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 080,Production Order,2029-12-06
+PO-000140:MEP_L_NEG_1_G081,2029-12-06 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 081,Production Order,2029-12-06
+PO-000141:MEP_L_NEG_1_G082,2029-12-06 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 082,Production Order,2029-12-06
+PO-000142:MEP_L_NEG_1_G083,2029-12-06 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 083,Production Order,2029-12-06
+PO-000143:MEP_L_NEG_1_G084,2029-12-06 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 084,Production Order,2029-12-06
+PO-000144:MEP_L_NEG_1_G085,2029-12-06 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 085,Production Order,2029-12-06
+PO-000145:MEP_L_NEG_1_G086,2029-12-06 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 086,Production Order,2029-12-06
+PO-000146:MEP_L_NEG_1_G087,2029-12-06 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 087,Production Order,2029-12-06
+PO-000147:MEP_L_NEG_1_G088,2029-12-06 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 088,Production Order,2029-12-06
+PO-000148:MEP_L_NEG_1_G089,2029-12-06 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 089,Production Order,2029-12-06
+PO-000149:MEP_L_NEG_1_G090,2029-12-06 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 090,Production Order,2029-12-06
+PO-000150:MEP_L_NEG_1_G091,2029-12-06 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 091,Production Order,2029-12-06
+PO-000151:MEP_L_NEG_1_G092,2029-12-06 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 092,Production Order,2029-12-06
+PO-000152:MEP_L_NEG_1_G093,2029-12-06 00:00:00,0.86,10.0,3.0,L -1 Zone 3,L -1,MEP,Plumbing Fixtures,MEP Rough-In L -1 Group 093,Production Order,2029-12-06
+PO-000153:MEP_L_NEG_1_G094,2029-12-06 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 094,Production Order,2029-12-06
+PO-000154:MEP_L_NEG_1_G095,2029-12-06 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 095,Production Order,2029-12-06
+PO-000155:MEP_L_NEG_1_G096,2029-12-06 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 096,Production Order,2029-12-06
+PO-000156:STRUCT_FLOOR_L_1_BAMBOO_6_0_6_STRUCTURAL_BAMBOO_CLB,2029-12-06 00:00:00,0.0,0.0,24.0,,,,,"Structural Floor L 1 | Bamboo - 6"" | 0' - 6"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-06
+PO-000157:EXTW_PREFAB_WALL_L0_012,2029-12-07 00:00:00,69.04,122.0,8.0,L 0 Zone 4,L 0,Architecture,Curtain Wall Mullions|Walls,Exterior Wall L 0 PREFAB_WALL_L0_012,Production Order,2029-12-07
+PO-000158:EXTW_PREFAB_WALL_L0_019,2029-12-07 00:00:00,83.73999999999998,447.0,22.0,,L 0,Architecture,Curtain Panels|Curtain Wall Mullions|Walls,Exterior Wall L 0 PREFAB_WALL_L0_019,Production Order,2029-12-07
+PO-000159:EXTW_PREFAB_WALL_L0_020,2029-12-07 00:00:00,8.54,13.0,1.0,,L 0,Architecture,Walls,Exterior Wall L 0 PREFAB_WALL_L0_020,Production Order,2029-12-07
+PO-000160:EXTW_PREFAB_WALL_L0_021,2029-12-07 00:00:00,50.43,76.0,1.0,L 0 Zone 2,L 0,Architecture,Walls,Exterior Wall L 0 PREFAB_WALL_L0_021,Production Order,2029-12-07
+PO-000161:EXTW_PREFAB_WALL_L0_022,2029-12-07 00:00:00,128.56,193.0,1.0,,L 0,Architecture,Walls,Exterior Wall L 0 PREFAB_WALL_L0_022,Production Order,2029-12-07
+PO-000162:EXTW_PREFAB_WALL_L0_023,2029-12-07 00:00:00,94.32,141.0,1.0,,L 0,Architecture,Walls,Exterior Wall L 0 PREFAB_WALL_L0_023,Production Order,2029-12-07
+PO-000163:EXTW_PREFAB_WALL_L0_024,2029-12-07 00:00:00,182.37,274.0,1.0,,L 0,Architecture,Walls,Exterior Wall L 0 PREFAB_WALL_L0_024,Production Order,2029-12-07
+PO-000164:EXTW_PREFAB_WALL_L0_025,2029-12-07 00:00:00,6.050000000000001,98.0,11.0,,L 0,Architecture,Curtain Panels|Curtain Wall Mullions|Walls,Exterior Wall L 0 PREFAB_WALL_L0_025,Production Order,2029-12-07
+PO-000165:EXTW_PREFAB_WALL_L0_026,2029-12-07 00:00:00,8.04,152.0,9.0,,L 0,Architecture,Curtain Panels|Curtain Wall Mullions|Walls,Exterior Wall L 0 PREFAB_WALL_L0_026,Production Order,2029-12-07
+PO-000166:EXTW_PREFAB_WALL_L0_027,2029-12-07 00:00:00,332.26,1037.0,41.0,,L 0,Architecture,Curtain Panels|Curtain Wall Mullions|Walls,Exterior Wall L 0 PREFAB_WALL_L0_027,Production Order,2029-12-07
+PO-000167:EXTW_PREFAB_WALL_L0_028,2029-12-07 00:00:00,124.83999999999999,416.0,21.0,,L 0,Architecture,Curtain Panels|Curtain Wall Mullions|Walls,Exterior Wall L 0 PREFAB_WALL_L0_028,Production Order,2029-12-07
+PO-000168:EXTW_PREFAB_WALL_L0_029,2029-12-07 00:00:00,70.87,106.0,1.0,,L 0,Architecture,Walls,Exterior Wall L 0 PREFAB_WALL_L0_029,Production Order,2029-12-07
+PO-000169:EXTW_PREFAB_WALL_L0_030,2029-12-07 00:00:00,50.5,76.0,1.0,,L 0,Architecture,Walls,Exterior Wall L 0 PREFAB_WALL_L0_030,Production Order,2029-12-07
+PO-000170:EXTW_PREFAB_WALL_L0_031,2029-12-07 00:00:00,15.09,23.0,1.0,,L 0,Architecture,Walls,Exterior Wall L 0 PREFAB_WALL_L0_031,Production Order,2029-12-07
+PO-000171:EXTW_PREFAB_WALL_L0_032,2029-12-07 00:00:00,11.25,17.0,1.0,,L 0,Architecture,Walls,Exterior Wall L 0 PREFAB_WALL_L0_032,Production Order,2029-12-07
+PO-000172:EXTW_PREFAB_WALL_L0_033,2029-12-07 00:00:00,41.43000000000001,792.0,44.0,,L 0,Architecture,Curtain Panels|Curtain Wall Mullions|Walls,Exterior Wall L 0 PREFAB_WALL_L0_033,Production Order,2029-12-07
+PO-000173:EXTW_PREFAB_WALL_L0_034,2029-12-07 00:00:00,41.95,803.0,44.0,,L 0,Architecture,Curtain Panels|Curtain Wall Mullions|Walls,Exterior Wall L 0 PREFAB_WALL_L0_034,Production Order,2029-12-07
+PO-000174:MEP_L_NEG_1_G097,2029-12-07 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 097,Production Order,2029-12-07
+PO-000175:MEP_L_NEG_1_G098,2029-12-07 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 098,Production Order,2029-12-07
+PO-000176:MEP_L_NEG_1_G099,2029-12-07 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 099,Production Order,2029-12-07
+PO-000177:MEP_L_NEG_1_G100,2029-12-07 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 100,Production Order,2029-12-07
+PO-000178:MEP_L_NEG_1_G101,2029-12-07 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 101,Production Order,2029-12-07
+PO-000179:MEP_L_NEG_1_G102,2029-12-07 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 102,Production Order,2029-12-07
+PO-000180:MEP_L_NEG_1_G103,2029-12-07 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 103,Production Order,2029-12-07
+PO-000181:MEP_L_NEG_1_G104,2029-12-07 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 104,Production Order,2029-12-07
+PO-000182:MEP_L_NEG_1_G105,2029-12-07 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 105,Production Order,2029-12-07
+PO-000183:MEP_L_NEG_1_G106,2029-12-07 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 106,Production Order,2029-12-07
+PO-000184:MEP_L_NEG_1_G107,2029-12-07 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 107,Production Order,2029-12-07
+PO-000185:MEP_L_NEG_1_G108,2029-12-07 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 108,Production Order,2029-12-07
+PO-000186:MEP_L_NEG_1_G109,2029-12-07 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 109,Production Order,2029-12-07
+PO-000187:MEP_L_NEG_1_G110,2029-12-07 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 110,Production Order,2029-12-07
+PO-000188:MEP_L_NEG_1_G111,2029-12-07 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 111,Production Order,2029-12-07
+PO-000189:MEP_L_NEG_1_G112,2029-12-07 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 112,Production Order,2029-12-07
+PO-000190:MEP_L_NEG_1_G113,2029-12-07 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 113,Production Order,2029-12-07
+PO-000191:MEP_L_NEG_1_G114,2029-12-07 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 114,Production Order,2029-12-07
+PO-000192:MEP_L_NEG_1_G115,2029-12-07 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 115,Production Order,2029-12-07
+PO-000193:MEP_L_NEG_1_G116,2029-12-07 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 116,Production Order,2029-12-07
+PO-000194:MEP_L_NEG_1_G117,2029-12-07 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 117,Production Order,2029-12-07
+PO-000195:MEP_L_NEG_1_G118,2029-12-07 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 118,Production Order,2029-12-07
+PO-000196:MEP_L_NEG_1_G119,2029-12-07 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 119,Production Order,2029-12-07
+PO-000197:MEP_L_NEG_1_G120,2029-12-07 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 120,Production Order,2029-12-07
+PO-000198:SL0W-LNEG1C-WALL,2029-12-07 00:00:00,359.51,1842.0,84.0,L 0 Zone 4,L 0,Architecture,Curtain Panels|Curtain Wall Mullions|Walls,South-L0-Workshop wall part & South-L-1-Classrooms wall,Production Order,2029-12-07
+PO-000199:STRUCT_FLOOR_L_1_BAMBOO_6_0_6_STRUCTURAL_BAMBOO_CLB,2029-12-07 00:00:00,0.0,0.0,5.0,,,,,"Structural Floor L 1 | Bamboo - 6"" | 0' - 6"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-07
+PO-000200:INTW_L_0_ASSEMBLY,2029-12-10 00:00:00,747.87,1121.0,16.0,L 0 Zone 2|L 0 Zone 3,L 0,Architecture,Walls,Interior Walls L 0,Production Order,2029-12-10
+PO-000201:MEP_L_0_G001,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 001,Production Order,2029-12-10
+PO-000202:MEP_L_0_G002,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 002,Production Order,2029-12-10
+PO-000203:MEP_L_0_G003,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 003,Production Order,2029-12-10
+PO-000204:MEP_L_0_G004,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 004,Production Order,2029-12-10
+PO-000205:MEP_L_0_G005,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 005,Production Order,2029-12-10
+PO-000206:MEP_L_0_G006,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 006,Production Order,2029-12-10
+PO-000207:MEP_L_0_G007,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 007,Production Order,2029-12-10
+PO-000208:MEP_L_0_G008,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 008,Production Order,2029-12-10
+PO-000209:MEP_L_0_G009,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 009,Production Order,2029-12-10
+PO-000210:MEP_L_0_G010,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 010,Production Order,2029-12-10
+PO-000211:MEP_L_0_G011,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 011,Production Order,2029-12-10
+PO-000212:MEP_L_0_G012,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 012,Production Order,2029-12-10
+PO-000213:MEP_L_0_G013,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 013,Production Order,2029-12-10
+PO-000214:MEP_L_0_G014,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 014,Production Order,2029-12-10
+PO-000215:MEP_L_0_G015,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 015,Production Order,2029-12-10
+PO-000216:MEP_L_0_G016,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 016,Production Order,2029-12-10
+PO-000217:MEP_L_0_G017,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 017,Production Order,2029-12-10
+PO-000218:MEP_L_0_G018,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 018,Production Order,2029-12-10
+PO-000219:MEP_L_0_G019,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 019,Production Order,2029-12-10
+PO-000220:MEP_L_0_G020,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 020,Production Order,2029-12-10
+PO-000221:MEP_L_0_G021,2029-12-10 00:00:00,0.0,0.0,3.0,,L 0,MEP,Flex Ducts,MEP Rough-In L 0 Group 021,Production Order,2029-12-10
+PO-000222:MEP_L_0_G022,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 022,Production Order,2029-12-10
+PO-000223:MEP_L_0_G023,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 023,Production Order,2029-12-10
+PO-000224:MEP_L_0_G024,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 024,Production Order,2029-12-10
+PO-000225:MEP_L_NEG_1_G121,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 121,Production Order,2029-12-10
+PO-000226:MEP_L_NEG_1_G122,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 122,Production Order,2029-12-10
+PO-000227:MEP_L_NEG_1_G123,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 123,Production Order,2029-12-10
+PO-000228:MEP_L_NEG_1_G124,2029-12-10 00:00:00,3.3000000000000003,60.0,3.0,L -1 Zone 3,L -1,MEP,Plumbing Fixtures,MEP Rough-In L -1 Group 124,Production Order,2029-12-10
+PO-000229:MEP_L_NEG_1_G125,2029-12-10 00:00:00,3.3000000000000003,60.0,3.0,,L -1,MEP,Plumbing Fixtures,MEP Rough-In L -1 Group 125,Production Order,2029-12-10
+PO-000230:MEP_L_NEG_1_G126,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 126,Production Order,2029-12-10
+PO-000231:MEP_L_NEG_1_G127,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 127,Production Order,2029-12-10
+PO-000232:MEP_L_NEG_1_G128,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 128,Production Order,2029-12-10
+PO-000233:MEP_L_NEG_1_G129,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 129,Production Order,2029-12-10
+PO-000234:MEP_L_NEG_1_G130,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 130,Production Order,2029-12-10
+PO-000235:MEP_L_NEG_1_G131,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 131,Production Order,2029-12-10
+PO-000236:MEP_L_NEG_1_G132,2029-12-10 00:00:00,0.0,21.0,3.0,,L -1,MEP,Ducts,MEP Rough-In L -1 Group 132,Production Order,2029-12-10
+PO-000237:MEP_L_NEG_1_G133,2029-12-10 00:00:00,0.0,4.0,3.0,,L -1,MEP,Ducts,MEP Rough-In L -1 Group 133,Production Order,2029-12-10
+PO-000238:MEP_L_NEG_1_G134,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 134,Production Order,2029-12-10
+PO-000239:MEP_L_NEG_1_G135,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 135,Production Order,2029-12-10
+PO-000240:MEP_L_NEG_1_G136,2029-12-10 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L -1 Group 136,Production Order,2029-12-10
+PO-000241:MEP_L_NEG_1_G137,2029-12-10 00:00:00,0.0,0.0,1.0,,,,,MEP Rough-In L -1 Group 137,Production Order,2029-12-10
+PO-000242:STRUCT_COL_12_0_STRUCTURAL_BAMBOO_CLB,2029-12-10 00:00:00,349.37,0.0,23.0,L 1 Zone 3|L 1 Zone 4|L 1 Zone 5|L 1 Zone 7|L 1 Zone 8|L 1 Zone 9,L 1,Structural,Structural Columns,"Structural Column 12' - 0"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-10
+PO-000243:STRUCT_COL_15_0_STRUCTURAL_BAMBOO_CLB,2029-12-10 00:00:00,18.98,0.0,1.0,,L 1,Structural,Structural Columns,"Structural Column 15' - 0"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-10
+PO-000244:INTW_L_0_ASSEMBLY,2029-12-11 00:00:00,1515.65,2274.0,16.0,L 0 Zone 1|L 0 Zone 3,L 0,Architecture,Walls,Interior Walls L 0,Production Order,2029-12-11
+PO-000245:MEP_L_0_G025,2029-12-11 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 025,Production Order,2029-12-11
+PO-000246:MEP_L_0_G026,2029-12-11 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 026,Production Order,2029-12-11
+PO-000247:MEP_L_0_G027,2029-12-11 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 027,Production Order,2029-12-11
+PO-000248:MEP_L_0_G028,2029-12-11 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 028,Production Order,2029-12-11
+PO-000249:MEP_L_0_G029,2029-12-11 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 029,Production Order,2029-12-11
+PO-000250:MEP_L_0_G030,2029-12-11 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 030,Production Order,2029-12-11
+PO-000251:MEP_L_0_G031,2029-12-11 00:00:00,0.0,0.0,3.0,L 0 Zone 3,L 0,MEP,Flex Ducts,MEP Rough-In L 0 Group 031,Production Order,2029-12-11
+PO-000252:MEP_L_0_G032,2029-12-11 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 032,Production Order,2029-12-11
+PO-000253:MEP_L_0_G033,2029-12-11 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 033,Production Order,2029-12-11
+PO-000254:MEP_L_0_G034,2029-12-11 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 034,Production Order,2029-12-11
+PO-000255:MEP_L_0_G035,2029-12-11 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 035,Production Order,2029-12-11
+PO-000256:MEP_L_0_G036,2029-12-11 00:00:00,0.0,0.0,3.0,,L 0,MEP,Flex Ducts,MEP Rough-In L 0 Group 036,Production Order,2029-12-11
+PO-000257:MEP_L_0_G037,2029-12-11 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 037,Production Order,2029-12-11
+PO-000258:MEP_L_0_G038,2029-12-11 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 038,Production Order,2029-12-11
+PO-000259:MEP_L_0_G039,2029-12-11 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 039,Production Order,2029-12-11
+PO-000260:MEP_L_0_G040,2029-12-11 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 040,Production Order,2029-12-11
+PO-000261:MEP_L_0_G041,2029-12-11 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 041,Production Order,2029-12-11
+PO-000262:MEP_L_0_G042,2029-12-11 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 042,Production Order,2029-12-11
+PO-000263:MEP_L_0_G043,2029-12-11 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 043,Production Order,2029-12-11
+PO-000264:MEP_L_0_G044,2029-12-11 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 044,Production Order,2029-12-11
+PO-000265:MEP_L_0_G045,2029-12-11 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 045,Production Order,2029-12-11
+PO-000266:MEP_L_0_G046,2029-12-11 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 046,Production Order,2029-12-11
+PO-000267:MEP_L_0_G047,2029-12-11 00:00:00,0.0,0.0,3.0,,L 0,MEP,Flex Ducts,MEP Rough-In L 0 Group 047,Production Order,2029-12-11
+PO-000268:MEP_L_0_G048,2029-12-11 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 048,Production Order,2029-12-11
+PO-000269:STRUCT_COL_12_0_STRUCTURAL_BAMBOO_CLB,2029-12-11 00:00:00,167.09,0.0,11.0,L 1 Zone 1|L 1 Zone 5|L 1 Zone 9,L 1,Structural,Structural Columns,"Structural Column 12' - 0"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-11
+PO-000270:STRUCT_FRAME_10_0_STRUCTURAL_BAMBOO_CLB,2029-12-11 00:00:00,219.99999999999997,0.0,14.0,,,Structural,Structural Framing,"Structural Framing 10' - 0"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-11
+PO-000271:STRUCT_FRAME_10_6_STRUCTURAL_BAMBOO_CLB,2029-12-11 00:00:00,16.72,0.0,1.0,,,Structural,Structural Framing,"Structural Framing 10' - 6"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-11
+PO-000272:STRUCT_FRAME_14_6_STRUCTURAL_BAMBOO_CLB,2029-12-11 00:00:00,94.62,0.0,4.0,,,Structural,Structural Framing,"Structural Framing 14' - 6"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-11
+PO-000273:STRUCT_FRAME_17_7_STRUCTURAL_BAMBOO_CLB,2029-12-11 00:00:00,48.78,0.0,1.0,,,Structural,Structural Framing,"Structural Framing 17' - 7"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-11
+PO-000274:STRUCT_FRAME_18_3_7_8_STRUCTURAL_BAMBOO_CLB,2029-12-11 00:00:00,30.1,0.0,1.0,,,Structural,Structural Framing,"Structural Framing 18' - 3 7/8"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-11
+PO-000275:STRUCT_FRAME_20_1_STRUCTURAL_BAMBOO_CLB,2029-12-11 00:00:00,48.78,0.0,1.0,,,Structural,Structural Framing,"Structural Framing 20' - 1"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-11
+PO-000276:STRUCT_FRAME_21_10_3_4_STRUCTURAL_BAMBOO_CLB,2029-12-11 00:00:00,36.35,0.0,1.0,,,Structural,Structural Framing,"Structural Framing 21' - 10 3/4"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-11
+PO-000277:STRUCT_FRAME_29_0_STRUCTURAL_BAMBOO_CLB,2029-12-11 00:00:00,536.5799999999999,0.0,11.0,,,Structural,Structural Framing,"Structural Framing 29' - 0"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-11
+PO-000278:INTW_L_0_ASSEMBLY,2029-12-12 00:00:00,747.0799999999999,1119.0,10.0,L 0 Zone 1,L 0,Architecture,Walls,Interior Walls L 0,Production Order,2029-12-12
+PO-000279:MEP_L_0_G049,2029-12-12 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 049,Production Order,2029-12-12
+PO-000280:MEP_L_0_G050,2029-12-12 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 050,Production Order,2029-12-12
+PO-000281:MEP_L_0_G051,2029-12-12 00:00:00,0.0,0.0,3.0,,L 0,MEP,Flex Ducts,MEP Rough-In L 0 Group 051,Production Order,2029-12-12
+PO-000282:MEP_L_0_G052,2029-12-12 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 052,Production Order,2029-12-12
+PO-000283:MEP_L_0_G053,2029-12-12 00:00:00,0.09,1.0,3.0,,L 0,MEP,Air Terminals,MEP Rough-In L 0 Group 053,Production Order,2029-12-12
+PO-000284:MEP_L_0_G054,2029-12-12 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 054,Production Order,2029-12-12
+PO-000285:MEP_L_0_G055,2029-12-12 00:00:00,0.0,21.0,3.0,,L 0,MEP,Ducts,MEP Rough-In L 0 Group 055,Production Order,2029-12-12
+PO-000286:MEP_L_0_G056,2029-12-12 00:00:00,0.16,0.0,3.0,,L 0,MEP,Duct Fittings,MEP Rough-In L 0 Group 056,Production Order,2029-12-12
+PO-000287:MEP_L_0_G057,2029-12-12 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 057,Production Order,2029-12-12
+PO-000288:MEP_L_0_G058,2029-12-12 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 058,Production Order,2029-12-12
+PO-000289:MEP_L_0_G059,2029-12-12 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 059,Production Order,2029-12-12
+PO-000290:MEP_L_0_G060,2029-12-12 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 060,Production Order,2029-12-12
+PO-000291:MEP_L_0_G061,2029-12-12 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 061,Production Order,2029-12-12
+PO-000292:MEP_L_0_G062,2029-12-12 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 062,Production Order,2029-12-12
+PO-000293:MEP_L_0_G063,2029-12-12 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 063,Production Order,2029-12-12
+PO-000294:MEP_L_0_G064,2029-12-12 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 064,Production Order,2029-12-12
+PO-000295:MEP_L_0_G065,2029-12-12 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 065,Production Order,2029-12-12
+PO-000296:MEP_L_0_G066,2029-12-12 00:00:00,0.43,5.0,3.0,L 0 Zone 1,L 0,MEP,Plumbing Fixtures,MEP Rough-In L 0 Group 066,Production Order,2029-12-12
+PO-000297:MEP_L_0_G067,2029-12-12 00:00:00,0.43,5.0,3.0,L 0 Zone 1,L 0,MEP,Plumbing Fixtures,MEP Rough-In L 0 Group 067,Production Order,2029-12-12
+PO-000298:MEP_L_0_G068,2029-12-12 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 068,Production Order,2029-12-12
+PO-000299:MEP_L_0_G069,2029-12-12 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 069,Production Order,2029-12-12
+PO-000300:MEP_L_0_G070,2029-12-12 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 070,Production Order,2029-12-12
+PO-000301:MEP_L_0_G071,2029-12-12 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 071,Production Order,2029-12-12
+PO-000302:MEP_L_0_G072,2029-12-12 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 072,Production Order,2029-12-12
+PO-000303:STRUCT_FLOOR_ROOF_BAMBOO_6_0_6_STRUCTURAL_BAMBOO_CLB,2029-12-12 00:00:00,0.0,0.0,24.0,,,,,"Structural Floor Roof | Bamboo - 6"" | 0' - 6"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-12
+PO-000304:STRUCT_FRAME_10_0_STRUCTURAL_BAMBOO_CLB,2029-12-12 00:00:00,89.0,0.0,5.0,,,Structural,Structural Framing,"Structural Framing 10' - 0"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-12
+PO-000305:STRUCT_FRAME_29_0_STRUCTURAL_BAMBOO_CLB,2029-12-12 00:00:00,585.36,0.0,6.0,,,Structural,Structural Framing,"Structural Framing 29' - 0"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-12
+PO-000306:STRUCT_FRAME_3_3_1_2_STRUCTURAL_BAMBOO_CLB,2029-12-12 00:00:00,38.93,0.0,4.0,,,Structural,Structural Framing,"Structural Framing 3' - 3 1/2"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-12
+PO-000307:STRUCT_FRAME_58_0_STRUCTURAL_BAMBOO_CLB,2029-12-12 00:00:00,598.65,0.0,3.0,,,Structural,Structural Framing,"Structural Framing 58' - 0"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-12
+PO-000308:STRUCT_FRAME_6_0_STRUCTURAL_BAMBOO_CLB,2029-12-12 00:00:00,39.18,0.0,2.0,,,Structural,Structural Framing,"Structural Framing 6' - 0"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-12
+PO-000309:MEP_L_0_G073,2029-12-13 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 073,Production Order,2029-12-13
+PO-000310:MEP_L_0_G074,2029-12-13 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 074,Production Order,2029-12-13
+PO-000311:MEP_L_0_G075,2029-12-13 00:00:00,0.86,10.0,3.0,L 0 Zone 1,L 0,MEP,Plumbing Fixtures,MEP Rough-In L 0 Group 075,Production Order,2029-12-13
+PO-000312:MEP_L_0_G076,2029-12-13 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 076,Production Order,2029-12-13
+PO-000313:MEP_L_0_G077,2029-12-13 00:00:00,0.07,1.0,3.0,L 0 Zone 5,L 0,MEP,Air Terminals,MEP Rough-In L 0 Group 077,Production Order,2029-12-13
+PO-000314:MEP_L_0_G078,2029-12-13 00:00:00,0.21000000000000002,3.0,3.0,L 0 Zone 5,L 0,MEP,Air Terminals,MEP Rough-In L 0 Group 078,Production Order,2029-12-13
+PO-000315:MEP_L_0_G079,2029-12-13 00:00:00,1.2400000000000002,22.0,3.0,L 0 Zone 1|L 0 Zone 5,L 0,MEP,Air Terminals|Plumbing Fixtures,MEP Rough-In L 0 Group 079,Production Order,2029-12-13
+PO-000316:MEP_L_0_G080,2029-12-13 00:00:00,3.3000000000000003,60.0,3.0,L 0 Zone 1,L 0,MEP,Plumbing Fixtures,MEP Rough-In L 0 Group 080,Production Order,2029-12-13
+PO-000317:MEP_L_0_G081,2029-12-13 00:00:00,2.2,40.0,3.0,L 0 Zone 1,L 0,MEP,Plumbing Fixtures,MEP Rough-In L 0 Group 081,Production Order,2029-12-13
+PO-000318:MEP_L_0_G082,2029-12-13 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 082,Production Order,2029-12-13
+PO-000319:MEP_L_0_G083,2029-12-13 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 083,Production Order,2029-12-13
+PO-000320:MEP_L_0_G084,2029-12-13 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 084,Production Order,2029-12-13
+PO-000321:MEP_L_0_G085,2029-12-13 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 085,Production Order,2029-12-13
+PO-000322:MEP_L_0_G086,2029-12-13 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 086,Production Order,2029-12-13
+PO-000323:MEP_L_0_G087,2029-12-13 00:00:00,0.16,0.0,3.0,L 0 Zone 5,L 0,MEP,Duct Fittings,MEP Rough-In L 0 Group 087,Production Order,2029-12-13
+PO-000324:MEP_L_0_G088,2029-12-13 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 088,Production Order,2029-12-13
+PO-000325:MEP_L_0_G089,2029-12-13 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 089,Production Order,2029-12-13
+PO-000326:MEP_L_0_G090,2029-12-13 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 090,Production Order,2029-12-13
+PO-000327:MEP_L_0_G091,2029-12-13 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 091,Production Order,2029-12-13
+PO-000328:MEP_L_0_G092,2029-12-13 00:00:00,0.0,22.0,3.0,L 0 Zone 5,L 0,MEP,Ducts,MEP Rough-In L 0 Group 092,Production Order,2029-12-13
+PO-000329:MEP_L_0_G093,2029-12-13 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 093,Production Order,2029-12-13
+PO-000330:MEP_L_0_G094,2029-12-13 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 0 Group 094,Production Order,2029-12-13
+PO-000331:MEP_L_0_G095,2029-12-13 00:00:00,0.0,0.0,2.0,,,,,MEP Rough-In L 0 Group 095,Production Order,2029-12-13
+PO-000332:STRUCT_FLOOR_ROOF_BAMBOO_6_0_6_STRUCTURAL_BAMBOO_CLB,2029-12-13 00:00:00,0.0,0.0,24.0,,,,,"Structural Floor Roof | Bamboo - 6"" | 0' - 6"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-13
+PO-000333:STRUCT_FLOOR_ROOF_BAMBOO_6_0_6_STRUCTURAL_BAMBOO_CLB,2029-12-14 00:00:00,0.0,0.0,24.0,,,,,"Structural Floor Roof | Bamboo - 6"" | 0' - 6"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-14
+PO-000334:EXTW_PREFAB_WALL_L1_040,2029-12-17 00:00:00,40.50999999999999,193.0,12.0,L 1 Zone 4,L 1,Architecture,Curtain Panels|Curtain Wall Mullions|Walls,Exterior Wall L 1 PREFAB_WALL_L1_040,Production Order,2029-12-17
+PO-000335:EXTW_PREFAB_WALL_L1_041,2029-12-17 00:00:00,44.699999999999996,199.0,12.0,,L 1,Architecture,Curtain Panels|Curtain Wall Mullions|Walls,Exterior Wall L 1 PREFAB_WALL_L1_041,Production Order,2029-12-17
+PO-000336:EXTW_PREFAB_WALL_L1_042,2029-12-17 00:00:00,12.429999999999998,248.0,22.0,,L 1,Architecture,Curtain Panels|Curtain Wall Mullions|Walls,Exterior Wall L 1 PREFAB_WALL_L1_042,Production Order,2029-12-17
+PO-000337:EXTW_PREFAB_WALL_L1_043,2029-12-17 00:00:00,61.94,222.0,11.0,L 1 Zone 3,L 1,Architecture,Curtain Panels|Curtain Wall Mullions|Walls,Exterior Wall L 1 PREFAB_WALL_L1_043,Production Order,2029-12-17
+PO-000338:EXTW_PREFAB_WALL_L1_044,2029-12-17 00:00:00,4.17,6.0,1.0,L 1 Zone 3,L 1,Architecture,Walls,Exterior Wall L 1 PREFAB_WALL_L1_044,Production Order,2029-12-17
+PO-000339:EXTW_PREFAB_WALL_L1_045,2029-12-17 00:00:00,6.55,10.0,1.0,,L 1,Architecture,Walls,Exterior Wall L 1 PREFAB_WALL_L1_045,Production Order,2029-12-17
+PO-000340:EXTW_PREFAB_WALL_L1_046,2029-12-17 00:00:00,66.73,229.0,11.0,L 1 Zone 3,L 1,Architecture,Curtain Panels|Curtain Wall Mullions|Walls,Exterior Wall L 1 PREFAB_WALL_L1_046,Production Order,2029-12-17
+PO-000341:EXTW_PREFAB_WALL_L1_047,2029-12-17 00:00:00,80.94999999999999,251.0,11.0,,L 1,Architecture,Curtain Panels|Curtain Wall Mullions|Walls,Exterior Wall L 1 PREFAB_WALL_L1_047,Production Order,2029-12-17
+PO-000342:EXTW_PREFAB_WALL_L1_048,2029-12-17 00:00:00,55.4,86.0,2.0,L 1 Zone 8,L 1,Architecture,Curtain Wall Mullions|Walls,Exterior Wall L 1 PREFAB_WALL_L1_048,Production Order,2029-12-17
+PO-000343:EXTW_PREFAB_WALL_L1_049,2029-12-17 00:00:00,51.85,270.0,13.0,,L 1,Architecture,Curtain Panels|Curtain Wall Mullions|Walls,Exterior Wall L 1 PREFAB_WALL_L1_049,Production Order,2029-12-17
+PO-000344:EXTW_PREFAB_WALL_L1_050,2029-12-17 00:00:00,31.62,174.0,12.0,,L 1,Architecture,Curtain Panels|Curtain Wall Mullions|Walls,Exterior Wall L 1 PREFAB_WALL_L1_050,Production Order,2029-12-17
+PO-000345:EXTW_PREFAB_WALL_L1_051,2029-12-17 00:00:00,49.16,203.0,11.0,L 1 Zone 1,L 1,Architecture,Curtain Panels|Curtain Wall Mullions|Walls,Exterior Wall L 1 PREFAB_WALL_L1_051,Production Order,2029-12-17
+PO-000346:EXTW_PREFAB_WALL_L1_052,2029-12-17 00:00:00,7.85,141.0,10.0,L 1 Zone 1,L 1,Architecture,Curtain Panels|Curtain Wall Mullions|Walls,Exterior Wall L 1 PREFAB_WALL_L1_052,Production Order,2029-12-17
+PO-000347:EXTW_PREFAB_WALL_L1_053,2029-12-17 00:00:00,7.869999999999999,143.0,10.0,,L 1,Architecture,Curtain Panels|Curtain Wall Mullions|Walls,Exterior Wall L 1 PREFAB_WALL_L1_053,Production Order,2029-12-17
+PO-000348:EXTW_PREFAB_WALL_L1_054,2029-12-17 00:00:00,7.869999999999999,143.0,10.0,,L 1,Architecture,Curtain Panels|Curtain Wall Mullions|Walls,Exterior Wall L 1 PREFAB_WALL_L1_054,Production Order,2029-12-17
+PO-000349:EXTW_PREFAB_WALL_L1_055,2029-12-17 00:00:00,7.869999999999999,143.0,10.0,L 1 Zone 5,L 1,Architecture,Curtain Panels|Curtain Wall Mullions|Walls,Exterior Wall L 1 PREFAB_WALL_L1_055,Production Order,2029-12-17
+PO-000350:EXTW_PREFAB_WALL_L1_056,2029-12-17 00:00:00,7.869999999999999,143.0,10.0,,L 1,Architecture,Curtain Panels|Curtain Wall Mullions|Walls,Exterior Wall L 1 PREFAB_WALL_L1_056,Production Order,2029-12-17
+PO-000351:EXTW_PREFAB_WALL_L1_057,2029-12-17 00:00:00,7.85,141.0,10.0,,L 1,Architecture,Curtain Panels|Curtain Wall Mullions|Walls,Exterior Wall L 1 PREFAB_WALL_L1_057,Production Order,2029-12-17
+PO-000352:EXTW_PREFAB_WALL_L1_058,2029-12-17 00:00:00,8.03,145.0,10.0,,L 1,Architecture,Curtain Panels|Curtain Wall Mullions|Walls,Exterior Wall L 1 PREFAB_WALL_L1_058,Production Order,2029-12-17
+PO-000353:EXTW_PREFAB_WALL_L1_059,2029-12-17 00:00:00,28.33,43.0,1.0,,L 1,Architecture,Walls,Exterior Wall L 1 PREFAB_WALL_L1_059,Production Order,2029-12-17
+PO-000354:EXTW_PREFAB_WALL_L1_060,2029-12-17 00:00:00,30.73,46.0,1.0,,L 1,Architecture,Walls,Exterior Wall L 1 PREFAB_WALL_L1_060,Production Order,2029-12-17
+PO-000355:SL1-2R-WALL,2029-12-17 00:00:00,235.79,1142.0,61.0,,L 1,Architecture,Curtain Panels|Curtain Wall Mullions|Walls,South-L1-2 rooms wall,Production Order,2029-12-17
+PO-000356:SL1-3R-WALL,2029-12-17 00:00:00,309.43,1505.0,82.0,L 1 Zone 4,L 1,Architecture,Curtain Panels|Curtain Wall Mullions|Walls,South-L1-3 rooms wall,Production Order,2029-12-17
+PO-000357:STRUCT_FLOOR_ROOF_BAMBOO_6_0_6_STRUCTURAL_BAMBOO_CLB,2029-12-17 00:00:00,0.0,0.0,1.0,,,,,"Structural Floor Roof | Bamboo - 6"" | 0' - 6"" | Structural Bamboo (CLB) assembly",Production Order,2029-12-17
+PO-000358:INTW_L_1_ASSEMBLY,2029-12-18 00:00:00,1158.52,1740.0,16.0,L 1 Zone 4,L 1,Architecture,Walls,Interior Walls L 1,Production Order,2029-12-18
+PO-000359:MEP_L_1_G001,2029-12-18 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 001,Production Order,2029-12-18
+PO-000360:MEP_L_1_G002,2029-12-18 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 002,Production Order,2029-12-18
+PO-000361:MEP_L_1_G003,2029-12-18 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 003,Production Order,2029-12-18
+PO-000362:MEP_L_1_G004,2029-12-18 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 004,Production Order,2029-12-18
+PO-000363:MEP_L_1_G005,2029-12-18 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 005,Production Order,2029-12-18
+PO-000364:MEP_L_1_G006,2029-12-18 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 006,Production Order,2029-12-18
+PO-000365:MEP_L_1_G007,2029-12-18 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 007,Production Order,2029-12-18
+PO-000366:MEP_L_1_G008,2029-12-18 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 008,Production Order,2029-12-18
+PO-000367:MEP_L_1_G009,2029-12-18 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 009,Production Order,2029-12-18
+PO-000368:MEP_L_1_G010,2029-12-18 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 010,Production Order,2029-12-18
+PO-000369:MEP_L_1_G011,2029-12-18 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 011,Production Order,2029-12-18
+PO-000370:MEP_L_1_G012,2029-12-18 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 012,Production Order,2029-12-18
+PO-000371:MEP_L_1_G013,2029-12-18 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 013,Production Order,2029-12-18
+PO-000372:MEP_L_1_G014,2029-12-18 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 014,Production Order,2029-12-18
+PO-000373:MEP_L_1_G015,2029-12-18 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 015,Production Order,2029-12-18
+PO-000374:MEP_L_1_G016,2029-12-18 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 016,Production Order,2029-12-18
+PO-000375:MEP_L_1_G017,2029-12-18 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 017,Production Order,2029-12-18
+PO-000376:MEP_L_1_G018,2029-12-18 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 018,Production Order,2029-12-18
+PO-000377:MEP_L_1_G019,2029-12-18 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 019,Production Order,2029-12-18
+PO-000378:MEP_L_1_G020,2029-12-18 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 020,Production Order,2029-12-18
+PO-000379:MEP_L_1_G021,2029-12-18 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 021,Production Order,2029-12-18
+PO-000380:MEP_L_1_G022,2029-12-18 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 022,Production Order,2029-12-18
+PO-000381:MEP_L_1_G023,2029-12-18 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 023,Production Order,2029-12-18
+PO-000382:MEP_L_1_G024,2029-12-18 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 024,Production Order,2029-12-18
+PO-000383:INTW_L_1_ASSEMBLY,2029-12-19 00:00:00,916.74,1481.0,16.0,L 1 Zone 3,L 1,Architecture,Walls,Interior Walls L 1,Production Order,2029-12-19
+PO-000384:MEP_L_1_G025,2029-12-19 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 025,Production Order,2029-12-19
+PO-000385:MEP_L_1_G026,2029-12-19 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 026,Production Order,2029-12-19
+PO-000386:MEP_L_1_G027,2029-12-19 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 027,Production Order,2029-12-19
+PO-000387:MEP_L_1_G028,2029-12-19 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 028,Production Order,2029-12-19
+PO-000388:MEP_L_1_G029,2029-12-19 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 029,Production Order,2029-12-19
+PO-000389:MEP_L_1_G030,2029-12-19 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 030,Production Order,2029-12-19
+PO-000390:MEP_L_1_G031,2029-12-19 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 031,Production Order,2029-12-19
+PO-000391:MEP_L_1_G032,2029-12-19 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 032,Production Order,2029-12-19
+PO-000392:MEP_L_1_G033,2029-12-19 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 033,Production Order,2029-12-19
+PO-000393:MEP_L_1_G034,2029-12-19 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 034,Production Order,2029-12-19
+PO-000394:MEP_L_1_G035,2029-12-19 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 035,Production Order,2029-12-19
+PO-000395:MEP_L_1_G036,2029-12-19 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 036,Production Order,2029-12-19
+PO-000396:MEP_L_1_G037,2029-12-19 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 037,Production Order,2029-12-19
+PO-000397:MEP_L_1_G038,2029-12-19 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 038,Production Order,2029-12-19
+PO-000398:MEP_L_1_G039,2029-12-19 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 039,Production Order,2029-12-19
+PO-000399:MEP_L_1_G040,2029-12-19 00:00:00,0.0,34.0,3.0,L 1 Zone 3,L 1,MEP,Ducts,MEP Rough-In L 1 Group 040,Production Order,2029-12-19
+PO-000400:MEP_L_1_G041,2029-12-19 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 041,Production Order,2029-12-19
+PO-000401:MEP_L_1_G042,2029-12-19 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 042,Production Order,2029-12-19
+PO-000402:MEP_L_1_G043,2029-12-19 00:00:00,0.2,1.0,3.0,L 1 Zone 2,L 1,MEP,Air Terminals|Duct Fittings,MEP Rough-In L 1 Group 043,Production Order,2029-12-19
+PO-000403:MEP_L_1_G044,2029-12-19 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 044,Production Order,2029-12-19
+PO-000404:MEP_L_1_G045,2029-12-19 00:00:00,0.0,6.0,3.0,L 1 Zone 2,L 1,MEP,Ducts,MEP Rough-In L 1 Group 045,Production Order,2029-12-19
+PO-000405:MEP_L_1_G046,2029-12-19 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 046,Production Order,2029-12-19
+PO-000406:MEP_L_1_G047,2029-12-19 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 047,Production Order,2029-12-19
+PO-000407:MEP_L_1_G048,2029-12-19 00:00:00,0.0,37.0,3.0,L 1 Zone 2,L 1,MEP,Ducts,MEP Rough-In L 1 Group 048,Production Order,2029-12-19
+PO-000408:INTW_L_1_ASSEMBLY,2029-12-20 00:00:00,384.96999999999997,641.0,16.0,L 1 Zone 3|L 1 Zone 7,L 1,Architecture,Walls,Interior Walls L 1,Production Order,2029-12-20
+PO-000409:MEP_L_1_G049,2029-12-20 00:00:00,0.14,0.0,3.0,L 1 Zone 2,L 1,MEP,Duct Fittings,MEP Rough-In L 1 Group 049,Production Order,2029-12-20
+PO-000410:MEP_L_1_G050,2029-12-20 00:00:00,0.14,0.0,3.0,,L 1,MEP,Duct Fittings,MEP Rough-In L 1 Group 050,Production Order,2029-12-20
+PO-000411:MEP_L_1_G051,2029-12-20 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 051,Production Order,2029-12-20
+PO-000412:MEP_L_1_G052,2029-12-20 00:00:00,0.09,1.0,3.0,,L 1,MEP,Air Terminals,MEP Rough-In L 1 Group 052,Production Order,2029-12-20
+PO-000413:MEP_L_1_G053,2029-12-20 00:00:00,0.0,3.0,3.0,L 1 Zone 2,L 1,MEP,Ducts,MEP Rough-In L 1 Group 053,Production Order,2029-12-20
+PO-000414:MEP_L_1_G054,2029-12-20 00:00:00,0.2,1.0,3.0,L 1 Zone 2,L 1,MEP,Air Terminals|Duct Fittings,MEP Rough-In L 1 Group 054,Production Order,2029-12-20
+PO-000415:MEP_L_1_G055,2029-12-20 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 055,Production Order,2029-12-20
+PO-000416:MEP_L_1_G056,2029-12-20 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 056,Production Order,2029-12-20
+PO-000417:MEP_L_1_G057,2029-12-20 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 057,Production Order,2029-12-20
+PO-000418:MEP_L_1_G058,2029-12-20 00:00:00,0.0,10.0,3.0,L 1 Zone 2,L 1,MEP,Ducts,MEP Rough-In L 1 Group 058,Production Order,2029-12-20
+PO-000419:MEP_L_1_G059,2029-12-20 00:00:00,0.24,5.0,3.0,L 1 Zone 3,L 1,MEP,Plumbing Fixtures,MEP Rough-In L 1 Group 059,Production Order,2029-12-20
+PO-000420:MEP_L_1_G060,2029-12-20 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 060,Production Order,2029-12-20
+PO-000421:MEP_L_1_G061,2029-12-20 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 061,Production Order,2029-12-20
+PO-000422:MEP_L_1_G062,2029-12-20 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 062,Production Order,2029-12-20
+PO-000423:MEP_L_1_G063,2029-12-20 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 063,Production Order,2029-12-20
+PO-000424:MEP_L_1_G064,2029-12-20 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 064,Production Order,2029-12-20
+PO-000425:MEP_L_1_G065,2029-12-20 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 065,Production Order,2029-12-20
+PO-000426:MEP_L_1_G066,2029-12-20 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 066,Production Order,2029-12-20
+PO-000427:MEP_L_1_G067,2029-12-20 00:00:00,0.2,1.0,3.0,L 1 Zone 2,L 1,MEP,Air Terminals|Duct Fittings,MEP Rough-In L 1 Group 067,Production Order,2029-12-20
+PO-000428:MEP_L_1_G068,2029-12-20 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 068,Production Order,2029-12-20
+PO-000429:MEP_L_1_G069,2029-12-20 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 069,Production Order,2029-12-20
+PO-000430:MEP_L_1_G070,2029-12-20 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 070,Production Order,2029-12-20
+PO-000431:MEP_L_1_G071,2029-12-20 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 071,Production Order,2029-12-20
+PO-000432:MEP_L_1_G072,2029-12-20 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 072,Production Order,2029-12-20
+PO-000433:INTW_L_1_ASSEMBLY,2029-12-21 00:00:00,989.78,1615.0,16.0,L 1 Zone 2|L 1 Zone 5|L 1 Zone 6|L 1 Zone 8,L 1,Architecture,Walls,Interior Walls L 1,Production Order,2029-12-21
+PO-000434:MEP_L_1_G073,2029-12-21 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 073,Production Order,2029-12-21
+PO-000435:MEP_L_1_G074,2029-12-21 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 074,Production Order,2029-12-21
+PO-000436:MEP_L_1_G075,2029-12-21 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 075,Production Order,2029-12-21
+PO-000437:MEP_L_1_G076,2029-12-21 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 076,Production Order,2029-12-21
+PO-000438:MEP_L_1_G077,2029-12-21 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 077,Production Order,2029-12-21
+PO-000439:MEP_L_1_G078,2029-12-21 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 078,Production Order,2029-12-21
+PO-000440:MEP_L_1_G079,2029-12-21 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 079,Production Order,2029-12-21
+PO-000441:MEP_L_1_G080,2029-12-21 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 080,Production Order,2029-12-21
+PO-000442:MEP_L_1_G081,2029-12-21 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 081,Production Order,2029-12-21
+PO-000443:MEP_L_1_G082,2029-12-21 00:00:00,0.0,11.0,3.0,L 1 Zone 1,L 1,MEP,Ducts,MEP Rough-In L 1 Group 082,Production Order,2029-12-21
+PO-000444:MEP_L_1_G083,2029-12-21 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 083,Production Order,2029-12-21
+PO-000445:MEP_L_1_G084,2029-12-21 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 084,Production Order,2029-12-21
+PO-000446:MEP_L_1_G085,2029-12-21 00:00:00,0.14,0.0,3.0,L 1 Zone 1,L 1,MEP,Duct Fittings,MEP Rough-In L 1 Group 085,Production Order,2029-12-21
+PO-000447:MEP_L_1_G086,2029-12-21 00:00:00,0.06,1.0,3.0,L 1 Zone 1,L 1,MEP,Air Terminals,MEP Rough-In L 1 Group 086,Production Order,2029-12-21
+PO-000448:MEP_L_1_G087,2029-12-21 00:00:00,0.0,13.0,3.0,L 1 Zone 1,L 1,MEP,Ducts,MEP Rough-In L 1 Group 087,Production Order,2029-12-21
+PO-000449:MEP_L_1_G088,2029-12-21 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 088,Production Order,2029-12-21
+PO-000450:MEP_L_1_G089,2029-12-21 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 089,Production Order,2029-12-21
+PO-000451:MEP_L_1_G090,2029-12-21 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 090,Production Order,2029-12-21
+PO-000452:MEP_L_1_G091,2029-12-21 00:00:00,0.14,0.0,3.0,L 1 Zone 1,L 1,MEP,Duct Fittings,MEP Rough-In L 1 Group 091,Production Order,2029-12-21
+PO-000453:MEP_L_1_G092,2029-12-21 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 092,Production Order,2029-12-21
+PO-000454:MEP_L_1_G093,2029-12-21 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 093,Production Order,2029-12-21
+PO-000455:MEP_L_1_G094,2029-12-21 00:00:00,0.0,35.0,3.0,,L 1,MEP,Ducts,MEP Rough-In L 1 Group 094,Production Order,2029-12-21
+PO-000456:MEP_L_1_G095,2029-12-21 00:00:00,0.09,1.0,3.0,,L 1,MEP,Air Terminals,MEP Rough-In L 1 Group 095,Production Order,2029-12-21
+PO-000457:MEP_L_1_G096,2029-12-21 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 096,Production Order,2029-12-21
+PO-000458:INTW_L_1_ASSEMBLY,2029-12-24 00:00:00,1276.3700000000001,1915.0,16.0,L 1 Zone 5|L 1 Zone 8|L 1 Zone 9,L 1,Architecture,Walls,Interior Walls L 1,Production Order,2029-12-24
+PO-000459:MEP_L_1_G097,2029-12-24 00:00:00,0.0,5.0,3.0,L 1 Zone 1,L 1,MEP,Ducts,MEP Rough-In L 1 Group 097,Production Order,2029-12-24
+PO-000460:MEP_L_1_G098,2029-12-24 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 098,Production Order,2029-12-24
+PO-000461:MEP_L_1_G099,2029-12-24 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 099,Production Order,2029-12-24
+PO-000462:MEP_L_1_G100,2029-12-24 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 100,Production Order,2029-12-24
+PO-000463:MEP_L_1_G101,2029-12-24 00:00:00,0.0,1.0,3.0,,L 1,MEP,Ducts,MEP Rough-In L 1 Group 101,Production Order,2029-12-24
+PO-000464:MEP_L_1_G102,2029-12-24 00:00:00,0.14,0.0,3.0,L 1 Zone 1,L 1,MEP,Duct Fittings,MEP Rough-In L 1 Group 102,Production Order,2029-12-24
+PO-000465:MEP_L_1_G103,2029-12-24 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 103,Production Order,2029-12-24
+PO-000466:MEP_L_1_G104,2029-12-24 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 104,Production Order,2029-12-24
+PO-000467:MEP_L_1_G105,2029-12-24 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 105,Production Order,2029-12-24
+PO-000468:MEP_L_1_G106,2029-12-24 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 106,Production Order,2029-12-24
+PO-000469:MEP_L_1_G107,2029-12-24 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 107,Production Order,2029-12-24
+PO-000470:MEP_L_1_G108,2029-12-24 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 108,Production Order,2029-12-24
+PO-000471:MEP_L_1_G109,2029-12-24 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 109,Production Order,2029-12-24
+PO-000472:MEP_L_1_G110,2029-12-24 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 110,Production Order,2029-12-24
+PO-000473:MEP_L_1_G111,2029-12-24 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 111,Production Order,2029-12-24
+PO-000474:MEP_L_1_G112,2029-12-24 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 112,Production Order,2029-12-24
+PO-000475:MEP_L_1_G113,2029-12-24 00:00:00,0.86,10.0,3.0,L 1 Zone 8,L 1,MEP,Plumbing Fixtures,MEP Rough-In L 1 Group 113,Production Order,2029-12-24
+PO-000476:MEP_L_1_G114,2029-12-24 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 114,Production Order,2029-12-24
+PO-000477:MEP_L_1_G115,2029-12-24 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 115,Production Order,2029-12-24
+PO-000478:MEP_L_1_G116,2029-12-24 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 116,Production Order,2029-12-24
+PO-000479:MEP_L_1_G117,2029-12-24 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 117,Production Order,2029-12-24
+PO-000480:MEP_L_1_G118,2029-12-24 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 118,Production Order,2029-12-24
+PO-000481:MEP_L_1_G119,2029-12-24 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 119,Production Order,2029-12-24
+PO-000482:MEP_L_1_G120,2029-12-24 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 120,Production Order,2029-12-24
+PO-000483:INTW_L_1_ASSEMBLY,2029-12-25 00:00:00,707.82,1059.0,11.0,L 1 Zone 1|L 1 Zone 5|L 1 Zone 9,L 1,Architecture,Walls,Interior Walls L 1,Production Order,2029-12-25
+PO-000484:MEP_L_1_G121,2029-12-25 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 121,Production Order,2029-12-25
+PO-000485:MEP_L_1_G122,2029-12-25 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 122,Production Order,2029-12-25
+PO-000486:MEP_L_1_G123,2029-12-25 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 123,Production Order,2029-12-25
+PO-000487:MEP_L_1_G124,2029-12-25 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 124,Production Order,2029-12-25
+PO-000488:MEP_L_1_G125,2029-12-25 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 125,Production Order,2029-12-25
+PO-000489:MEP_L_1_G126,2029-12-25 00:00:00,0.43,5.0,3.0,L 1 Zone 8,L 1,MEP,Plumbing Fixtures,MEP Rough-In L 1 Group 126,Production Order,2029-12-25
+PO-000490:MEP_L_1_G127,2029-12-25 00:00:00,0.43,5.0,3.0,L 1 Zone 8,L 1,MEP,Plumbing Fixtures,MEP Rough-In L 1 Group 127,Production Order,2029-12-25
+PO-000491:MEP_L_1_G128,2029-12-25 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 128,Production Order,2029-12-25
+PO-000492:MEP_L_1_G129,2029-12-25 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 129,Production Order,2029-12-25
+PO-000493:MEP_L_1_G130,2029-12-25 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 130,Production Order,2029-12-25
+PO-000494:MEP_L_1_G131,2029-12-25 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 131,Production Order,2029-12-25
+PO-000495:MEP_L_1_G132,2029-12-25 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 132,Production Order,2029-12-25
+PO-000496:MEP_L_1_G133,2029-12-25 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 133,Production Order,2029-12-25
+PO-000497:MEP_L_1_G134,2029-12-25 00:00:00,0.07,1.0,3.0,L 1 Zone 9,L 1,MEP,Air Terminals,MEP Rough-In L 1 Group 134,Production Order,2029-12-25
+PO-000498:MEP_L_1_G135,2029-12-25 00:00:00,0.21000000000000002,3.0,3.0,L 1 Zone 9,L 1,MEP,Air Terminals,MEP Rough-In L 1 Group 135,Production Order,2029-12-25
+PO-000499:MEP_L_1_G136,2029-12-25 00:00:00,0.14,43.0,3.0,L 1 Zone 9,L 1,MEP,Air Terminals|Ducts,MEP Rough-In L 1 Group 136,Production Order,2029-12-25
+PO-000500:MEP_L_1_G137,2029-12-25 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 137,Production Order,2029-12-25
+PO-000501:MEP_L_1_G138,2029-12-25 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 138,Production Order,2029-12-25
+PO-000502:MEP_L_1_G139,2029-12-25 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 139,Production Order,2029-12-25
+PO-000503:MEP_L_1_G140,2029-12-25 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 140,Production Order,2029-12-25
+PO-000504:MEP_L_1_G141,2029-12-25 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 141,Production Order,2029-12-25
+PO-000505:MEP_L_1_G142,2029-12-25 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 142,Production Order,2029-12-25
+PO-000506:MEP_L_1_G143,2029-12-25 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 143,Production Order,2029-12-25
+PO-000507:MEP_L_1_G144,2029-12-25 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 144,Production Order,2029-12-25
+1928172,2029-12-25 14:30:00,738.63,3377.0,1.0,L 1 Zone 7,L 1,Architecture,Ceilings,Ceiling Installation,Micro Schedule Fallback,2029-12-25
+2009903,2029-12-25 15:00:00,31.32,143.0,1.0,L 1 Zone 5,L 1,Architecture,Ceilings,Ceiling Installation,Micro Schedule Fallback,2029-12-25
+1900934,2029-12-25 15:30:00,660.1,3018.0,1.0,,L 1,Architecture,Ceilings,Ceiling Installation,Micro Schedule Fallback,2029-12-25
+PO-000508:MEP_L_1_G145,2029-12-26 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 145,Production Order,2029-12-26
+PO-000509:MEP_L_1_G146,2029-12-26 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 146,Production Order,2029-12-26
+PO-000510:MEP_L_1_G147,2029-12-26 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 147,Production Order,2029-12-26
+PO-000511:MEP_L_1_G148,2029-12-26 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 148,Production Order,2029-12-26
+PO-000512:MEP_L_1_G149,2029-12-26 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 149,Production Order,2029-12-26
+PO-000513:MEP_L_1_G150,2029-12-26 00:00:00,2.2,40.0,3.0,,L 1,MEP,Plumbing Fixtures,MEP Rough-In L 1 Group 150,Production Order,2029-12-26
+PO-000514:MEP_L_1_G151,2029-12-26 00:00:00,3.3000000000000003,60.0,3.0,L 1 Zone 8,L 1,MEP,Plumbing Fixtures,MEP Rough-In L 1 Group 151,Production Order,2029-12-26
+PO-000515:MEP_L_1_G152,2029-12-26 00:00:00,1.1,20.0,3.0,L 1 Zone 8,L 1,MEP,Plumbing Fixtures,MEP Rough-In L 1 Group 152,Production Order,2029-12-26
+PO-000516:MEP_L_1_G153,2029-12-26 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 153,Production Order,2029-12-26
+PO-000517:MEP_L_1_G154,2029-12-26 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 154,Production Order,2029-12-26
+PO-000518:MEP_L_1_G155,2029-12-26 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 155,Production Order,2029-12-26
+PO-000519:MEP_L_1_G156,2029-12-26 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 156,Production Order,2029-12-26
+PO-000520:MEP_L_1_G157,2029-12-26 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 157,Production Order,2029-12-26
+PO-000521:MEP_L_1_G158,2029-12-26 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 158,Production Order,2029-12-26
+PO-000522:MEP_L_1_G159,2029-12-26 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 159,Production Order,2029-12-26
+PO-000523:MEP_L_1_G160,2029-12-26 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 160,Production Order,2029-12-26
+PO-000524:MEP_L_1_G161,2029-12-26 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 161,Production Order,2029-12-26
+PO-000525:MEP_L_1_G162,2029-12-26 00:00:00,0.0,22.0,3.0,L 1 Zone 9,L 1,MEP,Ducts,MEP Rough-In L 1 Group 162,Production Order,2029-12-26
+PO-000526:MEP_L_1_G163,2029-12-26 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 163,Production Order,2029-12-26
+PO-000527:MEP_L_1_G164,2029-12-26 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 164,Production Order,2029-12-26
+PO-000528:MEP_L_1_G165,2029-12-26 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 165,Production Order,2029-12-26
+PO-000529:MEP_L_1_G166,2029-12-26 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 166,Production Order,2029-12-26
+PO-000530:MEP_L_1_G167,2029-12-26 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 167,Production Order,2029-12-26
+PO-000531:MEP_L_1_G168,2029-12-26 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 168,Production Order,2029-12-26
+PO-000532:MEP_L_1_G169,2029-12-27 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 169,Production Order,2029-12-27
+PO-000533:MEP_L_1_G170,2029-12-27 00:00:00,0.0,41.0,3.0,,L 1,MEP,Ducts,MEP Rough-In L 1 Group 170,Production Order,2029-12-27
+PO-000534:MEP_L_1_G171,2029-12-27 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 171,Production Order,2029-12-27
+PO-000535:MEP_L_1_G172,2029-12-27 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 172,Production Order,2029-12-27
+PO-000536:MEP_L_1_G173,2029-12-27 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 173,Production Order,2029-12-27
+PO-000537:MEP_L_1_G174,2029-12-27 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 174,Production Order,2029-12-27
+PO-000538:MEP_L_1_G175,2029-12-27 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 175,Production Order,2029-12-27
+PO-000539:MEP_L_1_G176,2029-12-27 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 176,Production Order,2029-12-27
+PO-000540:MEP_L_1_G177,2029-12-27 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 177,Production Order,2029-12-27
+PO-000541:MEP_L_1_G178,2029-12-27 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 178,Production Order,2029-12-27
+PO-000542:MEP_L_1_G179,2029-12-27 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 179,Production Order,2029-12-27
+PO-000543:MEP_L_1_G180,2029-12-27 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 180,Production Order,2029-12-27
+PO-000544:MEP_L_1_G181,2029-12-27 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 181,Production Order,2029-12-27
+PO-000545:MEP_L_1_G182,2029-12-27 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 182,Production Order,2029-12-27
+PO-000546:MEP_L_1_G183,2029-12-27 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 183,Production Order,2029-12-27
+PO-000547:MEP_L_1_G184,2029-12-27 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 184,Production Order,2029-12-27
+PO-000548:MEP_L_1_G185,2029-12-27 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 185,Production Order,2029-12-27
+PO-000549:MEP_L_1_G186,2029-12-27 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 186,Production Order,2029-12-27
+PO-000550:MEP_L_1_G187,2029-12-27 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 187,Production Order,2029-12-27
+PO-000551:MEP_L_1_G188,2029-12-27 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 188,Production Order,2029-12-27
+PO-000552:MEP_L_1_G189,2029-12-27 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 189,Production Order,2029-12-27
+PO-000553:MEP_L_1_G190,2029-12-27 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 190,Production Order,2029-12-27
+PO-000554:MEP_L_1_G191,2029-12-27 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 191,Production Order,2029-12-27
+PO-000555:MEP_L_1_G192,2029-12-27 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 192,Production Order,2029-12-27
+PO-000556:MEP_L_1_G193,2029-12-28 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 193,Production Order,2029-12-28
+PO-000557:MEP_L_1_G194,2029-12-28 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 194,Production Order,2029-12-28
+PO-000558:MEP_L_1_G195,2029-12-28 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 195,Production Order,2029-12-28
+PO-000559:MEP_L_1_G196,2029-12-28 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 196,Production Order,2029-12-28
+PO-000560:MEP_L_1_G197,2029-12-28 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 197,Production Order,2029-12-28
+PO-000561:MEP_L_1_G198,2029-12-28 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 198,Production Order,2029-12-28
+PO-000562:MEP_L_1_G199,2029-12-28 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 199,Production Order,2029-12-28
+PO-000563:MEP_L_1_G200,2029-12-28 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 200,Production Order,2029-12-28
+PO-000564:MEP_L_1_G201,2029-12-28 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 201,Production Order,2029-12-28
+PO-000565:MEP_L_1_G202,2029-12-28 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 202,Production Order,2029-12-28
+PO-000566:MEP_L_1_G203,2029-12-28 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 203,Production Order,2029-12-28
+PO-000567:MEP_L_1_G204,2029-12-28 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 204,Production Order,2029-12-28
+PO-000568:MEP_L_1_G205,2029-12-28 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 205,Production Order,2029-12-28
+PO-000569:MEP_L_1_G206,2029-12-28 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 206,Production Order,2029-12-28
+PO-000570:MEP_L_1_G207,2029-12-28 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 207,Production Order,2029-12-28
+PO-000571:MEP_L_1_G208,2029-12-28 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 208,Production Order,2029-12-28
+PO-000572:MEP_L_1_G209,2029-12-28 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 209,Production Order,2029-12-28
+PO-000573:MEP_L_1_G210,2029-12-28 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 210,Production Order,2029-12-28
+PO-000574:MEP_L_1_G211,2029-12-28 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 211,Production Order,2029-12-28
+PO-000575:MEP_L_1_G212,2029-12-28 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 212,Production Order,2029-12-28
+PO-000576:MEP_L_1_G213,2029-12-28 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 213,Production Order,2029-12-28
+PO-000577:MEP_L_1_G214,2029-12-28 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 214,Production Order,2029-12-28
+PO-000578:MEP_L_1_G215,2029-12-28 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 215,Production Order,2029-12-28
+PO-000579:MEP_L_1_G216,2029-12-28 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 216,Production Order,2029-12-28
+PO-000580:MEP_L_1_G217,2029-12-31 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 217,Production Order,2029-12-31
+PO-000581:MEP_L_1_G218,2029-12-31 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 218,Production Order,2029-12-31
+PO-000582:MEP_L_1_G219,2029-12-31 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 219,Production Order,2029-12-31
+PO-000583:MEP_L_1_G220,2029-12-31 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 220,Production Order,2029-12-31
+PO-000584:MEP_L_1_G221,2029-12-31 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 221,Production Order,2029-12-31
+PO-000585:MEP_L_1_G222,2029-12-31 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 222,Production Order,2029-12-31
+PO-000586:MEP_L_1_G223,2029-12-31 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 223,Production Order,2029-12-31
+PO-000587:MEP_L_1_G224,2029-12-31 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 224,Production Order,2029-12-31
+PO-000588:MEP_L_1_G225,2029-12-31 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 225,Production Order,2029-12-31
+PO-000589:MEP_L_1_G226,2029-12-31 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 226,Production Order,2029-12-31
+PO-000590:MEP_L_1_G227,2029-12-31 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 227,Production Order,2029-12-31
+PO-000591:MEP_L_1_G228,2029-12-31 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 228,Production Order,2029-12-31
+PO-000592:MEP_L_1_G229,2029-12-31 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 229,Production Order,2029-12-31
+PO-000593:MEP_L_1_G230,2029-12-31 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 230,Production Order,2029-12-31
+PO-000594:MEP_L_1_G231,2029-12-31 00:00:00,0.0,0.0,3.0,,,,,MEP Rough-In L 1 Group 231,Production Order,2029-12-31
+PO-000595:MEP_L_1_G232,2029-12-31 00:00:00,0.0,0.0,1.0,,,,,MEP Rough-In L 1 Group 232,Production Order,2029-12-31
+1722331,2029-12-31 14:35:00,0.69,5.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2029-12-31
+1722307,2029-12-31 14:50:00,0.09,1.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2029-12-31
+1722302,2029-12-31 15:05:00,2.3,28.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2029-12-31
+1722313,2029-12-31 15:20:00,0.21,2.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2029-12-31
+1722305,2029-12-31 15:35:00,0.31,2.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2029-12-31
+1722332,2029-12-31 15:50:00,0.31,2.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2029-12-31
+1722326,2029-12-31 16:05:00,0.31,2.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2029-12-31
+1722335,2029-12-31 16:20:00,0.69,5.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2029-12-31
+1722337,2029-12-31 16:35:00,0.09,1.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2029-12-31
+1722328,2030-01-01 09:00:00,0.32,2.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1722333,2030-01-01 09:15:00,0.32,2.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1722327,2030-01-01 09:30:00,0.32,2.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1722309,2030-01-01 09:45:00,2.36,28.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1722314,2030-01-01 10:00:00,0.21,3.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1722336,2030-01-01 10:15:00,0.69,5.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1722338,2030-01-01 10:30:00,0.09,1.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1383912,2030-01-01 10:45:00,2.75,33.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1383940,2030-01-01 11:00:00,0.25,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1383910,2030-01-01 11:15:00,2.82,34.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1383939,2030-01-01 11:30:00,0.25,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1383903,2030-01-01 11:45:00,2.75,33.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1383938,2030-01-01 12:00:00,0.25,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1928777,2030-01-01 12:15:00,2.75,33.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1928781,2030-01-01 12:30:00,0.25,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1928775,2030-01-01 12:45:00,2.82,34.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1928780,2030-01-01 13:00:00,0.25,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1928769,2030-01-01 13:15:00,2.75,33.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1928779,2030-01-01 13:30:00,0.25,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1928891,2030-01-01 13:45:00,2.75,33.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1928895,2030-01-01 14:00:00,0.25,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1928889,2030-01-01 14:15:00,2.82,34.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1928894,2030-01-01 14:30:00,0.25,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1928883,2030-01-01 14:45:00,2.75,33.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1928893,2030-01-01 15:00:00,0.25,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1928984,2030-01-01 15:15:00,2.75,33.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1928988,2030-01-01 15:30:00,0.25,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1928982,2030-01-01 15:45:00,2.82,34.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1928987,2030-01-01 16:00:00,0.25,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1928976,2030-01-01 16:15:00,2.75,33.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1928986,2030-01-01 16:30:00,0.25,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1929075,2030-01-01 16:45:00,2.8,34.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-01
+1929079,2030-01-02 09:00:00,0.25,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1929073,2030-01-02 09:15:00,2.87,34.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1929078,2030-01-02 09:30:00,0.26,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1929067,2030-01-02 09:45:00,2.8,34.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1929077,2030-01-02 10:00:00,0.25,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1929085,2030-01-02 10:15:00,0.69,5.0,1.0,,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1929071,2030-01-02 10:30:00,0.09,1.0,1.0,,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1929069,2030-01-02 10:45:00,0.38,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1929086,2030-01-02 11:00:00,0.38,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1929080,2030-01-02 11:15:00,0.38,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1929089,2030-01-02 11:30:00,0.69,5.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1929091,2030-01-02 11:45:00,0.09,1.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1929082,2030-01-02 12:00:00,0.39,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1929087,2030-01-02 12:15:00,0.39,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1929081,2030-01-02 12:30:00,0.39,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1929090,2030-01-02 12:45:00,0.69,5.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1929092,2030-01-02 13:00:00,0.09,1.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1929083,2030-01-02 13:15:00,0.38,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1929088,2030-01-02 13:30:00,0.38,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1929068,2030-01-02 13:45:00,0.38,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1929070,2030-01-02 14:00:00,0.69,5.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1929084,2030-01-02 14:15:00,0.09,1.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1928994,2030-01-02 14:30:00,0.69,5.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1928980,2030-01-02 14:45:00,0.09,1.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1928978,2030-01-02 15:00:00,0.37,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1928995,2030-01-02 15:15:00,0.37,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1928989,2030-01-02 15:30:00,0.37,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1928998,2030-01-02 15:45:00,0.69,5.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1929000,2030-01-02 16:00:00,0.09,1.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1928991,2030-01-02 16:15:00,0.38,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1928996,2030-01-02 16:30:00,0.38,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1928990,2030-01-02 16:45:00,0.38,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-02
+1928999,2030-01-03 09:00:00,0.69,5.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1929001,2030-01-03 09:15:00,0.09,1.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928992,2030-01-03 09:30:00,0.37,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928997,2030-01-03 09:45:00,0.37,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928977,2030-01-03 10:00:00,0.37,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928979,2030-01-03 10:15:00,0.69,5.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928993,2030-01-03 10:30:00,0.09,1.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928901,2030-01-03 10:45:00,0.69,5.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928887,2030-01-03 11:00:00,0.09,1.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928885,2030-01-03 11:15:00,0.37,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928902,2030-01-03 11:30:00,0.37,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928896,2030-01-03 11:45:00,0.37,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928905,2030-01-03 12:00:00,0.69,5.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928907,2030-01-03 12:15:00,0.09,1.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928898,2030-01-03 12:30:00,0.38,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928903,2030-01-03 12:45:00,0.38,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928897,2030-01-03 13:00:00,0.38,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928906,2030-01-03 13:15:00,0.69,5.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928908,2030-01-03 13:30:00,0.09,1.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928899,2030-01-03 13:45:00,0.37,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928904,2030-01-03 14:00:00,0.37,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928884,2030-01-03 14:15:00,0.37,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928886,2030-01-03 14:30:00,0.69,5.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928900,2030-01-03 14:45:00,0.09,1.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928787,2030-01-03 15:00:00,0.69,5.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928773,2030-01-03 15:15:00,0.09,1.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928771,2030-01-03 15:30:00,0.37,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928788,2030-01-03 15:45:00,0.37,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928782,2030-01-03 16:00:00,0.37,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928791,2030-01-03 16:15:00,0.69,5.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928793,2030-01-03 16:30:00,0.09,1.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928784,2030-01-03 16:45:00,0.38,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-03
+1928789,2030-01-04 09:00:00,0.38,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1928783,2030-01-04 09:15:00,0.38,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1928792,2030-01-04 09:30:00,0.69,5.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1928794,2030-01-04 09:45:00,0.09,1.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1928785,2030-01-04 10:00:00,0.37,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1928790,2030-01-04 10:15:00,0.37,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1928770,2030-01-04 10:30:00,0.37,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1928772,2030-01-04 10:45:00,0.69,5.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1928786,2030-01-04 11:00:00,0.09,1.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1384009,2030-01-04 11:15:00,0.69,5.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1383908,2030-01-04 11:30:00,0.09,1.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1383906,2030-01-04 11:45:00,0.37,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1384011,2030-01-04 12:00:00,0.37,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1383979,2030-01-04 12:15:00,0.37,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1384041,2030-01-04 12:30:00,0.69,5.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1384055,2030-01-04 12:45:00,0.09,1.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1383993,2030-01-04 13:00:00,0.38,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1384012,2030-01-04 13:15:00,0.38,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1383980,2030-01-04 13:30:00,0.38,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1384042,2030-01-04 13:45:00,0.69,5.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1384056,2030-01-04 14:00:00,0.09,1.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1383994,2030-01-04 14:15:00,0.37,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1384013,2030-01-04 14:30:00,0.37,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1383905,2030-01-04 14:45:00,0.37,3.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1383907,2030-01-04 15:00:00,0.69,5.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1384007,2030-01-04 15:15:00,0.09,1.0,1.0,L 1 Zone 7,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1722315,2030-01-04 15:30:00,0.21,2.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1722329,2030-01-04 15:45:00,0.31,2.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1722334,2030-01-04 16:00:00,0.31,2.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1722304,2030-01-04 16:15:00,0.31,2.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1722306,2030-01-04 16:30:00,0.69,5.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1722330,2030-01-04 16:45:00,0.09,1.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-04
+1722043,2030-01-07 09:00:00,0.69,5.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+1722072,2030-01-07 09:15:00,0.09,1.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+1939986,2030-01-07 09:30:00,0.18,2.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+1939996,2030-01-07 09:45:00,0.27,2.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+1767160,2030-01-07 10:00:00,0.27,2.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+1939997,2030-01-07 10:15:00,0.28,2.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+1939999,2030-01-07 10:30:00,0.69,5.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+1940000,2030-01-07 10:45:00,0.08,1.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+1722078,2030-01-07 11:00:00,0.67,5.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+1722081,2030-01-07 11:15:00,0.08,1.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+1722042,2030-01-07 11:30:00,0.28,2.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+1722074,2030-01-07 11:45:00,0.28,2.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+1722039,2030-01-07 12:00:00,1.94,23.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+1722052,2030-01-07 12:15:00,0.17,2.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+1767161,2030-01-07 12:30:00,0.26,2.0,1.0,L 1 Zone 3,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+1722073,2030-01-07 12:45:00,0.69,5.0,1.0,,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+1722044,2030-01-07 13:00:00,0.09,1.0,1.0,,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+1722147,2030-01-07 13:15:00,0.69,5.0,1.0,,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+1722157,2030-01-07 13:30:00,0.07,1.0,1.0,,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+1722145,2030-01-07 13:45:00,0.33,2.0,1.0,,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+1722143,2030-01-07 14:00:00,2.27,27.0,1.0,,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+1722150,2030-01-07 14:15:00,0.2,2.0,1.0,,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+1722146,2030-01-07 14:30:00,0.31,2.0,1.0,,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+1722159,2030-01-07 14:45:00,0.31,2.0,1.0,,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+1722158,2030-01-07 15:00:00,0.69,5.0,1.0,,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+1722148,2030-01-07 15:15:00,0.09,1.0,1.0,,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+1526328,2030-01-07 15:30:00,0.69,5.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+1526377,2030-01-07 15:45:00,0.1,1.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+2008789,2030-01-07 16:00:00,0.69,5.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+2008788,2030-01-07 16:15:00,0.09,1.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+2008783,2030-01-07 16:30:00,0.27,2.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+2008790,2030-01-07 16:45:00,0.27,2.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-07
+2008781,2030-01-08 09:00:00,0.27,2.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+2008793,2030-01-08 09:15:00,0.69,5.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+2008795,2030-01-08 09:30:00,0.09,1.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+2008784,2030-01-08 09:45:00,0.28,2.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+2008791,2030-01-08 10:00:00,0.28,2.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+2008782,2030-01-08 10:15:00,0.28,2.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+2008794,2030-01-08 10:30:00,0.69,5.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+2008796,2030-01-08 10:45:00,0.09,1.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+2008785,2030-01-08 11:00:00,0.27,2.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+2008792,2030-01-08 11:15:00,0.27,2.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+2008780,2030-01-08 11:30:00,0.27,2.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+2008786,2030-01-08 11:45:00,0.69,5.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+2008787,2030-01-08 12:00:00,0.09,1.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+2008777,2030-01-08 12:15:00,0.19,2.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+2008771,2030-01-08 12:30:00,2.07,25.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+2008776,2030-01-08 12:45:00,0.2,2.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+2008767,2030-01-08 13:00:00,2.0,24.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+2008775,2030-01-08 13:15:00,0.19,2.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+1526375,2030-01-08 13:30:00,0.39,3.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+1526381,2030-01-08 13:45:00,0.39,3.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+1767165,2030-01-08 14:00:00,0.39,3.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+1526333,2030-01-08 14:15:00,2.87,34.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+1526339,2030-01-08 14:30:00,0.32,4.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+1526384,2030-01-08 14:45:00,0.69,5.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+1526387,2030-01-08 15:00:00,0.1,1.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+1526331,2030-01-08 15:15:00,2.94,35.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+1526338,2030-01-08 15:30:00,0.33,4.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+1526374,2030-01-08 15:45:00,0.4,3.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+1526380,2030-01-08 16:00:00,0.4,3.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+1767167,2030-01-08 16:15:00,0.4,3.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+1526383,2030-01-08 16:30:00,0.69,5.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+1526386,2030-01-08 16:45:00,0.1,1.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-08
+PO-000596:MESH_L_1_ASSEMBLY,2030-01-09 00:00:00,3.9600000000000004,768.0,12.0,,L 1,Architecture,Generic Models,Mesh Install L 1,Production Order,2030-01-09
+1526322,2030-01-09 09:00:00,2.87,34.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-09
+1526337,2030-01-09 09:15:00,0.32,4.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Panels,Glass Install + Glazing,Micro Schedule Fallback,2030-01-09
+1526327,2030-01-09 09:30:00,0.39,3.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-09
+1526379,2030-01-09 09:45:00,0.39,3.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-09
+1767166,2030-01-09 10:00:00,0.39,3.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-09
+1526378,2030-01-09 10:15:00,0.69,5.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-09
+1526329,2030-01-09 10:30:00,0.1,1.0,1.0,L 1 Zone 5,L 1,Architecture,Curtain Wall Mullions,Glass Install + Glazing,Micro Schedule Fallback,2030-01-09
+PO-000597:MESH_L_1_ASSEMBLY,2030-01-10 00:00:00,5.28,1024.0,16.0,,L 1,Architecture,Generic Models,Mesh Install L 1,Production Order,2030-01-10
+PO-000598:MESH_L_1_ASSEMBLY,2030-01-11 00:00:00,5.28,1024.0,16.0,,L 1,Architecture,Generic Models,Mesh Install L 1,Production Order,2030-01-11
+PO-000599:MESH_L_1_ASSEMBLY,2030-01-14 00:00:00,5.28,1024.0,16.0,,L 1,Architecture,Generic Models,Mesh Install L 1,Production Order,2030-01-14
+PO-000600:MESH_L_1_ASSEMBLY,2030-01-15 00:00:00,5.28,1024.0,16.0,,L 1,Architecture,Generic Models,Mesh Install L 1,Production Order,2030-01-15
+PO-000601:MESH_L_1_ASSEMBLY,2030-01-16 00:00:00,5.28,1024.0,16.0,,L 1,Architecture,Generic Models,Mesh Install L 1,Production Order,2030-01-16

@@ -6,6 +6,7 @@ import json
 from pathlib import Path
 import re
 
+from .central_bim import load_central_bim_model
 from .engine import STVEngine
 from .revit_architecture import load_architecture_schedule
 from .models import STVInputs, STVResults
@@ -13,6 +14,7 @@ from .revit_mep import load_mep_schedule
 from .reference import DEFAULT_TEMPLATE_PATH, STVReferenceData
 from .revit_structural import load_structural_schedule
 from .visualization import export_visualizations
+from .workbook_inputs import load_stv_workbook_inputs
 
 
 ARCHITECTURE_HISTORY_TIMESTAMP_RE = re.compile(
@@ -198,6 +200,20 @@ def build_parser() -> argparse.ArgumentParser:
         help="Directory of Revit architecture takeoff CSVs to batch into a time-history STV run.",
     )
     parser.add_argument(
+        "--central-bim-model",
+        help=(
+            "Path to a combined central BIM CSV. Rows are mapped with architecture, "
+            "structural, or MEP rules based on their source_schedule filename."
+        ),
+    )
+    parser.add_argument(
+        "--stv-workbook-input",
+        help=(
+            "Path to an STV workbook whose selected Construction and Materials rows "
+            "and Use Phase inputs should be added to the calculation."
+        ),
+    )
+    parser.add_argument(
         "--output-dir",
         default="outputs/stv",
         help="Directory for result JSON and generated charts.",
@@ -272,6 +288,34 @@ def main() -> None:
     if args.input:
         input_path = Path(args.input)
         payload = json.loads(input_path.read_text(encoding="utf-8"))
+
+    workbook_payload = None
+    if args.stv_workbook_input:
+        workbook_payload = load_stv_workbook_inputs(args.stv_workbook_input)
+        existing_items = list(payload.get("construction_items", []))
+        workbook_items = list(workbook_payload.get("construction_items", []))
+        payload["construction_items"] = existing_items + workbook_items
+        payload["use_phase"] = workbook_payload.get("use_phase", {})
+        if "team" not in payload and workbook_payload.get("team"):
+            payload["team"] = workbook_payload["team"]
+
+    if args.central_bim_model:
+        report = load_central_bim_model(args.central_bim_model)
+        existing_items = list(payload.get("construction_items", []))
+        central_items = [
+            {
+                "assembly": item.assembly,
+                "material_type": item.material_type,
+                "amount": item.amount,
+            }
+            for item in report.construction_items
+        ]
+        payload["construction_items"] = existing_items + central_items
+        central_report_path = output_dir / "central_bim_model_stv_items.json"
+        central_report_path.write_text(
+            json.dumps(report.to_dict(), indent=2),
+            encoding="utf-8",
+        )
 
     if args.structural_schedule:
         report = load_structural_schedule(args.structural_schedule)
@@ -355,6 +399,15 @@ def main() -> None:
         response["mep_schedule_items"] = str(output_dir / "mep_schedule_items.json")
     if args.architecture_schedule:
         response["architecture_schedule_items"] = str(output_dir / "architecture_schedule_items.json")
+    if args.central_bim_model:
+        response["central_bim_model_stv_items"] = str(
+            output_dir / "central_bim_model_stv_items.json"
+        )
+    if args.stv_workbook_input:
+        response["stv_workbook_input"] = str(args.stv_workbook_input)
+        response["stv_workbook_construction_item_count"] = len(
+            workbook_payload.get("construction_items", []) if workbook_payload else []
+        )
     print(json.dumps(response, indent=2))
 
 

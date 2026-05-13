@@ -1,0 +1,17 @@
+takt_zone_id,sequence,level,room_count,rooms,area_sf,volume_cf
+L 1 Takt Zone 1,1,L 1,2,L 1 Room 168; L 1 Room 169,158.542,1451.806
+L 1 Takt Zone 2,2,L 1,2,L 1 Room 170; L 1 Room 171,161.813,1481.908
+L 1 Takt Zone 3,3,L 1,2,L 1 Room 172; L 1 Room 173,162.0,1483.859
+L 1 Takt Zone 4,4,L 1,2,L 1 Room 174; L 1 Room 175,161.625,1480.191
+L 1 Takt Zone 5,5,L 1,2,L 1 Room 176; L 1 Room 177,161.813,1482.064
+L 1 Takt Zone 6,6,L 1,2,L 1 Room 178; L 1 Room 180,162.0,1483.859
+L 1 Takt Zone 7,7,L 1,2,L 1 Room 179; L 1 Room 202,165.363,1515.061
+L 1 Takt Zone 9,8,L 1,2,L 1 Room 146; L 1 Room 162,193.613,1774.799
+L 1 Takt Zone 10,9,L 1,2,L 1 Room 142; L 1 Room 143,265.479,2437.802
+L 1 Takt Zone 11,10,L 1,2,L 1 Room 145; L 1 Room 210,271.34,2495.707
+L 1 Takt Zone 12,11,L 1,2,L 1 Room 211; L 1 Room 163,3410.64,33960.728
+L 1 Takt Zone 13,12,L 1,2,L 1 Room 199; L 1 Room 154,158.152,1440.3
+L 1 Takt Zone 14,13,L 1,2,L 1 Room 206; L 1 Room 155,214.075,1965.949
+L 1 Takt Zone 15,14,L 1,2,L 1 Room 159; L 1 Room 158,171.374,1569.152
+L 1 Takt Zone 16,15,L 1,2,L 1 Room 157; L 1 Room 156,171.374,1569.152
+L 1 Takt Zone 8,16,L 1,2,L 1 Room 201; L 1 Room 150,5658.684,656.819

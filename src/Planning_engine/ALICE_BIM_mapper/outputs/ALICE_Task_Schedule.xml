@@ -1,0 +1,3369 @@
+<?xml version='1.0' encoding='utf-8'?>
+<APIBusinessObjects xmlns="http://xmlns.oracle.com/Primavera/P6/V25.12/API/BusinessObjects" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="">
+  <Currency>
+    <DecimalPlaces>2</DecimalPlaces>
+    <DecimalSymbol>Period</DecimalSymbol>
+    <DigitGroupingSymbol>Comma</DigitGroupingSymbol>
+    <ExchangeRate>1</ExchangeRate>
+    <Id>CUR</Id>
+    <Name>Default Currency</Name>
+    <NegativeSymbol>(#1.1)</NegativeSymbol>
+    <ObjectId>1</ObjectId>
+    <PositiveSymbol>#1.1</PositiveSymbol>
+    <Symbol>$</Symbol>
+  </Currency>
+  <Calendar>
+    <HoursPerDay>8</HoursPerDay>
+    <HoursPerMonth>160</HoursPerMonth>
+    <HoursPerWeek>40</HoursPerWeek>
+    <HoursPerYear>1920</HoursPerYear>
+    <IsDefault>1</IsDefault>
+    <IsPersonal>0</IsPersonal>
+    <Name>Default calendar</Name>
+    <ObjectId>4</ObjectId>
+    <Type>Global</Type>
+    <StandardWorkWeek>
+      <StandardWorkHours>
+        <DayOfWeek>Sunday</DayOfWeek>
+      </StandardWorkHours>
+      <StandardWorkHours>
+        <DayOfWeek>Monday</DayOfWeek>
+        <WorkTime>
+          <Start>09:00:00</Start>
+          <Finish>16:59:00</Finish>
+        </WorkTime>
+      </StandardWorkHours>
+      <StandardWorkHours>
+        <DayOfWeek>Tuesday</DayOfWeek>
+        <WorkTime>
+          <Start>09:00:00</Start>
+          <Finish>16:59:00</Finish>
+        </WorkTime>
+      </StandardWorkHours>
+      <StandardWorkHours>
+        <DayOfWeek>Wednesday</DayOfWeek>
+        <WorkTime>
+          <Start>09:00:00</Start>
+          <Finish>16:59:00</Finish>
+        </WorkTime>
+      </StandardWorkHours>
+      <StandardWorkHours>
+        <DayOfWeek>Thursday</DayOfWeek>
+        <WorkTime>
+          <Start>09:00:00</Start>
+          <Finish>16:59:00</Finish>
+        </WorkTime>
+      </StandardWorkHours>
+      <StandardWorkHours>
+        <DayOfWeek>Friday</DayOfWeek>
+        <WorkTime>
+          <Start>09:00:00</Start>
+          <Finish>16:59:00</Finish>
+        </WorkTime>
+      </StandardWorkHours>
+      <StandardWorkHours>
+        <DayOfWeek>Saturday</DayOfWeek>
+      </StandardWorkHours>
+    </StandardWorkWeek>
+    <HolidayOrExceptions />
+  </Calendar>
+  <Project>
+    <ActivityDefaultActivityType>Task Dependent</ActivityDefaultActivityType>
+    <ActivityDefaultCalendarObjectId>4</ActivityDefaultCalendarObjectId>
+    <ActivityDefaultDurationType>Fixed Duration and Units</ActivityDefaultDurationType>
+    <ActivityDefaultPercentCompleteType>Duration</ActivityDefaultPercentCompleteType>
+    <ActivityDefaultPricePerUnit>0</ActivityDefaultPricePerUnit>
+    <ActivityIdBasedOnSelectedActivity>1</ActivityIdBasedOnSelectedActivity>
+    <ActivityIdIncrement>10</ActivityIdIncrement>
+    <ActivityIdPrefix>A</ActivityIdPrefix>
+    <ActivityIdSuffix>1000</ActivityIdSuffix>
+    <ActivityPercentCompleteBasedOnActivitySteps>0</ActivityPercentCompleteBasedOnActivitySteps>
+    <AddActualToRemaining>0</AddActualToRemaining>
+    <AllowNegativeActualUnitsFlag>0</AllowNegativeActualUnitsFlag>
+    <AssignmentDefaultDrivingFlag>1</AssignmentDefaultDrivingFlag>
+    <AssignmentDefaultRateType>Price / Unit</AssignmentDefaultRateType>
+    <CheckOutStatus>0</CheckOutStatus>
+    <CostQuantityRecalculateFlag>0</CostQuantityRecalculateFlag>
+    <CriticalActivityFloatLimit>0</CriticalActivityFloatLimit>
+    <CriticalActivityPathType>Critical Float</CriticalActivityPathType>
+    <DataDate>2029-10-01T09:00:00</DataDate>
+    <DefaultPriceTimeUnits>Hour</DefaultPriceTimeUnits>
+    <FinishDate>2030-03-01T11:00:00</FinishDate>
+    <FiscalYearStartMonth>1</FiscalYearStartMonth>
+    <GUID>{10195709-7EEF-48F5-9850-237535D97830}</GUID>
+    <Id>ALICE Task Schedule</Id>
+    <LevelingPriority>10</LevelingPriority>
+    <LinkActualToActualThisPeriod>1</LinkActualToActualThisPeriod>
+    <LinkPercentCompleteWithActual>1</LinkPercentCompleteWithActual>
+    <LinkPlannedAndAtCompletionFlag>1</LinkPlannedAndAtCompletionFlag>
+    <Name>ALICE Task Schedule</Name>
+    <ObjectId>1</ObjectId>
+    <PlannedStartDate>2029-10-01T09:00:00</PlannedStartDate>
+    <ProjectFlag>1</ProjectFlag>
+    <StartDate>2029-10-01T09:00:00</StartDate>
+    <Status>Active</Status>
+    <Calendar>
+      <ObjectId>4</ObjectId>
+    </Calendar>
+    <WBS>
+      <Code>1</Code>
+      <GUID>{E6C23458-8726-43C1-82AC-733257D8FE6E}</GUID>
+      <Name>ALICE TASK SCHEDULE</Name>
+      <ObjectId>100</ObjectId>
+      <ParentObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.1</Code>
+      <GUID>{B5602559-F5F6-44F9-BD12-CBC77496A342}</GUID>
+      <Name>A1070 Install Construction Fencing</Name>
+      <ObjectId>110</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.1.1</Code>
+      <GUID>{73D29354-D35D-4E37-B2CD-0E7A9C0251EA}</GUID>
+      <Name>Basement / Site</Name>
+      <ObjectId>120</ObjectId>
+      <ParentObjectId>110</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.2</Code>
+      <GUID>{C247BD7B-579E-4853-BD56-13ACCF4C311A}</GUID>
+      <Name>A1080 Install Site Office &amp; Welfare Units</Name>
+      <ObjectId>130</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>2</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.2.1</Code>
+      <GUID>{A35E2492-9313-45EE-93E1-81A118A3D2C0}</GUID>
+      <Name>Basement / Site</Name>
+      <ObjectId>140</ObjectId>
+      <ParentObjectId>130</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.3</Code>
+      <GUID>{89DB70AF-E1F8-41CD-A844-1220764A3AD4}</GUID>
+      <Name>A1090 Temporary Water Installation</Name>
+      <ObjectId>150</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>3</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.3.1</Code>
+      <GUID>{493F60D2-1099-40AE-AC6A-5F313B620D16}</GUID>
+      <Name>Basement / Site</Name>
+      <ObjectId>160</ObjectId>
+      <ParentObjectId>150</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.4</Code>
+      <GUID>{AA97B084-7774-4650-BF02-7603BFABCC68}</GUID>
+      <Name>A1100 Temporary Power Installation</Name>
+      <ObjectId>170</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>4</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.4.1</Code>
+      <GUID>{7058B495-C1BB-4BCF-AE52-B38A9852CE88}</GUID>
+      <Name>Basement / Site</Name>
+      <ObjectId>180</ObjectId>
+      <ParentObjectId>170</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.5</Code>
+      <GUID>{AE146581-E663-4F5C-8C1D-36C5F184AF11}</GUID>
+      <Name>A1110 Tree Removal &amp; Clearing</Name>
+      <ObjectId>190</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>5</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.5.1</Code>
+      <GUID>{B0033BA9-DF56-4014-B40A-3E564ACBE20F}</GUID>
+      <Name>Basement / Site</Name>
+      <ObjectId>200</ObjectId>
+      <ParentObjectId>190</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.6</Code>
+      <GUID>{F5607461-88DA-44B2-A197-F28213032AFE}</GUID>
+      <Name>A1120 Bleacher Demolition</Name>
+      <ObjectId>210</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>6</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.6.1</Code>
+      <GUID>{D28A6D59-8EA8-41C3-927D-7BD4D0581784}</GUID>
+      <Name>Basement / Site</Name>
+      <ObjectId>220</ObjectId>
+      <ParentObjectId>210</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.7</Code>
+      <GUID>{4FE3D0E5-95A6-4413-AF67-3AD12DFAE570}</GUID>
+      <Name>A1140 Crane Pad Construction</Name>
+      <ObjectId>230</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>7</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.7.1</Code>
+      <GUID>{D42334C0-AFF2-4EC9-B958-48707100399F}</GUID>
+      <Name>Basement / Site</Name>
+      <ObjectId>240</ObjectId>
+      <ParentObjectId>230</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.8</Code>
+      <GUID>{297B3340-E013-49B2-97E8-6300CD4D7E56}</GUID>
+      <Name>A1150 Laydown Area Preparation</Name>
+      <ObjectId>250</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>8</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.8.1</Code>
+      <GUID>{C112861C-F6FD-45F1-A74C-77D52A1AEFD2}</GUID>
+      <Name>Basement / Site</Name>
+      <ObjectId>260</ObjectId>
+      <ParentObjectId>250</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.9</Code>
+      <GUID>{999B1CA4-073F-4707-8225-AB1DF16B7C64}</GUID>
+      <Name>A1170 Full Basement Excavation</Name>
+      <ObjectId>270</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>9</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.9.1</Code>
+      <GUID>{87DD7EDC-4069-4682-8A2F-BA60D32DBB59}</GUID>
+      <Name>Basement / Site</Name>
+      <ObjectId>280</ObjectId>
+      <ParentObjectId>270</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.10</Code>
+      <GUID>{59304B71-F5EB-4293-84C7-93C616B3CBE6}</GUID>
+      <Name>A1180 Shoring / Stabilization</Name>
+      <ObjectId>290</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>10</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.10.1</Code>
+      <GUID>{01DD54C8-601F-4642-A7C7-A03C31786C65}</GUID>
+      <Name>Basement / Site</Name>
+      <ObjectId>300</ObjectId>
+      <ParentObjectId>290</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.11</Code>
+      <GUID>{08B76C7C-98AC-409B-A638-6E7A7C19AA1D}</GUID>
+      <Name>A1190 Subgrade Preparation</Name>
+      <ObjectId>310</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>11</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.11.1</Code>
+      <GUID>{CBBB5CB7-8D3C-4F7B-9789-12EA3B586D03}</GUID>
+      <Name>Basement / Site</Name>
+      <ObjectId>320</ObjectId>
+      <ParentObjectId>310</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.12</Code>
+      <GUID>{E38D631A-00E1-4839-A1B1-1CAD0B09807C}</GUID>
+      <Name>A1200 Footings - Form/Rebar/Pour</Name>
+      <ObjectId>330</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>12</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.12.1</Code>
+      <GUID>{9BD206D5-7BFE-4E2D-B64E-C710A02ABCBD}</GUID>
+      <Name>L -1</Name>
+      <ObjectId>340</ObjectId>
+      <ParentObjectId>330</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.12.2</Code>
+      <GUID>{E122E106-FF8B-4C1E-AADC-BE72DE87F89A}</GUID>
+      <Name>L 0</Name>
+      <ObjectId>350</ObjectId>
+      <ParentObjectId>330</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>2</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.12.3</Code>
+      <GUID>{BE741566-24B5-400E-87B8-2D06C6DB2129}</GUID>
+      <Name>Unassigned</Name>
+      <ObjectId>360</ObjectId>
+      <ParentObjectId>330</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>3</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.13</Code>
+      <GUID>{982BE131-0013-45E1-9D84-7827A12161D3}</GUID>
+      <Name>A1220 Basement Retaining Walls</Name>
+      <ObjectId>370</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>13</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.13.1</Code>
+      <GUID>{95FCFCAD-2CD1-408A-B1DB-41F83B0656E6}</GUID>
+      <Name>L -1</Name>
+      <ObjectId>380</ObjectId>
+      <ParentObjectId>370</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.14</Code>
+      <GUID>{272DA68C-DAAE-48A1-96FC-9D97E0414730}</GUID>
+      <Name>A1230 Waterproofing &amp; Drainage</Name>
+      <ObjectId>390</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>14</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.14.1</Code>
+      <GUID>{09E663CB-D12B-4E15-98DE-22D8557A68F7}</GUID>
+      <Name>Basement / Site</Name>
+      <ObjectId>400</ObjectId>
+      <ParentObjectId>390</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.15</Code>
+      <GUID>{A22BFDC8-0A13-4854-BB73-94BBDE06BDFB}</GUID>
+      <Name>A1270 Foundational Columns</Name>
+      <ObjectId>410</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>15</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.15.1</Code>
+      <GUID>{E5165E3A-32E4-40D4-AE43-FF593DA19478}</GUID>
+      <Name>L -1</Name>
+      <ObjectId>420</ObjectId>
+      <ParentObjectId>410</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.16</Code>
+      <GUID>{115B340B-A5A4-4299-A6D0-62B96B835651}</GUID>
+      <Name>A1210 Grade Beams</Name>
+      <ObjectId>430</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>16</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.16.1</Code>
+      <GUID>{E727B81B-26EC-4EFC-8AC4-9B9721A59AB4}</GUID>
+      <Name>L -1</Name>
+      <ObjectId>440</ObjectId>
+      <ParentObjectId>430</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.16.2</Code>
+      <GUID>{E4AD9FB4-E259-4D98-B521-C93993DC4E97}</GUID>
+      <Name>L 0</Name>
+      <ObjectId>450</ObjectId>
+      <ParentObjectId>430</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>2</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.17</Code>
+      <GUID>{248E3F1F-63D0-49DA-B861-57D378F68CCC}</GUID>
+      <Name>A1240 Basement Slab on Grade</Name>
+      <ObjectId>460</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>17</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.17.1</Code>
+      <GUID>{A75E1182-E085-41B6-B38A-66692A8F85C4}</GUID>
+      <Name>L 0</Name>
+      <ObjectId>470</ObjectId>
+      <ParentObjectId>460</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.18</Code>
+      <GUID>{E99DE751-8100-49F2-A3F1-A4A4F80006DA}</GUID>
+      <Name>A1280 Rocking Walls</Name>
+      <ObjectId>480</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>18</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.18.1</Code>
+      <GUID>{D90D0748-771E-40F4-BD87-0E43A0A56F2B}</GUID>
+      <Name>L -1</Name>
+      <ObjectId>490</ObjectId>
+      <ParentObjectId>480</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.18.2</Code>
+      <GUID>{5642C7CA-0E76-4B8C-9541-A41F2ADFF98D}</GUID>
+      <Name>L 0</Name>
+      <ObjectId>500</ObjectId>
+      <ParentObjectId>480</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>2</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.19</Code>
+      <GUID>{10958B16-BCA4-408A-BFA6-A3D2C51A0E8E}</GUID>
+      <Name>A1330 Frame: Columns</Name>
+      <ObjectId>510</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>19</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.19.1</Code>
+      <GUID>{8EBFB240-1FED-449F-8C64-8552F30F2175}</GUID>
+      <Name>L -1</Name>
+      <ObjectId>520</ObjectId>
+      <ParentObjectId>510</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.19.2</Code>
+      <GUID>{A4B97D21-0AAA-4B50-81E3-2DCD84FAD6E8}</GUID>
+      <Name>L 0</Name>
+      <ObjectId>530</ObjectId>
+      <ParentObjectId>510</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>2</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.19.3</Code>
+      <GUID>{216B66FB-CEE5-4203-B46E-0FBB81171353}</GUID>
+      <Name>L 1</Name>
+      <ObjectId>540</ObjectId>
+      <ParentObjectId>510</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>3</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.20</Code>
+      <GUID>{A256D981-9FE0-4AD8-82AD-BB69D28DF3A8}</GUID>
+      <Name>A1250 Underground Utilities</Name>
+      <ObjectId>550</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>20</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.20.1</Code>
+      <GUID>{52785815-8EE3-4774-AF09-C9BF8AB5EC29}</GUID>
+      <Name>Basement / Site</Name>
+      <ObjectId>560</ObjectId>
+      <ParentObjectId>550</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.21</Code>
+      <GUID>{1B2C448E-7944-45E0-A0C0-553579294918}</GUID>
+      <Name>A1350 Frame: Beams</Name>
+      <ObjectId>570</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>21</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.21.1</Code>
+      <GUID>{9903AC23-5E77-4D26-9E8D-82950B2C9E2A}</GUID>
+      <Name>L 0</Name>
+      <ObjectId>580</ObjectId>
+      <ParentObjectId>570</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.21.2</Code>
+      <GUID>{BAD2E340-F9D4-417A-AAC1-2930B6F3A775}</GUID>
+      <Name>L 1</Name>
+      <ObjectId>590</ObjectId>
+      <ParentObjectId>570</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>2</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.21.3</Code>
+      <GUID>{2ABB42DE-3CC3-46CC-921C-8FFE680C028D}</GUID>
+      <Name>Roof</Name>
+      <ObjectId>600</ObjectId>
+      <ParentObjectId>570</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>3</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.22</Code>
+      <GUID>{0F1929E5-2A24-4457-B900-AFCF5018BD46}</GUID>
+      <Name>A1340 Floor</Name>
+      <ObjectId>610</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>22</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.22.1</Code>
+      <GUID>{612E931D-B375-4CFD-9995-D041AE31F761}</GUID>
+      <Name>L 0</Name>
+      <ObjectId>620</ObjectId>
+      <ParentObjectId>610</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.22.2</Code>
+      <GUID>{BC628A14-4F0D-4B3E-BABB-C0A3C00BD934}</GUID>
+      <Name>L 1</Name>
+      <ObjectId>630</ObjectId>
+      <ParentObjectId>610</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>2</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.23</Code>
+      <GUID>{584D239A-9C96-41D5-85B4-A8F60C055CE8}</GUID>
+      <Name>A1600 Exterior Wall Install</Name>
+      <ObjectId>640</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>23</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.23.1</Code>
+      <GUID>{1CA21B1E-CDDB-490A-98F5-26B4FDA80DF8}</GUID>
+      <Name>L -1</Name>
+      <ObjectId>650</ObjectId>
+      <ParentObjectId>640</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.23.2</Code>
+      <GUID>{CD8468A9-C760-400F-A4EB-CF2B1381AFB2}</GUID>
+      <Name>L 0</Name>
+      <ObjectId>660</ObjectId>
+      <ParentObjectId>640</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>2</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.23.3</Code>
+      <GUID>{D4F18E64-8195-4023-9337-E242E25CD70B}</GUID>
+      <Name>L 1</Name>
+      <ObjectId>670</ObjectId>
+      <ParentObjectId>640</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>3</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.24</Code>
+      <GUID>{B3311084-5AB4-476A-97A7-CE7AC0A4AFAD}</GUID>
+      <Name>A1690 MEP Rough-In</Name>
+      <ObjectId>680</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>24</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.24.1</Code>
+      <GUID>{97F8E0D2-83A3-49D2-9898-63083211A596}</GUID>
+      <Name>L -1</Name>
+      <ObjectId>690</ObjectId>
+      <ParentObjectId>680</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.24.2</Code>
+      <GUID>{A4B580FF-65F9-41C3-9AB8-02DB7EC96077}</GUID>
+      <Name>L 0</Name>
+      <ObjectId>700</ObjectId>
+      <ParentObjectId>680</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>2</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.24.3</Code>
+      <GUID>{73971BA3-EDFA-4C52-B8AB-0EA03CC30232}</GUID>
+      <Name>L 1</Name>
+      <ObjectId>710</ObjectId>
+      <ParentObjectId>680</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>3</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.25</Code>
+      <GUID>{8AF195B0-376F-425C-9098-DB99A0924BFE}</GUID>
+      <Name>A1740 Interior Walls</Name>
+      <ObjectId>720</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>25</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.25.1</Code>
+      <GUID>{365C866B-0768-4EFA-87B6-06066B09BD0B}</GUID>
+      <Name>L -1</Name>
+      <ObjectId>730</ObjectId>
+      <ParentObjectId>720</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.25.2</Code>
+      <GUID>{79946DC8-0BE3-420C-9A56-526CE4BA8B14}</GUID>
+      <Name>L 0</Name>
+      <ObjectId>740</ObjectId>
+      <ParentObjectId>720</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>2</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.25.3</Code>
+      <GUID>{100E60C9-E88D-4BB7-A09C-CBDCF6D39743}</GUID>
+      <Name>L 1</Name>
+      <ObjectId>750</ObjectId>
+      <ParentObjectId>720</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>3</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.26</Code>
+      <GUID>{0C413E35-FAD8-4983-82C4-ABA77E52117F}</GUID>
+      <Name>A1760 Ceiling Installation</Name>
+      <ObjectId>760</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>26</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.26.1</Code>
+      <GUID>{BD6EAF97-319B-43D0-91C3-4DB70A84BC3C}</GUID>
+      <Name>L -1</Name>
+      <ObjectId>770</ObjectId>
+      <ParentObjectId>760</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.26.2</Code>
+      <GUID>{1EECD759-69AA-4A7F-AA09-4CAC02856064}</GUID>
+      <Name>L 1</Name>
+      <ObjectId>780</ObjectId>
+      <ParentObjectId>760</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>2</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.27</Code>
+      <GUID>{9B3C4490-8C02-4DEC-8096-75F96698E900}</GUID>
+      <Name>A1260 Backfill &amp; Compaction</Name>
+      <ObjectId>790</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>27</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.27.1</Code>
+      <GUID>{7E1BBC1E-4243-41E8-93A7-7818234EB148}</GUID>
+      <Name>Basement / Site</Name>
+      <ObjectId>800</ObjectId>
+      <ParentObjectId>790</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.28</Code>
+      <GUID>{DB3B797C-B1A7-4E0D-A72E-3D94BA8450CC}</GUID>
+      <Name>A1420 Roof</Name>
+      <ObjectId>810</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>28</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.28.1</Code>
+      <GUID>{D3144EDE-186A-484F-A1CE-800A02CA80F2}</GUID>
+      <Name>Roof</Name>
+      <ObjectId>820</ObjectId>
+      <ParentObjectId>810</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.29</Code>
+      <GUID>{10ED2051-F2EE-4B1E-AE65-41C92646B65F}</GUID>
+      <Name>A1590 Glass Install + Glazing</Name>
+      <ObjectId>830</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>29</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.29.1</Code>
+      <GUID>{55D585A8-E6A4-437A-9758-A7900D671101}</GUID>
+      <Name>L 1</Name>
+      <ObjectId>840</ObjectId>
+      <ParentObjectId>830</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.30</Code>
+      <GUID>{6D8CCBFB-0BBB-43BD-8AEC-CC75F87F8D9F}</GUID>
+      <Name>A1610 Mesh Install</Name>
+      <ObjectId>850</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>30</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.30.1</Code>
+      <GUID>{B622B3A0-18B7-446B-AE1B-022EDCAF6B40}</GUID>
+      <Name>L 1</Name>
+      <ObjectId>860</ObjectId>
+      <ParentObjectId>850</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.31</Code>
+      <GUID>{5D3A2BDC-2A48-441B-8961-0481F8624F92}</GUID>
+      <Name>A1670 Mechanical Room Buildout</Name>
+      <ObjectId>870</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>31</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.31.1</Code>
+      <GUID>{32EFC3A6-3EC4-4E93-A34D-3F7257FCBD95}</GUID>
+      <Name>Basement / Site</Name>
+      <ObjectId>880</ObjectId>
+      <ParentObjectId>870</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.32</Code>
+      <GUID>{24326A7A-6676-4E2B-8491-0C50B64FDAEC}</GUID>
+      <Name>A1680 Main Electrical &amp; Riser Install</Name>
+      <ObjectId>890</ObjectId>
+      <ParentObjectId>100</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>32</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <WBS>
+      <Code>1.32.1</Code>
+      <GUID>{6E1677C7-1C15-4C66-B05F-C30BCD13E631}</GUID>
+      <Name>Basement / Site</Name>
+      <ObjectId>900</ObjectId>
+      <ParentObjectId>890</ParentObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+      <SequenceNumber>1</SequenceNumber>
+      <Status>Active</Status>
+    </WBS>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>74.0</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-10-04T11:00:00</FinishDate>
+      <GUID>{C46A0413-CADD-484E-9F9E-8F215E81C825}</GUID>
+      <Id>A1070_Basement_Site</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1070 Install Construction Fencing | Basement / Site</Name>
+      <ObjectId>1000</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>74.0</PlannedDuration>
+      <PlannedFinishDate>2029-10-04T11:00:00</PlannedFinishDate>
+      <PlannedLaborUnits>74.0</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-10-01T09:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>74.0</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-10-04T11:00:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-10-01T09:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>74.0</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-10-04T11:00:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-10-01T09:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-10-01T09:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>120</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1000</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1070 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; Basement / Site &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 1</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1001</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>147.0</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-10-10T14:00:00</FinishDate>
+      <GUID>{908D4295-F68F-417E-A31C-61572400A39B}</GUID>
+      <Id>A1080_Basement_Site</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1080 Install Site Office &amp; Welfare Units | Basement / Site</Name>
+      <ObjectId>1010</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>147.0</PlannedDuration>
+      <PlannedFinishDate>2029-10-10T14:00:00</PlannedFinishDate>
+      <PlannedLaborUnits>147.0</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-10-04T11:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>147.0</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-10-10T14:00:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-10-04T11:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>147.0</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-10-10T14:00:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-10-04T11:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-10-04T11:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>140</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1010</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1080 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; Basement / Site &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 1</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1011</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>122.0</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-10-09T13:00:00</FinishDate>
+      <GUID>{746ED564-2181-45F2-BCD4-3423E45B8D00}</GUID>
+      <Id>A1090_Basement_Site</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1090 Temporary Water Installation | Basement / Site</Name>
+      <ObjectId>1020</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>122.0</PlannedDuration>
+      <PlannedFinishDate>2029-10-09T13:00:00</PlannedFinishDate>
+      <PlannedLaborUnits>122.0</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-10-04T11:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>122.0</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-10-09T13:00:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-10-04T11:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>122.0</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-10-09T13:00:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-10-04T11:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-10-04T11:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>160</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1020</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1090 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; Basement / Site &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 1</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1021</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>147.0</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-10-10T14:00:00</FinishDate>
+      <GUID>{971684C8-D09A-4E91-89F5-0A8D07108B3A}</GUID>
+      <Id>A1100_Basement_Site</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1100 Temporary Power Installation | Basement / Site</Name>
+      <ObjectId>1030</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>147.0</PlannedDuration>
+      <PlannedFinishDate>2029-10-10T14:00:00</PlannedFinishDate>
+      <PlannedLaborUnits>147.0</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-10-04T11:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>147.0</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-10-10T14:00:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-10-04T11:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>147.0</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-10-10T14:00:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-10-04T11:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-10-04T11:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>180</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1030</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1100 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; Basement / Site &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 1</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1031</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>172.0</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-10-11T15:00:00</FinishDate>
+      <GUID>{3436F362-0FCF-4AD2-8DE6-56129923B0F3}</GUID>
+      <Id>A1110_Basement_Site</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1110 Tree Removal &amp; Clearing | Basement / Site</Name>
+      <ObjectId>1040</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>172.0</PlannedDuration>
+      <PlannedFinishDate>2029-10-11T15:00:00</PlannedFinishDate>
+      <PlannedLaborUnits>172.0</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-10-04T11:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>172.0</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-10-11T15:00:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-10-04T11:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>172.0</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-10-11T15:00:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-10-04T11:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-10-04T11:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>200</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1040</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1110 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; Basement / Site &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 1</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1041</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>270.0</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-10-15T17:00:00</FinishDate>
+      <GUID>{FF563B4C-61E0-4051-AB5E-6EE480E2B50E}</GUID>
+      <Id>A1120_Basement_Site</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1120 Bleacher Demolition | Basement / Site</Name>
+      <ObjectId>1050</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>270.0</PlannedDuration>
+      <PlannedFinishDate>2029-10-15T17:00:00</PlannedFinishDate>
+      <PlannedLaborUnits>270.0</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-10-04T11:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>270.0</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-10-15T17:00:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-10-04T11:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>270.0</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-10-15T17:00:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-10-04T11:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-10-04T11:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>220</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1050</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1120 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; Basement / Site &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 1</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1051</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>172.0</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-10-11T15:00:00</FinishDate>
+      <GUID>{A7366156-E81E-470E-8A37-1BE0F575558D}</GUID>
+      <Id>A1140_Basement_Site</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1140 Crane Pad Construction | Basement / Site</Name>
+      <ObjectId>1060</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>172.0</PlannedDuration>
+      <PlannedFinishDate>2029-10-11T15:00:00</PlannedFinishDate>
+      <PlannedLaborUnits>172.0</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-10-04T11:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>172.0</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-10-11T15:00:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-10-04T11:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>172.0</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-10-11T15:00:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-10-04T11:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-10-04T11:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>240</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1060</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1140 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; Basement / Site &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 1</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1061</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>8.0</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-10-16T17:00:00</FinishDate>
+      <GUID>{95FD3D48-9E2C-47A6-877D-C1756533BE11}</GUID>
+      <Id>A1150_Basement_Site</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1150 Laydown Area Preparation | Basement / Site</Name>
+      <ObjectId>1070</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>8.0</PlannedDuration>
+      <PlannedFinishDate>2029-10-16T17:00:00</PlannedFinishDate>
+      <PlannedLaborUnits>8.0</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-10-16T09:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>8.0</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-10-16T17:00:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-10-16T09:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>8.0</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-10-16T17:00:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-10-16T09:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-10-16T09:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>260</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1070</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1150 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; Basement / Site &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 1</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1071</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>222.0</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-10-26T15:00:00</FinishDate>
+      <GUID>{2618D401-C4E1-4287-8F69-8149C278BFBE}</GUID>
+      <Id>A1170_Basement_Site</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1170 Full Basement Excavation | Basement / Site</Name>
+      <ObjectId>1080</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>222.0</PlannedDuration>
+      <PlannedFinishDate>2029-10-26T15:00:00</PlannedFinishDate>
+      <PlannedLaborUnits>222.0</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-10-17T09:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>222.0</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-10-26T15:00:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-10-17T09:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>222.0</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-10-26T15:00:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-10-17T09:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-10-17T09:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>280</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1080</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1170 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; Basement / Site &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 1</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1081</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>236.0</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-11-05T11:00:00</FinishDate>
+      <GUID>{06DE609F-8BA3-4891-B054-8549A909C892}</GUID>
+      <Id>A1180_Basement_Site</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1180 Shoring / Stabilization | Basement / Site</Name>
+      <ObjectId>1090</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>236.0</PlannedDuration>
+      <PlannedFinishDate>2029-11-05T11:00:00</PlannedFinishDate>
+      <PlannedLaborUnits>236.0</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-10-26T15:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>236.0</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-11-05T11:00:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-10-26T15:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>236.0</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-11-05T11:00:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-10-26T15:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-10-26T15:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>300</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1090</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1180 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; Basement / Site &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 1</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1091</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>99.0</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-11-09T14:00:00</FinishDate>
+      <GUID>{B64164C1-829F-4A38-9E18-1D5A0BEA6E5F}</GUID>
+      <Id>A1190_Basement_Site</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1190 Subgrade Preparation | Basement / Site</Name>
+      <ObjectId>1100</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>99.0</PlannedDuration>
+      <PlannedFinishDate>2029-11-09T14:00:00</PlannedFinishDate>
+      <PlannedLaborUnits>99.0</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-11-05T11:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>99.0</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-11-09T14:00:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-11-05T11:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>99.0</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-11-09T14:00:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-11-05T11:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-11-05T11:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>320</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1100</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1190 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; Basement / Site &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 1</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1101</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>67.1067</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-11-12T09:06:24</FinishDate>
+      <GUID>{E4B3B557-121A-44C3-9B6F-BA213938A6A6}</GUID>
+      <Id>A1200_L_M1</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1200 Footings - Form/Rebar/Pour | L -1</Name>
+      <ObjectId>1110</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>67.1067</PlannedDuration>
+      <PlannedFinishDate>2029-11-12T09:06:24</PlannedFinishDate>
+      <PlannedLaborUnits>67.1067</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-11-09T14:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>67.1067</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-11-12T09:06:24</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-11-09T14:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>67.1067</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-11-12T09:06:24</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-11-09T14:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-11-09T14:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>340</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1110</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1200 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; L -1 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 29</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1111</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>3.6733</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-11-12T12:40:24</FinishDate>
+      <GUID>{3E861A5E-34B9-4F09-882A-D2485447F9AE}</GUID>
+      <Id>A1220_L_M1</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1220 Basement Retaining Walls | L -1</Name>
+      <ObjectId>1120</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>3.6733</PlannedDuration>
+      <PlannedFinishDate>2029-11-12T12:40:24</PlannedFinishDate>
+      <PlannedLaborUnits>3.6733</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-11-12T09:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>3.6733</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-11-12T12:40:24</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-11-12T09:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>3.6733</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-11-12T12:40:24</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-11-12T09:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-11-12T09:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>380</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1120</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1220 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; L -1 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 1</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1121</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>0.5333</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-11-12T09:38:24</FinishDate>
+      <GUID>{9E245452-179F-4BE7-B1E0-51067554AB5E}</GUID>
+      <Id>A1200_L_0</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1200 Footings - Form/Rebar/Pour | L 0</Name>
+      <ObjectId>1130</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>0.5333</PlannedDuration>
+      <PlannedFinishDate>2029-11-12T09:38:24</PlannedFinishDate>
+      <PlannedLaborUnits>0.5333</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-11-12T09:06:24</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>0.5333</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-11-12T09:38:24</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-11-12T09:06:24</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>0.5333</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-11-12T09:38:24</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-11-12T09:06:24</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-11-12T09:06:24</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>350</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1130</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1200 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; L 0 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 5</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1131</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>1.0</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-11-12T10:38:24</FinishDate>
+      <GUID>{7DDB9871-9A00-4108-85EE-15C59AEAFFC7}</GUID>
+      <Id>A1200_Unassigned</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1200 Footings - Form/Rebar/Pour | Unassigned</Name>
+      <ObjectId>1140</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>1.0</PlannedDuration>
+      <PlannedFinishDate>2029-11-12T10:38:24</PlannedFinishDate>
+      <PlannedLaborUnits>1.0</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-11-12T09:38:24</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>1.0</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-11-12T10:38:24</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-11-12T09:38:24</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>1.0</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-11-12T10:38:24</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-11-12T09:38:24</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-11-12T09:38:24</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>360</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1140</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1200 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; Unassigned &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 1</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1141</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>172.0</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-11-26T16:40:23</FinishDate>
+      <GUID>{E424FACE-BFAB-4F7C-9527-4AF9D7D52150}</GUID>
+      <Id>A1230_Basement_Site</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1230 Waterproofing &amp; Drainage | Basement / Site</Name>
+      <ObjectId>1150</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>172.0</PlannedDuration>
+      <PlannedFinishDate>2029-11-26T16:40:23</PlannedFinishDate>
+      <PlannedLaborUnits>172.0</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-11-19T12:40:24</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>172.0</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-11-26T16:40:23</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-11-19T12:40:24</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>172.0</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-11-26T16:40:23</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-11-19T12:40:24</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-11-19T12:40:24</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>400</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1150</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1230 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; Basement / Site &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 1</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1151</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>1.091</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-11-19T13:45:51</FinishDate>
+      <GUID>{6E019280-8BBF-4BDF-876B-F550F71E4A09}</GUID>
+      <Id>A1270_L_M1</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1270 Foundational Columns | L -1</Name>
+      <ObjectId>1160</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>1.091</PlannedDuration>
+      <PlannedFinishDate>2029-11-19T13:45:51</PlannedFinishDate>
+      <PlannedLaborUnits>1.091</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-11-19T12:40:24</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>1.091</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-11-19T13:45:51</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-11-19T12:40:24</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>1.091</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-11-19T13:45:51</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-11-19T12:40:24</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-11-19T12:40:24</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>420</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1160</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1270 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; L -1 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 34</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1161</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>27.0331</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-11-20T16:47:50</FinishDate>
+      <GUID>{200EA60F-A525-414C-919D-BEB436E59ACA}</GUID>
+      <Id>A1210_L_M1</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1210 Grade Beams | L -1</Name>
+      <ObjectId>1170</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>27.0331</PlannedDuration>
+      <PlannedFinishDate>2029-11-20T16:47:50</PlannedFinishDate>
+      <PlannedLaborUnits>27.0331</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-11-19T13:45:51</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>27.0331</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-11-20T16:47:50</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-11-19T13:45:51</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>27.0331</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-11-20T16:47:50</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-11-19T13:45:51</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-11-19T13:45:51</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>440</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1170</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1210 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; L -1 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 43</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1171</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>2.3477</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-11-21T11:20:51</FinishDate>
+      <GUID>{29BF055E-521B-4A97-BCD1-27B6E68E0633}</GUID>
+      <Id>A1210_L_0</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1210 Grade Beams | L 0</Name>
+      <ObjectId>1180</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>2.3477</PlannedDuration>
+      <PlannedFinishDate>2029-11-21T11:20:51</PlannedFinishDate>
+      <PlannedLaborUnits>2.3477</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-11-21T09:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>2.3477</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-11-21T11:20:51</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-11-21T09:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>2.3477</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-11-21T11:20:51</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-11-21T09:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-11-21T09:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>450</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1180</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1210 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; L 0 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 6</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1181</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>27.3181</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-11-22T14:39:56</FinishDate>
+      <GUID>{171F4DE5-BA56-46C1-A4F5-2B02937143B1}</GUID>
+      <Id>A1240_L_0</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1240 Basement Slab on Grade | L 0</Name>
+      <ObjectId>1190</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>27.3181</PlannedDuration>
+      <PlannedFinishDate>2029-11-22T14:39:56</PlannedFinishDate>
+      <PlannedLaborUnits>27.3181</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-11-21T11:20:51</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>27.3181</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-11-22T14:39:56</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-11-21T11:20:51</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>27.3181</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-11-22T14:39:56</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-11-21T11:20:51</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-11-21T11:20:51</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>470</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1190</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1240 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; L 0 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 1</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1191</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>93.3342</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-11-26T12:00:00</FinishDate>
+      <GUID>{BBEAF8CB-56D7-4802-83A2-E1491A9B5A03}</GUID>
+      <Id>A1280_L_M1</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1280 Rocking Walls | L -1</Name>
+      <ObjectId>1200</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>93.3342</PlannedDuration>
+      <PlannedFinishDate>2029-11-26T12:00:00</PlannedFinishDate>
+      <PlannedLaborUnits>93.3342</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-11-22T14:39:56</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>93.3342</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-11-26T12:00:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-11-22T14:39:56</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>93.3342</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-11-26T12:00:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-11-22T14:39:56</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-11-22T14:39:56</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>490</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1200</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1280 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; L -1 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 13</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1201</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>4.0</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-11-26T16:00:00</FinishDate>
+      <GUID>{A1FC0D4B-EDEE-4D8F-931B-40E68756DD18}</GUID>
+      <Id>A1280_L_0</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1280 Rocking Walls | L 0</Name>
+      <ObjectId>1210</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>4.0</PlannedDuration>
+      <PlannedFinishDate>2029-11-26T16:00:00</PlannedFinishDate>
+      <PlannedLaborUnits>4.0</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-11-26T12:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>4.0</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-11-26T16:00:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-11-26T12:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>4.0</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-11-26T16:00:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-11-26T12:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-11-26T12:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>500</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1210</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1280 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; L 0 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 4</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1211</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>41.3333</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-11-28T09:20:00</FinishDate>
+      <GUID>{9D4F397B-A66A-4AEE-9502-FD86F9836320}</GUID>
+      <Id>A1330_L_M1</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1330 Frame: Columns | L -1</Name>
+      <ObjectId>1220</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>41.3333</PlannedDuration>
+      <PlannedFinishDate>2029-11-28T09:20:00</PlannedFinishDate>
+      <PlannedLaborUnits>41.3333</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-11-26T16:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>41.3333</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-11-28T09:20:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-11-26T16:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>41.3333</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-11-28T09:20:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-11-26T16:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-11-26T16:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>520</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1220</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1330 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; L -1 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 28</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1221</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>238.0</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-12-06T14:40:23</FinishDate>
+      <GUID>{53BC5D48-B4C6-461E-99D6-903C9BAA1BF4}</GUID>
+      <Id>A1250_Basement_Site</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1250 Underground Utilities | Basement / Site</Name>
+      <ObjectId>1230</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>238.0</PlannedDuration>
+      <PlannedFinishDate>2029-12-06T14:40:23</PlannedFinishDate>
+      <PlannedLaborUnits>238.0</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-11-26T16:40:23</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>238.0</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-12-06T14:40:23</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-11-26T16:40:23</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>238.0</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-12-06T14:40:23</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-11-26T16:40:23</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-11-26T16:40:23</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>560</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1230</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1250 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; Basement / Site &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 1</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1231</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>6.6667</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-11-28T16:00:00</FinishDate>
+      <GUID>{5B4D7638-B9A4-4EDA-A8C6-B5507AEE0F24}</GUID>
+      <Id>A1350_L_0</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1350 Frame: Beams | L 0</Name>
+      <ObjectId>1240</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>6.6667</PlannedDuration>
+      <PlannedFinishDate>2029-11-28T16:00:00</PlannedFinishDate>
+      <PlannedLaborUnits>6.6667</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-11-28T09:20:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>6.6667</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-11-28T16:00:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-11-28T09:20:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>6.6667</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-11-28T16:00:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-11-28T09:20:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-11-28T09:20:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>580</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1240</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1350 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; L 0 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 20</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1241</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>45.3333</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-11-30T13:20:00</FinishDate>
+      <GUID>{5493113C-D376-4E79-A72F-73F1A2A28E96}</GUID>
+      <Id>A1340_L_0</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1340 Floor | L 0</Name>
+      <ObjectId>1250</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>45.3333</PlannedDuration>
+      <PlannedFinishDate>2029-11-30T13:20:00</PlannedFinishDate>
+      <PlannedLaborUnits>45.3333</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-11-28T16:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>45.3333</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-11-30T13:20:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-11-28T16:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>45.3333</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-11-30T13:20:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-11-28T16:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-11-28T16:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>620</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1250</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1340 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; L 0 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 40</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1251</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>8.0</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-11-30T21:20:00</FinishDate>
+      <GUID>{EF71EF23-BEDD-42D0-8DE6-1015411AAC07}</GUID>
+      <Id>A1600_L_M1</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1600 Exterior Wall Install | L -1</Name>
+      <ObjectId>1260</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>8.0</PlannedDuration>
+      <PlannedFinishDate>2029-11-30T21:20:00</PlannedFinishDate>
+      <PlannedLaborUnits>8.0</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-11-30T13:20:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>8.0</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-11-30T21:20:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-11-30T13:20:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>8.0</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-11-30T21:20:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-11-30T13:20:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-11-30T13:20:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>650</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1260</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1600 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; L -1 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 98</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1261</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>27.6667</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-12-04T12:40:00</FinishDate>
+      <GUID>{59759936-C373-4678-9D27-E7C83BC629F1}</GUID>
+      <Id>A1330_L_0</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1330 Frame: Columns | L 0</Name>
+      <ObjectId>1270</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>27.6667</PlannedDuration>
+      <PlannedFinishDate>2029-12-04T12:40:00</PlannedFinishDate>
+      <PlannedLaborUnits>27.6667</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-12-03T09:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>27.6667</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-12-04T12:40:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-12-03T09:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>27.6667</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-12-04T12:40:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-12-03T09:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-12-03T09:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>530</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1270</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1330 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; L 0 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 35</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1271</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>173.6667</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-12-10T14:40:00</FinishDate>
+      <GUID>{819F72BD-6F88-414A-ACE1-2935FC5406A1}</GUID>
+      <Id>A1690_L_M1</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1690 MEP Rough-In | L -1</Name>
+      <ObjectId>1280</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>173.6667</PlannedDuration>
+      <PlannedFinishDate>2029-12-10T14:40:00</PlannedFinishDate>
+      <PlannedLaborUnits>173.6667</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-12-03T09:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>173.6667</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-12-10T14:40:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-12-03T09:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>173.6667</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-12-10T14:40:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-12-03T09:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-12-03T09:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>690</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1280</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1690 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; L -1 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 409</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1281</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>53.0</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-12-05T14:00:00</FinishDate>
+      <GUID>{3667D23F-FD58-4F1A-90B5-7F49D3EAE48A}</GUID>
+      <Id>A1740_L_M1</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1740 Interior Walls | L -1</Name>
+      <ObjectId>1290</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>53.0</PlannedDuration>
+      <PlannedFinishDate>2029-12-05T14:00:00</PlannedFinishDate>
+      <PlannedLaborUnits>53.0</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-12-03T09:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>53.0</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-12-05T14:00:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-12-03T09:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>53.0</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-12-05T14:00:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-12-03T09:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-12-03T09:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>730</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1290</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1740 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; L -1 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 42</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1291</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>13.0</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-12-05T01:40:00</FinishDate>
+      <GUID>{3ED72CBA-AFBE-4DEB-9F86-278433B5DA44}</GUID>
+      <Id>A1350_L_1</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1350 Frame: Beams | L 1</Name>
+      <ObjectId>1300</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>13.0</PlannedDuration>
+      <PlannedFinishDate>2029-12-05T01:40:00</PlannedFinishDate>
+      <PlannedLaborUnits>13.0</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-12-04T12:40:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>13.0</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-12-05T01:40:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-12-04T12:40:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>13.0</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-12-05T01:40:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-12-04T12:40:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-12-04T12:40:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>590</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1300</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1350 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; L 1 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 39</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1301</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>49.6667</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-12-07T10:40:00</FinishDate>
+      <GUID>{8A132889-BC59-4A5E-B266-A5782CFDDA68}</GUID>
+      <Id>A1340_L_1</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1340 Floor | L 1</Name>
+      <ObjectId>1310</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>49.6667</PlannedDuration>
+      <PlannedFinishDate>2029-12-07T10:40:00</PlannedFinishDate>
+      <PlannedLaborUnits>49.6667</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-12-05T09:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>49.6667</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-12-07T10:40:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-12-05T09:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>49.6667</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-12-07T10:40:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-12-05T09:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-12-05T09:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>630</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1310</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1340 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; L 1 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 53</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1311</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>0.5</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-12-05T14:30:00</FinishDate>
+      <GUID>{01F1EA76-F771-4169-88A5-3DD3CA65675E}</GUID>
+      <Id>A1760_L_M1</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1760 Ceiling Installation | L -1</Name>
+      <ObjectId>1320</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>0.5</PlannedDuration>
+      <PlannedFinishDate>2029-12-05T14:30:00</PlannedFinishDate>
+      <PlannedLaborUnits>0.5</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-12-05T14:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>0.5</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-12-05T14:30:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-12-05T14:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>0.5</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-12-05T14:30:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-12-05T14:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-12-05T14:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>770</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1320</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1760 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; L -1 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 1</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1321</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>188.0</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-12-14T10:40:23</FinishDate>
+      <GUID>{2A043549-A90F-4883-A8A1-3292E0D66BDB}</GUID>
+      <Id>A1260_Basement_Site</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1260 Backfill &amp; Compaction | Basement / Site</Name>
+      <ObjectId>1330</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>188.0</PlannedDuration>
+      <PlannedFinishDate>2029-12-14T10:40:23</PlannedFinishDate>
+      <PlannedLaborUnits>188.0</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-12-06T14:40:23</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>188.0</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-12-14T10:40:23</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-12-06T14:40:23</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>188.0</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-12-14T10:40:23</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-12-06T14:40:23</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-12-06T14:40:23</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>800</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1330</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1260 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; Basement / Site &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 1</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1331</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>11.5</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-12-07T22:10:00</FinishDate>
+      <GUID>{5EC454A8-4D80-4B45-9A76-EFD9349C0268}</GUID>
+      <Id>A1600_L_0</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1600 Exterior Wall Install | L 0</Name>
+      <ObjectId>1340</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>11.5</PlannedDuration>
+      <PlannedFinishDate>2029-12-07T22:10:00</PlannedFinishDate>
+      <PlannedLaborUnits>11.5</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-12-07T10:40:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>11.5</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-12-07T22:10:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-12-07T10:40:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>11.5</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-12-07T22:10:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-12-07T10:40:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-12-07T10:40:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>660</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1340</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1600 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; L 0 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 293</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1341</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>27.6667</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-12-11T12:40:00</FinishDate>
+      <GUID>{41AB3768-45DC-4A62-AB11-02EB24086C32}</GUID>
+      <Id>A1330_L_1</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1330 Frame: Columns | L 1</Name>
+      <ObjectId>1350</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>27.6667</PlannedDuration>
+      <PlannedFinishDate>2029-12-11T12:40:00</PlannedFinishDate>
+      <PlannedLaborUnits>27.6667</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-12-10T09:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>27.6667</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-12-11T12:40:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-12-10T09:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>27.6667</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-12-11T12:40:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-12-10T09:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-12-10T09:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>540</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1350</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1330 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; L 1 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 35</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1351</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>79.6667</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-12-13T16:40:00</FinishDate>
+      <GUID>{B39A3E99-2F69-47DD-B618-BF3A4D348E59}</GUID>
+      <Id>A1690_L_0</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1690 MEP Rough-In | L 0</Name>
+      <ObjectId>1360</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>79.6667</PlannedDuration>
+      <PlannedFinishDate>2029-12-13T16:40:00</PlannedFinishDate>
+      <PlannedLaborUnits>79.6667</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-12-10T09:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>79.6667</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-12-13T16:40:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-12-10T09:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>79.6667</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-12-13T16:40:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-12-10T09:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-12-10T09:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>700</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1360</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1690 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; L 0 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 284</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1361</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>53.0</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-12-12T14:00:00</FinishDate>
+      <GUID>{B3A255FE-BE22-4BE0-AE08-2A5744CD5513}</GUID>
+      <Id>A1740_L_0</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1740 Interior Walls | L 0</Name>
+      <ObjectId>1370</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>53.0</PlannedDuration>
+      <PlannedFinishDate>2029-12-12T14:00:00</PlannedFinishDate>
+      <PlannedLaborUnits>53.0</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-12-10T09:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>53.0</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-12-12T14:00:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-12-10T09:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>53.0</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-12-12T14:00:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-12-10T09:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-12-10T09:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>740</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1370</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1740 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; L 0 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 42</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1371</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>18.0</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-12-12T06:40:00</FinishDate>
+      <GUID>{1A484D5D-796A-40BF-AEFB-23E9155FAA12}</GUID>
+      <Id>A1350_Roof</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1350 Frame: Beams | Roof</Name>
+      <ObjectId>1380</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>18.0</PlannedDuration>
+      <PlannedFinishDate>2029-12-12T06:40:00</PlannedFinishDate>
+      <PlannedLaborUnits>18.0</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-12-11T12:40:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>18.0</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-12-12T06:40:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-12-11T12:40:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>18.0</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-12-12T06:40:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-12-11T12:40:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-12-11T12:40:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>600</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1380</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1350 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; Roof &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 54</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1381</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>120.3333</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-12-17T09:20:00</FinishDate>
+      <GUID>{4B5E651E-68E8-4C70-BBBF-FD381974B928}</GUID>
+      <Id>A1420_Roof</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1420 Roof | Roof</Name>
+      <ObjectId>1390</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>120.3333</PlannedDuration>
+      <PlannedFinishDate>2029-12-17T09:20:00</PlannedFinishDate>
+      <PlannedLaborUnits>120.3333</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-12-12T09:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>120.3333</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-12-17T09:20:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-12-12T09:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>120.3333</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-12-17T09:20:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-12-12T09:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-12-12T09:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>820</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1390</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1420 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; Roof &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 73</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1391</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>13.0</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-12-17T22:20:00</FinishDate>
+      <GUID>{896CE4C9-3EB8-471D-B87C-26A5A449BC8F}</GUID>
+      <Id>A1600_L_1</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1600 Exterior Wall Install | L 1</Name>
+      <ObjectId>1400</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>13.0</PlannedDuration>
+      <PlannedFinishDate>2029-12-17T22:20:00</PlannedFinishDate>
+      <PlannedLaborUnits>13.0</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-12-17T09:20:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>13.0</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-12-17T22:20:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-12-17T09:20:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>13.0</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-12-17T22:20:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-12-17T09:20:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-12-17T09:20:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>670</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1400</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1600 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; L 1 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 334</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1401</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>317.3333</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-12-31T14:20:00</FinishDate>
+      <GUID>{A038E6B2-25A2-41FB-B468-86BC57670C69}</GUID>
+      <Id>A1690_L_1</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1690 MEP Rough-In | L 1</Name>
+      <ObjectId>1410</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>317.3333</PlannedDuration>
+      <PlannedFinishDate>2029-12-31T14:20:00</PlannedFinishDate>
+      <PlannedLaborUnits>317.3333</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-12-18T09:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>317.3333</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-12-31T14:20:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-12-18T09:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>317.3333</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-12-31T14:20:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-12-18T09:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-12-18T09:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>710</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1410</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1690 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; L 1 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 694</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1411</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>173.5</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-12-25T14:30:00</FinishDate>
+      <GUID>{DA1E4912-2F2E-47FA-8748-428BC939E8E6}</GUID>
+      <Id>A1740_L_1</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1740 Interior Walls | L 1</Name>
+      <ObjectId>1420</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>173.5</PlannedDuration>
+      <PlannedFinishDate>2029-12-25T14:30:00</PlannedFinishDate>
+      <PlannedLaborUnits>173.5</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-12-18T09:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>173.5</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-12-25T14:30:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-12-18T09:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>173.5</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-12-25T14:30:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-12-18T09:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-12-18T09:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>750</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1420</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1740 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; L 1 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 91</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1421</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>1.5</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2029-12-25T16:00:00</FinishDate>
+      <GUID>{E5CAB540-9FA2-4015-ADBC-5C13D7EA9E64}</GUID>
+      <Id>A1760_L_1</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1760 Ceiling Installation | L 1</Name>
+      <ObjectId>1430</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>1.5</PlannedDuration>
+      <PlannedFinishDate>2029-12-25T16:00:00</PlannedFinishDate>
+      <PlannedLaborUnits>1.5</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-12-25T14:30:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>1.5</RemainingDuration>
+      <RemainingEarlyFinishDate>2029-12-25T16:00:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-12-25T14:30:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>1.5</RemainingLaborUnits>
+      <RemainingLateFinishDate>2029-12-25T16:00:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-12-25T14:30:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-12-25T14:30:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>780</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1430</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1760 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; L 1 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 3</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1431</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>212.4167</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2030-01-09T10:45:00</FinishDate>
+      <GUID>{E9EA7F17-50FC-4276-9512-3ED52435349C}</GUID>
+      <Id>A1590_L_1</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1590 Glass Install + Glazing | L 1</Name>
+      <ObjectId>1440</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>212.4167</PlannedDuration>
+      <PlannedFinishDate>2030-01-09T10:45:00</PlannedFinishDate>
+      <PlannedLaborUnits>212.4167</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2029-12-31T14:20:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>212.4167</RemainingDuration>
+      <RemainingEarlyFinishDate>2030-01-09T10:45:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2029-12-31T14:20:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>212.4167</RemainingLaborUnits>
+      <RemainingLateFinishDate>2030-01-09T10:45:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2029-12-31T14:20:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2029-12-31T14:20:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>840</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1440</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1590 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; L 1 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 209</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1441</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>174.25</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2030-01-16T17:00:00</FinishDate>
+      <GUID>{3FE59C4D-5933-4E1D-B400-57BF1BA82113}</GUID>
+      <Id>A1610_L_1</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1610 Mesh Install | L 1</Name>
+      <ObjectId>1450</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>174.25</PlannedDuration>
+      <PlannedFinishDate>2030-01-16T17:00:00</PlannedFinishDate>
+      <PlannedLaborUnits>174.25</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2030-01-09T10:45:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>174.25</RemainingDuration>
+      <RemainingEarlyFinishDate>2030-01-16T17:00:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2030-01-09T10:45:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>174.25</RemainingLaborUnits>
+      <RemainingLateFinishDate>2030-01-16T17:00:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2030-01-09T10:45:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2030-01-09T10:45:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>860</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1450</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1610 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; L 1 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 92</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1451</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>509.0</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2030-02-07T14:00:00</FinishDate>
+      <GUID>{992F3A69-589A-4514-A37D-7CBA177DF796}</GUID>
+      <Id>A1670_Basement_Site</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1670 Mechanical Room Buildout | Basement / Site</Name>
+      <ObjectId>1460</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>509.0</PlannedDuration>
+      <PlannedFinishDate>2030-02-07T14:00:00</PlannedFinishDate>
+      <PlannedLaborUnits>509.0</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2030-01-17T09:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>509.0</RemainingDuration>
+      <RemainingEarlyFinishDate>2030-02-07T14:00:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2030-01-17T09:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>509.0</RemainingLaborUnits>
+      <RemainingLateFinishDate>2030-02-07T14:00:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2030-01-17T09:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2030-01-17T09:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>880</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1460</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1670 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; Basement / Site &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 1</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1461</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Activity>
+      <ActualLaborUnits>0</ActualLaborUnits>
+      <ActualNonLaborUnits>0</ActualNonLaborUnits>
+      <AtCompletionDuration>525.0</AtCompletionDuration>
+      <AutoComputeActuals>1</AutoComputeActuals>
+      <CalendarObjectId>4</CalendarObjectId>
+      <DurationType>Fixed Units/Time</DurationType>
+      <FinishDate>2030-03-01T11:00:00</FinishDate>
+      <GUID>{739784F2-8834-4DD2-AE09-8F18C0BB5D8A}</GUID>
+      <Id>A1680_Basement_Site</Id>
+      <LevelingPriority>Normal</LevelingPriority>
+      <Name>A1680 Main Electrical &amp; Riser Install | Basement / Site</Name>
+      <ObjectId>1470</ObjectId>
+      <PercentCompleteType>Duration</PercentCompleteType>
+      <PlannedDuration>525.0</PlannedDuration>
+      <PlannedFinishDate>2030-03-01T11:00:00</PlannedFinishDate>
+      <PlannedLaborUnits>525.0</PlannedLaborUnits>
+      <PlannedNonLaborUnits>0</PlannedNonLaborUnits>
+      <PlannedStartDate>2030-02-07T14:00:00</PlannedStartDate>
+      <PrimaryResourceObjectId />
+      <ProjectObjectId>1</ProjectObjectId>
+      <RemainingDuration>525.0</RemainingDuration>
+      <RemainingEarlyFinishDate>2030-03-01T11:00:00</RemainingEarlyFinishDate>
+      <RemainingEarlyStartDate>2030-02-07T14:00:00</RemainingEarlyStartDate>
+      <RemainingLaborCost>0</RemainingLaborCost>
+      <RemainingLaborUnits>525.0</RemainingLaborUnits>
+      <RemainingLateFinishDate>2030-03-01T11:00:00</RemainingLateFinishDate>
+      <RemainingLateStartDate>2030-02-07T14:00:00</RemainingLateStartDate>
+      <RemainingNonLaborCost>0</RemainingNonLaborCost>
+      <RemainingNonLaborUnits>0</RemainingNonLaborUnits>
+      <StartDate>2030-02-07T14:00:00</StartDate>
+      <Status>Not Started</Status>
+      <Type>Task Dependent</Type>
+      <WBSObjectId>900</WBSObjectId>
+    </Activity>
+    <ActivityNote>
+      <ActivityObjectId>1470</ActivityObjectId>
+      <Note>&amp;lt;b&amp;gt;Task ID:&amp;lt;/b&amp;gt; A1680 &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Level:&amp;lt;/b&amp;gt; Basement / Site &amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;Micro Elements Aggregated:&amp;lt;/b&amp;gt; 1</Note>
+      <NotebookTopicObjectId>2</NotebookTopicObjectId>
+      <ObjectId>1471</ObjectId>
+      <ProjectObjectId>1</ProjectObjectId>
+    </ActivityNote>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5000</ObjectId>
+      <PredecessorActivityObjectId>1000</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1020</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5001</ObjectId>
+      <PredecessorActivityObjectId>1000</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1010</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5002</ObjectId>
+      <PredecessorActivityObjectId>1000</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1030</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5003</ObjectId>
+      <PredecessorActivityObjectId>1000</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1040</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5004</ObjectId>
+      <PredecessorActivityObjectId>1000</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1060</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5005</ObjectId>
+      <PredecessorActivityObjectId>1000</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1050</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5006</ObjectId>
+      <PredecessorActivityObjectId>1050</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1070</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5007</ObjectId>
+      <PredecessorActivityObjectId>1070</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1080</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5008</ObjectId>
+      <PredecessorActivityObjectId>1080</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1090</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5009</ObjectId>
+      <PredecessorActivityObjectId>1090</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1100</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5010</ObjectId>
+      <PredecessorActivityObjectId>1100</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1110</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5011</ObjectId>
+      <PredecessorActivityObjectId>1100</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1120</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5012</ObjectId>
+      <PredecessorActivityObjectId>1110</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1130</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5013</ObjectId>
+      <PredecessorActivityObjectId>1130</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1140</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5014</ObjectId>
+      <PredecessorActivityObjectId>1120</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1160</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5015</ObjectId>
+      <PredecessorActivityObjectId>1120</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1150</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5016</ObjectId>
+      <PredecessorActivityObjectId>1160</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1170</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5017</ObjectId>
+      <PredecessorActivityObjectId>1170</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1180</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5018</ObjectId>
+      <PredecessorActivityObjectId>1180</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1190</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5019</ObjectId>
+      <PredecessorActivityObjectId>1190</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1200</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5020</ObjectId>
+      <PredecessorActivityObjectId>1200</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1210</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5021</ObjectId>
+      <PredecessorActivityObjectId>1210</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1220</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5022</ObjectId>
+      <PredecessorActivityObjectId>1150</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1230</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5023</ObjectId>
+      <PredecessorActivityObjectId>1220</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1240</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5024</ObjectId>
+      <PredecessorActivityObjectId>1240</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1250</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5025</ObjectId>
+      <PredecessorActivityObjectId>1250</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1260</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5026</ObjectId>
+      <PredecessorActivityObjectId>1260</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1270</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5027</ObjectId>
+      <PredecessorActivityObjectId>1260</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1290</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5028</ObjectId>
+      <PredecessorActivityObjectId>1260</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1280</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5029</ObjectId>
+      <PredecessorActivityObjectId>1270</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1300</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5030</ObjectId>
+      <PredecessorActivityObjectId>1300</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1310</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5031</ObjectId>
+      <PredecessorActivityObjectId>1290</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1320</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5032</ObjectId>
+      <PredecessorActivityObjectId>1230</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1330</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5033</ObjectId>
+      <PredecessorActivityObjectId>1310</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1340</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5034</ObjectId>
+      <PredecessorActivityObjectId>1340</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1350</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5035</ObjectId>
+      <PredecessorActivityObjectId>1340</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1370</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5036</ObjectId>
+      <PredecessorActivityObjectId>1340</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1360</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5037</ObjectId>
+      <PredecessorActivityObjectId>1350</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1380</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5038</ObjectId>
+      <PredecessorActivityObjectId>1380</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1390</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5039</ObjectId>
+      <PredecessorActivityObjectId>1390</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1400</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5040</ObjectId>
+      <PredecessorActivityObjectId>1400</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1420</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5041</ObjectId>
+      <PredecessorActivityObjectId>1400</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1410</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5042</ObjectId>
+      <PredecessorActivityObjectId>1420</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1430</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5043</ObjectId>
+      <PredecessorActivityObjectId>1410</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1440</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5044</ObjectId>
+      <PredecessorActivityObjectId>1440</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1450</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5045</ObjectId>
+      <PredecessorActivityObjectId>1450</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1460</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <Relationship>
+      <Lag>0</Lag>
+      <ObjectId>5046</ObjectId>
+      <PredecessorActivityObjectId>1460</PredecessorActivityObjectId>
+      <PredecessorProjectObjectId>1</PredecessorProjectObjectId>
+      <SuccessorActivityObjectId>1470</SuccessorActivityObjectId>
+      <SuccessorProjectObjectId>1</SuccessorProjectObjectId>
+      <Type>Finish to Start</Type>
+    </Relationship>
+    <ScheduleOptions>
+      <CalculateFloatBasedOnFinishDate>1</CalculateFloatBasedOnFinishDate>
+      <ComputeTotalFloatType>Smallest of Start Float and Finish Float</ComputeTotalFloatType>
+      <CriticalActivityFloatThreshold>0</CriticalActivityFloatThreshold>
+      <CriticalActivityPathType>Critical Float</CriticalActivityPathType>
+      <LevelAllResources>1</LevelAllResources>
+      <OutOfSequenceScheduleType>Retained Logic</OutOfSequenceScheduleType>
+      <PreserveScheduledEarlyAndLateDates>1</PreserveScheduledEarlyAndLateDates>
+      <ProjectObjectId>1</ProjectObjectId>
+      <UseExpectedFinishDates>0</UseExpectedFinishDates>
+    </ScheduleOptions>
+  </Project>
+</APIBusinessObjects>

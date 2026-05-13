@@ -1,0 +1,1064 @@
+element_id,grouped_element_key,task,level,takt_zone_id,allocation_room,source_category,source_original_category,quantity,quantity_unit,allocation_method,split_from_element_id,split_share
+1082486,mep-assembly:1440372:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 146,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1082649,mep-assembly:1440372:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 146,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1082712,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1082897,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1083126,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1084400,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1085785,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1087051,mep-assembly:1440372:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 146,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1087052,mep-assembly:1440372:y-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 146,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1087152,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1087153,mep-assembly:1440372:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 146,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1087184,mep-assembly:1440372:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 146,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1087185,mep-assembly:1440372:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 146,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1087207,mep-assembly:1440372:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 146,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1087208,mep-assembly:1440372:y-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 146,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1087222,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1087223,mep-assembly:1440372:y-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 146,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1087237,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1087238,mep-assembly:1440372:y-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 146,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1087401,mep-assembly:1440388:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 162,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1087406,mep-assembly:1440388:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 162,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1087407,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1087426,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1087433,mep-assembly:1440372:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 146,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1087434,mep-assembly:1440388:y-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 162,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1087453,mep-assembly:1440383:y-long,MEP,L 1,L 1 Takt Zone 16,L 1 Room 157,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1093963,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1094072,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1094079,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1094090,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1094097,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Air Terminals,,1.0,EA,nearest centroid fallback,,1.0
+1094104,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Air Terminals,,1.0,EA,nearest centroid fallback,,1.0
+1094124,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Air Terminals,,1.0,EA,nearest centroid fallback,,1.0
+1126761,mep-assembly:1440376:balanced,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1126780,mep-assembly:1440372:balanced,MEP,L 1,L 1 Takt Zone 9,L 1 Room 146,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1126868,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Air Terminals,,1.0,EA,nearest centroid fallback,,1.0
+1126901,mep-assembly:1440376:balanced,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1126920,mep-assembly:1440376:balanced,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1127081,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1128228,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1129258,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1129265,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1129266,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1129281,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1129290,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1129291,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1129303,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1129310,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1129311,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1129321,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1129328,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1129329,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1129339,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1129346,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1129347,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1129359,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1129368,mep-assembly:1773440:balanced,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1129420,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1129421,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1129422,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1129423,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1129424,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1129425,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1129426,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1129427,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1129428,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1129429,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1130108,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1130111,mep-assembly:1440376:balanced,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1130122,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1130127,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1130130,mep-assembly:1440376:balanced,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1130137,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1130140,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1130348,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1130986,mep-assembly:1773269:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 201,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1131042,mep-assembly:1440372:balanced,MEP,L 1,L 1 Takt Zone 9,L 1 Room 146,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1131051,mep-assembly:1440372:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 146,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1131054,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1135602,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1135637,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1135652,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1135659,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1135673,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1135674,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1135714,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1135740,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1135741,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1135748,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1135809,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1135816,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1135817,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1135855,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1135878,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Flex Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1135926,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1135930,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1135931,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1135943,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1135944,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1135945,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1135947,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1135949,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1135950,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1135951,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1135952,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1135957,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1135958,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1135959,mep-assembly:1440376:balanced,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1136091,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1136698,mep-assembly:1440372:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 146,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1136699,mep-assembly:1440372:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 146,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1136701,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1136705,mep-assembly:1440372:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 146,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1136706,mep-assembly:1440372:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 146,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1136707,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1136708,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1136709,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1136714,mep-assembly:1440388:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 162,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1136715,mep-assembly:1440388:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 162,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1136718,mep-assembly:1440372:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 146,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1143116,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Flex Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1145420,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1145425,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1145430,mep-assembly:1440368:y-long,MEP,L 1,L 1 Takt Zone 10,L 1 Room 142,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1145435,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1145440,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1145445,mep-assembly:1440371:y-long,MEP,L 1,L 1 Takt Zone 11,L 1 Room 145,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1145450,mep-assembly:1773278:y-long,MEP,L 1,L 1 Takt Zone 11,L 1 Room 210,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1145492,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1145493,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1145494,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1145495,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1145496,mep-assembly:1440368:x-long,MEP,L 1,L 1 Takt Zone 10,L 1 Room 142,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1145497,mep-assembly:1440368:balanced,MEP,L 1,L 1 Takt Zone 10,L 1 Room 142,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1145498,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1145499,mep-assembly:1440376:balanced,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1145500,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1145501,mep-assembly:1440376:balanced,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1145502,mep-assembly:1440371:x-long,MEP,L 1,L 1 Takt Zone 11,L 1 Room 145,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1145503,mep-assembly:1440371:balanced,MEP,L 1,L 1 Takt Zone 11,L 1 Room 145,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1145505,mep-assembly:1773278:x-long,MEP,L 1,L 1 Takt Zone 11,L 1 Room 210,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1149110,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1149115,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1149120,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1149125,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Flex Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1149130,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Flex Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1149135,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Flex Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1149345,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1149346,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1149347,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1149348,mep-assembly:1773440:balanced,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1149349,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1149350,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1149351,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1149834,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1149838,mep-assembly:1773440:balanced,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1149839,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1149843,mep-assembly:1773440:balanced,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1149844,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1149848,mep-assembly:1773440:balanced,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1149849,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Flex Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1149853,mep-assembly:1773440:balanced,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1149854,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Flex Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1149858,mep-assembly:1773440:balanced,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1149859,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Flex Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1149863,mep-assembly:1773440:balanced,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1149883,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1149884,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1149885,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1149886,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1149887,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1149888,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1154383,mep-assembly:1773440:balanced,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1155156,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1155159,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1155160,mep-assembly:1440376:balanced,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1155450,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1155451,mep-assembly:1773440:balanced,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Air Terminals,,1.0,EA,nearest centroid fallback,,1.0
+1155452,mep-assembly:1440371:x-long,MEP,L 1,L 1 Takt Zone 11,L 1 Room 145,Air Terminals,,1.0,EA,nearest centroid fallback,,1.0
+1155453,mep-assembly:1773274:x-long,MEP,L 1,L 1 Takt Zone 14,L 1 Room 206,Air Terminals,,1.0,EA,nearest centroid fallback,,1.0
+1155454,mep-assembly:1440371:y-long,MEP,L 1,L 1 Takt Zone 11,L 1 Room 145,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1155455,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1155457,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1155466,mep-assembly:1773440:balanced,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1155468,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1155469,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1155477,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1155486,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1155589,mep-assembly:1773274:y-long,MEP,L 1,L 1 Takt Zone 14,L 1 Room 206,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1155957,mep-assembly:1440368:x-long,MEP,L 1,L 1 Takt Zone 10,L 1 Room 142,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1155976,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1155983,mep-assembly:1440368:x-long,MEP,L 1,L 1 Takt Zone 10,L 1 Room 142,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1155984,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1156213,mep-assembly:1440368:balanced,MEP,L 1,L 1 Takt Zone 10,L 1 Room 142,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1156220,mep-assembly:1440368:x-long,MEP,L 1,L 1 Takt Zone 10,L 1 Room 142,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1156253,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1156295,mep-assembly:1440368:balanced,MEP,L 1,L 1 Takt Zone 10,L 1 Room 142,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1156303,mep-assembly:1440368:x-long,MEP,L 1,L 1 Takt Zone 10,L 1 Room 142,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1156364,mep-assembly:1440368:x-long,MEP,L 1,L 1 Takt Zone 10,L 1 Room 142,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1156561,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1156592,mep-assembly:1440368:y-long,MEP,L 1,L 1 Takt Zone 10,L 1 Room 142,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1156599,mep-assembly:1440368:y-long,MEP,L 1,L 1 Takt Zone 10,L 1 Room 142,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1156600,mep-assembly:1440368:x-long,MEP,L 1,L 1 Takt Zone 10,L 1 Room 142,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1156610,mep-assembly:1440369:y-long,MEP,L 1,L 1 Takt Zone 10,L 1 Room 143,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1156617,mep-assembly:1440369:y-long,MEP,L 1,L 1 Takt Zone 10,L 1 Room 143,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1156618,mep-assembly:1440369:x-long,MEP,L 1,L 1 Takt Zone 10,L 1 Room 143,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1156626,mep-assembly:1440371:y-long,MEP,L 1,L 1 Takt Zone 11,L 1 Room 145,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1156633,mep-assembly:1440371:x-long,MEP,L 1,L 1 Takt Zone 11,L 1 Room 145,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1156634,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1156642,mep-assembly:1773278:y-long,MEP,L 1,L 1 Takt Zone 11,L 1 Room 210,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1158976,mep-assembly:1773267:x-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1164429,mep-assembly:1773267:balanced,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1164571,mep-assembly:1773267:y-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1164675,mep-assembly:1773267:y-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1164682,mep-assembly:1773267:y-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1165543,mep-assembly:1773274:y-long,MEP,L 1,L 1 Takt Zone 14,L 1 Room 206,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1203600,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1203604,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1203607,mep-assembly:1440372:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 146,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1203611,mep-assembly:1440372:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 146,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1212417,mep-assembly:1440388:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 162,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1212473,mep-assembly:1440383:x-long,MEP,L 1,L 1 Takt Zone 16,L 1 Room 157,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1212495,mep-assembly:1440383:x-long,MEP,L 1,L 1 Takt Zone 16,L 1 Room 157,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1212711,mep-assembly:1440384:y-long,MEP,L 1,L 1 Takt Zone 15,L 1 Room 158,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1223160,mep-assembly:1440382:y-long,MEP,L 1,L 1 Takt Zone 16,L 1 Room 156,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1223699,mep-assembly:1440385:y-long,MEP,L 1,L 1 Takt Zone 15,L 1 Room 159,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1223820,mep-assembly:1440381:x-long,MEP,L 1,L 1 Takt Zone 14,L 1 Room 155,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1223859,mep-assembly:1440380:x-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 154,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1223895,mep-assembly:1440380:balanced,MEP,L 1,L 1 Takt Zone 13,L 1 Room 154,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1230314,mep-assembly:1440388:y-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 162,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1230322,mep-assembly:1440385:y-long,MEP,L 1,L 1 Takt Zone 15,L 1 Room 159,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1230329,mep-assembly:1440384:y-long,MEP,L 1,L 1 Takt Zone 15,L 1 Room 158,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1230340,mep-assembly:1440383:y-long,MEP,L 1,L 1 Takt Zone 16,L 1 Room 157,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1230347,mep-assembly:1440382:y-long,MEP,L 1,L 1 Takt Zone 16,L 1 Room 156,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1230354,mep-assembly:1440381:y-long,MEP,L 1,L 1 Takt Zone 14,L 1 Room 155,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1230361,mep-assembly:1440380:y-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 154,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1230927,mep-assembly:1440381:y-long,MEP,L 1,L 1 Takt Zone 14,L 1 Room 155,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1230950,mep-assembly:1440388:y-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 162,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1230970,mep-assembly:1440384:y-long,MEP,L 1,L 1 Takt Zone 15,L 1 Room 158,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1231009,mep-assembly:1440383:x-long,MEP,L 1,L 1 Takt Zone 16,L 1 Room 157,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1231010,mep-assembly:1440382:x-long,MEP,L 1,L 1 Takt Zone 16,L 1 Room 156,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1231013,mep-assembly:1440383:x-long,MEP,L 1,L 1 Takt Zone 16,L 1 Room 157,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1231028,mep-assembly:1440382:x-long,MEP,L 1,L 1 Takt Zone 16,L 1 Room 156,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1231029,mep-assembly:1440382:x-long,MEP,L 1,L 1 Takt Zone 16,L 1 Room 156,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1231032,mep-assembly:1440382:x-long,MEP,L 1,L 1 Takt Zone 16,L 1 Room 156,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1231046,mep-assembly:1440381:x-long,MEP,L 1,L 1 Takt Zone 14,L 1 Room 155,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1231047,mep-assembly:1440381:x-long,MEP,L 1,L 1 Takt Zone 14,L 1 Room 155,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1231056,mep-assembly:1440380:y-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 154,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1231059,mep-assembly:1440380:x-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 154,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1231060,mep-assembly:1440380:x-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 154,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1231077,mep-assembly:1440381:y-long,MEP,L 1,L 1 Takt Zone 14,L 1 Room 155,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1231080,mep-assembly:1440381:x-long,MEP,L 1,L 1 Takt Zone 14,L 1 Room 155,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1231081,mep-assembly:1440381:x-long,MEP,L 1,L 1 Takt Zone 14,L 1 Room 155,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1231104,mep-assembly:1440382:y-long,MEP,L 1,L 1 Takt Zone 16,L 1 Room 156,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1231107,mep-assembly:1440382:x-long,MEP,L 1,L 1 Takt Zone 16,L 1 Room 156,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1231108,mep-assembly:1440382:x-long,MEP,L 1,L 1 Takt Zone 16,L 1 Room 156,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1231143,mep-assembly:1440383:y-long,MEP,L 1,L 1 Takt Zone 16,L 1 Room 157,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1231146,mep-assembly:1440383:x-long,MEP,L 1,L 1 Takt Zone 16,L 1 Room 157,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1231147,mep-assembly:1440383:x-long,MEP,L 1,L 1 Takt Zone 16,L 1 Room 157,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1231724,mep-assembly:1773267:y-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1231725,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1231726,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1232337,mep-assembly:1773267:x-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1232345,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1232400,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1232551,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1232552,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1232554,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1232640,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1232704,mep-assembly:1440371:y-long,MEP,L 1,L 1 Takt Zone 11,L 1 Room 145,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1232705,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1232708,mep-assembly:1440371:y-long,MEP,L 1,L 1 Takt Zone 11,L 1 Room 145,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1232734,mep-assembly:1773274:y-long,MEP,L 1,L 1 Takt Zone 14,L 1 Room 206,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1232735,mep-assembly:1773274:x-long,MEP,L 1,L 1 Takt Zone 14,L 1 Room 206,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1232738,mep-assembly:1773274:x-long,MEP,L 1,L 1 Takt Zone 14,L 1 Room 206,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1232757,mep-assembly:1773274:y-long,MEP,L 1,L 1 Takt Zone 14,L 1 Room 206,Flex Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1232760,mep-assembly:1773274:x-long,MEP,L 1,L 1 Takt Zone 14,L 1 Room 206,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1232761,mep-assembly:1773274:balanced,MEP,L 1,L 1 Takt Zone 14,L 1 Room 206,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1232762,mep-assembly:1440371:y-long,MEP,L 1,L 1 Takt Zone 11,L 1 Room 145,Flex Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1232765,mep-assembly:1440371:x-long,MEP,L 1,L 1 Takt Zone 11,L 1 Room 145,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1232766,mep-assembly:1440371:balanced,MEP,L 1,L 1 Takt Zone 11,L 1 Room 145,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1232800,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1233124,mep-assembly:1773267:x-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1233447,mep-assembly:1773269:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 201,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1233473,mep-assembly:1773269:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 201,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1233477,mep-assembly:1773269:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 201,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1233482,mep-assembly:1440368:y-long,MEP,L 1,L 1 Takt Zone 10,L 1 Room 142,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1233483,mep-assembly:1440368:x-long,MEP,L 1,L 1 Takt Zone 10,L 1 Room 142,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1233485,mep-assembly:1440368:y-long,MEP,L 1,L 1 Takt Zone 10,L 1 Room 142,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1233486,mep-assembly:1440368:y-long,MEP,L 1,L 1 Takt Zone 10,L 1 Room 142,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1233611,mep-assembly:1773274:x-long,MEP,L 1,L 1 Takt Zone 14,L 1 Room 206,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1235385,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1236750,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1236760,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1236761,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1239486,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1239525,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1239526,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1239940,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1240109,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1240854,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1241491,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1241495,mep-assembly:1440376:balanced,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1268727,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1269604,mep-assembly:1440371:x-long,MEP,L 1,L 1 Takt Zone 11,L 1 Room 145,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1270047,mep-assembly:1773274:x-long,MEP,L 1,L 1 Takt Zone 14,L 1 Room 206,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1270060,mep-assembly:1773274:x-long,MEP,L 1,L 1 Takt Zone 14,L 1 Room 206,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1270472,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1270996,mep-assembly:1440394:x-long,MEP,L 1,L 1 Takt Zone 1,L 1 Room 168,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1271092,mep-assembly:1440395:x-long,MEP,L 1,L 1 Takt Zone 1,L 1 Room 169,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1271105,mep-assembly:1440396:x-long,MEP,L 1,L 1 Takt Zone 2,L 1 Room 170,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1271117,mep-assembly:1440397:x-long,MEP,L 1,L 1 Takt Zone 2,L 1 Room 171,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1271129,mep-assembly:1440398:x-long,MEP,L 1,L 1 Takt Zone 3,L 1 Room 172,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1271141,mep-assembly:1440399:x-long,MEP,L 1,L 1 Takt Zone 3,L 1 Room 173,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1271153,mep-assembly:1440400:x-long,MEP,L 1,L 1 Takt Zone 4,L 1 Room 174,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1271165,mep-assembly:1440401:x-long,MEP,L 1,L 1 Takt Zone 4,L 1 Room 175,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1271177,mep-assembly:1440402:x-long,MEP,L 1,L 1 Takt Zone 5,L 1 Room 176,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1271189,mep-assembly:1440403:x-long,MEP,L 1,L 1 Takt Zone 5,L 1 Room 177,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1271201,mep-assembly:1440404:x-long,MEP,L 1,L 1 Takt Zone 6,L 1 Room 178,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1271213,mep-assembly:1440406:x-long,MEP,L 1,L 1 Takt Zone 6,L 1 Room 180,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1271225,mep-assembly:1440405:x-long,MEP,L 1,L 1 Takt Zone 7,L 1 Room 179,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1271237,mep-assembly:1773270:x-long,MEP,L 1,L 1 Takt Zone 7,L 1 Room 202,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1271366,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1271428,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1271441,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1271454,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1271467,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1276396,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1276908,mep-assembly:1440388:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 162,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1276972,mep-assembly:1440385:x-long,MEP,L 1,L 1 Takt Zone 15,L 1 Room 159,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1276985,mep-assembly:1440384:x-long,MEP,L 1,L 1 Takt Zone 15,L 1 Room 158,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1276997,mep-assembly:1440383:x-long,MEP,L 1,L 1 Takt Zone 16,L 1 Room 157,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1277009,mep-assembly:1440382:x-long,MEP,L 1,L 1 Takt Zone 16,L 1 Room 156,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1277021,mep-assembly:1440381:x-long,MEP,L 1,L 1 Takt Zone 14,L 1 Room 155,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1277033,mep-assembly:1440380:x-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 154,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1280782,mep-assembly:1440388:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 162,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1280813,mep-assembly:1440385:y-long,MEP,L 1,L 1 Takt Zone 15,L 1 Room 159,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1281282,mep-assembly:1440376:balanced,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1281299,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1281312,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1281321,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1286179,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1286194,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1286220,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1286225,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1286230,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1286396,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1286437,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1286438,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1286460,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1286534,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1286546,mep-assembly:1440389:balanced,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1286559,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1286570,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1286571,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1286584,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1287032,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1287033,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1287066,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1287067,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1287079,mep-assembly:1440389:balanced,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1287091,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1287092,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1287104,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1287105,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1287117,mep-assembly:1440389:balanced,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1287191,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1287241,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1287488,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1287489,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1287492,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1287493,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1287494,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1287495,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1287496,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1287497,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1287498,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1287499,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1287940,mep-assembly:1440371:y-long,MEP,L 1,L 1 Takt Zone 11,L 1 Room 145,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1288014,mep-assembly:1773274:y-long,MEP,L 1,L 1 Takt Zone 14,L 1 Room 206,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1288015,mep-assembly:1773274:balanced,MEP,L 1,L 1 Takt Zone 14,L 1 Room 206,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1288317,mep-assembly:1773267:y-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1288324,mep-assembly:1773267:y-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1288335,mep-assembly:1773267:y-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1288338,mep-assembly:1773267:x-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1288496,mep-assembly:1773267:y-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1288498,mep-assembly:1773267:balanced,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1288499,mep-assembly:1773267:x-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1288531,mep-assembly:1773267:x-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1288555,mep-assembly:1773267:x-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1289213,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1289223,mep-assembly:1773440:balanced,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1289262,mep-assembly:1773267:x-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1289320,mep-assembly:1773267:y-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1289344,mep-assembly:1773267:y-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1289345,mep-assembly:1773267:x-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1290218,mep-assembly:1440388:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 162,Air Terminals,,1.0,EA,nearest centroid fallback,,1.0
+1290250,mep-assembly:1440388:y-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 162,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1290484,mep-assembly:1440372:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 146,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1290594,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1290595,mep-assembly:1773269:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 201,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1290630,mep-assembly:1440394:y-long,MEP,L 1,L 1 Takt Zone 1,L 1 Room 168,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1290639,mep-assembly:1440394:x-long,MEP,L 1,L 1 Takt Zone 1,L 1 Room 168,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1290680,mep-assembly:1440394:x-long,MEP,L 1,L 1 Takt Zone 1,L 1 Room 168,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1290694,mep-assembly:1440394:y-long,MEP,L 1,L 1 Takt Zone 1,L 1 Room 168,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1290710,mep-assembly:1440394:x-long,MEP,L 1,L 1 Takt Zone 1,L 1 Room 168,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1290717,mep-assembly:1440395:y-long,MEP,L 1,L 1 Takt Zone 1,L 1 Room 169,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1290718,mep-assembly:1440395:x-long,MEP,L 1,L 1 Takt Zone 1,L 1 Room 169,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1290719,mep-assembly:1440395:x-long,MEP,L 1,L 1 Takt Zone 1,L 1 Room 169,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1290720,mep-assembly:1440395:y-long,MEP,L 1,L 1 Takt Zone 1,L 1 Room 169,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1290725,mep-assembly:1440395:x-long,MEP,L 1,L 1 Takt Zone 1,L 1 Room 169,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1290747,mep-assembly:1440396:y-long,MEP,L 1,L 1 Takt Zone 2,L 1 Room 170,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1290748,mep-assembly:1440396:x-long,MEP,L 1,L 1 Takt Zone 2,L 1 Room 170,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1290749,mep-assembly:1440396:x-long,MEP,L 1,L 1 Takt Zone 2,L 1 Room 170,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1290750,mep-assembly:1440396:y-long,MEP,L 1,L 1 Takt Zone 2,L 1 Room 170,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1290755,mep-assembly:1440396:x-long,MEP,L 1,L 1 Takt Zone 2,L 1 Room 170,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1290764,mep-assembly:1440397:y-long,MEP,L 1,L 1 Takt Zone 2,L 1 Room 171,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1290765,mep-assembly:1440397:x-long,MEP,L 1,L 1 Takt Zone 2,L 1 Room 171,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1290766,mep-assembly:1440397:x-long,MEP,L 1,L 1 Takt Zone 2,L 1 Room 171,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1290767,mep-assembly:1440397:y-long,MEP,L 1,L 1 Takt Zone 2,L 1 Room 171,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1290772,mep-assembly:1440397:x-long,MEP,L 1,L 1 Takt Zone 2,L 1 Room 171,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1290781,mep-assembly:1440398:y-long,MEP,L 1,L 1 Takt Zone 3,L 1 Room 172,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1290782,mep-assembly:1440398:x-long,MEP,L 1,L 1 Takt Zone 3,L 1 Room 172,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1290783,mep-assembly:1440398:y-long,MEP,L 1,L 1 Takt Zone 3,L 1 Room 172,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1290784,mep-assembly:1440398:y-long,MEP,L 1,L 1 Takt Zone 3,L 1 Room 172,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1290789,mep-assembly:1440398:x-long,MEP,L 1,L 1 Takt Zone 3,L 1 Room 172,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1290798,mep-assembly:1440399:y-long,MEP,L 1,L 1 Takt Zone 3,L 1 Room 173,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1290799,mep-assembly:1440399:x-long,MEP,L 1,L 1 Takt Zone 3,L 1 Room 173,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1290800,mep-assembly:1440399:y-long,MEP,L 1,L 1 Takt Zone 3,L 1 Room 173,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1290801,mep-assembly:1440399:y-long,MEP,L 1,L 1 Takt Zone 3,L 1 Room 173,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1290806,mep-assembly:1440399:x-long,MEP,L 1,L 1 Takt Zone 3,L 1 Room 173,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1290815,mep-assembly:1440400:y-long,MEP,L 1,L 1 Takt Zone 4,L 1 Room 174,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1290816,mep-assembly:1440400:x-long,MEP,L 1,L 1 Takt Zone 4,L 1 Room 174,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1290817,mep-assembly:1440400:y-long,MEP,L 1,L 1 Takt Zone 4,L 1 Room 174,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1290818,mep-assembly:1440400:y-long,MEP,L 1,L 1 Takt Zone 4,L 1 Room 174,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1290823,mep-assembly:1440400:x-long,MEP,L 1,L 1 Takt Zone 4,L 1 Room 174,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1290832,mep-assembly:1440401:y-long,MEP,L 1,L 1 Takt Zone 4,L 1 Room 175,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1290833,mep-assembly:1440401:x-long,MEP,L 1,L 1 Takt Zone 4,L 1 Room 175,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1290834,mep-assembly:1440401:y-long,MEP,L 1,L 1 Takt Zone 4,L 1 Room 175,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1290835,mep-assembly:1440401:y-long,MEP,L 1,L 1 Takt Zone 4,L 1 Room 175,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1290840,mep-assembly:1440401:x-long,MEP,L 1,L 1 Takt Zone 4,L 1 Room 175,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1290849,mep-assembly:1440402:y-long,MEP,L 1,L 1 Takt Zone 5,L 1 Room 176,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1290850,mep-assembly:1440402:x-long,MEP,L 1,L 1 Takt Zone 5,L 1 Room 176,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1290851,mep-assembly:1440402:y-long,MEP,L 1,L 1 Takt Zone 5,L 1 Room 176,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1290852,mep-assembly:1440402:y-long,MEP,L 1,L 1 Takt Zone 5,L 1 Room 176,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1290857,mep-assembly:1440402:x-long,MEP,L 1,L 1 Takt Zone 5,L 1 Room 176,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1290866,mep-assembly:1440403:y-long,MEP,L 1,L 1 Takt Zone 5,L 1 Room 177,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1290867,mep-assembly:1440403:x-long,MEP,L 1,L 1 Takt Zone 5,L 1 Room 177,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1290868,mep-assembly:1440403:y-long,MEP,L 1,L 1 Takt Zone 5,L 1 Room 177,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1290869,mep-assembly:1440403:y-long,MEP,L 1,L 1 Takt Zone 5,L 1 Room 177,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1290874,mep-assembly:1440403:x-long,MEP,L 1,L 1 Takt Zone 5,L 1 Room 177,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1290883,mep-assembly:1440404:y-long,MEP,L 1,L 1 Takt Zone 6,L 1 Room 178,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1290884,mep-assembly:1440404:x-long,MEP,L 1,L 1 Takt Zone 6,L 1 Room 178,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1290885,mep-assembly:1440404:y-long,MEP,L 1,L 1 Takt Zone 6,L 1 Room 178,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1290886,mep-assembly:1440404:y-long,MEP,L 1,L 1 Takt Zone 6,L 1 Room 178,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1290891,mep-assembly:1440404:x-long,MEP,L 1,L 1 Takt Zone 6,L 1 Room 178,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1290900,mep-assembly:1440406:y-long,MEP,L 1,L 1 Takt Zone 6,L 1 Room 180,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1290901,mep-assembly:1440406:x-long,MEP,L 1,L 1 Takt Zone 6,L 1 Room 180,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1290902,mep-assembly:1440406:y-long,MEP,L 1,L 1 Takt Zone 6,L 1 Room 180,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1290903,mep-assembly:1440406:balanced,MEP,L 1,L 1 Takt Zone 6,L 1 Room 180,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1290908,mep-assembly:1440406:x-long,MEP,L 1,L 1 Takt Zone 6,L 1 Room 180,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1290917,mep-assembly:1440405:y-long,MEP,L 1,L 1 Takt Zone 7,L 1 Room 179,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1290918,mep-assembly:1440405:x-long,MEP,L 1,L 1 Takt Zone 7,L 1 Room 179,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1290919,mep-assembly:1440405:y-long,MEP,L 1,L 1 Takt Zone 7,L 1 Room 179,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1290920,mep-assembly:1440405:x-long,MEP,L 1,L 1 Takt Zone 7,L 1 Room 179,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1290925,mep-assembly:1440405:x-long,MEP,L 1,L 1 Takt Zone 7,L 1 Room 179,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1290934,mep-assembly:1773270:y-long,MEP,L 1,L 1 Takt Zone 7,L 1 Room 202,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1290935,mep-assembly:1773270:x-long,MEP,L 1,L 1 Takt Zone 7,L 1 Room 202,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1290936,mep-assembly:1773270:y-long,MEP,L 1,L 1 Takt Zone 7,L 1 Room 202,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1290942,mep-assembly:1773270:x-long,MEP,L 1,L 1 Takt Zone 7,L 1 Room 202,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291005,mep-assembly:1773270:x-long,MEP,L 1,L 1 Takt Zone 7,L 1 Room 202,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291203,mep-assembly:1440394:y-long,MEP,L 1,L 1 Takt Zone 1,L 1 Room 168,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291207,mep-assembly:1440395:y-long,MEP,L 1,L 1 Takt Zone 1,L 1 Room 169,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291208,mep-assembly:1440395:y-long,MEP,L 1,L 1 Takt Zone 1,L 1 Room 169,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291211,mep-assembly:1440396:y-long,MEP,L 1,L 1 Takt Zone 2,L 1 Room 170,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291212,mep-assembly:1440396:y-long,MEP,L 1,L 1 Takt Zone 2,L 1 Room 170,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291214,mep-assembly:1440397:y-long,MEP,L 1,L 1 Takt Zone 2,L 1 Room 171,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291218,mep-assembly:1440398:y-long,MEP,L 1,L 1 Takt Zone 3,L 1 Room 172,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291221,mep-assembly:1440399:y-long,MEP,L 1,L 1 Takt Zone 3,L 1 Room 173,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291222,mep-assembly:1440399:y-long,MEP,L 1,L 1 Takt Zone 3,L 1 Room 173,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291225,mep-assembly:1440400:y-long,MEP,L 1,L 1 Takt Zone 4,L 1 Room 174,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291226,mep-assembly:1440400:y-long,MEP,L 1,L 1 Takt Zone 4,L 1 Room 174,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291229,mep-assembly:1440401:y-long,MEP,L 1,L 1 Takt Zone 4,L 1 Room 175,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291230,mep-assembly:1440401:y-long,MEP,L 1,L 1 Takt Zone 4,L 1 Room 175,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291233,mep-assembly:1440402:y-long,MEP,L 1,L 1 Takt Zone 5,L 1 Room 176,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291234,mep-assembly:1440402:y-long,MEP,L 1,L 1 Takt Zone 5,L 1 Room 176,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291237,mep-assembly:1440403:y-long,MEP,L 1,L 1 Takt Zone 5,L 1 Room 177,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291238,mep-assembly:1440403:y-long,MEP,L 1,L 1 Takt Zone 5,L 1 Room 177,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291243,mep-assembly:1440404:y-long,MEP,L 1,L 1 Takt Zone 6,L 1 Room 178,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291244,mep-assembly:1440404:x-long,MEP,L 1,L 1 Takt Zone 6,L 1 Room 178,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291248,mep-assembly:1440406:y-long,MEP,L 1,L 1 Takt Zone 6,L 1 Room 180,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291249,mep-assembly:1440406:x-long,MEP,L 1,L 1 Takt Zone 6,L 1 Room 180,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291252,mep-assembly:1440405:y-long,MEP,L 1,L 1 Takt Zone 7,L 1 Room 179,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291253,mep-assembly:1440405:x-long,MEP,L 1,L 1 Takt Zone 7,L 1 Room 179,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291415,mep-assembly:1440372:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 146,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291416,mep-assembly:1440372:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 146,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291519,mep-assembly:1440394:balanced,MEP,L 1,L 1 Takt Zone 1,L 1 Room 168,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1291520,mep-assembly:1440394:y-long,MEP,L 1,L 1 Takt Zone 1,L 1 Room 168,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291521,mep-assembly:1440394:x-long,MEP,L 1,L 1 Takt Zone 1,L 1 Room 168,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291526,mep-assembly:1440394:x-long,MEP,L 1,L 1 Takt Zone 1,L 1 Room 168,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1291922,mep-assembly:1440388:y-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 162,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1292033,mep-assembly:1440385:y-long,MEP,L 1,L 1 Takt Zone 15,L 1 Room 159,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1292034,mep-assembly:1440385:x-long,MEP,L 1,L 1 Takt Zone 15,L 1 Room 159,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1292037,mep-assembly:1440385:y-long,MEP,L 1,L 1 Takt Zone 15,L 1 Room 159,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1292065,mep-assembly:1440385:x-long,MEP,L 1,L 1 Takt Zone 15,L 1 Room 159,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1292130,mep-assembly:1440383:x-long,MEP,L 1,L 1 Takt Zone 16,L 1 Room 157,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1292131,mep-assembly:1440383:y-long,MEP,L 1,L 1 Takt Zone 16,L 1 Room 157,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1292321,mep-assembly:1440385:y-long,MEP,L 1,L 1 Takt Zone 15,L 1 Room 159,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1292322,mep-assembly:1440384:y-long,MEP,L 1,L 1 Takt Zone 15,L 1 Room 158,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1292351,mep-assembly:1440384:y-long,MEP,L 1,L 1 Takt Zone 15,L 1 Room 158,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1292352,mep-assembly:1440384:x-long,MEP,L 1,L 1 Takt Zone 15,L 1 Room 158,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1292355,mep-assembly:1440384:y-long,MEP,L 1,L 1 Takt Zone 15,L 1 Room 158,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1292433,mep-assembly:1440384:x-long,MEP,L 1,L 1 Takt Zone 15,L 1 Room 158,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1292440,mep-assembly:1440388:y-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 162,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1292441,mep-assembly:1440385:y-long,MEP,L 1,L 1 Takt Zone 15,L 1 Room 159,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1292719,mep-assembly:1440383:y-long,MEP,L 1,L 1 Takt Zone 16,L 1 Room 157,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1292726,mep-assembly:1440384:y-long,MEP,L 1,L 1 Takt Zone 15,L 1 Room 158,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1292954,mep-assembly:1440383:x-long,MEP,L 1,L 1 Takt Zone 16,L 1 Room 157,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1292988,mep-assembly:1440388:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 162,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1292989,mep-assembly:1440388:y-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 162,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1292990,mep-assembly:1440388:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 162,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1292991,mep-assembly:1440388:y-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 162,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1292993,mep-assembly:1440388:x-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 162,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1292999,mep-assembly:1440388:y-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 162,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1293077,mep-assembly:1440383:y-long,MEP,L 1,L 1 Takt Zone 16,L 1 Room 157,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1293123,mep-assembly:1440383:x-long,MEP,L 1,L 1 Takt Zone 16,L 1 Room 157,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1293124,mep-assembly:1440384:y-long,MEP,L 1,L 1 Takt Zone 15,L 1 Room 158,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1293125,mep-assembly:1440384:y-long,MEP,L 1,L 1 Takt Zone 15,L 1 Room 158,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1293127,mep-assembly:1440383:y-long,MEP,L 1,L 1 Takt Zone 16,L 1 Room 157,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1293139,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1293149,mep-assembly:1440368:x-long,MEP,L 1,L 1 Takt Zone 10,L 1 Room 142,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1293156,mep-assembly:1440369:x-long,MEP,L 1,L 1 Takt Zone 10,L 1 Room 143,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1293161,mep-assembly:1440371:x-long,MEP,L 1,L 1 Takt Zone 11,L 1 Room 145,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1293166,mep-assembly:1773278:x-long,MEP,L 1,L 1 Takt Zone 11,L 1 Room 210,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1293239,mep-assembly:1440376:balanced,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1293240,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1293242,mep-assembly:1440368:x-long,MEP,L 1,L 1 Takt Zone 10,L 1 Room 142,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1293281,mep-assembly:1440368:x-long,MEP,L 1,L 1 Takt Zone 10,L 1 Room 142,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1293315,mep-assembly:1440369:y-long,MEP,L 1,L 1 Takt Zone 10,L 1 Room 143,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1293316,mep-assembly:1440369:x-long,MEP,L 1,L 1 Takt Zone 10,L 1 Room 143,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1293359,mep-assembly:1773278:balanced,MEP,L 1,L 1 Takt Zone 11,L 1 Room 210,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1293360,mep-assembly:1773278:x-long,MEP,L 1,L 1 Takt Zone 11,L 1 Room 210,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1293366,mep-assembly:1440371:y-long,MEP,L 1,L 1 Takt Zone 11,L 1 Room 145,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1293367,mep-assembly:1440371:x-long,MEP,L 1,L 1 Takt Zone 11,L 1 Room 145,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1293448,mep-assembly:1440376:balanced,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1293449,mep-assembly:1440372:y-long,MEP,L 1,L 1 Takt Zone 9,L 1 Room 146,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1293488,mep-assembly:1440376:balanced,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1293529,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1293530,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1295637,mep-assembly:1773267:y-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1295824,mep-assembly:1773267:y-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1295832,mep-assembly:1773267:y-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1295839,mep-assembly:1773267:x-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1295874,mep-assembly:1773267:y-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1295940,mep-assembly:1773267:y-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1295957,mep-assembly:1773267:y-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1296347,mep-assembly:1773267:balanced,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1296539,mep-assembly:1773267:y-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1296581,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1296675,mep-assembly:1773267:x-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1296687,mep-assembly:1773267:y-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1296688,mep-assembly:1773267:y-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1296890,mep-assembly:1773267:y-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1296959,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1341425,mep-assembly:1440398:y-long,MEP,L 1,L 1 Takt Zone 3,L 1 Room 172,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1341426,mep-assembly:1440399:y-long,MEP,L 1,L 1 Takt Zone 3,L 1 Room 173,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1341465,mep-assembly:1440394:y-long,MEP,L 1,L 1 Takt Zone 1,L 1 Room 168,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1341466,mep-assembly:1440394:y-long,MEP,L 1,L 1 Takt Zone 1,L 1 Room 168,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1341485,mep-assembly:1440394:y-long,MEP,L 1,L 1 Takt Zone 1,L 1 Room 168,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1341486,mep-assembly:1440395:y-long,MEP,L 1,L 1 Takt Zone 1,L 1 Room 169,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1341931,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1343222,mep-assembly:1773267:x-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1349479,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1349507,mep-assembly:1773274:balanced,MEP,L 1,L 1 Takt Zone 14,L 1 Room 206,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1349517,mep-assembly:1773274:x-long,MEP,L 1,L 1 Takt Zone 14,L 1 Room 206,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1349543,mep-assembly:1773274:x-long,MEP,L 1,L 1 Takt Zone 14,L 1 Room 206,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1349553,mep-assembly:1773274:x-long,MEP,L 1,L 1 Takt Zone 14,L 1 Room 206,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1349575,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Flex Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1349578,mep-assembly:1773440:balanced,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1350359,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1350362,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1350363,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1350365,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1350368,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1350369,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1350371,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1350374,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1350375,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1350396,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1350399,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1350400,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1350402,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1350405,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1350406,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1350408,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1350411,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1350412,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1350538,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1350592,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1351648,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1351839,mep-assembly:1773267:y-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1351844,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1352005,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1352091,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1352222,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1352228,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1352229,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1352343,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1352344,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1352416,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1352460,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1352464,mep-assembly:1440389:balanced,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1352465,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1352466,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1352549,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1352550,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1352636,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1352756,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1352759,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1352760,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1352763,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1352770,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1352803,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1352813,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1352814,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1352953,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1352955,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1352958,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1352959,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1352962,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1352965,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1352966,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1353013,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1353018,mep-assembly:1440389:balanced,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1353025,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1353061,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1353109,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1353207,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1353224,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1353252,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1353263,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1353264,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1353294,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1353303,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1353304,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1353321,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1353361,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1353364,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1353421,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1353430,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1353436,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1353442,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1353452,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1353453,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1353454,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1353455,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1353456,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1353457,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1353458,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1353459,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1353460,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1353461,mep-assembly:1440389:balanced,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1353462,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1353463,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1353464,mep-assembly:1440389:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1353465,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1353661,mep-assembly:1440389:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 163,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1359587,mep-assembly:1773274:balanced,MEP,L 1,L 1 Takt Zone 14,L 1 Room 206,Air Terminals,,1.0,EA,centroid in room polygon,,1.0
+1359632,mep-assembly:1773274:y-long,MEP,L 1,L 1 Takt Zone 14,L 1 Room 206,Flex Ducts,,1.0,EA,centroid in room polygon,,1.0
+1359635,mep-assembly:1773274:x-long,MEP,L 1,L 1 Takt Zone 14,L 1 Room 206,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1359636,mep-assembly:1773274:x-long,MEP,L 1,L 1 Takt Zone 14,L 1 Room 206,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1378488,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1378489,mep-assembly:1440383:x-long,MEP,L 1,L 1 Takt Zone 16,L 1 Room 157,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1378577,mep-assembly:1440368:y-long,MEP,L 1,L 1 Takt Zone 10,L 1 Room 142,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1378578,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1378637,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1378638,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1379468,mep-assembly:1440376:x-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Ducts,,1.0,EA,centroid in room polygon,,1.0
+1379469,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Duct Fittings,,1.0,EA,centroid in room polygon,,1.0
+1380013,mep-assembly:1773267:y-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1380014,mep-assembly:1773267:y-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1380287,mep-assembly:1773267:y-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Ducts,,1.0,EA,nearest centroid fallback,,1.0
+1380288,mep-assembly:1773267:y-long,MEP,L 1,L 1 Takt Zone 13,L 1 Room 199,Duct Fittings,,1.0,EA,nearest centroid fallback,,1.0
+1249262,1249262,Interior Walls,L 1,L 1 Takt Zone 1,L 1 Room 169,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1249262,1249262,Interior Finishes,L 1,L 1 Takt Zone 1,L 1 Room 169,Walls,,111.0,SF,nearest centroid fallback,,1.0
+1249295,1249295,Interior Walls,L 1,L 1 Takt Zone 2,L 1 Room 170,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1249295,1249295,Interior Finishes,L 1,L 1 Takt Zone 2,L 1 Room 170,Walls,,111.0,SF,nearest centroid fallback,,1.0
+1249332,1249332,Interior Walls,L 1,L 1 Takt Zone 2,L 1 Room 170,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1249332,1249332,Interior Finishes,L 1,L 1 Takt Zone 2,L 1 Room 170,Walls,,111.0,SF,nearest centroid fallback,,1.0
+1249372,1249372,Interior Walls,L 1,L 1 Takt Zone 3,L 1 Room 172,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1249372,1249372,Interior Finishes,L 1,L 1 Takt Zone 3,L 1 Room 172,Walls,,119.0,SF,nearest centroid fallback,,1.0
+1249405,1249405,Interior Walls,L 1,L 1 Takt Zone 3,L 1 Room 173,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1249405,1249405,Interior Finishes,L 1,L 1 Takt Zone 3,L 1 Room 173,Walls,,107.0,SF,nearest centroid fallback,,1.0
+1249438,1249438,Interior Walls,L 1,L 1 Takt Zone 3,L 1 Room 173,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1249438,1249438,Interior Finishes,L 1,L 1 Takt Zone 3,L 1 Room 173,Walls,,111.0,SF,nearest centroid fallback,,1.0
+1249463,1249463,Interior Walls,L 1,L 1 Takt Zone 4,L 1 Room 175,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1249463,1249463,Interior Finishes,L 1,L 1 Takt Zone 4,L 1 Room 175,Walls,,111.0,SF,nearest centroid fallback,,1.0
+1249493,1249493,Interior Walls,L 1,L 1 Takt Zone 5,L 1 Room 176,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1249493,1249493,Interior Finishes,L 1,L 1 Takt Zone 5,L 1 Room 176,Walls,,111.0,SF,nearest centroid fallback,,1.0
+1249530,1249530,Interior Walls,L 1,L 1 Takt Zone 5,L 1 Room 176,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1249530,1249530,Interior Finishes,L 1,L 1 Takt Zone 5,L 1 Room 176,Walls,,111.0,SF,nearest centroid fallback,,1.0
+1249558,1249558,Interior Walls,L 1,L 1 Takt Zone 5,L 1 Room 177,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1249558,1249558,Interior Finishes,L 1,L 1 Takt Zone 5,L 1 Room 177,Walls,,111.0,SF,nearest centroid fallback,,1.0
+1249706,1249706,Interior Walls,L 1,L 1 Takt Zone 6,L 1 Room 180,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1249706,1249706,Interior Finishes,L 1,L 1 Takt Zone 6,L 1 Room 180,Walls,,111.0,SF,nearest centroid fallback,,1.0
+1249741,1249741,Interior Walls,L 1,L 1 Takt Zone 6,L 1 Room 180,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1249741,1249741,Interior Finishes,L 1,L 1 Takt Zone 6,L 1 Room 180,Walls,,111.0,SF,nearest centroid fallback,,1.0
+1249986,1249986,Interior Walls,L 1,L 1 Takt Zone 14,L 1 Room 155,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1249986,1249986,Interior Finishes,L 1,L 1 Takt Zone 14,L 1 Room 155,Walls,,109.0,SF,nearest centroid fallback,,1.0
+1250022,1250022,Interior Walls,L 1,L 1 Takt Zone 14,L 1 Room 155,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1250022,1250022,Interior Finishes,L 1,L 1 Takt Zone 14,L 1 Room 155,Walls,,109.0,SF,nearest centroid fallback,,1.0
+1250048,1250048,Interior Walls,L 1,L 1 Takt Zone 16,L 1 Room 157,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1250048,1250048,Interior Finishes,L 1,L 1 Takt Zone 16,L 1 Room 157,Walls,,95.0,SF,nearest centroid fallback,,1.0
+1250076,1250076,Interior Walls,L 1,L 1 Takt Zone 16,L 1 Room 157,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1250076,1250076,Interior Finishes,L 1,L 1 Takt Zone 16,L 1 Room 157,Walls,,109.0,SF,nearest centroid fallback,,1.0
+1250100,1250100,Interior Walls,L 1,L 1 Takt Zone 15,L 1 Room 158,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1250100,1250100,Interior Finishes,L 1,L 1 Takt Zone 15,L 1 Room 158,Walls,,109.0,SF,nearest centroid fallback,,1.0
+1250193,1250193,Interior Walls,L 1,L 1 Takt Zone 15,L 1 Room 159,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1250193,1250193,Interior Finishes,L 1,L 1 Takt Zone 15,L 1 Room 159,Walls,,95.0,SF,nearest centroid fallback,,1.0
+1250299,1250299,Interior Walls,L 1,L 1 Takt Zone 7,L 1 Room 202,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1250299,1250299,Interior Finishes,L 1,L 1 Takt Zone 7,L 1 Room 202,Walls,,119.0,SF,nearest centroid fallback,,1.0
+1286603,1286603,Interior Walls,L 1,L 1 Takt Zone 9,L 1 Room 162,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1286603,1286603,Interior Finishes,L 1,L 1 Takt Zone 9,L 1 Room 162,Walls,,206.0,SF,nearest centroid fallback,,1.0
+1286681,1286681,Interior Walls,L 1,L 1 Takt Zone 9,L 1 Room 146,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1286681,1286681,Interior Finishes,L 1,L 1 Takt Zone 9,L 1 Room 146,Walls,,245.0,SF,nearest centroid fallback,,1.0
+1324711,1324711,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 201,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1324711,1324711,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 201,Walls,,117.0,SF,nearest centroid fallback,,1.0
+1355120,1355120,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,centroid in room polygon,,1.0
+1355120,1355120,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,61.0,SF,centroid in room polygon,,1.0
+1368267,1368267,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1368267,1368267,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,26.0,SF,nearest centroid fallback,,1.0
+1370173,1370173,Doors,L 1,L 1 Takt Zone 8,L 1 Room 150,Doors,,1.0,EA,centroid in room polygon,,1.0
+1378909,1378909,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,centroid in room polygon,,1.0
+1378909,1378909,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,122.0,SF,centroid in room polygon,,1.0
+1379108,1379108,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,centroid in room polygon,,1.0
+1379108,1379108,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,96.0,SF,centroid in room polygon,,1.0
+1379153,1379153,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,centroid in room polygon,,1.0
+1379153,1379153,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,96.0,SF,centroid in room polygon,,1.0
+1379178,1379178,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,centroid in room polygon,,1.0
+1379178,1379178,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,96.0,SF,centroid in room polygon,,1.0
+1379208,1379208,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,centroid in room polygon,,1.0
+1379208,1379208,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,96.0,SF,centroid in room polygon,,1.0
+1382126,1382126,Doors,L 1,L 1 Takt Zone 10,L 1 Room 143,Doors,,1.0,EA,room parameter,,1.0
+1523748,1523748,Interior Walls,L 1,L 1 Takt Zone 9,L 1 Room 162,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1523748,1523748,Interior Finishes,L 1,L 1 Takt Zone 9,L 1 Room 162,Walls,,82.0,SF,nearest centroid fallback,,1.0
+1525073,1525073,Interior Walls,L 1,L 1 Takt Zone 7,L 1 Room 202,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1525073,1525073,Interior Finishes,L 1,L 1 Takt Zone 7,L 1 Room 202,Walls,,58.0,SF,nearest centroid fallback,,1.0
+1525501,1525501,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 201,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1525501,1525501,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 201,Walls,,139.0,SF,nearest centroid fallback,,1.0
+1525525,mep-assembly:1440376:y-long,MEP,L 1,L 1 Takt Zone 8,L 1 Room 150,Plumbing Fixtures,,1.0,EA,centroid in room polygon,,1.0
+1525831,1525831,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,centroid in room polygon,,1.0
+1525831,1525831,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,13.0,SF,centroid in room polygon,,1.0
+1620235,1620235,Interior Walls,L 1,L 1 Takt Zone 9,L 1 Room 146,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1620235,1620235,Interior Finishes,L 1,L 1 Takt Zone 9,L 1 Room 146,Walls,,140.0,SF,nearest centroid fallback,,1.0
+1620731,1620731,Doors,L 1,L 1 Takt Zone 8,L 1 Room 150,Doors,,1.0,EA,nearest centroid fallback,,1.0
+1620862,1620862,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,centroid in room polygon,,1.0
+1620862,1620862,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,36.0,SF,centroid in room polygon,,1.0
+1621985,1621985,Doors,L 1,L 1 Takt Zone 8,L 1 Room 150,Doors,,1.0,EA,centroid in room polygon,,1.0
+1622176,1622176,Doors,L 1,L 1 Takt Zone 8,L 1 Room 201,Doors,,1.0,EA,room parameter,,1.0
+1623960,1623960,Interior Walls,L 1,L 1 Takt Zone 14,L 1 Room 206,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1623960,1623960,Interior Finishes,L 1,L 1 Takt Zone 14,L 1 Room 206,Walls,,82.0,SF,nearest centroid fallback,,1.0
+1623987,1623987,Doors,L 1,L 1 Takt Zone 14,L 1 Room 206,Doors,,1.0,EA,room parameter,,1.0
+1626925,1626925,Interior Walls,L 1,L 1 Takt Zone 13,L 1 Room 154,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1626925,1626925,Interior Finishes,L 1,L 1 Takt Zone 13,L 1 Room 154,Walls,,94.0,SF,nearest centroid fallback,,1.0
+1638894,1638894,Doors,L 1,L 1 Takt Zone 14,L 1 Room 155,Doors,,1.0,EA,room parameter,,1.0
+1639005,1639005,Doors,L 1,L 1 Takt Zone 13,L 1 Room 154,Doors,,1.0,EA,room parameter,,1.0
+1639147,1639147,Doors,L 1,L 1 Takt Zone 16,L 1 Room 156,Doors,,1.0,EA,room parameter,,1.0
+1639263,1639263,Doors,L 1,L 1 Takt Zone 16,L 1 Room 157,Doors,,1.0,EA,room parameter,,1.0
+1639393,1639393,Doors,L 1,L 1 Takt Zone 15,L 1 Room 158,Doors,,1.0,EA,room parameter,,1.0
+1639481,1639481,Doors,L 1,L 1 Takt Zone 15,L 1 Room 159,Doors,,1.0,EA,room parameter,,1.0
+1639557,1639557,Doors,L 1,L 1 Takt Zone 9,L 1 Room 162,Doors,,1.0,EA,room parameter,,1.0
+1639771,1639771,Doors,L 1,L 1 Takt Zone 1,L 1 Room 168,Doors,,1.0,EA,room parameter,,1.0
+1639971,1639971,Doors,L 1,L 1 Takt Zone 1,L 1 Room 169,Doors,,1.0,EA,room parameter,,1.0
+1640110,1640110,Doors,L 1,L 1 Takt Zone 2,L 1 Room 170,Doors,,1.0,EA,room parameter,,1.0
+1640219,1640219,Doors,L 1,L 1 Takt Zone 2,L 1 Room 171,Doors,,1.0,EA,room parameter,,1.0
+1640274,1640274,Doors,L 1,L 1 Takt Zone 3,L 1 Room 172,Doors,,1.0,EA,room parameter,,1.0
+1640355,1640355,Doors,L 1,L 1 Takt Zone 3,L 1 Room 173,Doors,,1.0,EA,room parameter,,1.0
+1640448,1640448,Doors,L 1,L 1 Takt Zone 4,L 1 Room 174,Doors,,1.0,EA,room parameter,,1.0
+1640515,1640515,Doors,L 1,L 1 Takt Zone 4,L 1 Room 175,Doors,,1.0,EA,room parameter,,1.0
+1640568,1640568,Doors,L 1,L 1 Takt Zone 5,L 1 Room 176,Doors,,1.0,EA,room parameter,,1.0
+1640633,1640633,Doors,L 1,L 1 Takt Zone 5,L 1 Room 177,Doors,,1.0,EA,room parameter,,1.0
+1640700,1640700,Doors,L 1,L 1 Takt Zone 6,L 1 Room 178,Doors,,1.0,EA,room parameter,,1.0
+1640771,1640771,Doors,L 1,L 1 Takt Zone 6,L 1 Room 180,Doors,,1.0,EA,room parameter,,1.0
+1640840,1640840,Doors,L 1,L 1 Takt Zone 7,L 1 Room 179,Doors,,1.0,EA,room parameter,,1.0
+1640909,1640909,Doors,L 1,L 1 Takt Zone 7,L 1 Room 202,Doors,,1.0,EA,room parameter,,1.0
+1722046,1722046,Doors,L 1,L 1 Takt Zone 1,L 1 Room 168,Doors,,1.0,EA,nearest centroid fallback,,1.0
+1722264,1722264,Interior Walls,L 1,L 1 Takt Zone 9,L 1 Room 146,Walls,,1.0,EA,centroid in room polygon,,1.0
+1722264,1722264,Interior Finishes,L 1,L 1 Takt Zone 9,L 1 Room 146,Walls,,105.0,SF,centroid in room polygon,,1.0
+1722311,1722311,Doors,L 1,L 1 Takt Zone 9,L 1 Room 146,Doors,,1.0,EA,room parameter,,1.0
+1885961,1885961,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,centroid in room polygon,,1.0
+1885961,1885961,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,26.0,SF,centroid in room polygon,,1.0
+1886099,1886099,Doors,L 1,L 1 Takt Zone 11,L 1 Room 210,Doors,,1.0,EA,room parameter,,1.0
+1886283,1886283,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,centroid in room polygon,,1.0
+1886283,1886283,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,26.0,SF,centroid in room polygon,,1.0
+1886328,1886328,Doors,L 1,L 1 Takt Zone 11,L 1 Room 145,Doors,,1.0,EA,room parameter,,1.0
+1886661,1886661,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,centroid in room polygon,,1.0
+1886661,1886661,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,26.0,SF,centroid in room polygon,,1.0
+1886687,1886687,Doors,L 1,L 1 Takt Zone 10,L 1 Room 142,Doors,,1.0,EA,room parameter,,1.0
+1886856,1886856,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,centroid in room polygon,,1.0
+1886856,1886856,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,26.0,SF,centroid in room polygon,,1.0
+1886885,1886885,Doors,L 1,L 1 Takt Zone 8,L 1 Room 150,Doors,,1.0,EA,centroid in room polygon,,1.0
+1887063,1887063,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,centroid in room polygon,,1.0
+1887063,1887063,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,10.0,SF,centroid in room polygon,,1.0
+1887103,1887103,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,centroid in room polygon,,1.0
+1887103,1887103,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,10.0,SF,centroid in room polygon,,1.0
+1887145,1887145,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,centroid in room polygon,,1.0
+1887145,1887145,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,10.0,SF,centroid in room polygon,,1.0
+1887184,1887184,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,centroid in room polygon,,1.0
+1887184,1887184,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,10.0,SF,centroid in room polygon,,1.0
+1900934,1900934,Ceiling,L 1,L 1 Takt Zone 12,L 1 Room 163,Ceilings,,1.0,EA,room parameter,,1.0
+1927220,1927220,Interior Walls,L 1,L 1 Takt Zone 12,L 1 Room 163,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1927220,1927220,Interior Finishes,L 1,L 1 Takt Zone 12,L 1 Room 163,Walls,,43.0,SF,nearest centroid fallback,,1.0
+1928004,1928004,Interior Walls,L 1,L 1 Takt Zone 12,L 1 Room 163,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1928004,1928004,Interior Finishes,L 1,L 1 Takt Zone 12,L 1 Room 163,Walls,,46.0,SF,nearest centroid fallback,,1.0
+1928698,1928698,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,centroid in room polygon,,1.0
+1928698,1928698,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,35.0,SF,centroid in room polygon,,1.0
+1928796,1928796,Interior Walls,L 1,L 1 Takt Zone 10,L 1 Room 142,Walls,,1.0,EA,centroid in room polygon,,1.0
+1928796,1928796,Interior Finishes,L 1,L 1 Takt Zone 10,L 1 Room 142,Walls,,36.0,SF,centroid in room polygon,,1.0
+1928910,1928910,Interior Walls,L 1,L 1 Takt Zone 10,L 1 Room 143,Walls,,1.0,EA,centroid in room polygon,,1.0
+1928910,1928910,Interior Finishes,L 1,L 1 Takt Zone 10,L 1 Room 143,Walls,,35.0,SF,centroid in room polygon,,1.0
+1929003,1929003,Interior Walls,L 1,L 1 Takt Zone 11,L 1 Room 145,Walls,,1.0,EA,centroid in room polygon,,1.0
+1929003,1929003,Interior Finishes,L 1,L 1 Takt Zone 11,L 1 Room 145,Walls,,35.0,SF,centroid in room polygon,,1.0
+1929094,1929094,Interior Walls,L 1,L 1 Takt Zone 11,L 1 Room 210,Walls,,1.0,EA,centroid in room polygon,,1.0
+1929094,1929094,Interior Finishes,L 1,L 1 Takt Zone 11,L 1 Room 210,Walls,,43.0,SF,centroid in room polygon,,1.0
+1939985,1939985,Doors,L 1,L 1 Takt Zone 8,L 1 Room 150,Doors,,1.0,EA,centroid in room polygon,,1.0
+1952046,1952046,Interior Walls,L 1,L 1 Takt Zone 9,L 1 Room 146,Walls,,1.0,EA,centroid in room polygon,,1.0
+1952046,1952046,Interior Finishes,L 1,L 1 Takt Zone 9,L 1 Room 146,Walls,,19.0,SF,centroid in room polygon,,1.0
+1952186,1952186,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,centroid in room polygon,,1.0
+1952186,1952186,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,4.0,SF,centroid in room polygon,,1.0
+1993594,1993594,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 201,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1993594,1993594,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 201,Walls,,6.0,SF,nearest centroid fallback,,1.0
+1994221,1994221,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,centroid in room polygon,,1.0
+1994221,1994221,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,10.0,SF,centroid in room polygon,,1.0
+1995789,1995789,Interior Walls,L 1,L 1 Takt Zone 13,L 1 Room 154,Walls,,1.0,EA,nearest centroid fallback,,1.0
+1995789,1995789,Interior Finishes,L 1,L 1 Takt Zone 13,L 1 Room 154,Walls,,79.0,SF,nearest centroid fallback,,1.0
+2001822,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Plumbing Fixtures,,1.0,EA,nearest centroid fallback,,1.0
+2001823,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Plumbing Fixtures,,1.0,EA,nearest centroid fallback,,1.0
+2001824,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Plumbing Fixtures,,1.0,EA,room parameter,,1.0
+2001825,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Plumbing Fixtures,,1.0,EA,room parameter,,1.0
+2001826,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Plumbing Fixtures,,1.0,EA,room parameter,,1.0
+2008439,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Plumbing Fixtures,,1.0,EA,nearest centroid fallback,,1.0
+2008440,mep-assembly:1773440:x-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Plumbing Fixtures,,1.0,EA,nearest centroid fallback,,1.0
+2008441,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Plumbing Fixtures,,1.0,EA,nearest centroid fallback,,1.0
+2008442,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Plumbing Fixtures,,1.0,EA,nearest centroid fallback,,1.0
+2008443,mep-assembly:1773440:y-long,MEP,L 1,L 1 Takt Zone 12,L 1 Room 211,Plumbing Fixtures,,1.0,EA,nearest centroid fallback,,1.0
+2008766,2008766,Interior Walls,L 1,L 1 Takt Zone 13,L 1 Room 199,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2008766,2008766,Interior Finishes,L 1,L 1 Takt Zone 13,L 1 Room 199,Walls,,93.0,SF,nearest centroid fallback,,1.0
+2008773,2008773,Doors,L 1,L 1 Takt Zone 13,L 1 Room 199,Doors,,1.0,EA,nearest centroid fallback,,1.0
+2009644,2009644,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,centroid in room polygon,,1.0
+2009644,2009644,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,34.0,SF,centroid in room polygon,,1.0
+2009682,2009682,Interior Walls,L 1,L 1 Takt Zone 13,L 1 Room 199,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2009682,2009682,Interior Finishes,L 1,L 1 Takt Zone 13,L 1 Room 199,Walls,,24.0,SF,nearest centroid fallback,,1.0
+2009903,2009903,Ceiling,L 1,L 1 Takt Zone 13,L 1 Room 199,Ceilings,,1.0,EA,nearest centroid fallback,,1.0
+2012235,2012235,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 201,Walls,,1.0,EA,centroid in room polygon,,1.0
+2012235,2012235,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 201,Walls,,35.0,SF,centroid in room polygon,,1.0
+2168568,2168568,Interior Walls,L 1,L 1 Takt Zone 1,L 1 Room 169,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2168568,2168568,Interior Finishes,L 1,L 1 Takt Zone 1,L 1 Room 169,Walls,,90.0,SF,nearest centroid fallback,,1.0
+2168964,2168964,Interior Walls,L 1,L 1 Takt Zone 1,L 1 Room 168,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2168964,2168964,Interior Finishes,L 1,L 1 Takt Zone 1,L 1 Room 168,Walls,,74.0,SF,nearest centroid fallback,,1.0
+2169090,2169090,Interior Walls,L 1,L 1 Takt Zone 2,L 1 Room 171,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2169090,2169090,Interior Finishes,L 1,L 1 Takt Zone 2,L 1 Room 171,Walls,,121.0,SF,nearest centroid fallback,,1.0
+2169420,2169420,Interior Walls,L 1,L 1 Takt Zone 7,L 1 Room 179,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2169420,2169420,Interior Finishes,L 1,L 1 Takt Zone 7,L 1 Room 179,Walls,,125.0,SF,nearest centroid fallback,,1.0
+2169589,2169589,Interior Walls,L 1,L 1 Takt Zone 3,L 1 Room 172,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2169589,2169589,Interior Finishes,L 1,L 1 Takt Zone 3,L 1 Room 172,Walls,,90.0,SF,nearest centroid fallback,,1.0
+2169746,2169746,Interior Walls,L 1,L 1 Takt Zone 4,L 1 Room 174,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2169746,2169746,Interior Finishes,L 1,L 1 Takt Zone 4,L 1 Room 174,Walls,,128.0,SF,nearest centroid fallback,,1.0
+2169836,2169836,Interior Walls,L 1,L 1 Takt Zone 4,L 1 Room 175,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2169836,2169836,Interior Finishes,L 1,L 1 Takt Zone 4,L 1 Room 175,Walls,,90.0,SF,nearest centroid fallback,,1.0
+2170012,2170012,Interior Walls,L 1,L 1 Takt Zone 5,L 1 Room 177,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2170012,2170012,Interior Finishes,L 1,L 1 Takt Zone 5,L 1 Room 177,Walls,,128.0,SF,nearest centroid fallback,,1.0
+2170228,2170228,Interior Walls,L 1,L 1 Takt Zone 6,L 1 Room 178,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2170228,2170228,Interior Finishes,L 1,L 1 Takt Zone 6,L 1 Room 178,Walls,,90.0,SF,nearest centroid fallback,,1.0
+2173074,2173074,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 201,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2173074,2173074,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 201,Walls,,56.0,SF,nearest centroid fallback,,1.0
+2173306,2173306,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 201,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2173306,2173306,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 201,Walls,,89.0,SF,nearest centroid fallback,,1.0
+2175265,2175265,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,centroid in room polygon,,1.0
+2175265,2175265,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,11.0,SF,centroid in room polygon,,1.0
+2175573,2175573,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 201,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2175573,2175573,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 201,Walls,,16.0,SF,nearest centroid fallback,,1.0
+2175574,2175574,Doors,L 1,L 1 Takt Zone 8,L 1 Room 150,Doors,,1.0,EA,centroid in room polygon,,1.0
+2177547,2177547,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,centroid in room polygon,,1.0
+2177547,2177547,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,111.0,SF,centroid in room polygon,,1.0
+2178162,2178162,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2178162,2178162,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,104.0,SF,nearest centroid fallback,,1.0
+2179179,2179179,Interior Walls,L 1,L 1 Takt Zone 14,L 1 Room 206,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2179179,2179179,Interior Finishes,L 1,L 1 Takt Zone 14,L 1 Room 206,Walls,,44.0,SF,nearest centroid fallback,,1.0
+2179180,2179180,Doors,L 1,L 1 Takt Zone 8,L 1 Room 150,Doors,,1.0,EA,centroid in room polygon,,1.0
+2179181,2179181,Doors,L 1,L 1 Takt Zone 12,L 1 Room 211,Doors,,1.0,EA,nearest centroid fallback,,1.0
+2179182,2179182,Doors,L 1,L 1 Takt Zone 8,L 1 Room 150,Doors,,1.0,EA,centroid in room polygon,,1.0
+2179183,2179183,Doors,L 1,L 1 Takt Zone 8,L 1 Room 150,Doors,,1.0,EA,centroid in room polygon,,1.0
+2179184,2179184,Doors,L 1,L 1 Takt Zone 12,L 1 Room 211,Doors,,1.0,EA,room parameter,,1.0
+2180110,2180110,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2180110,2180110,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,154.0,SF,nearest centroid fallback,,1.0
+2180442,2180442,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2180442,2180442,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,91.0,SF,nearest centroid fallback,,1.0
+2180533,2180533,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2180533,2180533,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,72.0,SF,nearest centroid fallback,,1.0
+2180534,2180534,Doors,L 1,L 1 Takt Zone 8,L 1 Room 150,Doors,,1.0,EA,centroid in room polygon,,1.0
+2181281,2181281,Interior Walls,L 1,L 1 Takt Zone 13,L 1 Room 199,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2181281,2181281,Interior Finishes,L 1,L 1 Takt Zone 13,L 1 Room 199,Walls,,162.0,SF,nearest centroid fallback,,1.0
+2181374,2181374,Interior Walls,L 1,L 1 Takt Zone 12,L 1 Room 211,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2181374,2181374,Interior Finishes,L 1,L 1 Takt Zone 12,L 1 Room 211,Walls,,162.0,SF,nearest centroid fallback,,1.0
+2181467,2181467,Interior Walls,L 1,L 1 Takt Zone 12,L 1 Room 211,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2181467,2181467,Interior Finishes,L 1,L 1 Takt Zone 12,L 1 Room 211,Walls,,166.0,SF,nearest centroid fallback,,1.0
+2181576,2181576,Interior Walls,L 1,L 1 Takt Zone 12,L 1 Room 211,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2181576,2181576,Interior Finishes,L 1,L 1 Takt Zone 12,L 1 Room 211,Walls,,21.0,SF,nearest centroid fallback,,1.0
+2181652,2181652,Interior Walls,L 1,L 1 Takt Zone 14,L 1 Room 206,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2181652,2181652,Interior Finishes,L 1,L 1 Takt Zone 14,L 1 Room 206,Walls,,30.0,SF,nearest centroid fallback,,1.0
+2181844,2181844,Interior Walls,L 1,L 1 Takt Zone 14,L 1 Room 206,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2181844,2181844,Interior Finishes,L 1,L 1 Takt Zone 14,L 1 Room 206,Walls,,47.0,SF,nearest centroid fallback,,1.0
+2182227,2182227,Interior Walls,L 1,L 1 Takt Zone 12,L 1 Room 211,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2182227,2182227,Interior Finishes,L 1,L 1 Takt Zone 12,L 1 Room 211,Walls,,109.0,SF,nearest centroid fallback,,1.0
+2182307,2182307,Interior Walls,L 1,L 1 Takt Zone 12,L 1 Room 211,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2182307,2182307,Interior Finishes,L 1,L 1 Takt Zone 12,L 1 Room 211,Walls,,89.0,SF,nearest centroid fallback,,1.0
+2182383,2182383,Interior Walls,L 1,L 1 Takt Zone 14,L 1 Room 206,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2182383,2182383,Interior Finishes,L 1,L 1 Takt Zone 14,L 1 Room 206,Walls,,74.0,SF,nearest centroid fallback,,1.0
+2182799,2182799,Interior Walls,L 1,L 1 Takt Zone 14,L 1 Room 206,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2182799,2182799,Interior Finishes,L 1,L 1 Takt Zone 14,L 1 Room 206,Walls,,28.0,SF,nearest centroid fallback,,1.0
+2182891,2182891,Interior Walls,L 1,L 1 Takt Zone 14,L 1 Room 206,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2182891,2182891,Interior Finishes,L 1,L 1 Takt Zone 14,L 1 Room 206,Walls,,11.0,SF,nearest centroid fallback,,1.0
+2182951,2182951,Interior Walls,L 1,L 1 Takt Zone 12,L 1 Room 211,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2182951,2182951,Interior Finishes,L 1,L 1 Takt Zone 12,L 1 Room 211,Walls,,57.0,SF,nearest centroid fallback,,1.0
+2182952,2182952,Interior Walls,L 1,L 1 Takt Zone 12,L 1 Room 211,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2182952,2182952,Interior Finishes,L 1,L 1 Takt Zone 12,L 1 Room 211,Walls,,89.0,SF,nearest centroid fallback,,1.0
+2183057,2183057,Interior Walls,L 1,L 1 Takt Zone 12,L 1 Room 211,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2183057,2183057,Interior Finishes,L 1,L 1 Takt Zone 12,L 1 Room 211,Walls,,19.0,SF,nearest centroid fallback,,1.0
+2183140,2183140,Interior Walls,L 1,L 1 Takt Zone 12,L 1 Room 211,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2183140,2183140,Interior Finishes,L 1,L 1 Takt Zone 12,L 1 Room 211,Walls,,19.0,SF,nearest centroid fallback,,1.0
+2183250,2183250,Interior Walls,L 1,L 1 Takt Zone 13,L 1 Room 199,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2183250,2183250,Interior Finishes,L 1,L 1 Takt Zone 13,L 1 Room 199,Walls,,155.0,SF,nearest centroid fallback,,1.0
+2186907,2186907,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2186907,2186907,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,89.0,SF,nearest centroid fallback,,1.0
+2187596,2187596,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,centroid in room polygon,,1.0
+2187596,2187596,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,49.0,SF,centroid in room polygon,,1.0
+2187668,2187668,Interior Walls,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2187668,2187668,Interior Finishes,L 1,L 1 Takt Zone 8,L 1 Room 150,Walls,,130.0,SF,nearest centroid fallback,,1.0
+2190702,2190702,Interior Walls,L 1,L 1 Takt Zone 16,L 1 Room 157,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2190702,2190702,Interior Finishes,L 1,L 1 Takt Zone 16,L 1 Room 157,Walls,,141.0,SF,nearest centroid fallback,,1.0
+2191628,2191628,Interior Walls,L 1,L 1 Takt Zone 15,L 1 Room 159,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2191628,2191628,Interior Finishes,L 1,L 1 Takt Zone 15,L 1 Room 159,Walls,,91.0,SF,nearest centroid fallback,,1.0
+2213793,2213793,Interior Walls,L 1,L 1 Takt Zone 14,L 1 Room 206,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2213793,2213793,Interior Finishes,L 1,L 1 Takt Zone 14,L 1 Room 206,Walls,,10.0,SF,nearest centroid fallback,,1.0
+2394901,2394901,Ceiling,L 1,L 1 Takt Zone 12,L 1 Room 211,Ceilings,,1.0,EA,nearest centroid fallback,,1.0
+2615728,2615728,Interior Walls,L 1,L 1 Takt Zone 15,L 1 Room 159,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2615728,2615728,Interior Finishes,L 1,L 1 Takt Zone 15,L 1 Room 159,Walls,,68.0,SF,nearest centroid fallback,,1.0
+2616499,2616499,Interior Walls,L 1,L 1 Takt Zone 15,L 1 Room 158,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2616499,2616499,Interior Finishes,L 1,L 1 Takt Zone 15,L 1 Room 158,Walls,,84.0,SF,nearest centroid fallback,,1.0
+2616985,2616985,Interior Walls,L 1,L 1 Takt Zone 16,L 1 Room 157,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2616985,2616985,Interior Finishes,L 1,L 1 Takt Zone 16,L 1 Room 157,Walls,,80.0,SF,nearest centroid fallback,,1.0
+2618520,2618520,Interior Walls,L 1,L 1 Takt Zone 16,L 1 Room 156,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2618520,2618520,Interior Finishes,L 1,L 1 Takt Zone 16,L 1 Room 156,Walls,,71.0,SF,nearest centroid fallback,,1.0
+2618822,2618822,Interior Walls,L 1,L 1 Takt Zone 14,L 1 Room 155,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2618822,2618822,Interior Finishes,L 1,L 1 Takt Zone 14,L 1 Room 155,Walls,,79.0,SF,nearest centroid fallback,,1.0
+2619379,2619379,Interior Walls,L 1,L 1 Takt Zone 13,L 1 Room 154,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2619379,2619379,Interior Finishes,L 1,L 1 Takt Zone 13,L 1 Room 154,Walls,,72.0,SF,nearest centroid fallback,,1.0
+2623336,2623336,Interior Walls,L 1,L 1 Takt Zone 11,L 1 Room 145,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2623336,2623336,Interior Finishes,L 1,L 1 Takt Zone 11,L 1 Room 145,Walls,,56.0,SF,nearest centroid fallback,,1.0
+2624323,2624323,Interior Walls,L 1,L 1 Takt Zone 12,L 1 Room 211,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2624323,2624323,Interior Finishes,L 1,L 1 Takt Zone 12,L 1 Room 211,Walls,,110.0,SF,nearest centroid fallback,,1.0
+2625194,2625194,Interior Walls,L 1,L 1 Takt Zone 12,L 1 Room 211,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2625194,2625194,Interior Finishes,L 1,L 1 Takt Zone 12,L 1 Room 211,Walls,,62.0,SF,nearest centroid fallback,,1.0
+2626110,2626110,Interior Walls,L 1,L 1 Takt Zone 14,L 1 Room 206,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2626110,2626110,Interior Finishes,L 1,L 1 Takt Zone 14,L 1 Room 206,Walls,,51.0,SF,nearest centroid fallback,,1.0
+2626412,2626412,Interior Walls,L 1,L 1 Takt Zone 12,L 1 Room 211,Walls,,1.0,EA,nearest centroid fallback,,1.0
+2626412,2626412,Interior Finishes,L 1,L 1 Takt Zone 12,L 1 Room 211,Walls,,91.0,SF,nearest centroid fallback,,1.0
+2628530,ceiling-footprint:1773274:129.273:191.479:124.867:133.68:184.499:198.458,Ceiling,L 1,L 1 Takt Zone 14,L 1 Room 206,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628531,ceiling-footprint:1440380:61.715:203.76:57.215:66.215:198.999:208.52,Ceiling,L 1,L 1 Takt Zone 13,L 1 Room 154,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628532,ceiling-footprint:1440381:52.059:203.76:47.569:56.548:198.999:208.52,Ceiling,L 1,L 1 Takt Zone 14,L 1 Room 155,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628533,ceiling-footprint:1440382:42.382:203.76:37.882:46.882:198.999:208.52,Ceiling,L 1,L 1 Takt Zone 16,L 1 Room 156,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628534,ceiling-footprint:1440383:32.715:203.76:28.215:37.215:198.999:208.52,Ceiling,L 1,L 1 Takt Zone 16,L 1 Room 157,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628535,ceiling-footprint:1440384:23.048:203.76:18.548:27.548:198.999:208.52,Ceiling,L 1,L 1 Takt Zone 15,L 1 Room 158,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628536,ceiling-footprint:1440385:13.382:203.76:8.882:17.882:198.999:208.52,Ceiling,L 1,L 1 Takt Zone 15,L 1 Room 159,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628537,ceiling-footprint:1440388:3.72:203.76:-0.775:8.215:198.999:208.52,Ceiling,L 1,L 1 Takt Zone 9,L 1 Room 162,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628538,ceiling-footprint:1440376:15.736:162.218:8.757:22.715:150.333:174.104,Ceiling,L 1,L 1 Takt Zone 8,L 1 Room 150,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628539,ceiling-footprint:1440376:30.236:156.927:23.257:37.215:150.208:163.645,Ceiling,L 1,L 1 Takt Zone 8,L 1 Room 150,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628540,ceiling-footprint:1440376:7.857:182.213:-0.775:16.488:174.76:189.666,Ceiling,L 1,L 1 Takt Zone 8,L 1 Room 150,Parts,Ceilings,1.0,EA,nearest centroid fallback,,1.0
+2628541,ceiling-footprint:1440376:3.783:168.229:-0.775:8.34:162.354:174.104,Ceiling,L 1,L 1 Takt Zone 8,L 1 Room 150,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628542,ceiling-footprint:1440372:3.783:156.177:-0.775:8.34:150.333:162.021,Ceiling,L 1,L 1 Takt Zone 9,L 1 Room 146,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628543,ceiling-footprint:1773270:129.376:135.848:124.882:133.871:131.364:140.333,Ceiling,L 1,L 1 Takt Zone 7,L 1 Room 202,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628544,ceiling-footprint:1440406:109.715:135.843:105.215:114.215:131.364:140.322,Ceiling,L 1,L 1 Takt Zone 6,L 1 Room 180,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628545,ceiling-footprint:1440404:100.048:135.848:95.548:104.548:131.364:140.333,Ceiling,L 1,L 1 Takt Zone 6,L 1 Room 178,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628546,ceiling-footprint:1440403:90.382:135.843:85.882:94.882:131.364:140.322,Ceiling,L 1,L 1 Takt Zone 5,L 1 Room 177,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628547,ceiling-footprint:1440402:80.715:135.843:76.215:85.215:131.364:140.322,Ceiling,L 1,L 1 Takt Zone 5,L 1 Room 176,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628548,ceiling-footprint:1440401:71.048:135.843:66.548:75.548:131.364:140.322,Ceiling,L 1,L 1 Takt Zone 4,L 1 Room 175,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628549,ceiling-footprint:1440400:61.382:135.843:56.882:65.882:131.364:140.322,Ceiling,L 1,L 1 Takt Zone 4,L 1 Room 174,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628550,ceiling-footprint:1440399:51.715:135.843:47.215:56.215:131.364:140.322,Ceiling,L 1,L 1 Takt Zone 3,L 1 Room 173,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628551,ceiling-footprint:1440398:42.048:135.848:37.548:46.548:131.364:140.333,Ceiling,L 1,L 1 Takt Zone 3,L 1 Room 172,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628552,ceiling-footprint:1440397:32.382:135.848:27.882:36.882:131.364:140.333,Ceiling,L 1,L 1 Takt Zone 2,L 1 Room 171,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628553,ceiling-footprint:1440396:22.715:135.848:18.215:27.215:131.364:140.333,Ceiling,L 1,L 1 Takt Zone 2,L 1 Room 170,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628554,ceiling-footprint:1440395:13.048:135.848:8.548:17.548:131.364:140.333,Ceiling,L 1,L 1 Takt Zone 1,L 1 Room 169,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628555,ceiling-footprint:1440394:3.553:135.848:-0.775:7.882:131.364:140.333,Ceiling,L 1,L 1 Takt Zone 1,L 1 Room 168,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628556,ceiling-footprint:1773278:117.34:164.687:110.382:124.298:160.041:169.333,Ceiling,L 1,L 1 Takt Zone 11,L 1 Room 210,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628557,ceiling-footprint:1440371:102.798:164.687:95.882:109.715:160.041:169.333,Ceiling,L 1,L 1 Takt Zone 11,L 1 Room 145,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628558,ceiling-footprint:1440369:88.298:164.687:81.382:95.215:160.041:169.333,Ceiling,L 1,L 1 Takt Zone 10,L 1 Room 143,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628559,ceiling-footprint:1440368:73.798:164.687:66.882:80.715:160.041:169.333,Ceiling,L 1,L 1 Takt Zone 10,L 1 Room 142,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628560,ceiling-footprint:1440376:59.298:164.687:52.382:66.215:160.041:169.333,Ceiling,L 1,L 1 Takt Zone 8,L 1 Room 150,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628561,ceiling-footprint:1440405:119.548:135.843:114.882:124.215:131.364:140.322,Ceiling,L 1,L 1 Takt Zone 7,L 1 Room 179,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628562,ceiling-footprint:1773274:129.273:191.479:124.867:133.68:184.499:198.458,Ceiling,L 1,L 1 Takt Zone 14,L 1 Room 206,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628563,ceiling-footprint:1440380:61.715:203.76:57.215:66.215:198.999:208.52,Ceiling,L 1,L 1 Takt Zone 13,L 1 Room 154,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628564,ceiling-footprint:1440381:52.059:203.76:47.569:56.548:198.999:208.52,Ceiling,L 1,L 1 Takt Zone 14,L 1 Room 155,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628565,ceiling-footprint:1440382:42.382:203.76:37.882:46.882:198.999:208.52,Ceiling,L 1,L 1 Takt Zone 16,L 1 Room 156,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628566,ceiling-footprint:1440383:32.715:203.76:28.215:37.215:198.999:208.52,Ceiling,L 1,L 1 Takt Zone 16,L 1 Room 157,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628567,ceiling-footprint:1440384:23.048:203.76:18.548:27.548:198.999:208.52,Ceiling,L 1,L 1 Takt Zone 15,L 1 Room 158,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628568,ceiling-footprint:1440385:13.382:203.76:8.882:17.882:198.999:208.52,Ceiling,L 1,L 1 Takt Zone 15,L 1 Room 159,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628569,ceiling-footprint:1440388:3.72:203.76:-0.775:8.215:198.999:208.52,Ceiling,L 1,L 1 Takt Zone 9,L 1 Room 162,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628570,ceiling-footprint:1440376:15.736:162.218:8.757:22.715:150.333:174.104,Ceiling,L 1,L 1 Takt Zone 8,L 1 Room 150,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628571,ceiling-footprint:1440376:30.236:156.927:23.257:37.215:150.208:163.645,Ceiling,L 1,L 1 Takt Zone 8,L 1 Room 150,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628572,ceiling-footprint:1440376:7.857:182.213:-0.775:16.488:174.76:189.666,Ceiling,L 1,L 1 Takt Zone 8,L 1 Room 150,Parts,Ceilings,1.0,EA,nearest centroid fallback,,1.0
+2628573,ceiling-footprint:1440376:3.783:168.229:-0.775:8.34:162.354:174.104,Ceiling,L 1,L 1 Takt Zone 8,L 1 Room 150,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628574,ceiling-footprint:1440372:3.783:156.177:-0.775:8.34:150.333:162.021,Ceiling,L 1,L 1 Takt Zone 9,L 1 Room 146,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628575,ceiling-footprint:1773270:129.376:135.848:124.882:133.871:131.364:140.333,Ceiling,L 1,L 1 Takt Zone 7,L 1 Room 202,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628576,ceiling-footprint:1440406:109.715:135.843:105.215:114.215:131.364:140.322,Ceiling,L 1,L 1 Takt Zone 6,L 1 Room 180,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628577,ceiling-footprint:1440404:100.048:135.848:95.548:104.548:131.364:140.333,Ceiling,L 1,L 1 Takt Zone 6,L 1 Room 178,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628578,ceiling-footprint:1440403:90.382:135.843:85.882:94.882:131.364:140.322,Ceiling,L 1,L 1 Takt Zone 5,L 1 Room 177,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628579,ceiling-footprint:1440402:80.715:135.843:76.215:85.215:131.364:140.322,Ceiling,L 1,L 1 Takt Zone 5,L 1 Room 176,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628580,ceiling-footprint:1440401:71.048:135.843:66.548:75.548:131.364:140.322,Ceiling,L 1,L 1 Takt Zone 4,L 1 Room 175,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628581,ceiling-footprint:1440400:61.382:135.843:56.882:65.882:131.364:140.322,Ceiling,L 1,L 1 Takt Zone 4,L 1 Room 174,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628582,ceiling-footprint:1440399:51.715:135.843:47.215:56.215:131.364:140.322,Ceiling,L 1,L 1 Takt Zone 3,L 1 Room 173,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628583,ceiling-footprint:1440398:42.048:135.848:37.548:46.548:131.364:140.333,Ceiling,L 1,L 1 Takt Zone 3,L 1 Room 172,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628584,ceiling-footprint:1440397:32.382:135.848:27.882:36.882:131.364:140.333,Ceiling,L 1,L 1 Takt Zone 2,L 1 Room 171,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628585,ceiling-footprint:1440396:22.715:135.848:18.215:27.215:131.364:140.333,Ceiling,L 1,L 1 Takt Zone 2,L 1 Room 170,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628586,ceiling-footprint:1440395:13.048:135.848:8.548:17.548:131.364:140.333,Ceiling,L 1,L 1 Takt Zone 1,L 1 Room 169,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628587,ceiling-footprint:1440394:3.553:135.848:-0.775:7.882:131.364:140.333,Ceiling,L 1,L 1 Takt Zone 1,L 1 Room 168,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628588,ceiling-footprint:1773278:117.34:164.687:110.382:124.298:160.041:169.333,Ceiling,L 1,L 1 Takt Zone 11,L 1 Room 210,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628589,ceiling-footprint:1440371:102.798:164.687:95.882:109.715:160.041:169.333,Ceiling,L 1,L 1 Takt Zone 11,L 1 Room 145,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628590,ceiling-footprint:1440369:88.298:164.687:81.382:95.215:160.041:169.333,Ceiling,L 1,L 1 Takt Zone 10,L 1 Room 143,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628591,ceiling-footprint:1440368:73.798:164.687:66.882:80.715:160.041:169.333,Ceiling,L 1,L 1 Takt Zone 10,L 1 Room 142,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628592,ceiling-footprint:1440376:59.298:164.687:52.382:66.215:160.041:169.333,Ceiling,L 1,L 1 Takt Zone 8,L 1 Room 150,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628593,ceiling-footprint:1440405:119.548:135.843:114.882:124.215:131.364:140.322,Ceiling,L 1,L 1 Takt Zone 7,L 1 Room 179,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628594,ceiling-footprint:1773274:129.273:191.479:124.867:133.68:184.499:198.458,Ceiling,L 1,L 1 Takt Zone 14,L 1 Room 206,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628595,ceiling-footprint:1440380:61.715:203.76:57.215:66.215:198.999:208.52,Ceiling,L 1,L 1 Takt Zone 13,L 1 Room 154,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628596,ceiling-footprint:1440381:52.059:203.76:47.569:56.548:198.999:208.52,Ceiling,L 1,L 1 Takt Zone 14,L 1 Room 155,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628597,ceiling-footprint:1440382:42.382:203.76:37.882:46.882:198.999:208.52,Ceiling,L 1,L 1 Takt Zone 16,L 1 Room 156,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628598,ceiling-footprint:1440383:32.715:203.76:28.215:37.215:198.999:208.52,Ceiling,L 1,L 1 Takt Zone 16,L 1 Room 157,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628599,ceiling-footprint:1440384:23.048:203.76:18.548:27.548:198.999:208.52,Ceiling,L 1,L 1 Takt Zone 15,L 1 Room 158,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628600,ceiling-footprint:1440385:13.382:203.76:8.882:17.882:198.999:208.52,Ceiling,L 1,L 1 Takt Zone 15,L 1 Room 159,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628601,ceiling-footprint:1440388:3.72:203.76:-0.775:8.215:198.999:208.52,Ceiling,L 1,L 1 Takt Zone 9,L 1 Room 162,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628602,ceiling-footprint:1440376:15.736:162.218:8.757:22.715:150.333:174.104,Ceiling,L 1,L 1 Takt Zone 8,L 1 Room 150,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628603,ceiling-footprint:1440376:30.236:156.927:23.257:37.215:150.208:163.645,Ceiling,L 1,L 1 Takt Zone 8,L 1 Room 150,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628604,ceiling-footprint:1440376:7.857:182.213:-0.775:16.488:174.76:189.666,Ceiling,L 1,L 1 Takt Zone 8,L 1 Room 150,Parts,Ceilings,1.0,EA,nearest centroid fallback,,1.0
+2628605,ceiling-footprint:1440376:3.783:168.229:-0.775:8.34:162.354:174.104,Ceiling,L 1,L 1 Takt Zone 8,L 1 Room 150,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628606,ceiling-footprint:1440372:3.783:156.177:-0.775:8.34:150.333:162.021,Ceiling,L 1,L 1 Takt Zone 9,L 1 Room 146,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628607,ceiling-footprint:1773270:129.376:135.848:124.882:133.871:131.364:140.333,Ceiling,L 1,L 1 Takt Zone 7,L 1 Room 202,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628608,ceiling-footprint:1440405:119.548:135.843:114.882:124.215:131.364:140.322,Ceiling,L 1,L 1 Takt Zone 7,L 1 Room 179,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628609,ceiling-footprint:1440406:109.715:135.843:105.215:114.215:131.364:140.322,Ceiling,L 1,L 1 Takt Zone 6,L 1 Room 180,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628610,ceiling-footprint:1440404:100.048:135.848:95.548:104.548:131.364:140.333,Ceiling,L 1,L 1 Takt Zone 6,L 1 Room 178,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628611,ceiling-footprint:1440403:90.382:135.843:85.882:94.882:131.364:140.322,Ceiling,L 1,L 1 Takt Zone 5,L 1 Room 177,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628612,ceiling-footprint:1440402:80.715:135.843:76.215:85.215:131.364:140.322,Ceiling,L 1,L 1 Takt Zone 5,L 1 Room 176,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628613,ceiling-footprint:1440401:71.048:135.843:66.548:75.548:131.364:140.322,Ceiling,L 1,L 1 Takt Zone 4,L 1 Room 175,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628614,ceiling-footprint:1440400:61.382:135.843:56.882:65.882:131.364:140.322,Ceiling,L 1,L 1 Takt Zone 4,L 1 Room 174,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628615,ceiling-footprint:1440399:51.715:135.843:47.215:56.215:131.364:140.322,Ceiling,L 1,L 1 Takt Zone 3,L 1 Room 173,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628616,ceiling-footprint:1440398:42.048:135.848:37.548:46.548:131.364:140.333,Ceiling,L 1,L 1 Takt Zone 3,L 1 Room 172,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628617,ceiling-footprint:1440397:32.382:135.848:27.882:36.882:131.364:140.333,Ceiling,L 1,L 1 Takt Zone 2,L 1 Room 171,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628618,ceiling-footprint:1440396:22.715:135.848:18.215:27.215:131.364:140.333,Ceiling,L 1,L 1 Takt Zone 2,L 1 Room 170,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628619,ceiling-footprint:1440395:13.048:135.848:8.548:17.548:131.364:140.333,Ceiling,L 1,L 1 Takt Zone 1,L 1 Room 169,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628620,ceiling-footprint:1440394:3.553:135.848:-0.775:7.882:131.364:140.333,Ceiling,L 1,L 1 Takt Zone 1,L 1 Room 168,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628621,ceiling-footprint:1773278:117.34:164.687:110.382:124.298:160.041:169.333,Ceiling,L 1,L 1 Takt Zone 11,L 1 Room 210,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628622,ceiling-footprint:1440371:102.798:164.687:95.882:109.715:160.041:169.333,Ceiling,L 1,L 1 Takt Zone 11,L 1 Room 145,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628623,ceiling-footprint:1440369:88.298:164.687:81.382:95.215:160.041:169.333,Ceiling,L 1,L 1 Takt Zone 10,L 1 Room 143,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628624,ceiling-footprint:1440368:73.798:164.687:66.882:80.715:160.041:169.333,Ceiling,L 1,L 1 Takt Zone 10,L 1 Room 142,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0
+2628625,ceiling-footprint:1440376:59.298:164.687:52.382:66.215:160.041:169.333,Ceiling,L 1,L 1 Takt Zone 8,L 1 Room 150,Parts,Ceilings,1.0,EA,centroid in room polygon,,1.0

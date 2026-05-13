@@ -1,9 +1,10 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+import json
 from pathlib import Path
 import re
-from typing import cast
+from typing import Any, cast
 
 import pandas as pd
 
@@ -17,15 +18,24 @@ ALICE_BIM_INPUTS_DIR = ALICE_BIM_MAPPER_DIR / "inputs"
 ALICE_BIM_OUTPUTS_DIR = ALICE_BIM_MAPPER_DIR / "outputs"
 
 MACRO_SCHEDULE_PATH = ALICE_BIM_OUTPUTS_DIR / "Macro_Schedule.csv"
-ALICE_BIM_MAP_PATH = ALICE_BIM_INPUTS_DIR / "ALICE_BIM_Map.csv"
+LOCAL_INPUTS_DIR = BASE_DIR / "inputs"
+LOCAL_ALICE_BIM_MAP_PATH = LOCAL_INPUTS_DIR / "ALICE_BIM_Map.csv"
+ALICE_BIM_MAP_PATH = (
+    LOCAL_ALICE_BIM_MAP_PATH
+    if LOCAL_ALICE_BIM_MAP_PATH.exists()
+    else ALICE_BIM_INPUTS_DIR / "ALICE_BIM_Map.csv"
+)
 TASKS_PATH = ALICE_BIM_OUTPUTS_DIR / "Tasks.csv"
 CREW_PATH = ALICE_BIM_OUTPUTS_DIR / "Crew.csv"
 EQUIPMENT_PATH = ALICE_BIM_OUTPUTS_DIR / "Equipment.csv"
 
 CENTRAL_BIM_PATH = PROJECT_DIR / "outputs" / "takt_zones" / "central_bim_model_with_takt.csv"
+CENTRAL_BIM_CONTEXT_PATH = PROJECT_DIR / "outputs" / "takt_zones" / "central_bim_model_llm_context.csv"
+REVIT_SCHEDULES_DIR = PROJECT_DIR / "revit_schedules"
 PREFAB_MAPPING_PATH = PLANNING_ENGINE_DIR / "Prefab_BIM_Mapper" / "outputs" / "Prefab_Wall_Mapping.csv"
 MICRO_SCHEDULE_PATH = OUTPUTS_DIR / "Micro_Schedule.csv"
 MICRO_LOG_PATH = OUTPUTS_DIR / "Micro_Schedule_Log.md"
+MICRO_RULES_PATH = BASE_DIR / "inputs" / "micro_schedule_rules.json"
 
 
 @dataclass
@@ -42,6 +52,16 @@ class TaskContext:
     unit: str
     productivity_dependency: str
     crew_hours: list[int]
+
+
+@dataclass
+class MicroTaskNode:
+    node_id: str
+    micro_task_name: str
+    record: dict[str, object]
+    task_elements: pd.DataFrame
+    split_attrs: dict[str, str]
+    sort_key: tuple[object, ...]
 
 
 SUPERSTRUCTURE_TASKS = {
@@ -61,6 +81,214 @@ ENVELOPE_TASKS = {
 INTERIOR_TASKS = {
     "interior walls",
     "ceiling installation",
+}
+
+MEP_ROUGH_IN_TASKS = {
+    "mep rough-in",
+}
+
+INITIAL_SITE_TASK = "install construction fencing"
+
+PARALLEL_SITE_TASKS_AFTER_FENCING = {
+    "install site office & welfare units",
+    "temporary water installation",
+    "temporary power installation",
+    "tree removal & clearing",
+    "bleacher demolition",
+    "crane pad construction",
+}
+
+EARLY_SITE_CHAIN_TASKS = {
+    "laydown area preparation",
+    "full basement excavation",
+    "shoring / stabilization",
+    "subgrade preparation",
+}
+
+FOUNDATION_PARALLEL_TASKS = {
+    "basement retaining walls",
+    "footings - form/rebar/pour",
+}
+
+FOUNDATION_CHAIN_TASKS = [
+    "foundational columns",
+    "grade beams",
+    "basement slab on grade",
+    "rocking walls",
+]
+
+BASEMENT_SUPPORT_TASKS = [
+    "waterproofing & drainage",
+    "underground utilities",
+    "backfill & compaction",
+]
+
+BASEMENT_RETAINING_WALL_CURING_DAYS = 7
+
+DEFAULT_MICRO_RULES: dict[str, Any] = {
+    "split_rules": [
+        {
+            "tasks": [
+                "Frame: Columns",
+                "Frame: Beams",
+                "Floor",
+                "Roof",
+                "Exterior Wall Install",
+                "Glass Install + Glazing",
+                "Facade Install + Glazing",
+                "Mesh Install",
+            ],
+            "by": ["level"],
+        },
+        {
+            "tasks": [
+                "Interior Walls",
+                "Ceiling Installation",
+                "MEP Rough-In",
+            ],
+            "by": ["room"],
+        }
+    ],
+    "constraints": [
+        {
+            "type": "same_start_after",
+            "after": {"task": "Install Construction Fencing"},
+            "tasks": [
+                "Install Site Office & Welfare Units",
+                "Temporary Water Installation",
+                "Temporary Power Installation",
+                "Tree Removal & Clearing",
+                "Bleacher Demolition",
+                "Crane Pad Construction",
+            ],
+        },
+        {
+            "type": "serial",
+            "before": {
+                "tasks": [
+                    "Install Site Office & Welfare Units",
+                    "Temporary Water Installation",
+                    "Temporary Power Installation",
+                    "Tree Removal & Clearing",
+                    "Bleacher Demolition",
+                    "Crane Pad Construction",
+                ]
+            },
+            "after": {"task": "Laydown Area Preparation"},
+        },
+        {
+            "type": "chain",
+            "tasks": [
+                "Laydown Area Preparation",
+                "Full Basement Excavation",
+                "Shoring / Stabilization",
+                "Subgrade Preparation",
+            ],
+        },
+        {
+            "type": "same_start_after",
+            "after": {"task": "Subgrade Preparation"},
+            "tasks": ["Footings - Form/Rebar/Pour", "Basement Retaining Walls"],
+        },
+        {
+            "type": "serial",
+            "before": {"task": "Basement Retaining Walls"},
+            "after": {"task": "Foundational Columns"},
+            "lag_days": BASEMENT_RETAINING_WALL_CURING_DAYS,
+        },
+        {
+            "type": "serial",
+            "before": {"task": "Footings - Form/Rebar/Pour"},
+            "after": {"task": "Foundational Columns"},
+        },
+        {
+            "type": "chain",
+            "tasks": [
+                "Foundational Columns",
+                "Grade Beams",
+                "Basement Slab on Grade",
+                "Rocking Walls",
+            ],
+        },
+        {
+            "type": "chain",
+            "tasks": [
+                "Basement Retaining Walls",
+                "Waterproofing & Drainage",
+                "Underground Utilities",
+                "Backfill & Compaction",
+            ],
+            "lag_days": BASEMENT_RETAINING_WALL_CURING_DAYS,
+        },
+        {
+            "type": "serial",
+            "before": {"tasks": ["Rocking Walls", "Backfill & Compaction"]},
+            "after": {"task": "Frame: Columns"},
+        },
+        {
+            "type": "serial",
+            "before": {"tasks": ["Rocking Walls", "Backfill & Compaction"]},
+            "after": {"tasks": ["Mechanical Room Buildout", "Main Electrical & Riser Install"]},
+        },
+        {
+            "type": "chain",
+            "tasks": ["Frame: Columns", "Frame: Beams", "Floor"],
+            "match_by": ["level"],
+        },
+        {
+            "type": "serial",
+            "before": {"task": "Frame: Beams"},
+            "after": {"task": "Roof"},
+            "match_by": ["level"],
+        },
+        {
+            "type": "serial",
+            "before": {"phase": "superstructure"},
+            "after": {"task": "Exterior Wall Install"},
+            "match_by": ["level"],
+        },
+        {
+            "type": "serial",
+            "before": {"task": "Exterior Wall Install"},
+            "after": {"tasks": ["Glass Install + Glazing", "Mesh Install"]},
+            "match_by": ["level"],
+        },
+        {
+            "type": "same_start_after",
+            "after": {"task": "Exterior Wall Install"},
+            "tasks": ["Interior Walls", "MEP Rough-In"],
+            "match_by": ["level"],
+        },
+        {
+            "type": "serial",
+            "before": {"tasks": ["Interior Walls", "MEP Rough-In"]},
+            "after": {"task": "Ceiling Installation"},
+            "match_by": ["room"],
+        },
+        {
+            "type": "serial",
+            "before": {
+                "tasks": [
+                    "Ceiling Installation",
+                    "Glass Install + Glazing",
+                    "Mesh Install",
+                    "Mechanical Room Buildout",
+                    "Main Electrical & Riser Install",
+                ]
+            },
+            "after": {"task": "MEP Start-Up"},
+        },
+        {
+            "type": "chain",
+            "tasks": [
+                "MEP Start-Up",
+                "TAB",
+                "Integrated Systems Testing",
+                "Final Inspections",
+                "Hurricane Contingency Buffer",
+            ],
+        },
+    ],
 }
 
 
@@ -133,6 +361,25 @@ def parse_hours_list(value: object) -> list[int]:
     return sorted(dict.fromkeys(hours))
 
 
+def resource_tokens(value: object) -> list[str]:
+    return [token.strip() for token in clean_text(value).split("|") if token.strip()]
+
+
+def resolve_crew_hours(crew_type: object, crew_hours_by_type: dict[str, list[int]]) -> list[int]:
+    for token in resource_tokens(crew_type):
+        hours = crew_hours_by_type.get(token, [])
+        if hours:
+            return hours
+    return []
+
+
+def combined_resource_count(resource_value: object, counts: dict[str, int], default: int = 1) -> int:
+    tokens = resource_tokens(resource_value)
+    if not tokens:
+        return default
+    return max(sum(counts.get(token, default) for token in tokens), default)
+
+
 def normalize_columns(frame: pd.DataFrame) -> pd.DataFrame:
     frame = frame.copy()
     frame.columns = [str(column).strip() for column in frame.columns]
@@ -145,6 +392,167 @@ def choose_coord(row: pd.Series, primary: str, fallback: str) -> float:
         return float(primary_value)
     fallback_value = row.get(fallback)
     return float(fallback_value) if pd.notna(fallback_value) else 0.0
+
+
+def latest_room_boundaries_path() -> Path | None:
+    candidates = sorted(
+        REVIT_SCHEDULES_DIR.glob("*_Room_Boundaries.csv"),
+        key=lambda path: path.stat().st_mtime,
+        reverse=True,
+    )
+    return candidates[0] if candidates else None
+
+
+def polygon_contains_point(points: list[tuple[float, float]], x: float, y: float) -> bool:
+    if len(points) < 3:
+        return False
+
+    inside = False
+    j = len(points) - 1
+    for i, point in enumerate(points):
+        xi, yi = point
+        xj, yj = points[j]
+        crosses = (yi > y) != (yj > y)
+        if crosses:
+            x_intersection = (xj - xi) * (y - yi) / ((yj - yi) or 1e-12) + xi
+            if x < x_intersection:
+                inside = not inside
+        j = i
+    return inside
+
+
+def load_room_takt_zones() -> list[dict[str, object]]:
+    boundary_path = latest_room_boundaries_path()
+    if boundary_path is None:
+        return []
+
+    rooms = pd.read_csv(boundary_path, dtype=str).fillna("")
+    numeric_columns = [
+        "Start X (ft)",
+        "Start Y (ft)",
+        "End X (ft)",
+        "End Y (ft)",
+        "Room Location X (ft)",
+        "Room Location Y (ft)",
+    ]
+    for column in numeric_columns:
+        rooms[column] = pd.to_numeric(rooms[column], errors="coerce")
+
+    zones: list[dict[str, object]] = []
+    for (room_id, loop_id), loop_df in rooms.groupby(["RoomId", "Boundary Loop"], sort=False):
+        loop_df = loop_df.sort_values("Segment Index")
+        points = [
+            (float(row["Start X (ft)"]), float(row["Start Y (ft)"]))
+            for _, row in loop_df.iterrows()
+            if pd.notna(row["Start X (ft)"]) and pd.notna(row["Start Y (ft)"])
+        ]
+        if len(points) < 3:
+            continue
+
+        first_row = loop_df.iloc[0]
+        level = clean_text(first_row.get("Level"))
+        room_number = clean_text(first_row.get("RoomNumber"))
+        room_name = clean_text(first_row.get("RoomName"))
+        room_label = room_number or clean_text(room_id)
+        zones.append(
+            {
+                "room_id": clean_text(room_id),
+                "room_number": room_number,
+                "room_name": room_name,
+                "room_level": level,
+                "room_takt_id": f"{level} Room {room_label}".strip(),
+                "points": points,
+                "min_x": min(point[0] for point in points),
+                "max_x": max(point[0] for point in points),
+                "min_y": min(point[1] for point in points),
+                "max_y": max(point[1] for point in points),
+            }
+        )
+    return zones
+
+
+def normalize_room_columns(frame: pd.DataFrame) -> pd.DataFrame:
+    frame = frame.copy()
+    room_column_map = {
+        "Room Id": "room_id",
+        "Room Number": "room_number",
+        "Room Name": "room_name",
+        "Room Level": "room_level",
+        "Room Area (SF)": "room_area_sf",
+        "Room Volume (CF)": "room_volume_cf",
+        "Room Location X (ft)": "room_location_x_ft",
+        "Room Location Y (ft)": "room_location_y_ft",
+        "Room Location Z (ft)": "room_location_z_ft",
+    }
+    for source, target in room_column_map.items():
+        if source in frame.columns and target not in frame.columns:
+            frame[target] = frame[source]
+
+    for column in [
+        "room_id",
+        "room_number",
+        "room_name",
+        "room_level",
+        "room_area_sf",
+        "room_volume_cf",
+        "room_location_x_ft",
+        "room_location_y_ft",
+        "room_location_z_ft",
+        "room_takt_id",
+    ]:
+        if column not in frame.columns:
+            frame[column] = ""
+    return frame
+
+
+def assign_room_takt_ids(frame: pd.DataFrame) -> pd.DataFrame:
+    frame = normalize_room_columns(frame)
+    zones = load_room_takt_zones()
+    if not zones:
+        frame["room_takt_id"] = frame["room_takt_id"].where(
+            frame["room_takt_id"].astype(str).str.strip() != "",
+            frame.apply(
+                lambda row: (
+                    f"{clean_text(row.get('room_level'))} Room {clean_text(row.get('room_number'))}".strip()
+                    if clean_text(row.get("room_id")) and clean_text(row.get("room_number"))
+                    else ""
+                ),
+                axis=1,
+            ),
+        )
+        return frame
+
+    for row_index, row in frame.iterrows():
+        if clean_text(row.get("room_takt_id")):
+            continue
+
+        existing_room_id = clean_text(row.get("room_id"))
+        if existing_room_id:
+            matching_zone = next((zone for zone in zones if zone["room_id"] == existing_room_id), None)
+            if matching_zone:
+                for key in ["room_number", "room_name", "room_level", "room_takt_id"]:
+                    frame.at[row_index, key] = matching_zone[key]
+                continue
+
+        level = clean_text(row.get("Level"))
+        x = row.get("coord_x")
+        y = row.get("coord_y")
+        if pd.isna(x) or pd.isna(y):
+            continue
+
+        for zone in zones:
+            if level and clean_text(zone["room_level"]) != level:
+                continue
+            x_float = float(x)
+            y_float = float(y)
+            if not (zone["min_x"] <= x_float <= zone["max_x"] and zone["min_y"] <= y_float <= zone["max_y"]):
+                continue
+            if polygon_contains_point(cast(list[tuple[float, float]], zone["points"]), x_float, y_float):
+                for key in ["room_id", "room_number", "room_name", "room_level", "room_takt_id"]:
+                    frame.at[row_index, key] = zone[key]
+                break
+
+    return frame
 
 
 def normalize_source_model(row: pd.Series) -> str:
@@ -164,11 +572,52 @@ def normalize_source_model(row: pd.Series) -> str:
     return "Central_BIM_Model.csv"
 
 
+def infer_discipline(row: pd.Series) -> str:
+    discipline = clean_text(row.get("discipline"))
+    if discipline:
+        return discipline
+
+    source_schedule = clean_text(row.get("source_schedule")).lower()
+    if "mep_takeoff" in source_schedule:
+        return "MEP"
+    if "structural_schedule" in source_schedule:
+        return "Structural"
+    if "architecture_takeoff" in source_schedule:
+        return "Architecture"
+    return ""
+
+
+def load_element_discipline_lookup() -> dict[str, str]:
+    if not CENTRAL_BIM_CONTEXT_PATH.exists():
+        return {}
+
+    context = pd.read_csv(CENTRAL_BIM_CONTEXT_PATH, dtype=str).fillna("")
+    context = normalize_columns(context)
+    required = {"element_id", "discipline"}
+    if not required.issubset(context.columns):
+        return {}
+
+    return {
+        clean_text(row["element_id"]): clean_text(row["discipline"])
+        for _, row in context.iterrows()
+        if clean_text(row["element_id"]) and clean_text(row["discipline"])
+    }
+
+
 def load_model_elements() -> pd.DataFrame:
     if not CENTRAL_BIM_PATH.exists():
         return pd.DataFrame()
 
     frame = pd.read_csv(CENTRAL_BIM_PATH)
+    if "discipline" not in frame.columns:
+        discipline_lookup = load_element_discipline_lookup()
+        frame["discipline"] = frame["ElementId"].astype(str).map(discipline_lookup).fillna("")
+    frame["discipline"] = frame.apply(infer_discipline, axis=1)
+
+    for column in ["Original Category", "Original Family", "Original Type"]:
+        if column not in frame.columns:
+            frame[column] = ""
+
     frame["source_model"] = frame.apply(normalize_source_model, axis=1)
     if "Parameter Snapshot" in frame.columns:
         reference_levels = frame["Parameter Snapshot"].apply(
@@ -188,6 +637,7 @@ def load_model_elements() -> pd.DataFrame:
     frame["coord_z"] = frame.apply(
         lambda row: choose_coord(row, "Bounding Box Center Z (ft)", "Position Z (ft)"), axis=1
     )
+    frame = assign_room_takt_ids(frame)
     frame["element_key"] = frame["source_model"].astype(str) + ":" + frame["ElementId"].astype(str)
     frame["quantity_count"] = 1.0
     frame["quantity_sf"] = frame["Area"].apply(parse_measure) if "Area" in frame.columns else 0.0
@@ -196,6 +646,31 @@ def load_model_elements() -> pd.DataFrame:
     if "takt_id" not in frame.columns:
         frame["takt_id"] = ""
     return frame
+
+
+def effective_category(row: pd.Series) -> str:
+    category = clean_text(row.get("Category"))
+    if category == "Parts":
+        return clean_text(row.get("Original Category")) or category
+    return category
+
+
+def effective_family(row: pd.Series) -> str:
+    category = clean_text(row.get("Category"))
+    if category == "Parts":
+        return clean_text(row.get("Original Family")) or clean_text(row.get("Family"))
+    return clean_text(row.get("Family"))
+
+
+def effective_type(row: pd.Series) -> str:
+    category = clean_text(row.get("Category"))
+    if category == "Parts":
+        return clean_text(row.get("Original Type")) or clean_text(row.get("Type"))
+    return clean_text(row.get("Type"))
+
+
+def is_floor_part(row: pd.Series) -> bool:
+    return clean_text(row.get("Category")) == "Parts" and clean_text(row.get("Original Category")) == "Floors"
 
 
 def parse_bim_map_selectors(bim_map: object) -> list[tuple[str, str]]:
@@ -219,6 +694,9 @@ def parse_bim_map_selectors(bim_map: object) -> list[tuple[str, str]]:
         family = attributes.get("family", "")
         type_name = attributes.get("type", "")
         level = attributes.get("level", "")
+        discipline = attributes.get("discipline", "")
+        if discipline:
+            selectors.append(("Discipline", discipline))
         if category and family:
             selectors.append(("Category:Family", f"{category}:{family}"))
         elif category and type_name:
@@ -236,37 +714,47 @@ def parse_bim_map_selectors(bim_map: object) -> list[tuple[str, str]]:
 
 def match_elements(elements: pd.DataFrame, bim_map: str) -> pd.DataFrame:
     matches: list[pd.DataFrame] = []
+    if not elements.empty:
+        elements = elements.copy()
+        elements["effective_category"] = elements.apply(effective_category, axis=1)
+        elements["effective_family"] = elements.apply(effective_family, axis=1)
+        elements["effective_type"] = elements.apply(effective_type, axis=1)
+
     for bim_rule, token in parse_bim_map_selectors(bim_map):
-        if bim_rule == "Category":
-            matches.append(elements[elements["Category"].astype(str) == token])
+        if bim_rule == "Discipline":
+            if "discipline" not in elements.columns:
+                continue
+            matches.append(elements[elements["discipline"].fillna("").astype(str).str.casefold() == token.casefold()])
+        elif bim_rule == "Category":
+            matches.append(elements[elements["effective_category"].astype(str) == token])
         elif bim_rule == "Category:Family":
             category, family = token.split(":", 1)
             matches.append(
                 elements[
-                    (elements["Category"].astype(str) == category)
-                    & (elements["Family"].fillna("").astype(str) == family)
+                    (elements["effective_category"].astype(str) == category)
+                    & (elements["effective_family"].fillna("").astype(str) == family)
                 ]
             )
         elif bim_rule == "Category:Type":
             category, type_name = token.split(":", 1)
             matches.append(
                 elements[
-                    (elements["Category"].astype(str) == category)
-                    & (elements["Type"].astype(str) == type_name)
+                    (elements["effective_category"].astype(str) == category)
+                    & (elements["effective_type"].astype(str) == type_name)
                 ]
             )
         elif bim_rule == "Category:Level":
             category, level = token.split(":", 1)
             matches.append(
                 elements[
-                    (elements["Category"].astype(str) == category)
+                    (elements["effective_category"].astype(str) == category)
                     & (elements["Level"].fillna("").astype(str).str.strip() == level)
                 ]
             )
         elif bim_rule == "Family":
-            matches.append(elements[elements["Family"].fillna("").astype(str) == token])
+            matches.append(elements[elements["effective_family"].fillna("").astype(str) == token])
         elif bim_rule == "Type":
-            matches.append(elements[elements["Type"].fillna("").astype(str) == token])
+            matches.append(elements[elements["effective_type"].fillna("").astype(str) == token])
 
     if not matches:
         return elements.iloc[0:0].copy()
@@ -280,8 +768,8 @@ def filter_task_specific_elements(task: TaskContext, matched: pd.DataFrame) -> p
 
     task_name = str(task.task_name).strip().lower()
     level_text = matched["Level"].astype(str).str.strip().str.lower()
-    type_text = matched["Type"].fillna("").astype(str).str.strip().str.lower()
-    family_text = matched["Family"].fillna("").astype(str).str.strip().str.lower()
+    effective_type_text = matched.apply(effective_type, axis=1).astype(str).str.strip().str.lower()
+    effective_family_text = matched.apply(effective_family, axis=1).astype(str).str.strip().str.lower()
     source_text = matched["source_model"].fillna("").astype(str).str.strip().str.lower()
 
     basement_structural_tasks = {
@@ -298,21 +786,29 @@ def filter_task_specific_elements(task: TaskContext, matched: pd.DataFrame) -> p
     }
 
     if task_name == "roof":
-        return matched[level_text == "roof"].copy()
+        roof_matches = matched[level_text == "roof"].copy()
+        floor_part_mask = roof_matches.apply(is_floor_part, axis=1)
+        if floor_part_mask.any():
+            return roof_matches[floor_part_mask].copy()
+        return roof_matches
     if task_name == "floor":
-        return matched[level_text != "roof"].copy()
+        floor_matches = matched[level_text != "roof"].copy()
+        floor_part_mask = floor_matches.apply(is_floor_part, axis=1)
+        if floor_part_mask.any():
+            return floor_matches[floor_part_mask].copy()
+        return floor_matches
     if task_name in basement_structural_tasks:
         matched = matched[source_text == "structural_schedule.csv"].copy()
     if task_name in basement_non_bim_tasks:
         matched = matched[source_text == "non-bim"].copy()
     if task_name == "footings - form/rebar/pour":
         footing_mask = (
-            family_text.str.contains("footing", regex=False)
-            | type_text.str.contains("footing", regex=False)
-        ) & (~type_text.str.contains("slab", regex=False))
+            effective_family_text.str.contains("footing", regex=False)
+            | effective_type_text.str.contains("footing", regex=False)
+        ) & (~effective_type_text.str.contains("slab", regex=False))
         return matched[footing_mask].copy()
     if task_name == "basement slab on grade":
-        slab_mask = type_text.str.contains('foundation slab', regex=False) | type_text.str.contains('slab', regex=False)
+        slab_mask = effective_type_text.str.contains('foundation slab', regex=False) | effective_type_text.str.contains('slab', regex=False)
         return matched[slab_mask].copy()
     return matched
 
@@ -377,6 +873,8 @@ def task_phase(task_name: str) -> str | None:
         return "envelope"
     if normalized in INTERIOR_TASKS:
         return "interior"
+    if normalized in MEP_ROUGH_IN_TASKS:
+        return "mep"
     return None
 
 
@@ -428,14 +926,18 @@ def cycle_sort_key(
     if normalized_task_name == "frame: columns":
         return (level_index, 0, task.start_date, task.task_id)
     if normalized_task_name == "frame: beams":
+        if level_text.casefold() == "roof":
+            return (level_indices.get("__roof_cycle_index", max(level_index - 1, 0)), 1, task.start_date, task.task_id)
         return (max(level_index - 1, 0), 1, task.start_date, task.task_id)
     if normalized_task_name == "floor":
         return (max(level_index - 1, 0), 2, task.start_date, task.task_id)
     if normalized_task_name == "roof":
-        return (max(level_index - 1, 0), 3, task.start_date, task.task_id)
+        return (level_indices.get("__roof_cycle_index", max(level_index - 1, 0)), 3, task.start_date, task.task_id)
     if phase == "envelope":
         return (level_index, 4, task.start_date, task.task_id)
     if phase == "interior":
+        return (level_index, 5, task.start_date, task.task_id)
+    if phase == "mep":
         return (level_index, 5, task.start_date, task.task_id)
     return (level_index, 9, task.start_date, task.task_id)
 
@@ -706,6 +1208,10 @@ def build_task_contexts() -> list[TaskContext]:
     tasks = normalize_columns(pd.read_csv(TASKS_PATH, dtype=str).fillna(""))
     bim_map = normalize_columns(pd.read_csv(ALICE_BIM_MAP_PATH, dtype=str).fillna(""))
     crews = pd.read_csv(CREW_PATH)
+    crew_hours_by_type = {
+        clean_text(row["crew_type"]): parse_hours_list(row.get("hours", ""))
+        for _, row in crews.iterrows()
+    }
 
     bim_map = bim_map.rename(
         columns={
@@ -736,10 +1242,17 @@ def build_task_contexts() -> list[TaskContext]:
     )
     merged["task_name"] = merged["task_name"].apply(normalize_task_name)
 
-    merged = merged.merge(crews[["crew_type", "hours"]], on="crew_type", how="left")
-
     contexts: list[TaskContext] = []
     for _, row in merged.iterrows():
+        has_bim_map = bool(clean_text(row.get("bim_map", "")))
+        productivity = to_float(row["productivity"])
+        unit = clean_text(row["unit"])
+        productivity_dependency = clean_text(row["productivity_dependency"]).lower()
+        if not has_bim_map:
+            productivity = 1.0
+            unit = "hr"
+            productivity_dependency = "crew"
+
         contexts.append(
             TaskContext(
                 task_id=clean_text(row["task_id"]),
@@ -750,13 +1263,12 @@ def build_task_contexts() -> list[TaskContext]:
                 equipment_type=clean_text(row["equipment_type"]),
                 crew_num_req=to_int(row.get("crew_num_req"), 1),
                 bim_map=clean_text(row.get("bim_map", "")),
-                productivity=to_float(row["productivity"]),
-                unit=clean_text(row["unit"]),
-                productivity_dependency=clean_text(row["productivity_dependency"]).lower(),
-                crew_hours=parse_hours_list(row.get("hours", "")),
+                productivity=productivity,
+                unit=unit,
+                productivity_dependency=productivity_dependency,
+                crew_hours=resolve_crew_hours(row.get("crew_type", ""), crew_hours_by_type),
             )
         )
-    contexts.sort(key=lambda context: (context.start_date, context.task_id, context.task_name.casefold()))
     return contexts
 
 
@@ -802,6 +1314,347 @@ def load_prefab_mapping() -> tuple[dict[str, list[str]], set[str], dict[str, str
     return host_to_members, prefab_attached_ids, element_to_prefab_group, prefab_non_host_ids
 
 
+def load_micro_rules() -> dict[str, Any]:
+    if not MICRO_RULES_PATH.exists():
+        return DEFAULT_MICRO_RULES
+
+    with MICRO_RULES_PATH.open(encoding="utf-8") as file:
+        loaded = json.load(file)
+    if not isinstance(loaded, dict):
+        raise ValueError(f"{MICRO_RULES_PATH.name} must contain a JSON object.")
+    return loaded
+
+
+def normalized_task_selector(value: object) -> str:
+    return normalize_task_name(value).casefold()
+
+
+def split_rule_matches(record: dict[str, object], rule: dict[str, Any]) -> bool:
+    task = cast(TaskContext, record["task"])
+    task_name = normalized_task_selector(task.task_name)
+    phase = cast(str | None, record.get("phase"))
+
+    rule_tasks = {normalized_task_selector(name) for name in rule.get("tasks", [])}
+    if rule_tasks and task_name in rule_tasks:
+        return True
+
+    rule_phase = clean_text(rule.get("phase", "")).casefold()
+    return bool(rule_phase and phase == rule_phase)
+
+
+def node_task_name(node: MicroTaskNode) -> str:
+    task = cast(TaskContext, node.record["task"])
+    return normalized_task_selector(task.task_name)
+
+
+def selector_matches_node(node: MicroTaskNode, selector: object) -> bool:
+    if isinstance(selector, str):
+        return node_task_name(node) == normalized_task_selector(selector)
+    if not isinstance(selector, dict):
+        return False
+
+    if "task" in selector:
+        return node_task_name(node) == normalized_task_selector(selector["task"])
+
+    if "tasks" in selector:
+        task_names = {normalized_task_selector(name) for name in selector.get("tasks", [])}
+        return node_task_name(node) in task_names
+
+    if "phase" in selector:
+        return cast(str | None, node.record.get("phase")) == clean_text(selector["phase"]).casefold()
+
+    return False
+
+
+def selector_nodes(nodes: list[MicroTaskNode], selector: object) -> list[MicroTaskNode]:
+    return [node for node in nodes if selector_matches_node(node, selector)]
+
+
+def split_attr_matches(before: MicroTaskNode, after: MicroTaskNode, match_by: list[str]) -> bool:
+    for key in match_by:
+        if before.split_attrs.get(key, "") != after.split_attrs.get(key, ""):
+            return False
+    return True
+
+
+def add_dependency_edges(
+    edges: dict[str, set[str]],
+    lags: dict[tuple[str, str], pd.Timedelta],
+    before_nodes: list[MicroTaskNode],
+    after_nodes: list[MicroTaskNode],
+    match_by: list[str],
+    lag: pd.Timedelta,
+) -> None:
+    for after in after_nodes:
+        matched_before_nodes = [
+            before
+            for before in before_nodes
+            if before.node_id != after.node_id and (not match_by or split_attr_matches(before, after, match_by))
+        ]
+        if match_by and before_nodes and not matched_before_nodes:
+            matched_before_nodes = [before for before in before_nodes if before.node_id != after.node_id]
+
+        for before in matched_before_nodes:
+            if before.node_id == after.node_id:
+                continue
+            edges.setdefault(after.node_id, set()).add(before.node_id)
+            edge_key = (before.node_id, after.node_id)
+            lags[edge_key] = max(lags.get(edge_key, pd.Timedelta(0)), lag)
+
+
+def constraint_lag(rule: dict[str, Any]) -> pd.Timedelta:
+    days = to_float(rule.get("lag_days", 0), 0.0)
+    hours = to_float(rule.get("lag_hours", 0), 0.0)
+    return pd.Timedelta(days=days, hours=hours)
+
+
+def make_node_id(task_name: str, split_attrs: dict[str, str]) -> str:
+    parts = [re.sub(r"[^a-z0-9]+", "_", task_name.casefold()).strip("_")]
+    for key, value in sorted(split_attrs.items()):
+        if value:
+            token = re.sub(r"[^a-z0-9]+", "_", value.casefold()).strip("_")
+            parts.append(f"{key}_{token}")
+    return "__".join(parts)
+
+
+def make_micro_task_name(task_name: str, split_attrs: dict[str, str]) -> str:
+    suffixes = [
+        split_attrs[key]
+        for key in ["room", "takt_id", "level"]
+        if split_attrs.get(key)
+    ]
+    if not suffixes:
+        return task_name
+    return f"{task_name} - {' - '.join(suffixes)}"
+
+
+def split_groups(
+    task_elements: pd.DataFrame,
+    split_by: list[str],
+) -> list[tuple[dict[str, str], pd.DataFrame, tuple[object, ...]]]:
+    if "room" in split_by and "room_takt_id" in task_elements.columns:
+        room_elements = task_elements[task_elements["room_takt_id"].astype(str).str.strip() != ""].copy()
+        if not room_elements.empty:
+            groups: list[tuple[dict[str, str], pd.DataFrame, tuple[object, ...]]] = []
+            for room_takt_id, group in room_elements.groupby("room_takt_id", sort=False):
+                level_text = clean_text(group["Level"].iloc[0]) if "Level" in group.columns else ""
+                room_number = clean_text(group["room_number"].iloc[0]) if "room_number" in group.columns else ""
+                room_id = clean_text(group["room_id"].iloc[0]) if "room_id" in group.columns else ""
+                attrs = {
+                    "level": level_text,
+                    "room": clean_text(room_takt_id),
+                    "room_id": room_id,
+                    "room_number": room_number,
+                }
+                groups.append((attrs, group.copy(), (level_sort_key(level_text), clean_text(room_takt_id))))
+            return sorted(groups, key=lambda item: item[2])
+
+    if "takt_id" in split_by and "takt_id" in task_elements.columns:
+        takt_elements = task_elements[task_elements["takt_id"].astype(str).str.strip() != ""].copy()
+        if not takt_elements.empty:
+            groups = []
+            for takt_id, group in takt_elements.groupby("takt_id", sort=False):
+                level_text = clean_text(group["Level"].iloc[0]) if "Level" in group.columns else ""
+                attrs = {"level": level_text, "takt_id": clean_text(takt_id)}
+                groups.append((attrs, group.copy(), (level_sort_key(level_text), clean_text(takt_id))))
+            return sorted(groups, key=lambda item: item[2])
+
+    if "level" in split_by and "Level" in task_elements.columns:
+        groups = [
+            ({"level": clean_text(level)}, group.copy(), (level_sort_key(level), ""))
+            for level, group in task_elements.groupby("Level", sort=False)
+            if clean_text(level)
+        ]
+        return sorted(groups, key=lambda item: item[2])
+
+    return [({}, task_elements.copy(), ((9999.0, ""), ""))]
+
+
+def create_micro_task_nodes(
+    task_records: list[dict[str, object]],
+    rules: dict[str, Any],
+) -> list[MicroTaskNode]:
+    nodes: list[MicroTaskNode] = []
+    split_rules = [rule for rule in rules.get("split_rules", []) if isinstance(rule, dict)]
+
+    for record_index, record in enumerate(task_records):
+        task = cast(TaskContext, record["task"])
+        task_elements = cast(pd.DataFrame, record["task_elements"])
+        split_by: list[str] = []
+        for rule in split_rules:
+            if split_rule_matches(record, rule):
+                split_by = [clean_text(value).casefold() for value in rule.get("by", [])]
+                break
+
+        groups = split_groups(task_elements, split_by)
+
+        for group_index, (split_attrs, node_elements, group_sort_key) in enumerate(groups):
+            micro_task_name = make_micro_task_name(task.task_name, split_attrs)
+            node_elements = node_elements.copy()
+            node_elements["order_in_task"] = range(1, len(node_elements) + 1)
+            node = MicroTaskNode(
+                node_id=make_node_id(task.task_name, split_attrs),
+                micro_task_name=micro_task_name,
+                record=record,
+                task_elements=node_elements,
+                split_attrs=split_attrs,
+                sort_key=(task.start_date, record_index, group_sort_key, group_index, task.task_id),
+            )
+            nodes.append(node)
+
+    return nodes
+
+
+def compile_dependency_graph(
+    nodes: list[MicroTaskNode],
+    rules: dict[str, Any],
+) -> tuple[dict[str, set[str]], dict[tuple[str, str], pd.Timedelta], list[str]]:
+    edges: dict[str, set[str]] = {node.node_id: set() for node in nodes}
+    lags: dict[tuple[str, str], pd.Timedelta] = {}
+    log_lines: list[str] = []
+
+    for rule in [item for item in rules.get("constraints", []) if isinstance(item, dict)]:
+        rule_type = clean_text(rule.get("type", "")).casefold()
+        match_by = [clean_text(value).casefold() for value in rule.get("match_by", [])]
+        lag = constraint_lag(rule)
+
+        if rule_type == "chain":
+            chain_tasks = rule.get("tasks", [])
+            selectors = [{"task": task_name} for task_name in chain_tasks]
+            for before_selector, after_selector in zip(selectors, selectors[1:]):
+                add_dependency_edges(
+                    edges,
+                    lags,
+                    selector_nodes(nodes, before_selector),
+                    selector_nodes(nodes, after_selector),
+                    match_by,
+                    lag,
+                )
+            continue
+
+        if rule_type == "serial":
+            add_dependency_edges(
+                edges,
+                lags,
+                selector_nodes(nodes, rule.get("before", {})),
+                selector_nodes(nodes, rule.get("after", {})),
+                match_by,
+                lag,
+            )
+            continue
+
+        if rule_type == "same_start_after":
+            after_selector = rule.get("after", {})
+            for task_name in rule.get("tasks", []):
+                add_dependency_edges(
+                    edges,
+                    lags,
+                    selector_nodes(nodes, after_selector),
+                    selector_nodes(nodes, {"task": task_name}),
+                    match_by,
+                    lag,
+                )
+            continue
+
+        if rule_type == "parallel":
+            log_lines.append(f"- Parallel rule documented for `{', '.join(rule.get('tasks', []))}`.")
+            continue
+
+        log_lines.append(f"- Ignored unknown micro constraint type `{rule_type}`.")
+
+    return edges, lags, log_lines
+
+
+def apply_split_parallel_limits(
+    nodes: list[MicroTaskNode],
+    edges: dict[str, set[str]],
+    lags: dict[tuple[str, str], pd.Timedelta],
+) -> list[str]:
+    log_lines: list[str] = []
+    nodes_by_task: dict[str, list[MicroTaskNode]] = {}
+    for node in nodes:
+        if not any(node.split_attrs.get(key) for key in ["room", "takt_id"]):
+            continue
+        nodes_by_task.setdefault(node_task_name(node), []).append(node)
+
+    for task_name, task_nodes in nodes_by_task.items():
+        ordered_nodes = sorted(task_nodes, key=lambda node: node.sort_key)
+        if len(ordered_nodes) <= 1:
+            continue
+
+        parallel_limit = max(cast(int, ordered_nodes[0].record["parallel_count"]), 1)
+        if len(ordered_nodes) <= parallel_limit:
+            continue
+
+        for index in range(parallel_limit, len(ordered_nodes)):
+            predecessor = ordered_nodes[index - parallel_limit]
+            successor = ordered_nodes[index]
+            edges.setdefault(successor.node_id, set()).add(predecessor.node_id)
+            lags.setdefault((predecessor.node_id, successor.node_id), pd.Timedelta(0))
+
+        display_name = cast(TaskContext, ordered_nodes[0].record["task"]).task_name
+        log_lines.append(
+            f"- Limited `{display_name}` room/zone flow to `{parallel_limit}` concurrent takt zones."
+        )
+
+    return log_lines
+
+
+def schedule_micro_task_graph(
+    nodes: list[MicroTaskNode],
+    edges: dict[str, set[str]],
+    lags: dict[tuple[str, str], pd.Timedelta],
+    project_anchor: pd.Timestamp,
+    schedule_rows: list[dict[str, object]],
+    prefab_members_by_host: dict[str, list[pd.Series]],
+    element_to_prefab_group: dict[str, str],
+) -> list[str]:
+    node_lookup = {node.node_id: node for node in nodes}
+    unscheduled = {node.node_id for node in nodes}
+    finishes: dict[str, pd.Timestamp] = {}
+    log_lines: list[str] = []
+
+    while unscheduled:
+        ready = [
+            node_lookup[node_id]
+            for node_id in unscheduled
+            if edges.get(node_id, set()).issubset(finishes.keys())
+        ]
+        if not ready:
+            cycle_nodes = ", ".join(sorted(unscheduled))
+            raise ValueError(f"Micro schedule constraints contain a cycle or unresolved dependency: {cycle_nodes}")
+
+        for node in sorted(ready, key=lambda item: item.sort_key):
+            predecessors = edges.get(node.node_id, set())
+            dependency_start = max(
+                [
+                    finishes[pred_id] + lags.get((pred_id, node.node_id), pd.Timedelta(0))
+                    for pred_id in predecessors
+                ],
+                default=project_anchor,
+            )
+            start_time = max(project_anchor, dependency_start)
+            task = cast(TaskContext, node.record["task"])
+            normalized_task_name = cast(str, node.record["normalized_task_name"])
+            parallel_count = cast(int, node.record["parallel_count"])
+            finish_time = schedule_element_batches(
+                task,
+                node.task_elements,
+                start_time,
+                parallel_count,
+                schedule_rows,
+                prefab_members_by_host if normalized_task_name == "exterior wall install" else None,
+                element_to_prefab_group,
+                micro_task_id=node.node_id,
+                micro_task_name=node.micro_task_name,
+            )
+            finishes[node.node_id] = finish_time
+            unscheduled.remove(node.node_id)
+
+    log_lines.append(f"- Scheduled `{len(nodes)}` micro task nodes using `{len(lags)}` configured dependency edges.")
+    return log_lines
+
+
 def schedule_element_batches(
     task: TaskContext,
     task_elements: pd.DataFrame,
@@ -810,6 +1663,8 @@ def schedule_element_batches(
     schedule_rows: list[dict[str, object]],
     prefab_members_by_host: dict[str, list[pd.Series]] | None = None,
     element_to_prefab_group: dict[str, str] | None = None,
+    micro_task_id: str = "",
+    micro_task_name: str = "",
 ) -> pd.Timestamp:
     t = align_to_work_time(start_time, task.crew_hours)
 
@@ -836,6 +1691,8 @@ def schedule_element_batches(
                 base_row = {
                     "task_id": task.task_id,
                     "task_name": task.task_name,
+                    "micro_task_id": micro_task_id,
+                    "micro_task_name": micro_task_name or task.task_name,
                     "order_in_task": int(element["order_in_task"]),
                     "batch_index": batch_start // parallel_count + 1,
                     "slot_index": slot_index,
@@ -871,6 +1728,10 @@ def schedule_element_batches(
                             "coord_y_ft": round(float(target["coord_y"]), 3),
                             "coord_z_ft": round(float(target["coord_z"]), 3),
                             "takt_id": clean_text(target.get("takt_id", "")),
+                            "room_takt_id": clean_text(target.get("room_takt_id", "")),
+                            "room_id": clean_text(target.get("room_id", "")),
+                            "room_number": clean_text(target.get("room_number", "")),
+                            "room_name": clean_text(target.get("room_name", "")),
                             "prefab_group_id": (
                                 element_to_prefab_group.get(str(target["ElementId"]), "")
                                 if element_to_prefab_group
@@ -912,11 +1773,8 @@ def build_micro_schedule() -> tuple[pd.DataFrame, list[str]]:
 
     schedule_rows: list[dict[str, object]] = []
     log_lines: list[str] = []
-    project_cursor: pd.Timestamp | None = None
-    phase_jobs: list[dict[str, object]] = []
-    level_phase_cursors: dict[str, dict[str, pd.Timestamp]] = {}
-    level_task_finishes: dict[str, dict[str, pd.Timestamp]] = {}
-    task_name_cursors: dict[str, pd.Timestamp] = {}
+    project_anchor = min((task.start_date for task in task_contexts), default=pd.Timestamp("2029-01-01 09:00"))
+    task_records: list[dict[str, object]] = []
 
     for task in task_contexts:
         if not task.bim_map.strip():
@@ -937,9 +1795,9 @@ def build_micro_schedule() -> tuple[pd.DataFrame, list[str]]:
         phase = task_phase(task.task_name)
 
         if task.productivity_dependency == "equipment":
-            n = equipment_counts.get(task.equipment_type, 1)
+            n = combined_resource_count(task.equipment_type, equipment_counts)
         else:
-            n = crew_counts.get(task.crew_type, 1)
+            n = combined_resource_count(task.crew_type, crew_counts)
         n = max(n, 1)
 
         if b == 0:
@@ -958,128 +1816,40 @@ def build_micro_schedule() -> tuple[pd.DataFrame, list[str]]:
         )
 
         parallel_count = max(n, 1)
-        if phase is None or "Level" not in task_elements.columns:
-            task_start = task.start_date if project_cursor is None else project_cursor
-            task_finish = schedule_element_batches(
-                task,
-                task_elements,
-                task_start,
-                parallel_count,
-                schedule_rows,
-                prefab_members_by_host if normalized_task_name == "exterior wall install" else None,
-                element_to_prefab_group,
-            )
-            finish_delta_hours = (task_finish - task.end_date).total_seconds() / 3600.0
-            if finish_delta_hours > 0:
-                log_lines.append(
-                    f"  Calendar-constrained finish is `{task_finish.isoformat()}`, which is `{finish_delta_hours:.2f} hr` later than macro end."
-                )
-            else:
-                contingency_hours = working_hours_between(task_finish, task.end_date, task.crew_hours)
-                log_lines.append(
-                    f"  Calendar-constrained finish is `{task_finish.isoformat()}`, which is `{abs(finish_delta_hours):.2f} hr` earlier than macro end."
-                )
-                log_lines.append(
-                    f"  Recovered `{contingency_hours:.2f} hr` of macro working time within this task window."
-                )
-            project_cursor = task_finish
-            continue
+        task_records.append(
+            {
+                "task": task,
+                "task_elements": task_elements,
+                "normalized_task_name": normalized_task_name,
+                "phase": phase,
+                "parallel_count": parallel_count,
+            }
+        )
 
-        for level, level_df in sorted(task_elements.groupby("Level", sort=False), key=lambda pair: level_sort_key(pair[0])):
-            level_text = clean_text(level) or "Unassigned"
-            phase_jobs.append(
-                {
-                    "task": task,
-                    "phase": phase,
-                    "level": level_text,
-                    "level_df": level_df.copy(),
-                    "parallel_count": parallel_count,
-                }
-            )
-
-    ordered_levels = sorted({str(job["level"]) for job in phase_jobs}, key=level_sort_key)
-    level_indices = {level: index for index, level in enumerate(ordered_levels)}
-    phase_jobs.sort(key=lambda job: cycle_sort_key(job, level_indices))
-
-    for job in phase_jobs:
-        task = cast(TaskContext, job["task"])
-        phase = cast(str, job["phase"])
-        level_text = cast(str, job["level"])
-        level_df = cast(pd.DataFrame, job["level_df"])
-        parallel_count = cast(int, job["parallel_count"])
-        normalized_task_name = normalize_task_name(task.task_name).casefold()
-
-        level_phase_cursors.setdefault(level_text, {})
-        level_task_finishes.setdefault(level_text, {})
-
-        if normalized_task_name == "frame: columns":
-            prior_level = previous_level(level_text, level_task_finishes)
-            prior_envelope_finish = None
-            if prior_level is not None:
-                prior_envelope_finish = level_phase_cursors.get(prior_level, {}).get("envelope")
-            dependency_cursor = max_defined_timestamps(
-                task_name_cursors.get(task.task_name),
-                prior_envelope_finish,
-            )
-        elif normalized_task_name == "frame: beams":
-            prior_level = previous_level(level_text, level_task_finishes)
-            prior_columns_finish = None
-            if prior_level is not None:
-                prior_columns_finish = level_task_finishes.get(prior_level, {}).get("Frame: Columns")
-            dependency_cursor = max_defined_timestamps(
-                task_name_cursors.get(task.task_name),
-                prior_columns_finish,
-            )
-        elif normalized_task_name == "floor":
-            dependency_cursor = max_defined_timestamps(
-                task_name_cursors.get(task.task_name),
-                level_task_finishes[level_text].get("Frame: Beams"),
-            )
-        elif normalized_task_name == "roof":
-            prior_level = previous_level(level_text, level_task_finishes)
-            prior_columns_finish = None
-            if prior_level is not None:
-                prior_columns_finish = level_task_finishes.get(prior_level, {}).get("Frame: Columns")
-            dependency_cursor = max_defined_timestamps(
-                task_name_cursors.get(task.task_name),
-                prior_columns_finish,
-            )
-        elif phase == "envelope":
-            support_cursor = envelope_support_ready_time(level_text, level_task_finishes)
-            dependency_cursor = max_defined_timestamps(
-                level_task_finishes[level_text].get("Frame: Columns"),
-                level_phase_cursors[level_text].get("envelope"),
-                support_cursor,
-                task_name_cursors.get(task.task_name),
-            )
-        elif phase == "interior":
-            dependency_cursor = max_defined_timestamps(
-                level_phase_cursors[level_text].get("envelope"),
-                level_phase_cursors[level_text].get("interior"),
-                task_name_cursors.get(task.task_name),
-            )
-        else:
-            dependency_cursor = None
-
-        level_start = dependency_cursor if dependency_cursor is not None else task.start_date
-        task_finish = schedule_element_batches(
-            task,
-            level_df,
-            level_start,
-            parallel_count,
+    rules = load_micro_rules()
+    micro_nodes = create_micro_task_nodes(task_records, rules)
+    dependency_edges, dependency_lags, rule_logs = compile_dependency_graph(micro_nodes, rules)
+    log_lines.extend(rule_logs)
+    log_lines.extend(apply_split_parallel_limits(micro_nodes, dependency_edges, dependency_lags))
+    log_lines.extend(
+        schedule_micro_task_graph(
+            micro_nodes,
+            dependency_edges,
+            dependency_lags,
+            project_anchor,
             schedule_rows,
-            prefab_members_by_host if normalized_task_name == "exterior wall install" else None,
+            prefab_members_by_host,
             element_to_prefab_group,
         )
-        task_name_cursors[task.task_name] = task_finish
-        level_phase_cursors[level_text][phase] = task_finish
-        level_task_finishes[level_text][task.task_name] = task_finish
+    )
 
     micro_df = pd.DataFrame(
         schedule_rows,
         columns=[
             "task_id",
             "task_name",
+            "micro_task_id",
+            "micro_task_name",
             "element_id",
             "element_key",
             "source_model",
@@ -1091,6 +1861,10 @@ def build_micro_schedule() -> tuple[pd.DataFrame, list[str]]:
             "coord_y_ft",
             "coord_z_ft",
             "takt_id",
+            "room_takt_id",
+            "room_id",
+            "room_number",
+            "room_name",
             "prefab_group_id",
             "order_in_task",
             "batch_index",
@@ -1119,7 +1893,7 @@ def write_log(log_lines: list[str]) -> None:
     content = [
         "# Micro Schedule Log",
         "",
-        "Basement and superstructure micro schedule generated from `ALICE_BIM_mapper/outputs`, `ALICE_BIM_mapper/inputs/ALICE_BIM_Map.csv`, and the central BIM model.",
+        "Rule-driven micro schedule generated from `ALICE_BIM_mapper/outputs`, `Micro_Schedule_Generator/inputs`, and the central BIM model.",
         "",
         "## Time-fit check",
         "",

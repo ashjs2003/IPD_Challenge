@@ -18,15 +18,6 @@ EQUIPMENT_PATH = OUTPUTS_DIR / "Equipment.csv"
 TASKS_PATH = OUTPUTS_DIR / "Tasks.csv"
 MISSING_DATA_PATH = OUTPUTS_DIR / "Missing_data.md"
 
-INCLUDED_WBS_NAMES = {
-    "SITE PREPARATION & DEMOLITION",
-    "EARTHWORK & BASEMENT",
-    "SUPERSTRUCTURE",
-    "ENVELOPE",
-    "INTERIOR",
-}
-
-
 def slugify(value: str) -> str:
     text = re.sub(r"[^a-z0-9]+", "_", str(value).strip().lower())
     return text.strip("_")
@@ -75,29 +66,16 @@ def calendar_hours(calendar_name: str) -> str:
     return mapping.get(name, "")
 
 
-def load_included_wbs_ids(wbs: pd.DataFrame) -> set[str]:
-    included = wbs[
-        wbs["Name*"].astype(str).str.strip().str.upper().isin({name.upper() for name in INCLUDED_WBS_NAMES})
-    ].copy()
-    return set(included["Alice WBS Id*"].astype(str).str.strip())
-
-
 def build_outputs() -> dict[str, list[str]]:
     workbook = pd.ExcelFile(WORKBOOK_PATH)
 
-    wbs = workbook.parse("WBS")
     tasks = workbook.parse("Tasks")
     crews = workbook.parse("Crews")
     equipment = workbook.parse("Equipment")
     task_crews = workbook.parse("Task Crews")
     task_equipment = workbook.parse("Task Equipment")
 
-    included_wbs_ids = load_included_wbs_ids(wbs)
-    scoped_tasks = tasks[tasks["Alice WBS Id*"].astype(str).isin(included_wbs_ids)].copy()
-    scoped_task_ids = set(scoped_tasks["Id*"].astype(str))
-
-    task_crews = task_crews[task_crews["Task Id*"].astype(str).isin(scoped_task_ids)].copy()
-    task_equipment = task_equipment[task_equipment["Task Id*"].astype(str).isin(scoped_task_ids)].copy()
+    scoped_tasks = tasks.copy()
 
     crew_lookup = {
         to_text(row["Name*"]): {
@@ -229,9 +207,9 @@ def build_outputs() -> dict[str, list[str]]:
 
 def write_missing_data_report(missing: dict[str, list[str]]) -> None:
     lines = [
-        "# Superstructure Missing Data",
+        "# ALICE Macro Missing Data",
         "",
-        "These CSVs were generated from `ALICE_macro.xlsx` using the workbook WBS groups for site preparation, earthwork and basement, superstructure, and envelope.",
+        "These CSVs were generated from all tasks in `ALICE_macro.xlsx`.",
         "",
         "## Missing task-level data left blank",
         "",

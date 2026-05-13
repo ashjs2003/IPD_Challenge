@@ -1,0 +1,210 @@
+{
+  "team": "Island",
+  "targets": {
+    "carbon": 7396873.8437,
+    "energy": 155969076.592,
+    "water": 271387397.260274,
+    "ozone": 0.0
+  },
+  "metric_summary": {
+    "carbon": {
+      "target": 7396873.8437,
+      "project": 361873.3693097173,
+      "percent_of_target": 0.04892247413654741
+    },
+    "energy": {
+      "target": 155969076.592,
+      "project": 4750905.441250673,
+      "percent_of_target": 0.030460560163977767
+    },
+    "water": {
+      "target": 271387397.260274,
+      "project": 150390633.0407474,
+      "percent_of_target": 0.5541548154371934
+    },
+    "ozone": {
+      "target": 0.0,
+      "project": 0.013896188798246108,
+      "percent_of_target": null
+    }
+  },
+  "breakdown": {
+    "embodied_materials": {
+      "carbon": 314723.216877356,
+      "energy": 4224421.311194583,
+      "water": 5151379.382612288,
+      "ozone": 0.011380943212761518
+    },
+    "embodied_transport": {
+      "carbon": 1222.6141938428257,
+      "energy": 18817.590426097668,
+      "water": 4368.343135110045,
+      "ozone": 0.00019439745236549667
+    },
+    "embodied_construction": {
+      "carbon": 513.4842385185061,
+      "energy": 1427.4553195917206,
+      "water": 150.51999999999998,
+      "ozone": 3.733119093303198e-09
+    },
+    "use_electricity": {
+      "carbon": 0.0,
+      "energy": 0.0,
+      "water": 0.0,
+      "ozone": 0.0
+    },
+    "use_heating": {
+      "carbon": 0.0,
+      "energy": 0.0,
+      "water": 0.0,
+      "ozone": 0.0
+    },
+    "use_water": {
+      "carbon": 45414.054,
+      "energy": 506239.0843104,
+      "water": 145234734.79500002,
+      "ozone": 0.0023208444
+    },
+    "embodied": {
+      "carbon": 316459.3153097173,
+      "energy": 4244666.356940272,
+      "water": 5155898.245747398,
+      "ozone": 0.011575344398246108
+    },
+    "use_phase": {
+      "carbon": 45414.054,
+      "energy": 506239.0843104,
+      "water": 145234734.79500002,
+      "ozone": 0.0023208444
+    },
+    "life_cycle": {
+      "carbon": 361873.3693097173,
+      "energy": 4750905.441250673,
+      "water": 150390633.0407474,
+      "ozone": 0.013896188798246108
+    }
+  },
+  "construction_items": [
+    {
+      "assembly": "Energy",
+      "material_type": "Photovoltaics (sf)",
+      "amount": 5000.0,
+      "unit_multiplier": 2.0,
+      "embodied_total": {
+        "carbon": 206969.0,
+        "energy": 2678270.488,
+        "water": 3809140.5200000005,
+        "ozone": 0.002666566276
+      },
+      "materials": {
+        "carbon": 205850.0,
+        "energy": 2667410.28,
+        "water": 3806500.0,
+        "ozone": 0.0025555555559999997
+      },
+      "transport": {
+        "carbon": 697.0,
+        "energy": 10718.208,
+        "water": 2490.0,
+        "ozone": 0.000111
+      },
+      "construction": {
+        "carbon": 422.0,
+        "energy": 142.0,
+        "water": 150.51999999999998,
+        "ozone": 0.0
+      }
+    },
+    {
+      "assembly": "Energy",
+      "material_type": "EV Battery (kWh)",
+      "amount": 1200.0,
+      "unit_multiplier": 2.0,
+      "embodied_total": {
+        "carbon": 104737.6224,
+        "energy": 1519035.36,
+        "water": 1301797.90776,
+        "ozone": 0.008668248
+      },
+      "materials": {
+        "carbon": 104301.6,
+        "energy": 1512321.1199999999,
+        "water": 1300240.7949599999,
+        "ozone": 0.008599128
+      },
+      "transport": {
+        "carbon": 436.0224,
+        "energy": 6714.24,
+        "water": 1557.1127999999999,
+        "ozone": 6.912e-05
+      },
+      "construction": {
+        "carbon": 0.0,
+        "energy": 0.0,
+        "water": 0.0,
+        "ozone": 0.0
+      }
+    },
+    {
+      "assembly": "Energy",
+      "material_type": "Integrated Solar Water Heating (sf)",
+      "amount": 100.0,
+      "unit_multiplier": 2.0,
+      "embodied_total": {
+        "carbon": 776.0,
+        "energy": 18117.324,
+        "water": 2145.732,
+        "ozone": 1.4228e-05
+      },
+      "materials": {
+        "carbon": 768.0,
+        "energy": 17988.6,
+        "water": 2115.88,
+        "ozone": 1.2902e-05
+      },
+      "transport": {
+        "carbon": 8.0,
+        "energy": 128.724,
+        "water": 29.852,
+        "ozone": 1.3259999999999999e-06
+      },
+      "construction": {
+        "carbon": 0.0,
+        "energy": 0.0,
+        "water": 0.0,
+        "ozone": 0.0
+      }
+    },
+    {
+      "assembly": "MEP",
+      "material_type": "Rainwater Collection Tank (gal)",
+      "amount": 5000.0,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 3976.6929094999996,
+        "energy": 29243.18494,
+        "water": 42814.085985,
+        "ozone": 0.00022631284225
+      },
+      "materials": {
+        "carbon": 3803.6168773560375,
+        "energy": 26701.311194583923,
+        "water": 42522.707652288635,
+        "ozone": 0.00021335765676151893
+      },
+      "transport": {
+        "carbon": 81.5917938428257,
+        "energy": 1256.4184260976674,
+        "water": 291.37833511004516,
+        "ozone": 1.2951452365496668e-05
+      },
+      "construction": {
+        "carbon": 91.48423851850617,
+        "energy": 1285.4553195917206,
+        "water": 0.0,
+        "ozone": 3.733119093303198e-09
+      }
+    }
+  ],
+  "lifetime_years": 50
+}

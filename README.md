@@ -46,6 +46,76 @@ This repo also includes a Python-based STV engine that can:
 
 The main CLI entrypoint is `src/STV_Engine/cli.py`.
 
+## Planning DB workflow
+
+This repo also includes a planning database under `Planning_DB/` for the 4D / task-mapping workflow.
+
+Key files in that folder include:
+
+- `Planning_DB/task_db.csv`
+- `Planning_DB/crew_db.csv`
+- `Planning_DB/equipment_db.csv`
+- `Planning_DB/task_resource_map.csv`
+- `Planning_DB/element_schedule_inputs.csv`
+- `Planning_DB/element_hourly_schedule.csv`
+- `Planning_DB/element_task_map.csv`
+- `Planning_DB/build_micro_planning_db.py`
+
+`Planning_DB/element_task_map.csv` is the file used by the Revit command in `QTO/Push_TaskName_To_Revit.cs`.
+That command searches upward from the add-in assembly location for a repo-level `Planning_DB` folder, then reads `element_task_map.csv` and writes each `task_name` into the Revit text parameter `4D_Build_Code`.
+
+If you run the planning pipeline first and keep the generated mapping file in `Planning_DB/element_task_map.csv`, the Revit push step can apply those task names back into the model.
+
+### Run Planning_DB from the terminal
+
+From the repo root, run:
+
+```powershell
+python .\Planning_DB\build_micro_planning_db.py
+```
+
+This script reads:
+
+- `Planning_DB/export.xlsx`
+- the Revit takeoff CSVs under `revit_schedules/`
+
+It writes these generated outputs back into `Planning_DB/`:
+
+- `Planning_DB/crew_db.csv`
+- `Planning_DB/equipment_db.csv`
+- `Planning_DB/task_db.csv`
+- `Planning_DB/task_resource_map.csv`
+- `Planning_DB/element_task_map.csv`
+- `Planning_DB/element_schedule_inputs.csv`
+- `Planning_DB/element_hourly_schedule.csv`
+
+After this finishes, you can use `Planning_DB/element_task_map.csv` with the Revit push command to send task names back into the model.
+
+### Revit takeoff exports now include spatial fields
+
+The Revit takeoff CSV exports for structural, MEP, and architecture now include positional data so the schedules can also support construction-planning workflows.
+
+Each exported row includes these additional fields:
+
+- `Location Type`
+- `Position X (ft)`, `Position Y (ft)`, `Position Z (ft)`
+- `Start X (ft)`, `Start Y (ft)`, `Start Z (ft)`
+- `End X (ft)`, `End Y (ft)`, `End Z (ft)`
+- `Rotation (deg)`
+- `Bounding Box Min X (ft)`, `Bounding Box Min Y (ft)`, `Bounding Box Min Z (ft)`
+- `Bounding Box Max X (ft)`, `Bounding Box Max Y (ft)`, `Bounding Box Max Z (ft)`
+- `Bounding Box Center X (ft)`, `Bounding Box Center Y (ft)`, `Bounding Box Center Z (ft)`
+
+These are exported in Revit internal length units shown as feet in the CSV headers.
+
+Interpretation notes:
+
+- point-based elements use `Position` and `Rotation`
+- curve-based elements also include `Start` and `End`
+- elements without a usable Revit `Location` fall back to the bounding-box center when possible
+
+The current STV Python importers continue to key off the existing quantity and metadata columns, so these added spatial columns are ignored by the STV mapping logic unless we explicitly extend that downstream later.
+
 ### Run the structural STV flow
 
 From the repo root:
@@ -318,3 +388,4 @@ If your goal is fully unattended processing directly from Autodesk cloud, the ne
 3. A compiled Revit add-in instead of a Python script
 
 If you want, I can build the next iteration in one of those directions.
+

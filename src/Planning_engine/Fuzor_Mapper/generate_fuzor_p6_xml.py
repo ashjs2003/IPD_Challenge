@@ -13,6 +13,10 @@ INPUTS_DIR = BASE_DIR / "inputs"
 OUTPUTS_DIR = BASE_DIR / "outputs"
 PLANNING_ENGINE_DIR = BASE_DIR.parent
 MICRO_SCHEDULE_PATH = PLANNING_ENGINE_DIR / "Micro_Schedule_Generator" / "outputs" / "Micro_Schedule.csv"
+ALICE_OUTPUTS_DIR = PLANNING_ENGINE_DIR / "ALICE_BIM_mapper" / "outputs"
+TASKS_PATH = ALICE_OUTPUTS_DIR / "Tasks.csv"
+CREW_PATH = ALICE_OUTPUTS_DIR / "Crew.csv"
+EQUIPMENT_PATH = ALICE_OUTPUTS_DIR / "Equipment.csv"
 OUTPUT_XML_PATH = OUTPUTS_DIR / "Fuzor_Micro_Schedule.xml"
 REVIT_BUILD_CODE_MAP_PATH = OUTPUTS_DIR / "Revit_4D_Build_Code_Map.csv"
 
@@ -21,6 +25,30 @@ XSI = "http://www.w3.org/2001/XMLSchema-instance"
 
 ET.register_namespace("", NS)
 ET.register_namespace("xsi", XSI)
+
+EQUIPMENT_COST_FALLBACK = {
+    "compactor_roller": 45,
+    "concrete_pump": 225,
+    "dozer": 125,
+    "dump_truck": 90,
+    "excavator": 90,
+    "forklift_telehandler": 85,
+    "mobile_crane": 350,
+    "scissor_lift": 30,
+}
+
+TASK_RESOURCE_DEFAULTS = {
+    "frame: beams": {
+        "crew_type": "structural_crew",
+        "crew_num_req": 1,
+        "equipment_type": "mobile_crane",
+    },
+    "exterior wall install": {
+        "crew_type": "facade_install_crew",
+        "crew_num_req": 1,
+        "equipment_type": "mobile_crane",
+    },
+}
 
 
 def qname(tag: str) -> str:
@@ -64,6 +92,29 @@ def clean_text(value: object) -> str:
         return ""
     text = str(value).strip()
     return "" if text.lower() == "nan" else text
+
+
+def csv_tokens(value: object) -> list[str]:
+    text = clean_text(value)
+    if not text:
+        return []
+    return [token.strip() for token in text.split("|") if token.strip()]
+
+
+def display_name(resource_id: str) -> str:
+    return resource_id.replace("_", " ").replace("/", " / ").title()
+
+
+def resource_cost(value: object, fallback: float = 0.0) -> float:
+    numeric = pd.to_numeric(value, errors="coerce")
+    if pd.isna(numeric) or float(numeric) <= 0:
+        return float(fallback)
+    return float(numeric)
+
+
+def format_num(value: float) -> float | int:
+    rounded = round(float(value), 4)
+    return int(rounded) if rounded.is_integer() else rounded
 
 
 def normalize_level(value: object, task_name: object = "") -> str:
@@ -152,11 +203,160 @@ def build_activity_table() -> pd.DataFrame:
         lambda row: f"{row['task_name']} | {row['level']} | {row['schedule_group_token']}",
         axis=1,
     )
+    activities = attach_task_resources(activities)
     return activities
+
+
+def load_task_resources() -> dict[str, dict[str, object]]:
+    if not TASKS_PATH.exists():
+        return {}
+    tasks = pd.read_csv(TASKS_PATH).fillna("")
+    resources: dict[str, dict[str, object]] = {}
+    for row in tasks.itertuples(index=False):
+        task_name = clean_text(getattr(row, "task_name", ""))
+        if not task_name:
+            continue
+        key = task_name.lower()
+        resources[key] = {
+            "crew_type": clean_text(getattr(row, "crew_type", "")),
+            "crew_num_req": pd.to_numeric(getattr(row, "crew_num_req", 1), errors="coerce"),
+            "equipment_type": clean_text(getattr(row, "equipment_type", "")),
+        }
+    for task_name, defaults in TASK_RESOURCE_DEFAULTS.items():
+        current = resources.setdefault(task_name, {})
+        for field, value in defaults.items():
+            if not clean_text(current.get(field)):
+                current[field] = value
+    return resources
+
+
+def attach_task_resources(activities: pd.DataFrame) -> pd.DataFrame:
+    task_resources = load_task_resources()
+    activities = activities.copy()
+    activities["crew_type"] = ""
+    activities["crew_num_req"] = 1
+    activities["equipment_type"] = ""
+
+    for index, row in activities.iterrows():
+        resource = task_resources.get(str(row["task_name"]).strip().lower(), {})
+        activities.at[index, "crew_type"] = clean_text(resource.get("crew_type"))
+        crew_num = pd.to_numeric(resource.get("crew_num_req", 1), errors="coerce")
+        activities.at[index, "crew_num_req"] = 1 if pd.isna(crew_num) or float(crew_num) <= 0 else float(crew_num)
+        activities.at[index, "equipment_type"] = clean_text(resource.get("equipment_type"))
+    return activities
+
+
+def build_resource_catalog() -> dict[str, dict[str, object]]:
+    catalog: dict[str, dict[str, object]] = {}
+    next_object_id = 2
+
+    if EQUIPMENT_PATH.exists():
+        equipment = pd.read_csv(EQUIPMENT_PATH).fillna("")
+        for row in equipment.itertuples(index=False):
+            resource_id = clean_text(getattr(row, "equipment_type", ""))
+            if not resource_id or resource_id in catalog:
+                continue
+            count = pd.to_numeric(getattr(row, "count", 1), errors="coerce")
+            count = 1 if pd.isna(count) or float(count) <= 0 else float(count)
+            cost = resource_cost(
+                getattr(row, "cost", 0),
+                EQUIPMENT_COST_FALLBACK.get(resource_id, 0),
+            )
+            catalog[resource_id] = {
+                "object_id": next_object_id,
+                "id": resource_id,
+                "name": display_name(resource_id),
+                "type": "Nonlabor",
+                "count": count,
+                "cost": cost,
+                "people_per_crew": None,
+            }
+            next_object_id += 2
+
+    if CREW_PATH.exists():
+        crews = pd.read_csv(CREW_PATH).fillna("")
+        for row in crews.itertuples(index=False):
+            resource_id = clean_text(getattr(row, "crew_type", ""))
+            if not resource_id or resource_id in catalog:
+                continue
+            count = pd.to_numeric(getattr(row, "count", 1), errors="coerce")
+            count = 1 if pd.isna(count) or float(count) <= 0 else float(count)
+            catalog[resource_id] = {
+                "object_id": next_object_id,
+                "id": resource_id,
+                "name": display_name(resource_id),
+                "type": "Labor",
+                "count": count,
+                "cost": resource_cost(getattr(row, "cost", 0)),
+                "people_per_crew": count,
+            }
+            next_object_id += 2
+
+    return catalog
+
+
+def activity_resource_assignments(row: pd.Series, catalog: dict[str, dict[str, object]]) -> list[dict[str, object]]:
+    assignments: list[dict[str, object]] = []
+    duration_hours = round(float(row["scheduled_duration_hr"]), 4)
+    crew_multiplier = float(row.get("crew_num_req", 1) or 1)
+
+    for resource_id in csv_tokens(row.get("crew_type")):
+        resource = catalog.get(resource_id)
+        if resource is None:
+            continue
+        units = duration_hours * crew_multiplier
+        cost = units * float(resource["cost"])
+        assignments.append({**resource, "units": units, "assignment_cost": cost})
+
+    for resource_id in csv_tokens(row.get("equipment_type")):
+        resource = catalog.get(resource_id)
+        if resource is None:
+            continue
+        units = duration_hours * float(resource.get("count", 1) or 1)
+        cost = units * float(resource["cost"])
+        assignments.append({**resource, "units": units, "assignment_cost": cost})
+
+    return assignments
+
+
+def add_resource_definitions(root: ET.Element, resources: dict[str, dict[str, object]], effective_date: str) -> None:
+    for resource in resources.values():
+        element = ET.SubElement(root, qname("Resource"))
+        add_text(element, "AutoComputeActuals", 1)
+        add_text(element, "CalculateCostFromUnits", 1)
+        if resource["type"] == "Labor":
+            add_text(element, "CalendarObjectId", 4)
+        add_text(element, "CurrencyObjectId", 1)
+        add_text(element, "DefaultUnitsPerTime", 1)
+        add_text(element, "GUID", p6_guid())
+        add_text(element, "Id", resource["id"])
+        add_text(element, "IsActive", 1)
+        add_text(element, "MaxUnitsPerTime", format_num(float(resource.get("count", 1) or 1)))
+        add_text(element, "Name", resource["name"])
+        add_text(element, "ObjectId", resource["object_id"])
+        ET.SubElement(element, qname("ResourceNotes"))
+        add_text(element, "ResourceType", resource["type"])
+
+        udf = ET.SubElement(element, qname("UDF"))
+        add_text(udf, "TypeObjectId", 205520898)
+        if resource["type"] == "Labor":
+            note = {"idleTimeEnabled": False, "peoplePerCrew": format_num(float(resource.get("people_per_crew") or 1))}
+        else:
+            note = {"idleTimeEnabled": False, "idleCostPerHour": float(resource["cost"]), "idleCalendarName": "5dx10hr"}
+        add_text(udf, "TextValue", json.dumps(note, separators=(",", ":")))
+
+    for index, resource in enumerate(resources.values(), start=1):
+        rate = ET.SubElement(root, qname("ResourceRate"))
+        add_text(rate, "EffectiveDate", effective_date)
+        add_text(rate, "MaxUnitsPerTime", format_num(float(resource.get("count", 1) or 1)))
+        add_text(rate, "ObjectId", index)
+        add_text(rate, "PricePerUnit", format_num(float(resource["cost"])))
+        add_text(rate, "ResourceObjectId", resource["object_id"])
 
 
 def build_xml() -> ET.ElementTree:
     activities = build_activity_table()
+    resource_catalog = build_resource_catalog()
 
     project_start = format_dt(activities["element_start"].min())
     project_finish = format_dt(activities["element_end"].max())
@@ -197,6 +397,8 @@ def build_xml() -> ET.ElementTree:
             add_text(work_time, "Start", "09:00:00")
             add_text(work_time, "Finish", "16:59:00")
     ET.SubElement(calendar, qname("HolidayOrExceptions"))
+
+    add_resource_definitions(root, resource_catalog, project_start)
 
     project = ET.SubElement(root, qname("Project"))
     add_text(project, "ActivityDefaultActivityType", "Task Dependent")
@@ -281,6 +483,7 @@ def build_xml() -> ET.ElementTree:
 
     activity_object_id_map: dict[str, int] = {}
     next_activity_object_id = 1000
+    next_resource_assignment_object_id = 100000
 
     for _, row in activities.iterrows():
         activity_id = str(row["activity_id"])
@@ -290,7 +493,24 @@ def build_xml() -> ET.ElementTree:
         start_dt = format_dt(row["element_start"])
         finish_dt = format_dt(row["element_end"])
         duration_hours = round(float(row["scheduled_duration_hr"]), 4)
-        primary_resource = 8 if str(row["productivity_dependency"]).strip().lower() == "equipment" else ""
+        assignments = activity_resource_assignments(row, resource_catalog)
+        labor_units = sum(float(item["units"]) for item in assignments if item["type"] == "Labor")
+        nonlabor_units = sum(float(item["units"]) for item in assignments if item["type"] == "Nonlabor")
+        labor_cost = sum(float(item["assignment_cost"]) for item in assignments if item["type"] == "Labor")
+        nonlabor_cost = sum(float(item["assignment_cost"]) for item in assignments if item["type"] == "Nonlabor")
+        productivity_dependency = str(row["productivity_dependency"]).strip().lower()
+        primary_candidates = [
+            item
+            for item in assignments
+            if (productivity_dependency == "equipment" and item["type"] == "Nonlabor")
+            or (productivity_dependency != "equipment" and item["type"] == "Labor")
+        ]
+        primary_resource = (
+            primary_candidates[0]["object_id"]
+            if primary_candidates
+            else (assignments[0]["object_id"] if assignments else "")
+        )
+        wbs_object_id = task_wbs_map[(str(row["task_id"]), str(row["task_name"]))]
 
         add_text(activity, "ActualLaborUnits", 0)
         add_text(activity, "ActualNonLaborUnits", 0)
@@ -307,24 +527,56 @@ def build_xml() -> ET.ElementTree:
         add_text(activity, "PercentCompleteType", "Duration")
         add_text(activity, "PlannedDuration", duration_hours)
         add_text(activity, "PlannedFinishDate", finish_dt)
-        add_text(activity, "PlannedLaborUnits", duration_hours)
-        add_text(activity, "PlannedNonLaborUnits", 0)
+        add_text(activity, "PlannedLaborUnits", format_num(labor_units))
+        add_text(activity, "PlannedNonLaborUnits", format_num(nonlabor_units))
         add_text(activity, "PlannedStartDate", start_dt)
         add_text(activity, "PrimaryResourceObjectId", primary_resource)
         add_text(activity, "ProjectObjectId", 1)
         add_text(activity, "RemainingDuration", duration_hours)
         add_text(activity, "RemainingEarlyFinishDate", finish_dt)
         add_text(activity, "RemainingEarlyStartDate", start_dt)
-        add_text(activity, "RemainingLaborCost", 0)
-        add_text(activity, "RemainingLaborUnits", duration_hours)
+        add_text(activity, "RemainingLaborCost", format_num(labor_cost))
+        add_text(activity, "RemainingLaborUnits", format_num(labor_units))
         add_text(activity, "RemainingLateFinishDate", finish_dt)
         add_text(activity, "RemainingLateStartDate", start_dt)
-        add_text(activity, "RemainingNonLaborCost", 0)
-        add_text(activity, "RemainingNonLaborUnits", 0)
+        add_text(activity, "RemainingNonLaborCost", format_num(nonlabor_cost))
+        add_text(activity, "RemainingNonLaborUnits", format_num(nonlabor_units))
         add_text(activity, "StartDate", start_dt)
         add_text(activity, "Status", "Not Started")
         add_text(activity, "Type", "Task Dependent")
-        add_text(activity, "WBSObjectId", task_wbs_map[(str(row["task_id"]), str(row["task_name"]))])
+        add_text(activity, "WBSObjectId", wbs_object_id)
+
+        for assignment in assignments:
+            units = format_num(float(assignment["units"]))
+            cost = format_num(float(assignment["assignment_cost"]))
+            resource_assignment = ET.SubElement(project, qname("ResourceAssignment"))
+            add_text(resource_assignment, "ActivityObjectId", next_activity_object_id)
+            add_text(resource_assignment, "ActualOvertimeUnits", 0)
+            add_text(resource_assignment, "AtCompletionCost", cost)
+            add_text(resource_assignment, "AtCompletionUnits", units)
+            add_text(resource_assignment, "FinishDate", finish_dt)
+            add_text(resource_assignment, "GUID", p6_guid())
+            add_text(resource_assignment, "IsCostUnitsLinked", 1)
+            add_text(resource_assignment, "ObjectId", next_resource_assignment_object_id)
+            add_text(resource_assignment, "PlannedCost", cost)
+            add_text(resource_assignment, "PlannedFinishDate", finish_dt)
+            add_text(resource_assignment, "PlannedStartDate", start_dt)
+            add_text(resource_assignment, "PlannedUnits", units)
+            add_text(resource_assignment, "PlannedUnitsPerTime", 1)
+            add_text(resource_assignment, "ProjectObjectId", 1)
+            add_text(resource_assignment, "RateSource", "Resource")
+            add_text(resource_assignment, "RateType", "Price / Unit")
+            add_text(resource_assignment, "RemainingCost", cost)
+            add_text(resource_assignment, "RemainingDuration", duration_hours)
+            add_text(resource_assignment, "RemainingFinishDate", finish_dt)
+            add_text(resource_assignment, "RemainingStartDate", start_dt)
+            add_text(resource_assignment, "RemainingUnits", units)
+            add_text(resource_assignment, "RemainingUnitsPerTime", 1)
+            add_text(resource_assignment, "ResourceObjectId", assignment["object_id"])
+            add_text(resource_assignment, "ResourceType", assignment["type"])
+            add_text(resource_assignment, "StartDate", start_dt)
+            add_text(resource_assignment, "WBSObjectId", wbs_object_id)
+            next_resource_assignment_object_id += 1
 
         note_public = ET.SubElement(project, qname("ActivityNote"))
         add_text(note_public, "ActivityObjectId", next_activity_object_id)
@@ -359,6 +611,10 @@ def build_xml() -> ET.ElementTree:
                     "coordXft": float(row["coord_x_ft"]),
                     "coordYft": float(row["coord_y_ft"]),
                     "coordZft": float(row["coord_z_ft"]),
+                    "crewTypes": csv_tokens(row.get("crew_type")),
+                    "equipmentTypes": csv_tokens(row.get("equipment_type")),
+                    "plannedLaborCost": format_num(labor_cost),
+                    "plannedNonLaborCost": format_num(nonlabor_cost),
                 }
             ),
         )

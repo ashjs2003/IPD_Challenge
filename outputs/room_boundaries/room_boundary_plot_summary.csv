@@ -1,0 +1,4 @@
+level,rooms,boundary_segments,plot_path
+L -1,4,71,outputs\room_boundaries\room_boundaries_L_minus1.png
+L 0,5,165,outputs\room_boundaries\room_boundaries_L_0.png
+L 1,32,442,outputs\room_boundaries\room_boundaries_L_1.png

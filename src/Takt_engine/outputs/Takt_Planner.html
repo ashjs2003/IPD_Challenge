@@ -1,0 +1,642 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Takt Zone Planner</title>
+<style>
+:root { color-scheme: light; font-family: Inter, Segoe UI, Arial, sans-serif; }
+body { margin: 0; background: #f8fafc; color: #111827; }
+header { padding: 22px 28px 14px; background: white; border-bottom: 1px solid #e5e7eb; }
+h1 { margin: 0 0 8px; font-size: 24px; letter-spacing: 0; }
+.summary { display: flex; gap: 18px; flex-wrap: wrap; color: #475569; font-size: 14px; }
+.legend { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 14px; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; }
+.legend i { width: 12px; height: 12px; border-radius: 2px; display: inline-block; }
+.toolbar { display: flex; gap: 10px; margin-top: 14px; }
+.tool-button { border: 1px solid #cbd5e1; background: #fff; color: #0f172a; border-radius: 4px; padding: 8px 12px; font-size: 13px; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; }
+.tool-button:hover { background: #f1f5f9; }
+main { padding: 20px 28px 32px; }
+.timeline { overflow-x: auto; border: 1px solid #dbe3ee; background: white; }
+.lane { display: grid; grid-template-columns: 230px 1fr; border-bottom: 1px solid #edf2f7; min-height: 54px; position: relative; }
+.lane:hover { background: #f8fafc; }
+.lane-label { padding: 12px; font-size: 12px; color: #334155; border-right: 1px solid #e5e7eb; background: #fbfdff; }
+.lane-track { position: relative; min-height: 54px; background-image: linear-gradient(to right, #e5e7eb 1px, transparent 1px); background-size: 224px 100%; }
+.bar { position: absolute; top: 9px; height: 36px; border-radius: 4px; color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px; box-sizing: border-box; font-size: 12px; overflow: hidden; white-space: nowrap; }
+.trade-bar { overflow: visible; }
+.trade-tooltip { display: none; position: absolute; left: 50%; bottom: 44px; transform: translateX(-50%); z-index: 40; min-width: 150px; padding: 8px 10px; background: #0f172a; color: white; border-radius: 4px; box-shadow: 0 12px 28px rgba(15, 23, 42, 0.24); font-size: 12px; line-height: 1.35; pointer-events: none; text-align: left; }
+.trade-tooltip::after { content: ""; position: absolute; left: 50%; top: 100%; transform: translateX(-50%); border: 6px solid transparent; border-top-color: #0f172a; }
+.trade-tooltip strong { display: block; margin-bottom: 4px; font-size: 12px; }
+.trade-tooltip span { display: block; color: #e2e8f0; }
+.trade-bar:hover .trade-tooltip { display: block; }
+.panel { margin-top: 20px; background: white; border: 1px solid #dbe3ee; padding: 16px; }
+.zone-map-panel { margin-bottom: 20px; background: white; border: 1px solid #dbe3ee; padding: 16px; }
+.zone-map-panel img { display: block; max-width: 100%; height: auto; border: 1px solid #e5e7eb; }
+.panel-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
+.panel-heading span { color: #64748b; font-size: 12px; }
+h2 { margin: 0 0 12px; font-size: 16px; }
+.panel-heading h2 { margin: 0; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th, td { border-bottom: 1px solid #e5e7eb; padding: 8px; text-align: left; }
+th { color: #475569; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Takt Zone Planner</h1>
+  <div class="summary">
+    <span>Dependency: Interior Walls -&gt; MEP -&gt; Ceiling -&gt; Doors -&gt; Interior Finishes</span>
+    <span>Final duration: 192.36 working hours</span>
+    <span>Zones: 16</span>
+  </div>
+  <div class="legend"><span><i style="background:#2563eb"></i>Interior Walls</span>
+<span><i style="background:#d97706"></i>MEP</span>
+<span><i style="background:#059669"></i>Ceiling</span>
+<span><i style="background:#7c3aed"></i>Doors</span>
+<span><i style="background:#db2777"></i>Interior Finishes</span></div>
+  <div class="toolbar"><button id="zoneMapToggle" class="tool-button" type="button">Show Zone Map</button><a class="tool-button" href="Takt_Model_Viewer.html" target="_blank" rel="noopener">View 3D Model</a></div>
+</header>
+<main>
+
+  <section id="zoneMapPanel" class="zone-map-panel" hidden>
+    <div class="panel-heading">
+      <h2>Zone Map</h2>
+      <span>Takt_Zone_Map_L_1.png</span>
+    </div>
+    <img src="Takt_Zone_Map_L_1.png" alt="Colored takt zones over room boundaries">
+  </section>
+
+  <div class="timeline">
+    
+            <section class="lane" data-zone="L 1 Takt Zone 1">
+              <div class="lane-label">L 1 Takt Zone 1 (168, 169)</div>
+              <div class="lane-track" style="width:5626.1px">
+            <div class="bar trade-bar" style="left:0.0px;width:84.0px;background:#2563eb;">
+              <span>Interior Walls</span>
+              <div class="trade-tooltip"><strong>Interior Walls</strong><span>3 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:84.0px;width:140.0px;background:#d97706;">
+              <span>MEP</span>
+              <div class="trade-tooltip"><strong>MEP</strong><span>5 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:224.0px;width:56.0px;background:#059669;">
+              <span>Ceiling</span>
+              <div class="trade-tooltip"><strong>Ceiling</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:280.0px;width:84.0px;background:#7c3aed;">
+              <span>Doors</span>
+              <div class="trade-tooltip"><strong>Doors</strong><span>3 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:364.0px;width:154.0px;background:#db2777;">
+              <span>Interior Finishes</span>
+              <div class="trade-tooltip"><strong>Interior Finishes</strong><span>3 unique elements</span></div>
+            </div>
+            </div>
+            </section>
+            
+            <section class="lane" data-zone="L 1 Takt Zone 2">
+              <div class="lane-label">L 1 Takt Zone 2 (170, 171)</div>
+              <div class="lane-track" style="width:5626.1px">
+            <div class="bar trade-bar" style="left:84.0px;width:84.0px;background:#2563eb;">
+              <span>Interior Walls</span>
+              <div class="trade-tooltip"><strong>Interior Walls</strong><span>3 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:224.0px;width:112.0px;background:#d97706;">
+              <span>MEP</span>
+              <div class="trade-tooltip"><strong>MEP</strong><span>4 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:336.0px;width:56.0px;background:#059669;">
+              <span>Ceiling</span>
+              <div class="trade-tooltip"><strong>Ceiling</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:392.0px;width:56.0px;background:#7c3aed;">
+              <span>Doors</span>
+              <div class="trade-tooltip"><strong>Doors</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:518.0px;width:192.1px;background:#db2777;">
+              <span>Interior Finishes</span>
+              <div class="trade-tooltip"><strong>Interior Finishes</strong><span>3 unique elements</span></div>
+            </div>
+            </div>
+            </section>
+            
+            <section class="lane" data-zone="L 1 Takt Zone 3">
+              <div class="lane-label">L 1 Takt Zone 3 (172, 173)</div>
+              <div class="lane-track" style="width:5626.1px">
+            <div class="bar trade-bar" style="left:168.0px;width:112.0px;background:#2563eb;">
+              <span>Interior Walls</span>
+              <div class="trade-tooltip"><strong>Interior Walls</strong><span>4 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:336.0px;width:112.0px;background:#d97706;">
+              <span>MEP</span>
+              <div class="trade-tooltip"><strong>MEP</strong><span>4 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:448.0px;width:56.0px;background:#059669;">
+              <span>Ceiling</span>
+              <div class="trade-tooltip"><strong>Ceiling</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:504.0px;width:56.0px;background:#7c3aed;">
+              <span>Doors</span>
+              <div class="trade-tooltip"><strong>Doors</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:710.1px;width:239.1px;background:#db2777;">
+              <span>Interior Finishes</span>
+              <div class="trade-tooltip"><strong>Interior Finishes</strong><span>4 unique elements</span></div>
+            </div>
+            </div>
+            </section>
+            
+            <section class="lane" data-zone="L 1 Takt Zone 4">
+              <div class="lane-label">L 1 Takt Zone 4 (174, 175)</div>
+              <div class="lane-track" style="width:5626.1px">
+            <div class="bar trade-bar" style="left:280.0px;width:84.0px;background:#2563eb;">
+              <span>Interior Walls</span>
+              <div class="trade-tooltip"><strong>Interior Walls</strong><span>3 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:448.0px;width:112.0px;background:#d97706;">
+              <span>MEP</span>
+              <div class="trade-tooltip"><strong>MEP</strong><span>4 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:560.0px;width:56.0px;background:#059669;">
+              <span>Ceiling</span>
+              <div class="trade-tooltip"><strong>Ceiling</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:616.0px;width:56.0px;background:#7c3aed;">
+              <span>Doors</span>
+              <div class="trade-tooltip"><strong>Doors</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:949.2px;width:184.2px;background:#db2777;">
+              <span>Interior Finishes</span>
+              <div class="trade-tooltip"><strong>Interior Finishes</strong><span>3 unique elements</span></div>
+            </div>
+            </div>
+            </section>
+            
+            <section class="lane" data-zone="L 1 Takt Zone 5">
+              <div class="lane-label">L 1 Takt Zone 5 (176, 177)</div>
+              <div class="lane-track" style="width:5626.1px">
+            <div class="bar trade-bar" style="left:364.0px;width:112.0px;background:#2563eb;">
+              <span>Interior Walls</span>
+              <div class="trade-tooltip"><strong>Interior Walls</strong><span>4 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:560.0px;width:112.0px;background:#d97706;">
+              <span>MEP</span>
+              <div class="trade-tooltip"><strong>MEP</strong><span>4 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:672.0px;width:56.0px;background:#059669;">
+              <span>Ceiling</span>
+              <div class="trade-tooltip"><strong>Ceiling</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:728.0px;width:56.0px;background:#7c3aed;">
+              <span>Doors</span>
+              <div class="trade-tooltip"><strong>Doors</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:1133.4px;width:258.2px;background:#db2777;">
+              <span>Interior Finishes</span>
+              <div class="trade-tooltip"><strong>Interior Finishes</strong><span>4 unique elements</span></div>
+            </div>
+            </div>
+            </section>
+            
+            <section class="lane" data-zone="L 1 Takt Zone 6">
+              <div class="lane-label">L 1 Takt Zone 6 (178, 180)</div>
+              <div class="lane-track" style="width:5626.1px">
+            <div class="bar trade-bar" style="left:476.0px;width:84.0px;background:#2563eb;">
+              <span>Interior Walls</span>
+              <div class="trade-tooltip"><strong>Interior Walls</strong><span>3 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:672.0px;width:140.0px;background:#d97706;">
+              <span>MEP</span>
+              <div class="trade-tooltip"><strong>MEP</strong><span>5 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:812.0px;width:56.0px;background:#059669;">
+              <span>Ceiling</span>
+              <div class="trade-tooltip"><strong>Ceiling</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:868.0px;width:56.0px;background:#7c3aed;">
+              <span>Doors</span>
+              <div class="trade-tooltip"><strong>Doors</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:1391.6px;width:174.7px;background:#db2777;">
+              <span>Interior Finishes</span>
+              <div class="trade-tooltip"><strong>Interior Finishes</strong><span>3 unique elements</span></div>
+            </div>
+            </div>
+            </section>
+            
+            <section class="lane" data-zone="L 1 Takt Zone 7">
+              <div class="lane-label">L 1 Takt Zone 7 (179, 202)</div>
+              <div class="lane-track" style="width:5626.1px">
+            <div class="bar trade-bar" style="left:560.0px;width:84.0px;background:#2563eb;">
+              <span>Interior Walls</span>
+              <div class="trade-tooltip"><strong>Interior Walls</strong><span>3 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:812.0px;width:112.0px;background:#d97706;">
+              <span>MEP</span>
+              <div class="trade-tooltip"><strong>MEP</strong><span>4 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:924.0px;width:56.0px;background:#059669;">
+              <span>Ceiling</span>
+              <div class="trade-tooltip"><strong>Ceiling</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:980.0px;width:56.0px;background:#7c3aed;">
+              <span>Doors</span>
+              <div class="trade-tooltip"><strong>Doors</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:1566.3px;width:169.1px;background:#db2777;">
+              <span>Interior Finishes</span>
+              <div class="trade-tooltip"><strong>Interior Finishes</strong><span>3 unique elements</span></div>
+            </div>
+            </div>
+            </section>
+            
+            <section class="lane" data-zone="L 1 Takt Zone 9">
+              <div class="lane-label">L 1 Takt Zone 9 (146, 162)</div>
+              <div class="lane-track" style="width:5626.1px">
+            <div class="bar trade-bar" style="left:644.0px;width:168.0px;background:#2563eb;">
+              <span>Interior Walls</span>
+              <div class="trade-tooltip"><strong>Interior Walls</strong><span>6 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:924.0px;width:140.0px;background:#d97706;">
+              <span>MEP</span>
+              <div class="trade-tooltip"><strong>MEP</strong><span>5 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:1064.0px;width:56.0px;background:#059669;">
+              <span>Ceiling</span>
+              <div class="trade-tooltip"><strong>Ceiling</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:1120.0px;width:56.0px;background:#7c3aed;">
+              <span>Doors</span>
+              <div class="trade-tooltip"><strong>Doors</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:1735.4px;width:446.3px;background:#db2777;">
+              <span>Interior Finishes</span>
+              <div class="trade-tooltip"><strong>Interior Finishes</strong><span>6 unique elements</span></div>
+            </div>
+            </div>
+            </section>
+            
+            <section class="lane" data-zone="L 1 Takt Zone 10">
+              <div class="lane-label">L 1 Takt Zone 10 (142, 143)</div>
+              <div class="lane-track" style="width:5626.1px">
+            <div class="bar trade-bar" style="left:812.0px;width:56.0px;background:#2563eb;">
+              <span>Interior Walls</span>
+              <div class="trade-tooltip"><strong>Interior Walls</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:1064.0px;width:140.0px;background:#d97706;">
+              <span>MEP</span>
+              <div class="trade-tooltip"><strong>MEP</strong><span>5 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:1204.0px;width:56.0px;background:#059669;">
+              <span>Ceiling</span>
+              <div class="trade-tooltip"><strong>Ceiling</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:1260.0px;width:56.0px;background:#7c3aed;">
+              <span>Doors</span>
+              <div class="trade-tooltip"><strong>Doors</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:2181.8px;width:39.8px;background:#db2777;">
+              <span>Interior Finishes</span>
+              <div class="trade-tooltip"><strong>Interior Finishes</strong><span>2 unique elements</span></div>
+            </div>
+            </div>
+            </section>
+            
+            <section class="lane" data-zone="L 1 Takt Zone 11">
+              <div class="lane-label">L 1 Takt Zone 11 (145, 210)</div>
+              <div class="lane-track" style="width:5626.1px">
+            <div class="bar trade-bar" style="left:868.0px;width:84.0px;background:#2563eb;">
+              <span>Interior Walls</span>
+              <div class="trade-tooltip"><strong>Interior Walls</strong><span>3 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:1204.0px;width:168.0px;background:#d97706;">
+              <span>MEP</span>
+              <div class="trade-tooltip"><strong>MEP</strong><span>6 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:1372.0px;width:56.0px;background:#059669;">
+              <span>Ceiling</span>
+              <div class="trade-tooltip"><strong>Ceiling</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:1428.0px;width:56.0px;background:#7c3aed;">
+              <span>Doors</span>
+              <div class="trade-tooltip"><strong>Doors</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:2221.5px;width:75.0px;background:#db2777;">
+              <span>Interior Finishes</span>
+              <div class="trade-tooltip"><strong>Interior Finishes</strong><span>3 unique elements</span></div>
+            </div>
+            </div>
+            </section>
+            
+            <section class="lane" data-zone="L 1 Takt Zone 12">
+              <div class="lane-label">L 1 Takt Zone 12 (211, 163)</div>
+              <div class="lane-track" style="width:5626.1px">
+            <div class="bar trade-bar" style="left:952.0px;width:392.0px;background:#2563eb;">
+              <span>Interior Walls</span>
+              <div class="trade-tooltip"><strong>Interior Walls</strong><span>14 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:1372.0px;width:168.0px;background:#d97706;">
+              <span>MEP</span>
+              <div class="trade-tooltip"><strong>MEP</strong><span>6 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:1540.0px;width:56.0px;background:#059669;">
+              <span>Ceiling</span>
+              <div class="trade-tooltip"><strong>Ceiling</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:1596.0px;width:56.0px;background:#7c3aed;">
+              <span>Doors</span>
+              <div class="trade-tooltip"><strong>Doors</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:2296.6px;width:606.5px;background:#db2777;">
+              <span>Interior Finishes</span>
+              <div class="trade-tooltip"><strong>Interior Finishes</strong><span>14 unique elements</span></div>
+            </div>
+            </div>
+            </section>
+            
+            <section class="lane" data-zone="L 1 Takt Zone 13">
+              <div class="lane-label">L 1 Takt Zone 13 (199, 154)</div>
+              <div class="lane-track" style="width:5626.1px">
+            <div class="bar trade-bar" style="left:1344.0px;width:196.0px;background:#2563eb;">
+              <span>Interior Walls</span>
+              <div class="trade-tooltip"><strong>Interior Walls</strong><span>7 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:1540.0px;width:168.0px;background:#d97706;">
+              <span>MEP</span>
+              <div class="trade-tooltip"><strong>MEP</strong><span>6 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:1708.0px;width:56.0px;background:#059669;">
+              <span>Ceiling</span>
+              <div class="trade-tooltip"><strong>Ceiling</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:1764.0px;width:56.0px;background:#7c3aed;">
+              <span>Doors</span>
+              <div class="trade-tooltip"><strong>Doors</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:2903.0px;width:380.2px;background:#db2777;">
+              <span>Interior Finishes</span>
+              <div class="trade-tooltip"><strong>Interior Finishes</strong><span>7 unique elements</span></div>
+            </div>
+            </div>
+            </section>
+            
+            <section class="lane" data-zone="L 1 Takt Zone 14">
+              <div class="lane-label">L 1 Takt Zone 14 (206, 155)</div>
+              <div class="lane-track" style="width:5626.1px">
+            <div class="bar trade-bar" style="left:1540.0px;width:336.0px;background:#2563eb;">
+              <span>Interior Walls</span>
+              <div class="trade-tooltip"><strong>Interior Walls</strong><span>12 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:1876.0px;width:140.0px;background:#d97706;">
+              <span>MEP</span>
+              <div class="trade-tooltip"><strong>MEP</strong><span>5 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:2016.0px;width:56.0px;background:#059669;">
+              <span>Ceiling</span>
+              <div class="trade-tooltip"><strong>Ceiling</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:2072.0px;width:56.0px;background:#7c3aed;">
+              <span>Doors</span>
+              <div class="trade-tooltip"><strong>Doors</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:3283.3px;width:377.4px;background:#db2777;">
+              <span>Interior Finishes</span>
+              <div class="trade-tooltip"><strong>Interior Finishes</strong><span>12 unique elements</span></div>
+            </div>
+            </div>
+            </section>
+            
+            <section class="lane" data-zone="L 1 Takt Zone 15">
+              <div class="lane-label">L 1 Takt Zone 15 (159, 158)</div>
+              <div class="lane-track" style="width:5626.1px">
+            <div class="bar trade-bar" style="left:1876.0px;width:140.0px;background:#2563eb;">
+              <span>Interior Walls</span>
+              <div class="trade-tooltip"><strong>Interior Walls</strong><span>5 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:2016.0px;width:112.0px;background:#d97706;">
+              <span>MEP</span>
+              <div class="trade-tooltip"><strong>MEP</strong><span>4 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:2128.0px;width:56.0px;background:#059669;">
+              <span>Ceiling</span>
+              <div class="trade-tooltip"><strong>Ceiling</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:2184.0px;width:56.0px;background:#7c3aed;">
+              <span>Doors</span>
+              <div class="trade-tooltip"><strong>Doors</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:3660.7px;width:250.3px;background:#db2777;">
+              <span>Interior Finishes</span>
+              <div class="trade-tooltip"><strong>Interior Finishes</strong><span>5 unique elements</span></div>
+            </div>
+            </div>
+            </section>
+            
+            <section class="lane" data-zone="L 1 Takt Zone 16">
+              <div class="lane-label">L 1 Takt Zone 16 (157, 156)</div>
+              <div class="lane-track" style="width:5626.1px">
+            <div class="bar trade-bar" style="left:2016.0px;width:140.0px;background:#2563eb;">
+              <span>Interior Walls</span>
+              <div class="trade-tooltip"><strong>Interior Walls</strong><span>5 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:2156.0px;width:112.0px;background:#d97706;">
+              <span>MEP</span>
+              <div class="trade-tooltip"><strong>MEP</strong><span>4 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:2268.0px;width:56.0px;background:#059669;">
+              <span>Ceiling</span>
+              <div class="trade-tooltip"><strong>Ceiling</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:2324.0px;width:56.0px;background:#7c3aed;">
+              <span>Doors</span>
+              <div class="trade-tooltip"><strong>Doors</strong><span>2 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:3911.0px;width:277.8px;background:#db2777;">
+              <span>Interior Finishes</span>
+              <div class="trade-tooltip"><strong>Interior Finishes</strong><span>5 unique elements</span></div>
+            </div>
+            </div>
+            </section>
+            
+            <section class="lane" data-zone="L 1 Takt Zone 8">
+              <div class="lane-label">L 1 Takt Zone 8 (201, 150)</div>
+              <div class="lane-track" style="width:5626.1px">
+            <div class="bar trade-bar" style="left:2156.0px;width:1036.0px;background:#2563eb;">
+              <span>Interior Walls</span>
+              <div class="trade-tooltip"><strong>Interior Walls</strong><span>37 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:3192.0px;width:140.0px;background:#d97706;">
+              <span>MEP</span>
+              <div class="trade-tooltip"><strong>MEP</strong><span>5 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:3332.0px;width:140.0px;background:#059669;">
+              <span>Ceiling</span>
+              <div class="trade-tooltip"><strong>Ceiling</strong><span>5 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:3472.0px;width:308.0px;background:#7c3aed;">
+              <span>Doors</span>
+              <div class="trade-tooltip"><strong>Doors</strong><span>11 unique elements</span></div>
+            </div>
+            
+
+            <div class="bar trade-bar" style="left:4188.8px;width:1197.3px;background:#db2777;">
+              <span>Interior Finishes</span>
+              <div class="trade-tooltip"><strong>Interior Finishes</strong><span>37 unique elements</span></div>
+            </div>
+            </div>
+            </section>
+            
+  </div>
+  <section class="panel">
+    <h2>Crew Idle Time</h2>
+    <table><thead><tr><th>Crew</th><th>Idle Hours</th><th>Work Hours</th><th>Utilization</th></tr></thead><tbody><tr><td>ceiling_crew</td><td>89.00</td><td>35.00</td><td>28.2%</td></tr>
+<tr><td>doors_crew</td><td>93.00</td><td>42.00</td><td>31.1%</td></tr>
+<tr><td>interior_finishes_crew</td><td>13.00</td><td>179.36</td><td>93.2%</td></tr>
+<tr><td>interior_walls_crew</td><td>0.00</td><td>114.00</td><td>100.0%</td></tr>
+<tr><td>mep_rough_in_crew</td><td>43.00</td><td>76.00</td><td>63.9%</td></tr></tbody></table>
+  </section>
+</main>
+<script>
+const zoneMapToggle = document.getElementById('zoneMapToggle');
+const zoneMapPanel = document.getElementById('zoneMapPanel');
+if (zoneMapToggle && zoneMapPanel) {
+  zoneMapToggle.addEventListener('click', () => {
+    const isHidden = zoneMapPanel.hasAttribute('hidden');
+    if (isHidden) {
+      zoneMapPanel.removeAttribute('hidden');
+      zoneMapToggle.textContent = 'Hide Zone Map';
+    } else {
+      zoneMapPanel.setAttribute('hidden', '');
+      zoneMapToggle.textContent = 'Show Zone Map';
+    }
+  });
+}
+</script>
+</body>
+</html>
