@@ -6,18 +6,20 @@
 <title>Takt Zone Planner</title>
 <style>
 :root { color-scheme: light; font-family: Inter, Segoe UI, Arial, sans-serif; }
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
 body { margin: 0; background: #f8fafc; color: #111827; }
-header { padding: 22px 28px 14px; background: white; border-bottom: 1px solid #e5e7eb; }
+header { padding: 22px clamp(16px, 4vw, 28px) 14px; background: white; border-bottom: 1px solid #e5e7eb; }
 h1 { margin: 0 0 8px; font-size: 24px; letter-spacing: 0; }
 .summary { display: flex; gap: 18px; flex-wrap: wrap; color: #475569; font-size: 14px; }
 .legend { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 14px; }
 .legend span { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; }
 .legend i { width: 12px; height: 12px; border-radius: 2px; display: inline-block; }
-.toolbar { display: flex; gap: 10px; margin-top: 14px; }
-.tool-button { border: 1px solid #cbd5e1; background: #fff; color: #0f172a; border-radius: 4px; padding: 8px 12px; font-size: 13px; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; }
+.toolbar { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
+.tool-button { border: 1px solid #cbd5e1; background: #fff; color: #0f172a; border-radius: 4px; padding: 8px 12px; font-size: 13px; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; justify-content: center; min-height: 38px; }
 .tool-button:hover { background: #f1f5f9; }
-main { padding: 20px 28px 32px; }
-.timeline { overflow-x: auto; border: 1px solid #dbe3ee; background: white; }
+main { padding: 20px clamp(16px, 4vw, 28px) 32px; }
+.timeline { overflow-x: auto; border: 1px solid #dbe3ee; background: white; -webkit-overflow-scrolling: touch; scrollbar-gutter: stable; }
 .lane { display: grid; grid-template-columns: 230px 1fr; border-bottom: 1px solid #edf2f7; min-height: 54px; position: relative; }
 .lane:hover { background: #f8fafc; }
 .lane-label { padding: 12px; font-size: 12px; color: #334155; border-right: 1px solid #e5e7eb; background: #fbfdff; }
@@ -29,9 +31,9 @@ main { padding: 20px 28px 32px; }
 .trade-tooltip strong { display: block; margin-bottom: 4px; font-size: 12px; }
 .trade-tooltip span { display: block; color: #e2e8f0; }
 .trade-bar:hover .trade-tooltip { display: block; }
-.panel { margin-top: 20px; background: white; border: 1px solid #dbe3ee; padding: 16px; }
+.panel { margin-top: 20px; background: white; border: 1px solid #dbe3ee; padding: 16px; overflow-x: auto; }
 .zone-map-panel { margin-bottom: 20px; background: white; border: 1px solid #dbe3ee; padding: 16px; }
-.zone-map-panel img { display: block; max-width: 100%; height: auto; border: 1px solid #e5e7eb; }
+.zone-map-panel img { display: block; width: 100%; max-width: 100%; height: auto; border: 1px solid #e5e7eb; }
 .panel-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
 .panel-heading span { color: #64748b; font-size: 12px; }
 h2 { margin: 0 0 12px; font-size: 16px; }
@@ -39,6 +41,40 @@ h2 { margin: 0 0 12px; font-size: 16px; }
 table { border-collapse: collapse; width: 100%; font-size: 13px; }
 th, td { border-bottom: 1px solid #e5e7eb; padding: 8px; text-align: left; }
 th { color: #475569; }
+@media (max-width: 720px) {
+  header { padding-top: 16px; }
+  h1 { font-size: 21px; }
+  .summary { display: grid; gap: 8px; font-size: 13px; }
+  .legend { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 12px; }
+  .legend span { min-width: 0; }
+  .toolbar { display: grid; grid-template-columns: 1fr 1fr; }
+  .tool-button { width: 100%; padding-inline: 10px; }
+  main { padding-top: 14px; }
+  .zone-map-panel, .panel { padding: 12px; }
+  .panel-heading { align-items: flex-start; flex-direction: column; gap: 4px; }
+  .timeline { margin-inline: -16px; border-left: 0; border-right: 0; }
+  .lane { grid-template-columns: 132px 1fr; width: max-content; min-width: 100%; }
+  .lane-label { position: sticky; left: 0; z-index: 20; width: 132px; padding: 10px 8px; font-size: 11px; line-height: 1.25; box-shadow: 1px 0 0 #e5e7eb; }
+  .bar { font-size: 11px; padding-inline: 6px; }
+  .trade-tooltip { left: 0; right: auto; bottom: 42px; transform: none; max-width: 220px; }
+  .trade-tooltip::after { left: 18px; transform: none; }
+  table, thead, tbody, tr, th, td { display: block; }
+  thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  tr { padding: 10px 0; border-bottom: 1px solid #e5e7eb; }
+  td { display: grid; grid-template-columns: 44% 1fr; gap: 10px; border-bottom: 0; padding: 5px 0; }
+  td::before { color: #64748b; font-weight: 600; }
+  td:nth-child(1)::before { content: "Crew"; }
+  td:nth-child(2)::before { content: "Idle Hours"; }
+  td:nth-child(3)::before { content: "Work Hours"; }
+  td:nth-child(4)::before { content: "Utilization"; }
+}
+@media (max-width: 430px) {
+  .legend { grid-template-columns: 1fr; }
+  .toolbar { grid-template-columns: 1fr; }
+  .lane { grid-template-columns: 118px 1fr; }
+  .lane-label { width: 118px; }
+  td { grid-template-columns: 50% 1fr; }
+}
 </style>
 </head>
 <body>
@@ -54,7 +90,7 @@ th { color: #475569; }
 <span><i style="background:#059669"></i>Ceiling</span>
 <span><i style="background:#7c3aed"></i>Doors</span>
 <span><i style="background:#db2777"></i>Interior Finishes</span></div>
-  <div class="toolbar"><button id="zoneMapToggle" class="tool-button" type="button">Show Zone Map</button><a class="tool-button" href="Takt_Model_Viewer.html" target="_blank" rel="noopener">View 3D Model</a></div>
+  <div class="toolbar"><button id="zoneMapToggle" class="tool-button" type="button" aria-expanded="false" aria-controls="zoneMapPanel">Show Zone Map</button><a class="tool-button" href="Takt_Model_Viewer.html" target="_blank" rel="noopener">View 3D Model</a></div>
 </header>
 <main>
 
@@ -631,9 +667,11 @@ if (zoneMapToggle && zoneMapPanel) {
     if (isHidden) {
       zoneMapPanel.removeAttribute('hidden');
       zoneMapToggle.textContent = 'Hide Zone Map';
+      zoneMapToggle.setAttribute('aria-expanded', 'true');
     } else {
       zoneMapPanel.setAttribute('hidden', '');
       zoneMapToggle.textContent = 'Show Zone Map';
+      zoneMapToggle.setAttribute('aria-expanded', 'false');
     }
   });
 }
