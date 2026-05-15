@@ -1,0 +1,76 @@
+{
+  "source_files": [
+    "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Mar\\04_Island_ARCH_Concept2_V11_2026-03-06_10-51-12am_detached_Structural_Schedule.csv",
+    "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Mar\\STR_Wall_Bamboo_Concept2_amd03_V2_2026-03-04_07-52-08pm_detached_Structural_Schedule.csv"
+  ],
+  "mapped_rows": 214,
+  "skipped_rows": [
+    {
+      "element_id": "1241457",
+      "category": "Floors",
+      "family": "",
+      "type": "Generic - 12\"",
+      "material": "Default Floor",
+      "volume": "6589.71 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Mar\\04_Island_ARCH_Concept2_V11_2026-03-06_10-51-12am_detached_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "1386327",
+      "category": "Floors",
+      "family": "",
+      "type": "Generic - 12\"",
+      "material": "Default Floor",
+      "volume": "9463.13 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Mar\\04_Island_ARCH_Concept2_V11_2026-03-06_10-51-12am_detached_Structural_Schedule.csv"
+    }
+  ],
+  "construction_items": [
+    {
+      "assembly": "Beams",
+      "material_type": "Glulam Beam (kg)",
+      "amount": 82226.39989999993
+    },
+    {
+      "assembly": "Beams",
+      "material_type": "Reinforced Concrete Beam (cy)",
+      "amount": 54.44777777777778
+    },
+    {
+      "assembly": "Beams",
+      "material_type": "Wood Beam (kg)",
+      "amount": 54.44160000000001
+    },
+    {
+      "assembly": "Columns",
+      "material_type": "Glulam Column (kg)",
+      "amount": 34214.67559999997
+    },
+    {
+      "assembly": "Columns",
+      "material_type": "Reinforced Concrete Column (cy)",
+      "amount": 9.5
+    },
+    {
+      "assembly": "Floor",
+      "material_type": "Concrete (sf)",
+      "amount": 19715.0
+    },
+    {
+      "assembly": "Floor",
+      "material_type": "Wood System (sf)",
+      "amount": 35434.0
+    },
+    {
+      "assembly": "Foundation",
+      "material_type": "Concrete Slab (cy)",
+      "amount": 63.907407407407405
+    },
+    {
+      "assembly": "Foundation",
+      "material_type": "Strip Foundation (cy)",
+      "amount": 12.444444444444443
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "team": "Island",
+  "targets": {
+    "carbon": 7396873.8437,
+    "energy": 155969076.592,
+    "water": 271387397.260274,
+    "ozone": 0.0
+  },
+  "metric_summary": {
+    "carbon": {
+      "target": 7396873.8437,
+      "project": 544319.1213919541,
+      "percent_of_target": 0.07358772542207906
+    },
+    "energy": {
+      "target": 155969076.592,
+      "project": 5628553.745767043,
+      "percent_of_target": 0.03608762627024326
+    },
+    "water": {
+      "target": 271387397.260274,
+      "project": 6393083.23338326,
+      "percent_of_target": 0.023557038012535177
+    },
+    "ozone": {
+      "target": 0.0,
+      "project": 0.01015275930363127,
+      "percent_of_target": null
+    }
+  },
+  "breakdown": {
+    "embodied_materials": {
+      "carbon": 305906.5941819978,
+      "energy": 2212716.2952819597,
+      "water": 2951922.262560928,
+      "ozone": 0.007914650370896085
+    },
+    "embodied_transport": {
+      "carbon": 14065.059343707408,
+      "energy": 216725.32710370884,
+      "water": 50102.12014402964,
+      "ozone": 0.0022311387600285186
+    },
+    "embodied_construction": {
+      "carbon": 224347.46786624892,
+      "energy": 3199112.1233813744,
+      "water": 3391058.8506783023,
+      "ozone": 6.970172706666666e-06
+    },
+    "use_electricity": {
+      "carbon": 0.0,
+      "energy": 0.0,
+      "water": 0.0,
+      "ozone": 0.0
+    },
+    "use_heating": {
+      "carbon": 0.0,
+      "energy": 0.0,
+      "water": 0.0,
+      "ozone": 0.0
+    },
+    "use_water": {
+      "carbon": 0.0,
+      "energy": 0.0,
+      "water": 0.0,
+      "ozone": 0.0
+    },
+    "embodied": {
+      "carbon": 544319.1213919541,
+      "energy": 5628553.745767043,
+      "water": 6393083.23338326,
+      "ozone": 0.01015275930363127
+    },
+    "use_phase": {
+      "carbon": 0.0,
+      "energy": 0.0,
+      "water": 0.0,
+      "ozone": 0.0
+    },
+    "life_cycle": {
+      "carbon": 544319.1213919541,
+      "energy": 5628553.745767043,
+      "water": 6393083.23338326,
+      "ozone": 0.01015275930363127
+    }
+  },
+  "construction_items": [
+    {
+      "assembly": "Beams",
+      "material_type": "Glulam Beam (kg)",
+      "amount": 81954.37990000004,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 72139.44140879613,
+        "energy": 843964.7650912894,
+        "water": 663216.5331633993,
+        "ozone": 0.00029225741909430947
+      },
+      "materials": {
+        "carbon": 26761.301258166117,
+        "energy": 202043.5259919284,
+        "water": 6081.014988580004,
+        "ozone": 0.0
+      },
+      "transport": {
+        "carbon": 1827.582671770001,
+        "energy": 28136.381016756255,
+        "water": 6523.568640040004,
+        "ozone": 0.00029011850484600014
+      },
+      "construction": {
+        "carbon": 43550.55747886002,
+        "energy": 613784.8580826047,
+        "water": 650611.9495347793,
+        "ozone": 0.0
+      }
+    },
+    {
+      "assembly": "Beams",
+      "material_type": "Reinforced Concrete Beam (cy)",
+      "amount": 74.06666666666665,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 59081.68402590665,
+        "energy": 691406.3711888664,
+        "water": 820333.9502526664,
+        "ozone": 0.0013223121999999996
+      },
+      "materials": {
+        "carbon": 31284.40329123999,
+        "energy": 256242.9807688666,
+        "water": 373208.81012726657,
+        "ozone": 0.0011448188399999998
+      },
+      "transport": {
+        "carbon": 1109.512741333333,
+        "energy": 17085.202419999998,
+        "water": 3962.2607713333323,
+        "ozone": 0.00017627866666666662
+      },
+      "construction": {
+        "carbon": 26687.767993333327,
+        "energy": 418078.1879999999,
+        "water": 443162.8792799999,
+        "ozone": 1.2146933333333331e-06
+      }
+    },
+    {
+      "assembly": "Columns",
+      "material_type": "Glulam Column (kg)",
+      "amount": 33931.969099999995,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 25239.921963374898,
+        "energy": 284250.7722034712,
+        "water": 205503.9027752452,
+        "ozone": 0.00012081229351769062
+      },
+      "materials": {
+        "carbon": 11080.1112579449,
+        "energy": 83653.0602657047,
+        "water": 2517.7521072199997,
+        "ozone": 0.0
+      },
+      "transport": {
+        "carbon": 756.6829109299999,
+        "energy": 11649.442194686158,
+        "water": 2700.9847403599997,
+        "ozone": 0.00012011917061399999
+      },
+      "construction": {
+        "carbon": 13403.127794499998,
+        "energy": 188948.2697430804,
+        "water": 200285.1659276652,
+        "ozone": 0.0
+      }
+    },
+    {
+      "assembly": "Columns",
+      "material_type": "Reinforced Concrete Column (cy)",
+      "amount": 6.209259259259253,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 3981.960012591292,
+        "energy": 41051.86403079996,
+        "water": 47889.11703573143,
+        "ozone": 0.00015341129922222206
+      },
+      "materials": {
+        "carbon": 3592.623747609811,
+        "energy": 34981.497829133295,
+        "water": 42831.22799193514,
+        "ozone": 0.00013626095259259245
+      },
+      "transport": {
+        "carbon": 107.96293653703691,
+        "energy": 1662.5030877777758,
+        "water": 385.5541430740737,
+        "ozone": 1.7137555555555537e-05
+      },
+      "construction": {
+        "carbon": 281.37332844444416,
+        "energy": 4407.863113888884,
+        "water": 4672.334900722217,
+        "ozone": 1.279107407407406e-08
+      }
+    },
+    {
+      "assembly": "Floor",
+      "material_type": "Concrete (sf)",
+      "amount": 22661.0,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 269214.628846,
+        "energy": 2399843.499764,
+        "water": 3404465.5794395,
+        "ozone": 0.00682852138943
+      },
+      "materials": {
+        "carbon": 166286.418,
+        "energy": 943173.0005868,
+        "water": 1957411.858,
+        "ozone": 0.005622231037429999
+      },
+      "transport": {
+        "carbon": 7582.3706,
+        "energy": 116954.97010595999,
+        "water": 26955.2595,
+        "ozone": 0.00120239266
+      },
+      "construction": {
+        "carbon": 95345.840246,
+        "energy": 1339715.52975107,
+        "water": 1420098.46148628,
+        "ozone": 3.897692e-06
+      }
+    },
+    {
+      "assembly": "Floor",
+      "material_type": "Wood System (sf)",
+      "amount": 10599.0,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 84129.414114,
+        "energy": 1155350.3427411,
+        "water": 895277.0684185199,
+        "ozone": 0.0002381033553
+      },
+      "materials": {
+        "carbon": 38050.409999999996,
+        "energy": 505885.18248,
+        "water": 225758.7,
+        "ozone": 0.0
+      },
+      "transport": {
+        "carbon": 1483.8600000000001,
+        "energy": 22853.584998,
+        "water": 5310.099,
+        "ozone": 0.0002352978
+      },
+      "construction": {
+        "carbon": 44595.144114,
+        "energy": 626611.57494513,
+        "water": 664208.26941852,
+        "ozone": 1.823028e-06
+      }
+    },
+    {
+      "assembly": "Foundation",
+      "material_type": "Concrete Slab (cy)",
+      "amount": 62.87814814814815,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 21396.71511758148,
+        "energy": 147205.18342549703,
+        "water": 249732.46587732335,
+        "ozone": 0.0008408151063368259
+      },
+      "materials": {
+        "carbon": 20207.967886296294,
+        "energy": 128850.68797945297,
+        "water": 241027.91290148147,
+        "ozone": 0.0007067505316912705
+      },
+      "transport": {
+        "carbon": 845.4325423962963,
+        "energy": 12984.027565595334,
+        "water": 3011.857008481482,
+        "ozone": 0.00013404898086481483
+      },
+      "construction": {
+        "carbon": 343.3146888888889,
+        "energy": 5370.4679055999995,
+        "water": 5692.695979936,
+        "ozone": 1.559378074074074e-08
+      }
+    },
+    {
+      "assembly": "Foundation",
+      "material_type": "Strip Foundation (cy)",
+      "amount": 25.703703703703688,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 9135.355903703698,
+        "energy": 65480.94694014811,
+        "water": 106664.61693044439,
+        "ozone": 0.00036034080518222196
+      },
+      "materials": {
+        "carbon": 8643.358740740736,
+        "energy": 57886.35938007404,
+        "water": 103084.98644444438,
+        "ozone": 0.000304589009182222
+      },
+      "transport": {
+        "carbon": 351.6549407407405,
+        "energy": 5399.21571493333,
+        "water": 1252.53634074074,
+        "ozone": 5.5745421481481446e-05
+      },
+      "construction": {
+        "carbon": 140.34222222222215,
+        "energy": 2195.3718399999984,
+        "water": 2327.094150399999,
+        "ozone": 6.3745185185185154e-09
+      }
+    }
+  ],
+  "lifetime_years": 50
+}

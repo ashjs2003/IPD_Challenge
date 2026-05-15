@@ -1,0 +1,91 @@
+{
+  "source_files": [
+    "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Apr\\04_Island_ARCH_Concept2_V24_2026-04-23_04-35-08pm_detached_Structural_Schedule.csv",
+    "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Apr\\STR_Wall_Bamboo_Concept2_amd03_V3_2026-04-24_08-20-35am_detached_Structural_Schedule.csv"
+  ],
+  "mapped_rows": 290,
+  "skipped_rows": [
+    {
+      "element_id": "1241457",
+      "category": "Floors",
+      "family": "",
+      "type": "Generic - 12\"",
+      "material": "Default Floor",
+      "volume": "6692.99 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Apr\\04_Island_ARCH_Concept2_V24_2026-04-23_04-35-08pm_detached_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "631022",
+      "category": "Floors",
+      "family": "",
+      "type": "Bamboo - 6\"",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "6667.40 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Apr\\STR_Wall_Bamboo_Concept2_amd03_V3_2026-04-24_08-20-35am_detached_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "646198",
+      "category": "Floors",
+      "family": "",
+      "type": "Bamboo - 6\"",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "4785.50 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Apr\\STR_Wall_Bamboo_Concept2_amd03_V3_2026-04-24_08-20-35am_detached_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "646504",
+      "category": "Floors",
+      "family": "",
+      "type": "Bamboo - 6\"",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "3261.10 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Apr\\STR_Wall_Bamboo_Concept2_amd03_V3_2026-04-24_08-20-35am_detached_Structural_Schedule.csv"
+    }
+  ],
+  "construction_items": [
+    {
+      "assembly": "Beams",
+      "material_type": "Glulam Beam (kg)",
+      "amount": 84653.40120000008
+    },
+    {
+      "assembly": "Beams",
+      "material_type": "Reinforced Concrete Beam (cy)",
+      "amount": 74.04074074074073
+    },
+    {
+      "assembly": "Columns",
+      "material_type": "Glulam Column (kg)",
+      "amount": 33932.1634
+    },
+    {
+      "assembly": "Columns",
+      "material_type": "Reinforced Concrete Column (cy)",
+      "amount": 6.209259259259253
+    },
+    {
+      "assembly": "Floor",
+      "material_type": "Concrete (sf)",
+      "amount": 22661.0
+    },
+    {
+      "assembly": "Floor",
+      "material_type": "Wood System (sf)",
+      "amount": 10599.0
+    },
+    {
+      "assembly": "Foundation",
+      "material_type": "Concrete Slab (cy)",
+      "amount": 62.87814814814815
+    },
+    {
+      "assembly": "Foundation",
+      "material_type": "Strip Foundation (cy)",
+      "amount": 25.703703703703688
+    }
+  ]
+}

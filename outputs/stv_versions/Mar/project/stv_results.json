@@ -1,0 +1,720 @@
+{
+  "team": "Island",
+  "targets": {
+    "carbon": 7396873.8437,
+    "energy": 155969076.592,
+    "water": 271387397.260274,
+    "ozone": 0.0
+  },
+  "metric_summary": {
+    "carbon": {
+      "target": 7396873.8437,
+      "project": 2221825.3655655445,
+      "percent_of_target": 0.3003735649024078
+    },
+    "energy": {
+      "target": 155969076.592,
+      "project": 27107339.20788444,
+      "percent_of_target": 0.17379944666079297
+    },
+    "water": {
+      "target": 271387397.260274,
+      "project": 25623837.17466422,
+      "percent_of_target": 0.09441793330620173
+    },
+    "ozone": {
+      "target": 0.0,
+      "project": 0.05847634946482769,
+      "percent_of_target": null
+    }
+  },
+  "breakdown": {
+    "embodied_materials": {
+      "carbon": 1073010.7595161558,
+      "energy": 10851595.639502954,
+      "water": 10021531.56923361,
+      "ozone": 0.04930157736225906
+    },
+    "embodied_transport": {
+      "carbon": 57629.27540991278,
+      "energy": 887859.4790920824,
+      "water": 205521.3904553274,
+      "ozone": 0.009132437155188147
+    },
+    "embodied_construction": {
+      "carbon": 1091185.330639476,
+      "energy": 15367884.0892894,
+      "water": 15396784.214975283,
+      "ozone": 4.233494738047507e-05
+    },
+    "use_electricity": {
+      "carbon": 0.0,
+      "energy": 0.0,
+      "water": 0.0,
+      "ozone": 0.0
+    },
+    "use_heating": {
+      "carbon": 0.0,
+      "energy": 0.0,
+      "water": 0.0,
+      "ozone": 0.0
+    },
+    "use_water": {
+      "carbon": 0.0,
+      "energy": 0.0,
+      "water": 0.0,
+      "ozone": 0.0
+    },
+    "embodied": {
+      "carbon": 2221825.3655655445,
+      "energy": 27107339.20788444,
+      "water": 25623837.17466422,
+      "ozone": 0.05847634946482769
+    },
+    "use_phase": {
+      "carbon": 0.0,
+      "energy": 0.0,
+      "water": 0.0,
+      "ozone": 0.0
+    },
+    "life_cycle": {
+      "carbon": 2221825.3655655445,
+      "energy": 27107339.20788444,
+      "water": 25623837.17466422,
+      "ozone": 0.05847634946482769
+    }
+  },
+  "construction_items": [
+    {
+      "assembly": "Exterior Wall",
+      "material_type": "Curtain Wall Double Pane (sf)",
+      "amount": 16983.0,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 324113.60861334,
+        "energy": 4284885.7050201,
+        "water": 3906859.1668632,
+        "ozone": 0.011272500215999999
+      },
+      "materials": {
+        "carbon": 128058.44303034,
+        "energy": 1527605.4579674401,
+        "water": 1007675.98578954,
+        "ozone": 0.010972461554999998
+      },
+      "transport": {
+        "carbon": 1845.559593,
+        "energy": 28419.539013,
+        "water": 6590.830572,
+        "ozone": 0.0002921076
+      },
+      "construction": {
+        "carbon": 194209.60599,
+        "energy": 2728860.7077,
+        "water": 2892592.350162,
+        "ozone": 7.931061000000001e-06
+      }
+    },
+    {
+      "assembly": "Exterior Wall",
+      "material_type": "EIFS on Metal Stud (sf)",
+      "amount": 1537.0,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 38507.37588388,
+        "energy": 560996.1980621,
+        "water": 421525.3802542,
+        "ozone": 0.0018528012420000002
+      },
+      "materials": {
+        "carbon": 19817.44783,
+        "energy": 296881.23309999995,
+        "water": 155762.654,
+        "ozone": 0.0016753299999999998
+      },
+      "transport": {
+        "carbon": 1113.518436195,
+        "energy": 17146.88467747,
+        "water": 3976.5610939325,
+        "ozone": 0.000176753463
+      },
+      "construction": {
+        "carbon": 17576.40961,
+        "energy": 246968.08030000003,
+        "water": 261786.165118,
+        "ozone": 7.177790000000001e-07
+      }
+    },
+    {
+      "assembly": "Floor",
+      "material_type": "Concrete (sf)",
+      "amount": 35768.0,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 424926.916048,
+        "energy": 3787900.0176319997,
+        "water": 5373590.081875999,
+        "ozone": 0.01077810127784
+      },
+      "materials": {
+        "carbon": 262465.58400000003,
+        "energy": 1488699.1697184,
+        "water": 3089568.304,
+        "ozone": 0.00887409910184
+      },
+      "transport": {
+        "carbon": 11967.9728,
+        "energy": 184601.09310047998,
+        "water": 42546.036,
+        "ozone": 0.00189785008
+      },
+      "construction": {
+        "carbon": 150493.35924800002,
+        "energy": 2114599.75588616,
+        "water": 2241475.74116064,
+        "ozone": 6.152096e-06
+      }
+    },
+    {
+      "assembly": "Floor",
+      "material_type": "Wood System (sf)",
+      "amount": 6929.0,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 54998.840494,
+        "energy": 755299.7947781,
+        "water": 585279.2534269199,
+        "ozone": 0.0001556579063
+      },
+      "materials": {
+        "carbon": 24875.11,
+        "energy": 330717.84408,
+        "water": 147587.7,
+        "ozone": 0.0
+      },
+      "transport": {
+        "carbon": 970.0600000000001,
+        "energy": 14940.323658,
+        "water": 3471.429,
+        "ozone": 0.0001538238
+      },
+      "construction": {
+        "carbon": 29153.670494,
+        "energy": 409641.62683223,
+        "water": 434220.12442692,
+        "ozone": 1.191788e-06
+      }
+    },
+    {
+      "assembly": "Interior Wall",
+      "material_type": "Steel Studs and Painted Gypsum (sf)",
+      "amount": 28861.0,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 570966.456242,
+        "energy": 8225085.2640845,
+        "water": 7123179.0058114,
+        "ozone": 0.019956429087
+      },
+      "materials": {
+        "carbon": 217041.011698,
+        "energy": 3219849.3745887,
+        "water": 2122207.0519999997,
+        "ozone": 0.016162160000000002
+      },
+      "transport": {
+        "carbon": 23884.613214,
+        "energy": 367794.66274264,
+        "water": 85284.255,
+        "ozone": 0.003780791
+      },
+      "construction": {
+        "carbon": 330040.83133,
+        "energy": 4637441.2250215,
+        "water": 4915687.6988114,
+        "ozone": 1.3478087000000002e-05
+      }
+    },
+    {
+      "assembly": "Interior Wall",
+      "material_type": "Timber Studs and Painted Gypsum (sf)",
+      "amount": 5244.0,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 77175.671379,
+        "energy": 1120013.1303708,
+        "water": 107782.68520487999,
+        "ozone": 0.0021762550921404
+      },
+      "materials": {
+        "carbon": 15773.136253891858,
+        "energy": 255305.74394649832,
+        "water": 102659.42188637723,
+        "ozone": 0.0019460845093433302
+      },
+      "transport": {
+        "carbon": 1434.6167634652982,
+        "energy": 22091.424325440366,
+        "water": 5123.263297276623,
+        "ozone": 0.00022772352324347883
+      },
+      "construction": {
+        "carbon": 59967.91834888083,
+        "energy": 842615.9619923735,
+        "water": 0.0,
+        "ozone": 2.44705956566025e-06
+      }
+    },
+    {
+      "assembly": "Roof",
+      "material_type": "EPDM Membrane (sf)",
+      "amount": 4414.0,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 638.9247344,
+        "energy": 29548.269424,
+        "water": 87.847428,
+        "ozone": 3.9109450273e-06
+      },
+      "materials": {
+        "carbon": 614.3255124000001,
+        "energy": 29169.4776,
+        "water": 0.0,
+        "ozone": 0.0
+      },
+      "transport": {
+        "carbon": 24.599221999999997,
+        "energy": 378.791824,
+        "water": 87.847428,
+        "ozone": 3.9063900000000006e-06
+      },
+      "construction": {
+        "carbon": 0.0,
+        "energy": 0.0,
+        "water": 0.0,
+        "ozone": 0.0
+      }
+    },
+    {
+      "assembly": "MEP",
+      "material_type": "Air Filters (m^3/s)",
+      "amount": 0.0902777777777778,
+      "unit_multiplier": 50.0,
+      "embodied_total": {
+        "carbon": 280.31791666666675,
+        "energy": 4102.994220000001,
+        "water": 2821.514583333334,
+        "ozone": 2.228850000000001e-05
+      },
+      "materials": {
+        "carbon": 278.9583333333334,
+        "energy": 4082.130000000001,
+        "water": 2816.6666666666674,
+        "ozone": 2.2072916666666674e-05
+      },
+      "transport": {
+        "carbon": 1.3595833333333338,
+        "energy": 20.864220000000007,
+        "water": 4.847916666666668,
+        "ozone": 2.155833333333334e-07
+      },
+      "construction": {
+        "carbon": 0.0,
+        "energy": 0.0,
+        "water": 0.0,
+        "ozone": 0.0
+      }
+    },
+    {
+      "assembly": "MEP",
+      "material_type": "Air Handling Unit (m^3/s)",
+      "amount": 4.518611111111105,
+      "unit_multiplier": 2.0,
+      "embodied_total": {
+        "carbon": 36478.198841201614,
+        "energy": 456533.25450608827,
+        "water": 275535.4322873608,
+        "ozone": 0.002865070561111107
+      },
+      "materials": {
+        "carbon": 36334.04801638884,
+        "energy": 454319.6874166661,
+        "water": 275020.20443333295,
+        "ozone": 0.002842206388888885
+      },
+      "transport": {
+        "carbon": 144.14369444444424,
+        "energy": 2213.466956999997,
+        "water": 515.121666666666,
+        "ozone": 2.286417222222219e-05
+      },
+      "construction": {
+        "carbon": 0.007126495238353434,
+        "energy": 0.10014533252677209,
+        "water": 0.10615405253079431,
+        "ozone": 0.0
+      }
+    },
+    {
+      "assembly": "MEP",
+      "material_type": "Stainless Steel Duct (kg)",
+      "amount": 330.1701525616001,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 1123.337910060332,
+        "energy": 8974.257714683938,
+        "water": 6299.514442814305,
+        "ozone": 1.1688023400680643e-06
+      },
+      "materials": {
+        "carbon": 1115.9751156582083,
+        "energy": 8860.904490314857,
+        "water": 6273.232898670402,
+        "ozone": 0.0
+      },
+      "transport": {
+        "carbon": 7.362794402123683,
+        "energy": 113.3532243690824,
+        "water": 26.28154414390337,
+        "ozone": 1.1688023400680643e-06
+      },
+      "construction": {
+        "carbon": 0.0,
+        "energy": 0.0,
+        "water": 0.0,
+        "ozone": 0.0
+      }
+    },
+    {
+      "assembly": "MEP",
+      "material_type": "Steel Duct 12\"D (ft)",
+      "amount": 2037.9010416666672,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 3180.552155729167,
+        "energy": 33130.85908749376,
+        "water": 9841.024130208336,
+        "ozone": 9.92457807291667e-06
+      },
+      "materials": {
+        "carbon": 3117.9885937500007,
+        "energy": 32166.710986312508,
+        "water": 9618.89291666667,
+        "ozone": 0.0
+      },
+      "transport": {
+        "carbon": 62.563561979166685,
+        "energy": 964.1481011812502,
+        "water": 222.1312135416667,
+        "ozone": 9.92457807291667e-06
+      },
+      "construction": {
+        "carbon": 0.0,
+        "energy": 0.0,
+        "water": 0.0,
+        "ozone": 0.0
+      }
+    },
+    {
+      "assembly": "MEP",
+      "material_type": "Steel Duct 18\"D (ft)",
+      "amount": 164.2994791666666,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 378.64457968749986,
+        "energy": 3930.598085268748,
+        "water": 1169.6479921874995,
+        "ozone": 1.1632403124999996e-06
+      },
+      "materials": {
+        "carbon": 371.31682291666647,
+        "energy": 3817.7842795312486,
+        "water": 1143.5243749999995,
+        "ozone": 0.0
+      },
+      "transport": {
+        "carbon": 7.32775677083333,
+        "energy": 112.81380573749995,
+        "water": 26.12361718749999,
+        "ozone": 1.1632403124999996e-06
+      },
+      "construction": {
+        "carbon": 0.0,
+        "energy": 0.0,
+        "water": 0.0,
+        "ozone": 0.0
+      }
+    },
+    {
+      "assembly": "Beams",
+      "material_type": "Glulam Beam (kg)",
+      "amount": 82226.39989999993,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 72378.88402157604,
+        "energy": 846766.0222746171,
+        "water": 665417.8573826926,
+        "ozone": 0.00029322746930076585
+      },
+      "materials": {
+        "carbon": 26850.126396946078,
+        "energy": 202714.14152226815,
+        "water": 6101.198872579995,
+        "ozone": 0.0
+      },
+      "transport": {
+        "carbon": 1833.6487177699985,
+        "energy": 28229.770270308218,
+        "water": 6545.221432039995,
+        "ozone": 0.00029108145564599977
+      },
+      "construction": {
+        "carbon": 43695.10890685996,
+        "energy": 615822.1104820407,
+        "water": 652771.4370780726,
+        "ozone": 0.0
+      }
+    },
+    {
+      "assembly": "Beams",
+      "material_type": "Reinforced Concrete Beam (cy)",
+      "amount": 54.44777777777778,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 43432.039638786446,
+        "energy": 508265.62267278775,
+        "water": 603042.6727307445,
+        "ozone": 0.0009720561766666668
+      },
+      "materials": {
+        "carbon": 22997.743991608666,
+        "energy": 188368.9586951211,
+        "water": 274352.7051105078,
+        "ozone": 0.000841577522
+      },
+      "transport": {
+        "carbon": 815.6233552888889,
+        "energy": 12559.648577666669,
+        "water": 2912.731241788889,
+        "ozone": 0.00012958571111111112
+      },
+      "construction": {
+        "carbon": 19618.672291888888,
+        "energy": 307337.01540000003,
+        "water": 325777.236324,
+        "ozone": 8.929435555555557e-07
+      }
+    },
+    {
+      "assembly": "Beams",
+      "material_type": "Wood Beam (kg)",
+      "amount": 54.44160000000001,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 60.47917344000001,
+        "energy": 801.7296188183042,
+        "water": 542.8213353063361,
+        "ozone": 1.9457275403520003e-07
+      },
+      "materials": {
+        "carbon": 30.334859520000006,
+        "energy": 375.30678000000006,
+        "water": 106.29177984000002,
+        "ozone": 0.0
+      },
+      "transport": {
+        "carbon": 1.2140476800000002,
+        "energy": 18.690759452160002,
+        "water": 4.333551360000001,
+        "ozone": 1.9272326400000003e-07
+      },
+      "construction": {
+        "carbon": 28.93026624,
+        "energy": 407.73207936614403,
+        "water": 432.1960041063361,
+        "ozone": 0.0
+      }
+    },
+    {
+      "assembly": "Columns",
+      "material_type": "Glulam Column (kg)",
+      "amount": 34214.67559999997,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 25450.210083628383,
+        "energy": 286619.02677470195,
+        "water": 207216.0724674522,
+        "ozone": 0.000121818849328133
+      },
+      "materials": {
+        "carbon": 11172.425955748393,
+        "energy": 84350.02140616513,
+        "water": 2538.728929519998,
+        "ozone": 0.0
+      },
+      "transport": {
+        "carbon": 762.9872658799994,
+        "energy": 11746.500311770551,
+        "water": 2723.488177759998,
+        "ozone": 0.00012111995162399991
+      },
+      "construction": {
+        "carbon": 13514.79686199999,
+        "energy": 190522.50505676627,
+        "water": 201953.85536017222,
+        "ozone": 0.0
+      }
+    },
+    {
+      "assembly": "Columns",
+      "material_type": "Reinforced Concrete Column (cy)",
+      "amount": 9.5,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 6092.29193695,
+        "energy": 62808.250068,
+        "water": 73269.0636425,
+        "ozone": 0.00023471517
+      },
+      "materials": {
+        "carbon": 5496.61790195,
+        "energy": 53520.752718,
+        "water": 65530.6291675,
+        "ozone": 0.0002084756
+      },
+      "transport": {
+        "carbon": 165.180395,
+        "energy": 2543.5851,
+        "water": 589.8874900000001,
+        "ozone": 2.622e-05
+      },
+      "construction": {
+        "carbon": 430.49364,
+        "energy": 6743.912249999999,
+        "water": 7148.546985,
+        "ozone": 1.957e-08
+      }
+    },
+    {
+      "assembly": "Floor",
+      "material_type": "Concrete (sf)",
+      "amount": 19715.0,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 234215.89549,
+        "energy": 2087856.4316599998,
+        "water": 2961874.5376925,
+        "ozone": 0.00594079251545
+      },
+      "materials": {
+        "carbon": 144668.67,
+        "energy": 820557.597042,
+        "water": 1702942.27,
+        "ozone": 0.004891323635449999
+      },
+      "transport": {
+        "carbon": 6596.639,
+        "energy": 101750.46271739999,
+        "water": 23450.9925,
+        "ozone": 0.0010460779
+      },
+      "construction": {
+        "carbon": 82950.58649,
+        "energy": 1165548.37249205,
+        "water": 1235481.2747982,
+        "ozone": 3.39098e-06
+      }
+    },
+    {
+      "assembly": "Floor",
+      "material_type": "Wood System (sf)",
+      "amount": 35434.0,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 281256.878924,
+        "energy": 3862504.3914226,
+        "water": 2993041.57395432,
+        "ozone": 0.0007960141798
+      },
+      "materials": {
+        "carbon": 127208.06,
+        "energy": 1691247.81168,
+        "water": 754744.2000000001,
+        "ozone": 0.0
+      },
+      "transport": {
+        "carbon": 4960.76,
+        "energy": 76402.861668,
+        "water": 17752.434,
+        "ozone": 0.0007866348
+      },
+      "construction": {
+        "carbon": 149088.058924,
+        "energy": 2094853.71701158,
+        "water": 2220544.93995432,
+        "ozone": 6.094648e-06
+      }
+    },
+    {
+      "assembly": "Foundation",
+      "material_type": "Concrete Slab (cy)",
+      "amount": 63.907407407407405,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 21746.960279074072,
+        "energy": 149614.80111485184,
+        "water": 253820.36382616666,
+        "ozone": 0.0008545785004412963
+      },
+      "materials": {
+        "carbon": 20538.754314814814,
+        "energy": 130959.85893264815,
+        "water": 244973.32507407406,
+        "ozone": 0.0007183194081635185
+      },
+      "transport": {
+        "carbon": 859.2715198148148,
+        "energy": 13196.564527766666,
+        "water": 3061.158424074074,
+        "ozone": 0.00013624324324074073
+      },
+      "construction": {
+        "carbon": 348.9344444444444,
+        "energy": 5458.37768,
+        "water": 5785.8803408,
+        "ozone": 1.584903703703704e-08
+      }
+    },
+    {
+      "assembly": "Foundation",
+      "material_type": "Strip Foundation (cy)",
+      "amount": 12.444444444444443,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 4422.881244444444,
+        "energy": 31702.591025777776,
+        "water": 51641.658917333334,
+        "ozone": 0.00017445894890666662
+      },
+      "materials": {
+        "carbon": 4184.680888888888,
+        "energy": 28025.672552888886,
+        "water": 49908.58133333333,
+        "ozone": 0.00014746672490666664
+      },
+      "transport": {
+        "carbon": 170.2536888888889,
+        "energy": 2614.0295103999997,
+        "water": 606.4152888888888,
+        "ozone": 2.6989137777777772e-05
+      },
+      "construction": {
+        "carbon": 67.94666666666666,
+        "energy": 1062.8889599999998,
+        "water": 1126.6622975999999,
+        "ozone": 3.086222222222222e-09
+      }
+    }
+  ],
+  "lifetime_years": 50
+}

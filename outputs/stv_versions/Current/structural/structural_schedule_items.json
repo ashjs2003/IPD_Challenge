@@ -1,0 +1,1721 @@
+{
+  "source_files": [
+    "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\04_Island_ARCH_Concept2_Structural_Schedule.csv",
+    "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+  ],
+  "mapped_rows": 338,
+  "skipped_rows": [
+    {
+      "element_id": "1241457",
+      "category": "Floors",
+      "family": "",
+      "type": "Generic - 12\"",
+      "material": "Default Floor",
+      "volume": "6847.99 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\04_Island_ARCH_Concept2_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "713630",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "6667.40 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "726867",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "145.00 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "726868",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "141.38 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "726869",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "70.69 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "726870",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "52.56 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "726876",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.13 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "726879",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.13 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "726880",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.13 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "726883",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.13 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "726889",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.13 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "726890",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.13 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "726891",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.13 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "726892",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.13 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "726894",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "107.47 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "726895",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "107.47 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "726899",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.13 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "726906",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "37.33 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "726909",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.05 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "726912",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "106.86 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "726913",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "106.86 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "726914",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "106.86 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "726915",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "106.86 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "726916",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "106.86 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "726918",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "106.86 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "726922",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "20.39 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "732262",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "50.92 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "732263",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "25.64 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "732264",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.13 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "732265",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "63.96 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "732266",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "89.42 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "732267",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.13 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "732268",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "4.74 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "732678",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.13 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "732681",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.13 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "732683",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "4.83 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "732684",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "40.15 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "732685",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "78.67 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "732686",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "49.12 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "733004",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.13 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "733006",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.13 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "733452",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "107.47 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "734384",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "107.47 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "734385",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "107.47 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "735849",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "29.05 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "735850",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "107.47 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "735851",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "91.31 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "735852",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "106.86 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "735853",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "90.79 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "736281",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "70.69 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "736282",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "52.56 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "737137",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "47.40 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "737138",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "147.50 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "737139",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "137.45 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "737140",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "137.45 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "737141",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "145.00 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "737142",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "16.35 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "737143",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "36.25 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "737144",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "47.43 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "737145",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "107.47 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "737146",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "46.37 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "737147",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "137.45 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "737149",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "47.49 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "737484",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "145.00 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "737485",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "145.00 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "737486",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.05 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "737700",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "39.81 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "739384",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "144.90 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "739385",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.05 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "739386",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.05 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "739387",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "137.35 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "739879",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "147.76 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "739880",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "106.86 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "739881",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "148.02 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "739909",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "4785.50 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "746245",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "50.21 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "746246",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "145.60 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "746247",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "104.67 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "746248",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "144.84 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "746250",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "104.67 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "746251",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "104.78 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "746252",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "145.60 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "746258",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "67.50 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "746259",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "89.50 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "746260",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.13 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "746261",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "52.60 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "746262",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "144.84 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "746263",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "152.55 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "746265",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "4.74 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "746266",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.24 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "746267",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.13 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "746268",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.24 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "746269",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.24 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "746270",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.01 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "746272",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "104.56 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "746273",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "145.60 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "746274",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "104.67 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "746280",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "145.60 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "746282",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "145.00 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "746283",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "49.90 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "746286",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "93.86 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "746288",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.13 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "746289",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "53.07 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "747239",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "94.39 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "747240",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "104.78 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "747241",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "37.34 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "747242",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "52.56 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "747243",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "52.68 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "747244",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "52.56 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "747245",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "52.68 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "747246",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.24 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "747247",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.01 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "747248",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.01 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "747249",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "104.67 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "747250",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "104.56 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "747251",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.01 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "747252",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.13 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "747253",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.13 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "747254",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.13 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "747260",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "3261.10 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "751695",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "39.26 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "751697",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "76.06 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "751698",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "92.31 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "751699",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "52.49 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "751700",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "113.72 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "751701",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "52.34 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "751702",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "52.49 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "751703",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "52.34 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "751704",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.12 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "751705",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "89.03 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "751706",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "107.84 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "751707",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "4.74 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "751708",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.28 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "751711",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.58 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "751712",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "34.81 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "751713",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.12 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "751714",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "114.05 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "751717",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "107.85 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "751718",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "107.39 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "751719",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "107.39 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "751720",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "109.09 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "751721",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "116.50 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "751722",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "107.54 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "751723",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "20.07 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "751725",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "17.62 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "751726",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "54.67 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "751820",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "109.39 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "751821",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "116.83 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "752193",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "117.76 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "752194",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "104.97 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "752195",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "104.97 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "752196",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "114.63 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "752197",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "105.28 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "752198",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "0.45 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "752199",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "0.98 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "752200",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "44.94 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "752201",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "176.93 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "752431",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "106.48 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "752432",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "106.79 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "753159",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "35.62 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "753160",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "0.90 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "753161",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "0.46 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "753162",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "101.41 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "753164",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "16.82 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "753165",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "147.92 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "753376",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "156.21 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    },
+    {
+      "element_id": "753377",
+      "category": "Parts",
+      "family": "",
+      "type": "",
+      "material": "Structural Bamboo (CLB)",
+      "volume": "43.80 CF",
+      "reason": "No STV mapping rule matched this row.",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+    }
+  ],
+  "construction_items": [
+    {
+      "assembly": "Beams",
+      "material_type": "Glulam Beam (kg)",
+      "amount": 81954.37990000004
+    },
+    {
+      "assembly": "Beams",
+      "material_type": "Reinforced Concrete Beam (cy)",
+      "amount": 74.06666666666665
+    },
+    {
+      "assembly": "Columns",
+      "material_type": "Glulam Column (kg)",
+      "amount": 33931.969099999995
+    },
+    {
+      "assembly": "Columns",
+      "material_type": "Reinforced Concrete Column (cy)",
+      "amount": 6.209259259259253
+    },
+    {
+      "assembly": "Floor",
+      "material_type": "Concrete (sf)",
+      "amount": 22661.0
+    },
+    {
+      "assembly": "Floor",
+      "material_type": "Wood System (sf)",
+      "amount": 10599.0
+    },
+    {
+      "assembly": "Foundation",
+      "material_type": "Concrete Slab (cy)",
+      "amount": 62.87814814814815
+    },
+    {
+      "assembly": "Foundation",
+      "material_type": "Strip Foundation (cy)",
+      "amount": 25.703703703703688
+    }
+  ]
+}

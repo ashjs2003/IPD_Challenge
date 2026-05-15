@@ -1,0 +1,2974 @@
+{
+  "mapped_rows": 2037,
+  "source_schedule_counts": {
+    "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv": 1140,
+    "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv": 1006,
+    "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\STR_Wall_Bamboo_Concept2_amd03_V2_2026-03-04_07-52-08pm_detached_Structural_Schedule.csv": 209
+  },
+  "mapper_counts": {
+    "architecture": 1140,
+    "mep": 1006,
+    "structural": 209
+  },
+  "skipped_rows": [
+    {
+      "element_id": "1245261",
+      "category": "Stairs",
+      "family": "",
+      "type": "Stair-Metal-Plate Stringer",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1245290",
+      "category": "Runs",
+      "family": "",
+      "type": "1/4\" Tread 1\" Nosing 1/4\" Riser",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1245344",
+      "category": "Runs",
+      "family": "",
+      "type": "1/4\" Tread 1\" Nosing 1/4\" Riser",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1245346",
+      "category": "Landings",
+      "family": "",
+      "type": "Non-Monolithic Landing",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1248623",
+      "category": "Stairs",
+      "family": "",
+      "type": "Stair-Metal-Plate Stringer",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1248624",
+      "category": "Runs",
+      "family": "",
+      "type": "1/4\" Tread 1\" Nosing 1/4\" Riser",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1248628",
+      "category": "Runs",
+      "family": "",
+      "type": "1/4\" Tread 1\" Nosing 1/4\" Riser",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1248630",
+      "category": "Landings",
+      "family": "",
+      "type": "Non-Monolithic Landing",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1281478",
+      "category": "Furniture",
+      "family": "17_Desk_w_Chairs_-_Classroom_Hexagon_",
+      "type": "Full Desk",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1285675",
+      "category": "Furniture",
+      "family": "LR1172_Conjunto_Banheiro_Comercial_2",
+      "type": "LR1172_Conjunto_Banheiro_Comercial_2",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1285676",
+      "category": "Plumbing Fixtures",
+      "family": "M_V\u00e3o da pia-Redondo",
+      "type": "482 x 482 mm",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1285677",
+      "category": "Plumbing Fixtures",
+      "family": "M_V\u00e3o da pia-Redondo",
+      "type": "482 x 482 mm",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1285678",
+      "category": "Plumbing Fixtures",
+      "family": "M_V\u00e3o da pia-Redondo",
+      "type": "482 x 482 mm",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1285679",
+      "category": "Plumbing Fixtures",
+      "family": "M_Toilet-Residencial-3D",
+      "type": "M_Toilet-Residencial-3D",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1285680",
+      "category": "Plumbing Fixtures",
+      "family": "M_Toilet-Residencial-3D",
+      "type": "M_Toilet-Residencial-3D",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1285681",
+      "category": "Plumbing Fixtures",
+      "family": "M_Toilet-Residencial-3D",
+      "type": "M_Toilet-Residencial-3D",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1285902",
+      "category": "Furniture",
+      "family": "LR1172_Conjunto_Banheiro_Comercial_2",
+      "type": "LR1172_Conjunto_Banheiro_Comercial_2",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1285903",
+      "category": "Plumbing Fixtures",
+      "family": "M_V\u00e3o da pia-Redondo",
+      "type": "482 x 482 mm",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1285904",
+      "category": "Plumbing Fixtures",
+      "family": "M_V\u00e3o da pia-Redondo",
+      "type": "482 x 482 mm",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1285905",
+      "category": "Plumbing Fixtures",
+      "family": "M_V\u00e3o da pia-Redondo",
+      "type": "482 x 482 mm",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1285906",
+      "category": "Plumbing Fixtures",
+      "family": "M_Toilet-Residencial-3D",
+      "type": "M_Toilet-Residencial-3D",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1285907",
+      "category": "Plumbing Fixtures",
+      "family": "M_Toilet-Residencial-3D",
+      "type": "M_Toilet-Residencial-3D",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1285908",
+      "category": "Plumbing Fixtures",
+      "family": "M_Toilet-Residencial-3D",
+      "type": "M_Toilet-Residencial-3D",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1329685",
+      "category": "Casework",
+      "family": "M_Counter Top w Sink Hole",
+      "type": "600mm Depth",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1329686",
+      "category": "Plumbing Fixtures",
+      "family": "M_Sink Kitchen-Island",
+      "type": "450 x 450mm",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1333125",
+      "category": "Furniture",
+      "family": "Table - Dining w Chairs (1)",
+      "type": "900mm Diameter",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1333126",
+      "category": "Furniture",
+      "family": "Chair (2)",
+      "type": "Chair (2)",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1333127",
+      "category": "Furniture",
+      "family": "Chair (2)",
+      "type": "Chair (2)",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1333128",
+      "category": "Furniture",
+      "family": "Chair (2)",
+      "type": "Chair (2)",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1333129",
+      "category": "Furniture",
+      "family": "Chair (2)",
+      "type": "Chair (2)",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1351458",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1351523",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1351590",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1351641",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1368734",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1369016",
+      "category": "Furniture",
+      "family": "Modernform 5-M-COS-MG-R-1816-xx-O-xx-xx",
+      "type": "Modernform 5-M-COS-MG-R-1816-xx-O-xx-xx",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1369224",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1369279",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1369531",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1369532",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1369594",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1369595",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1369655",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1369656",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1369714",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1369715",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1369762",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1369763",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1369809",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1369810",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1370007",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1370008",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1370271",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1370272",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1370478",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1370479",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1370523",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1370524",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1370525",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1370526",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1377307",
+      "category": "Furniture",
+      "family": "Haworth_Openest_FeatherSofa_Symmetrical",
+      "type": "Left Table",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1378152",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1378153",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1378209",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1378210",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1378266",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1378267",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1378325",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1378326",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1378383",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1378384",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1378440",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1378441",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1378498",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1378499",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1378555",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1378556",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1378612",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1378613",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1378661",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1378662",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1378708",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1378709",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1378754",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1378755",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1378801",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1378802",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1379259",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1379260",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1379355",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1379356",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1380219",
+      "category": "Furniture",
+      "family": "Table - Dining w Chairs (1)",
+      "type": "900mm Diameter",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1380220",
+      "category": "Furniture",
+      "family": "Chair (2)",
+      "type": "Chair (2)",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1380221",
+      "category": "Furniture",
+      "family": "Chair (2)",
+      "type": "Chair (2)",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1380222",
+      "category": "Furniture",
+      "family": "Chair (2)",
+      "type": "Chair (2)",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1380223",
+      "category": "Furniture",
+      "family": "Chair (2)",
+      "type": "Chair (2)",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1381621",
+      "category": "Furniture",
+      "family": "LR1172_Conjunto_Banheiro_Comercial_2",
+      "type": "LR1172_Conjunto_Banheiro_Comercial_2",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1381622",
+      "category": "Plumbing Fixtures",
+      "family": "M_V\u00e3o da pia-Redondo",
+      "type": "482 x 482 mm",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1381623",
+      "category": "Plumbing Fixtures",
+      "family": "M_V\u00e3o da pia-Redondo",
+      "type": "482 x 482 mm",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1381624",
+      "category": "Plumbing Fixtures",
+      "family": "M_V\u00e3o da pia-Redondo",
+      "type": "482 x 482 mm",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1381625",
+      "category": "Plumbing Fixtures",
+      "family": "M_Toilet-Residencial-3D",
+      "type": "M_Toilet-Residencial-3D",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1381626",
+      "category": "Plumbing Fixtures",
+      "family": "M_Toilet-Residencial-3D",
+      "type": "M_Toilet-Residencial-3D",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1381627",
+      "category": "Plumbing Fixtures",
+      "family": "M_Toilet-Residencial-3D",
+      "type": "M_Toilet-Residencial-3D",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1381690",
+      "category": "Furniture",
+      "family": "LR1172_Conjunto_Banheiro_Comercial_2",
+      "type": "LR1172_Conjunto_Banheiro_Comercial_2",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1381691",
+      "category": "Plumbing Fixtures",
+      "family": "M_V\u00e3o da pia-Redondo",
+      "type": "482 x 482 mm",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1381692",
+      "category": "Plumbing Fixtures",
+      "family": "M_V\u00e3o da pia-Redondo",
+      "type": "482 x 482 mm",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1381693",
+      "category": "Plumbing Fixtures",
+      "family": "M_V\u00e3o da pia-Redondo",
+      "type": "482 x 482 mm",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1381694",
+      "category": "Plumbing Fixtures",
+      "family": "M_Toilet-Residencial-3D",
+      "type": "M_Toilet-Residencial-3D",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1381695",
+      "category": "Plumbing Fixtures",
+      "family": "M_Toilet-Residencial-3D",
+      "type": "M_Toilet-Residencial-3D",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1381696",
+      "category": "Plumbing Fixtures",
+      "family": "M_Toilet-Residencial-3D",
+      "type": "M_Toilet-Residencial-3D",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1381806",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1381807",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1381808",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1381809",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1382380",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1382381",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1382382",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1382383",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1382442",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1382443",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1382444",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1382445",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1382506",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1382507",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1382508",
+      "category": "Furniture",
+      "family": "Desk",
+      "type": "60\" x 30\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1382509",
+      "category": "Furniture",
+      "family": "Chair-Task Arms",
+      "type": "Chair-Task Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1402070",
+      "category": "Furniture",
+      "family": "Revit_File_-_Espace_628T_-_Retractable_-_End_Aisles",
+      "type": "Revit_File_-_Espace_628T_-_Retractable_-_End_Aisles",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1402404",
+      "category": "Furniture",
+      "family": "Revit_File_-_Espace_628T_-_Retractable_-_End_Aisles",
+      "type": "Revit_File_-_Espace_628T_-_Retractable_-_End_Aisles",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1405808",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1405809",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1405810",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1405811",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1405868",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1405869",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1405870",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1405871",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1405928",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1405929",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1405930",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1405931",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1405989",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1405990",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1405991",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1405992",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1405993",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1405994",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1405995",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1405996",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1405997",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1405998",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1405999",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406000",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406001",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406002",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406003",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406004",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406040",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406041",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406042",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406043",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406044",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406045",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406046",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406047",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406048",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406049",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406050",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406051",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406052",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406053",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406054",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406055",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406103",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406104",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406105",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406106",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406107",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406108",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406109",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406110",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406111",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406112",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406113",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406114",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406115",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406116",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406117",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1406118",
+      "category": "Furniture",
+      "family": "Haworth_Maari_Chair_StarBase_WithTablet",
+      "type": "S75 - Five Star Base - No Arms",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1411053",
+      "category": "Furniture",
+      "family": "LR1172_Conjunto_Banheiro_Comercial_2",
+      "type": "LR1172_Conjunto_Banheiro_Comercial_2",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1411054",
+      "category": "Plumbing Fixtures",
+      "family": "M_V\u00e3o da pia-Redondo",
+      "type": "482 x 482 mm",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1411055",
+      "category": "Plumbing Fixtures",
+      "family": "M_V\u00e3o da pia-Redondo",
+      "type": "482 x 482 mm",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1411056",
+      "category": "Plumbing Fixtures",
+      "family": "M_V\u00e3o da pia-Redondo",
+      "type": "482 x 482 mm",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1411057",
+      "category": "Plumbing Fixtures",
+      "family": "M_Toilet-Residencial-3D",
+      "type": "M_Toilet-Residencial-3D",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1411058",
+      "category": "Plumbing Fixtures",
+      "family": "M_Toilet-Residencial-3D",
+      "type": "M_Toilet-Residencial-3D",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1411059",
+      "category": "Plumbing Fixtures",
+      "family": "M_Toilet-Residencial-3D",
+      "type": "M_Toilet-Residencial-3D",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1411219",
+      "category": "Furniture",
+      "family": "LR1172_Conjunto_Banheiro_Comercial_2",
+      "type": "LR1172_Conjunto_Banheiro_Comercial_2",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1411220",
+      "category": "Plumbing Fixtures",
+      "family": "M_V\u00e3o da pia-Redondo",
+      "type": "482 x 482 mm",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1411221",
+      "category": "Plumbing Fixtures",
+      "family": "M_V\u00e3o da pia-Redondo",
+      "type": "482 x 482 mm",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1411222",
+      "category": "Plumbing Fixtures",
+      "family": "M_V\u00e3o da pia-Redondo",
+      "type": "482 x 482 mm",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1411223",
+      "category": "Plumbing Fixtures",
+      "family": "M_Toilet-Residencial-3D",
+      "type": "M_Toilet-Residencial-3D",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1411224",
+      "category": "Plumbing Fixtures",
+      "family": "M_Toilet-Residencial-3D",
+      "type": "M_Toilet-Residencial-3D",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1411225",
+      "category": "Plumbing Fixtures",
+      "family": "M_Toilet-Residencial-3D",
+      "type": "M_Toilet-Residencial-3D",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1413055",
+      "category": "Furniture",
+      "family": "Table - Dining w Chairs (1)",
+      "type": "900mm Diameter",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1413056",
+      "category": "Furniture",
+      "family": "Chair (2)",
+      "type": "Chair (2)",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1413057",
+      "category": "Furniture",
+      "family": "Chair (2)",
+      "type": "Chair (2)",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1413058",
+      "category": "Furniture",
+      "family": "Chair (2)",
+      "type": "Chair (2)",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1413059",
+      "category": "Furniture",
+      "family": "Chair (2)",
+      "type": "Chair (2)",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1413116",
+      "category": "Furniture",
+      "family": "Table - Dining w Chairs (1)",
+      "type": "900mm Diameter",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1413117",
+      "category": "Furniture",
+      "family": "Chair (2)",
+      "type": "Chair (2)",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1413118",
+      "category": "Furniture",
+      "family": "Chair (2)",
+      "type": "Chair (2)",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1413119",
+      "category": "Furniture",
+      "family": "Chair (2)",
+      "type": "Chair (2)",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1413120",
+      "category": "Furniture",
+      "family": "Chair (2)",
+      "type": "Chair (2)",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1413241",
+      "category": "Furniture",
+      "family": "Table - Dining w Chairs (1)",
+      "type": "900mm Diameter",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1413242",
+      "category": "Furniture",
+      "family": "Chair (2)",
+      "type": "Chair (2)",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1413243",
+      "category": "Furniture",
+      "family": "Chair (2)",
+      "type": "Chair (2)",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1413244",
+      "category": "Furniture",
+      "family": "Chair (2)",
+      "type": "Chair (2)",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1413245",
+      "category": "Furniture",
+      "family": "Chair (2)",
+      "type": "Chair (2)",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1413783",
+      "category": "Furniture",
+      "family": "Haworth_Hushoffice_HushFree.S.Hybrid_1Person_SeatedHeightTable_NA",
+      "type": "Haworth_Hushoffice_HushFree.S.Hybrid_1Person_SeatedHeightTable_NA",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1413844",
+      "category": "Furniture",
+      "family": "Haworth_Hushoffice_HushFree.S.Hybrid_1Person_SeatedHeightTable_NA",
+      "type": "Haworth_Hushoffice_HushFree.S.Hybrid_1Person_SeatedHeightTable_NA",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1417517",
+      "category": "Furniture",
+      "family": "Haworth_Hushoffice_HushFree.XM_2Person_NA (1)",
+      "type": "Haworth_Hushoffice_HushFree.XM_2Person_NA",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1417634",
+      "category": "Furniture",
+      "family": "Haworth_Hushoffice_HushFree.L_NA",
+      "type": "HushFree.L w/ 4 Sofas + 2 Side Tables",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1419729",
+      "category": "Furniture",
+      "family": "Locker 4x2",
+      "type": "Locker 4x2",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1419804",
+      "category": "Furniture",
+      "family": "Locker 4x2",
+      "type": "Locker 4x2",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1419855",
+      "category": "Furniture",
+      "family": "Locker 4x2",
+      "type": "Locker 4x2",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1419906",
+      "category": "Furniture",
+      "family": "Locker 4x2",
+      "type": "Locker 4x2",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1419967",
+      "category": "Furniture",
+      "family": "Locker 4x2",
+      "type": "Locker 4x2",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1421029",
+      "category": "Furniture",
+      "family": "Contemporary Bench",
+      "type": "3 Seat Sofa",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1421092",
+      "category": "Furniture",
+      "family": "Contemporary Bench",
+      "type": "3 Seat Sofa",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1421161",
+      "category": "Furniture",
+      "family": "Contemporary Bench",
+      "type": "3 Seat Sofa",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1421224",
+      "category": "Furniture",
+      "family": "Contemporary Bench",
+      "type": "3 Seat Sofa",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1422195",
+      "category": "Furniture",
+      "family": "081_Log_Framed_Three_Seat_Couc",
+      "type": "081_Log_Framed_Three_Seat_Couc",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1423659",
+      "category": "Furniture",
+      "family": "Furniture-Generic-Hammock",
+      "type": "Hammock",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1429399",
+      "category": "Furniture",
+      "family": "Haworth_Hushoffice_HushFree.XM_2Person_NA (1)",
+      "type": "Haworth_Hushoffice_HushFree.XM_2Person_NA",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1429762",
+      "category": "Furniture",
+      "family": "071_Ikea_Tulsta",
+      "type": "071_Ikea_Tulsta",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1429900",
+      "category": "Furniture",
+      "family": "071_Ikea_Tulsta",
+      "type": "071_Ikea_Tulsta",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1430790",
+      "category": "Furniture",
+      "family": "Table - Cafe",
+      "type": "Table - Cafe",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1431861",
+      "category": "Furniture",
+      "family": "Office Chair",
+      "type": "Office Chair",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1432084",
+      "category": "Furniture",
+      "family": "Office Chair",
+      "type": "Office Chair",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1432112",
+      "category": "Furniture",
+      "family": "Table - Cafe",
+      "type": "Table - Cafe",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1432113",
+      "category": "Furniture",
+      "family": "Office Chair",
+      "type": "Office Chair",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1432114",
+      "category": "Furniture",
+      "family": "Office Chair",
+      "type": "Office Chair",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+      "mapper": "architecture",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "986733",
+      "category": "Mechanical Equipment",
+      "family": "Centrifugal Fan -  Rooftop  - Upblast",
+      "type": "small CFM 2",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "987113",
+      "category": "Mechanical Equipment",
+      "family": "Centrifugal Fan -  Rooftop  - Upblast",
+      "type": "small CFM 2",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1002815",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1002953",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1022788",
+      "category": "Air Terminals",
+      "family": "PRICE-40FF- Filter Frame Stamped Residential Grille-RETURN Hosted",
+      "type": "24\" x 12\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1022932",
+      "category": "Air Terminals",
+      "family": "PRICE-40FF- Filter Frame Stamped Residential Grille-RETURN Hosted",
+      "type": "24\" x 12\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1022943",
+      "category": "Air Terminals",
+      "family": "PRICE-40FF- Filter Frame Stamped Residential Grille-RETURN Hosted",
+      "type": "24\" x 12\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1022953",
+      "category": "Air Terminals",
+      "family": "PRICE-40FF- Filter Frame Stamped Residential Grille-RETURN Hosted",
+      "type": "24\" x 12\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1022963",
+      "category": "Air Terminals",
+      "family": "PRICE-40FF- Filter Frame Stamped Residential Grille-RETURN Hosted",
+      "type": "24\" x 12\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1023916",
+      "category": "Air Terminals",
+      "family": "PRICE-40FF- Filter Frame Stamped Residential Grille-RETURN Hosted",
+      "type": "24\" x 12\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1023982",
+      "category": "Air Terminals",
+      "family": "PRICE-40FF- Filter Frame Stamped Residential Grille-RETURN Hosted",
+      "type": "24\" x 12\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1023993",
+      "category": "Air Terminals",
+      "family": "PRICE-40FF- Filter Frame Stamped Residential Grille-RETURN Hosted",
+      "type": "24\" x 12\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1024003",
+      "category": "Air Terminals",
+      "family": "PRICE-40FF- Filter Frame Stamped Residential Grille-RETURN Hosted",
+      "type": "24\" x 12\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1024013",
+      "category": "Air Terminals",
+      "family": "PRICE-40FF- Filter Frame Stamped Residential Grille-RETURN Hosted",
+      "type": "24\" x 12\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1024023",
+      "category": "Air Terminals",
+      "family": "PRICE-40FF- Filter Frame Stamped Residential Grille-RETURN Hosted",
+      "type": "24\" x 12\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1024033",
+      "category": "Air Terminals",
+      "family": "PRICE-40FF- Filter Frame Stamped Residential Grille-RETURN Hosted",
+      "type": "24\" x 12\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1024707",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1024708",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1024718",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1024719",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1024747",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1024748",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1024850",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1024880",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1024899",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1024931",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1024964",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1024975",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025002",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025012",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025024",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025035",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025065",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025117",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025133",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025146",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025159",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025169",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025189",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025212",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025287",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025297",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025305",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025313",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025321",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025329",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025339",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025349",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025359",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025369",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025379",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025387",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025412",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025420",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025428",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025436",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025444",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025454",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025499",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025507",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025513",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025521",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025531",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025564",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025592",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1025608",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1026248",
+      "category": "Air Terminals",
+      "family": "PRICE-40FF- Filter Frame Stamped Residential Grille-RETURN Hosted",
+      "type": "24\" x 16\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1026317",
+      "category": "Air Terminals",
+      "family": "PRICE-40FF- Filter Frame Stamped Residential Grille-RETURN Hosted",
+      "type": "24\" x 16\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1026379",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1026387",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1026803",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1026843",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1026877",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1026890",
+      "category": "Electrical Fixtures",
+      "family": "34274",
+      "type": "34274 MARINE M White ceiling fan IP44",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1031291",
+      "category": "Electrical Equipment",
+      "family": "Utility Switchboard",
+      "type": "36\"x26.25\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1032269",
+      "category": "Electrical Equipment",
+      "family": "Utility Switchboard",
+      "type": "36\"x26.25\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    },
+    {
+      "element_id": "1032281",
+      "category": "Electrical Equipment",
+      "family": "Utility Switchboard",
+      "type": "36\"x26.25\"",
+      "source_schedule": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+      "mapper": "mep",
+      "reason": "No STV central BIM mapping rule matched this row."
+    }
+  ],
+  "construction_items": [
+    {
+      "assembly": "Beams",
+      "material_type": "Glulam Beam (kg)",
+      "amount": 82226.39989999993
+    },
+    {
+      "assembly": "Beams",
+      "material_type": "Reinforced Concrete Beam (cy)",
+      "amount": 54.44777777777778
+    },
+    {
+      "assembly": "Beams",
+      "material_type": "Wood Beam (kg)",
+      "amount": 54.44160000000001
+    },
+    {
+      "assembly": "Columns",
+      "material_type": "Glulam Column (kg)",
+      "amount": 34214.67559999997
+    },
+    {
+      "assembly": "Columns",
+      "material_type": "Reinforced Concrete Column (cy)",
+      "amount": 9.5
+    },
+    {
+      "assembly": "Exterior Wall",
+      "material_type": "Curtain Wall Double Pane (sf)",
+      "amount": 15863.0
+    },
+    {
+      "assembly": "Exterior Wall",
+      "material_type": "EIFS on Metal Stud (sf)",
+      "amount": 9029.0
+    },
+    {
+      "assembly": "Floor",
+      "material_type": "Concrete (sf)",
+      "amount": 35320.0
+    },
+    {
+      "assembly": "Floor",
+      "material_type": "Wood System (sf)",
+      "amount": 28505.0
+    },
+    {
+      "assembly": "Foundation",
+      "material_type": "Concrete Slab (cy)",
+      "amount": 63.907407407407405
+    },
+    {
+      "assembly": "Foundation",
+      "material_type": "Strip Foundation (cy)",
+      "amount": 12.444444444444443
+    },
+    {
+      "assembly": "Interior Wall",
+      "material_type": "Steel Studs and Painted Gypsum (sf)",
+      "amount": 26391.0
+    },
+    {
+      "assembly": "Interior Wall",
+      "material_type": "Timber Studs and Painted Gypsum (sf)",
+      "amount": 4542.0
+    },
+    {
+      "assembly": "MEP",
+      "material_type": "Air Filters (m^3/s)",
+      "amount": 0.0902777777777778
+    },
+    {
+      "assembly": "MEP",
+      "material_type": "Air Handling Unit (m^3/s)",
+      "amount": 4.518611111111105
+    },
+    {
+      "assembly": "MEP",
+      "material_type": "Stainless Steel Duct (kg)",
+      "amount": 330.1701525616001
+    },
+    {
+      "assembly": "MEP",
+      "material_type": "Steel Duct 12\"D (ft)",
+      "amount": 2037.9010416666672
+    },
+    {
+      "assembly": "MEP",
+      "material_type": "Steel Duct 18\"D (ft)",
+      "amount": 164.2994791666666
+    },
+    {
+      "assembly": "Roof",
+      "material_type": "EPDM Membrane (sf)",
+      "amount": 12310.0
+    }
+  ]
+}

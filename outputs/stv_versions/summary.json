@@ -1,0 +1,259 @@
+{
+  "team": "Island",
+  "schedule_root": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules",
+  "output_root": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions",
+  "months": [
+    {
+      "month": "Feb",
+      "schedule_dir": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb",
+      "central_bim": {
+        "central_bim_model": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Feb\\central_bim_model.csv",
+        "source_files": [
+          "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv",
+          "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+          "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_MEP_TakeOff.csv",
+          "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Structural_Schedule.csv",
+          "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\STR_Wall_Bamboo_Concept2_amd03_V2_2026-03-04_07-52-08pm_detached_Structural_Schedule.csv"
+        ],
+        "row_count": 2355,
+        "central_bim_model_stv_items": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Feb\\central_bim_model_stv_items.json",
+        "mapped_rows": 2037,
+        "mapper_counts": {
+          "architecture": 1140,
+          "mep": 1006,
+          "structural": 209
+        }
+      },
+      "trades": {
+        "architecture": {
+          "schedule_items_json": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Feb\\architecture\\architecture_schedule_items.json",
+          "source_files": [
+            "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Architecture_TakeOff.csv"
+          ],
+          "results_json": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Feb\\architecture\\stv_results.json",
+          "chart_target_vs_project": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Feb\\architecture\\target_vs_project.png",
+          "chart_life_cycle_breakdown": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Feb\\architecture\\life_cycle_breakdown.png",
+          "chart_target_vs_project_radial": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Feb\\architecture\\target_vs_project_radial.png"
+        },
+        "mep": {
+          "schedule_items_json": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Feb\\mep\\mep_schedule_items.json",
+          "source_files": [
+            "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+            "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_MEP_TakeOff.csv"
+          ],
+          "results_json": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Feb\\mep\\stv_results.json",
+          "chart_target_vs_project": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Feb\\mep\\target_vs_project.png",
+          "chart_life_cycle_breakdown": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Feb\\mep\\life_cycle_breakdown.png",
+          "chart_target_vs_project_radial": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Feb\\mep\\target_vs_project_radial.png"
+        },
+        "structural": {
+          "schedule_items_json": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Feb\\structural\\structural_schedule_items.json",
+          "source_files": [
+            "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\04_Island_ARCH_Concept2_V7_2026-02-25_09-26-38am_detached_Structural_Schedule.csv",
+            "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Feb\\STR_Wall_Bamboo_Concept2_amd03_V2_2026-03-04_07-52-08pm_detached_Structural_Schedule.csv"
+          ],
+          "results_json": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Feb\\structural\\stv_results.json",
+          "chart_target_vs_project": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Feb\\structural\\target_vs_project.png",
+          "chart_life_cycle_breakdown": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Feb\\structural\\life_cycle_breakdown.png",
+          "chart_target_vs_project_radial": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Feb\\structural\\target_vs_project_radial.png"
+        }
+      },
+      "project": {
+        "results_json": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Feb\\project\\stv_results.json",
+        "chart_target_vs_project": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Feb\\project\\target_vs_project.png",
+        "chart_life_cycle_breakdown": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Feb\\project\\life_cycle_breakdown.png",
+        "chart_target_vs_project_radial": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Feb\\project\\target_vs_project_radial.png"
+      }
+    },
+    {
+      "month": "Mar",
+      "schedule_dir": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Mar",
+      "central_bim": {
+        "central_bim_model": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Mar\\central_bim_model.csv",
+        "source_files": [
+          "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Mar\\04_Island_ARCH_Concept2_V11_2026-03-06_10-51-12am_detached_Architecture_TakeOff.csv",
+          "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Mar\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+          "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Mar\\04_Island_ARCH_Concept2_V11_2026-03-06_10-51-12am_detached_MEP_TakeOff.csv",
+          "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Mar\\04_Island_ARCH_Concept2_V11_2026-03-06_10-51-12am_detached_Structural_Schedule.csv",
+          "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Mar\\STR_Wall_Bamboo_Concept2_amd03_V2_2026-03-04_07-52-08pm_detached_Structural_Schedule.csv"
+        ],
+        "row_count": 2576,
+        "central_bim_model_stv_items": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Mar\\central_bim_model_stv_items.json",
+        "mapped_rows": 2120,
+        "mapper_counts": {
+          "architecture": 1361,
+          "mep": 1006,
+          "structural": 209
+        }
+      },
+      "trades": {
+        "architecture": {
+          "schedule_items_json": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Mar\\architecture\\architecture_schedule_items.json",
+          "source_files": [
+            "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Mar\\04_Island_ARCH_Concept2_V11_2026-03-06_10-51-12am_detached_Architecture_TakeOff.csv"
+          ],
+          "results_json": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Mar\\architecture\\stv_results.json",
+          "chart_target_vs_project": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Mar\\architecture\\target_vs_project.png",
+          "chart_life_cycle_breakdown": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Mar\\architecture\\life_cycle_breakdown.png",
+          "chart_target_vs_project_radial": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Mar\\architecture\\target_vs_project_radial.png"
+        },
+        "mep": {
+          "schedule_items_json": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Mar\\mep\\mep_schedule_items.json",
+          "source_files": [
+            "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Mar\\01_Island_MEP_Concept2_V3_2026-02-26_12-47-48pm_detached_MEP_TakeOff.csv",
+            "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Mar\\04_Island_ARCH_Concept2_V11_2026-03-06_10-51-12am_detached_MEP_TakeOff.csv"
+          ],
+          "results_json": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Mar\\mep\\stv_results.json",
+          "chart_target_vs_project": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Mar\\mep\\target_vs_project.png",
+          "chart_life_cycle_breakdown": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Mar\\mep\\life_cycle_breakdown.png",
+          "chart_target_vs_project_radial": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Mar\\mep\\target_vs_project_radial.png"
+        },
+        "structural": {
+          "schedule_items_json": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Mar\\structural\\structural_schedule_items.json",
+          "source_files": [
+            "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Mar\\04_Island_ARCH_Concept2_V11_2026-03-06_10-51-12am_detached_Structural_Schedule.csv",
+            "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Mar\\STR_Wall_Bamboo_Concept2_amd03_V2_2026-03-04_07-52-08pm_detached_Structural_Schedule.csv"
+          ],
+          "results_json": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Mar\\structural\\stv_results.json",
+          "chart_target_vs_project": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Mar\\structural\\target_vs_project.png",
+          "chart_life_cycle_breakdown": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Mar\\structural\\life_cycle_breakdown.png",
+          "chart_target_vs_project_radial": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Mar\\structural\\target_vs_project_radial.png"
+        }
+      },
+      "project": {
+        "results_json": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Mar\\project\\stv_results.json",
+        "chart_target_vs_project": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Mar\\project\\target_vs_project.png",
+        "chart_life_cycle_breakdown": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Mar\\project\\life_cycle_breakdown.png",
+        "chart_target_vs_project_radial": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Mar\\project\\target_vs_project_radial.png"
+      }
+    },
+    {
+      "month": "Apr",
+      "schedule_dir": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Apr",
+      "central_bim": {
+        "central_bim_model": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Apr\\central_bim_model.csv",
+        "source_files": [
+          "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Apr\\04_Island_ARCH_Concept2_V24_2026-04-23_04-35-08pm_detached_Architecture_TakeOff.csv",
+          "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Apr\\STR_Wall_Bamboo_Concept2_amd03_V3_2026-04-24_08-20-35am_detached_Architecture_TakeOff.csv",
+          "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Apr\\01_Island_MEP_Concept2_V4_2026-04-08_11-47-28am_detached_MEP_TakeOff.csv",
+          "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Apr\\04_Island_ARCH_Concept2_V24_2026-04-23_04-35-08pm_detached_MEP_TakeOff.csv",
+          "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Apr\\04_Island_ARCH_Concept2_V24_2026-04-23_04-35-08pm_detached_Structural_Schedule.csv",
+          "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Apr\\STR_Wall_Bamboo_Concept2_amd03_V3_2026-04-24_08-20-35am_detached_Structural_Schedule.csv"
+        ],
+        "row_count": 3054,
+        "central_bim_model_stv_items": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Apr\\central_bim_model_stv_items.json",
+        "mapped_rows": 1918,
+        "mapper_counts": {
+          "architecture": 2342,
+          "mep": 429,
+          "structural": 283
+        }
+      },
+      "trades": {
+        "architecture": {
+          "schedule_items_json": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Apr\\architecture\\architecture_schedule_items.json",
+          "source_files": [
+            "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Apr\\04_Island_ARCH_Concept2_V24_2026-04-23_04-35-08pm_detached_Architecture_TakeOff.csv",
+            "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Apr\\STR_Wall_Bamboo_Concept2_amd03_V3_2026-04-24_08-20-35am_detached_Architecture_TakeOff.csv"
+          ],
+          "results_json": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Apr\\architecture\\stv_results.json",
+          "chart_target_vs_project": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Apr\\architecture\\target_vs_project.png",
+          "chart_life_cycle_breakdown": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Apr\\architecture\\life_cycle_breakdown.png",
+          "chart_target_vs_project_radial": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Apr\\architecture\\target_vs_project_radial.png"
+        },
+        "mep": {
+          "schedule_items_json": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Apr\\mep\\mep_schedule_items.json",
+          "source_files": [
+            "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Apr\\01_Island_MEP_Concept2_V4_2026-04-08_11-47-28am_detached_MEP_TakeOff.csv",
+            "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Apr\\04_Island_ARCH_Concept2_V24_2026-04-23_04-35-08pm_detached_MEP_TakeOff.csv"
+          ],
+          "results_json": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Apr\\mep\\stv_results.json",
+          "chart_target_vs_project": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Apr\\mep\\target_vs_project.png",
+          "chart_life_cycle_breakdown": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Apr\\mep\\life_cycle_breakdown.png",
+          "chart_target_vs_project_radial": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Apr\\mep\\target_vs_project_radial.png"
+        },
+        "structural": {
+          "schedule_items_json": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Apr\\structural\\structural_schedule_items.json",
+          "source_files": [
+            "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Apr\\04_Island_ARCH_Concept2_V24_2026-04-23_04-35-08pm_detached_Structural_Schedule.csv",
+            "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Apr\\STR_Wall_Bamboo_Concept2_amd03_V3_2026-04-24_08-20-35am_detached_Structural_Schedule.csv"
+          ],
+          "results_json": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Apr\\structural\\stv_results.json",
+          "chart_target_vs_project": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Apr\\structural\\target_vs_project.png",
+          "chart_life_cycle_breakdown": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Apr\\structural\\life_cycle_breakdown.png",
+          "chart_target_vs_project_radial": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Apr\\structural\\target_vs_project_radial.png"
+        }
+      },
+      "project": {
+        "results_json": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Apr\\project\\stv_results.json",
+        "chart_target_vs_project": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Apr\\project\\target_vs_project.png",
+        "chart_life_cycle_breakdown": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Apr\\project\\life_cycle_breakdown.png",
+        "chart_target_vs_project_radial": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Apr\\project\\target_vs_project_radial.png"
+      }
+    },
+    {
+      "month": "Current",
+      "schedule_dir": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current",
+      "central_bim": {
+        "central_bim_model": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Current\\central_bim_model.csv",
+        "source_files": [
+          "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\04_Island_ARCH_Concept2_Architecture_TakeOff.csv",
+          "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Architecture_TakeOff.csv",
+          "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\01_Island_MEP_Concept2_MEP_TakeOff.csv",
+          "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\04_Island_ARCH_Concept2_MEP_TakeOff.csv",
+          "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\04_Island_ARCH_Concept2_Structural_Schedule.csv",
+          "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+        ],
+        "row_count": 3971,
+        "central_bim_model_stv_items": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Current\\central_bim_model_stv_items.json",
+        "mapped_rows": 3013,
+        "mapper_counts": {
+          "architecture": 1985,
+          "mep": 1484,
+          "structural": 502
+        }
+      },
+      "trades": {
+        "architecture": {
+          "schedule_items_json": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Current\\architecture\\architecture_schedule_items.json",
+          "source_files": [
+            "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\04_Island_ARCH_Concept2_Architecture_TakeOff.csv",
+            "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Architecture_TakeOff.csv"
+          ],
+          "results_json": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Current\\architecture\\stv_results.json",
+          "chart_target_vs_project": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Current\\architecture\\target_vs_project.png",
+          "chart_life_cycle_breakdown": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Current\\architecture\\life_cycle_breakdown.png",
+          "chart_target_vs_project_radial": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Current\\architecture\\target_vs_project_radial.png"
+        },
+        "mep": {
+          "schedule_items_json": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Current\\mep\\mep_schedule_items.json",
+          "source_files": [
+            "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\01_Island_MEP_Concept2_MEP_TakeOff.csv",
+            "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\04_Island_ARCH_Concept2_MEP_TakeOff.csv"
+          ],
+          "results_json": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Current\\mep\\stv_results.json",
+          "chart_target_vs_project": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Current\\mep\\target_vs_project.png",
+          "chart_life_cycle_breakdown": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Current\\mep\\life_cycle_breakdown.png",
+          "chart_target_vs_project_radial": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Current\\mep\\target_vs_project_radial.png"
+        },
+        "structural": {
+          "schedule_items_json": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Current\\structural\\structural_schedule_items.json",
+          "source_files": [
+            "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\04_Island_ARCH_Concept2_Structural_Schedule.csv",
+            "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\revit_schedules\\Current\\STR_Wall_Bamboo_Concept2_amd03_Structural_Schedule.csv"
+          ],
+          "results_json": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Current\\structural\\stv_results.json",
+          "chart_target_vs_project": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Current\\structural\\target_vs_project.png",
+          "chart_life_cycle_breakdown": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Current\\structural\\life_cycle_breakdown.png",
+          "chart_target_vs_project_radial": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Current\\structural\\target_vs_project_radial.png"
+        }
+      },
+      "project": {
+        "results_json": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Current\\project\\stv_results.json",
+        "chart_target_vs_project": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Current\\project\\target_vs_project.png",
+        "chart_life_cycle_breakdown": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Current\\project\\life_cycle_breakdown.png",
+        "chart_target_vs_project_radial": "C:\\Ashmitha\\Stanford\\Quarter 2\\PBL\\IPD Challenge\\outputs\\stv_versions\\Current\\project\\target_vs_project_radial.png"
+      }
+    }
+  ]
+}

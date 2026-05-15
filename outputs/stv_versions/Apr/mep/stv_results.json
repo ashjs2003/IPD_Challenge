@@ -1,0 +1,210 @@
+{
+  "team": "Island",
+  "targets": {
+    "carbon": 7396873.8437,
+    "energy": 155969076.592,
+    "water": 271387397.260274,
+    "ozone": 0.0
+  },
+  "metric_summary": {
+    "carbon": {
+      "target": 7396873.8437,
+      "project": 56230.83291644092,
+      "percent_of_target": 0.007601972685303177
+    },
+    "energy": {
+      "target": 155969076.592,
+      "project": 700457.0366216,
+      "percent_of_target": 0.0044909994463449175
+    },
+    "water": {
+      "target": 271387397.260274,
+      "project": 419205.04094854015,
+      "percent_of_target": 0.001544673942786303
+    },
+    "ozone": {
+      "target": 0.0,
+      "project": 0.004314534462930917,
+      "percent_of_target": null
+    }
+  },
+  "breakdown": {
+    "embodied_materials": {
+      "carbon": 55989.94839622026,
+      "energy": 696756.7528748511,
+      "water": 418344.59846083703,
+      "ozone": 0.004276326388888886
+    },
+    "embodied_transport": {
+      "carbon": 240.87379783970775,
+      "energy": 3700.1330701020693,
+      "water": 860.2827704574196,
+      "ozone": 3.820807404203084e-05
+    },
+    "embodied_construction": {
+      "carbon": 0.010722380952769436,
+      "energy": 0.15067664680597212,
+      "water": 0.15971724569319434,
+      "ozone": 0.0
+    },
+    "use_electricity": {
+      "carbon": 0.0,
+      "energy": 0.0,
+      "water": 0.0,
+      "ozone": 0.0
+    },
+    "use_heating": {
+      "carbon": 0.0,
+      "energy": 0.0,
+      "water": 0.0,
+      "ozone": 0.0
+    },
+    "use_water": {
+      "carbon": 0.0,
+      "energy": 0.0,
+      "water": 0.0,
+      "ozone": 0.0
+    },
+    "embodied": {
+      "carbon": 56230.83291644092,
+      "energy": 700457.0366216,
+      "water": 419205.04094854015,
+      "ozone": 0.004314534462930917
+    },
+    "use_phase": {
+      "carbon": 0.0,
+      "energy": 0.0,
+      "water": 0.0,
+      "ozone": 0.0
+    },
+    "life_cycle": {
+      "carbon": 56230.83291644092,
+      "energy": 700457.0366216,
+      "water": 419205.04094854015,
+      "ozone": 0.004314534462930917
+    }
+  },
+  "construction_items": [
+    {
+      "assembly": "MEP",
+      "material_type": "Air Handling Unit (m^3/s)",
+      "amount": 6.798611111111106,
+      "unit_multiplier": 2.0,
+      "embodied_total": {
+        "carbon": 54884.36199904163,
+        "energy": 686890.7237988884,
+        "water": 414565.0522673608,
+        "ozone": 0.004310727361111108
+      },
+      "materials": {
+        "carbon": 54667.475576388846,
+        "energy": 683560.2354166663,
+        "water": 413789.85083333304,
+        "ozone": 0.004276326388888886
+      },
+      "transport": {
+        "carbon": 216.8756944444443,
+        "energy": 3330.3377249999976,
+        "water": 775.0416666666661,
+        "ozone": 3.44009722222222e-05
+      },
+      "construction": {
+        "carbon": 0.010722380952769436,
+        "energy": 0.15067664680597212,
+        "water": 0.15971724569319434,
+        "ozone": 0.0
+      }
+    },
+    {
+      "assembly": "MEP",
+      "material_type": "Stainless Steel Duct (kg)",
+      "amount": 55.43059881600006,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 188.59152635167698,
+        "energy": 1506.642787649406,
+        "water": 1057.5936531697546,
+        "ozone": 1.9622431980864022e-07
+      },
+      "materials": {
+        "carbon": 187.3554239980802,
+        "energy": 1487.612487497334,
+        "water": 1053.1813775040011,
+        "ozone": 0.0
+      },
+      "transport": {
+        "carbon": 1.2361023535968012,
+        "energy": 19.03030015207198,
+        "water": 4.412275665753604,
+        "ozone": 1.9622431980864022e-07
+      },
+      "construction": {
+        "carbon": 0.0,
+        "energy": 0.0,
+        "water": 0.0,
+        "ozone": 0.0
+      }
+    },
+    {
+      "assembly": "MEP",
+      "material_type": "Steel Duct 12\"D (ft)",
+      "amount": 713.1874999999994,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 1113.0717312499992,
+        "energy": 11594.534809274992,
+        "water": 3443.982437499997,
+        "ozone": 3.473223124999997e-06
+      },
+      "materials": {
+        "carbon": 1091.1768749999992,
+        "energy": 11257.119812249992,
+        "water": 3366.244999999997,
+        "ozone": 0.0
+      },
+      "transport": {
+        "carbon": 21.894856249999982,
+        "energy": 337.4149970249997,
+        "water": 77.73743749999994,
+        "ozone": 3.473223124999997e-06
+      },
+      "construction": {
+        "carbon": 0.0,
+        "energy": 0.0,
+        "water": 0.0,
+        "ozone": 0.0
+      }
+    },
+    {
+      "assembly": "MEP",
+      "material_type": "Steel Duct 18\"D (ft)",
+      "amount": 19.442708333333332,
+      "unit_multiplier": 1.0,
+      "embodied_total": {
+        "carbon": 44.807665625,
+        "energy": 465.13520636249996,
+        "water": 138.412640625,
+        "ozone": 1.37654375e-07
+      },
+      "materials": {
+        "carbon": 43.94052083333332,
+        "energy": 451.7851584375,
+        "water": 135.32125,
+        "ozone": 0.0
+      },
+      "transport": {
+        "carbon": 0.8671447916666666,
+        "energy": 13.350047924999998,
+        "water": 3.091390625,
+        "ozone": 1.37654375e-07
+      },
+      "construction": {
+        "carbon": 0.0,
+        "energy": 0.0,
+        "water": 0.0,
+        "ozone": 0.0
+      }
+    }
+  ],
+  "lifetime_years": 50
+}
